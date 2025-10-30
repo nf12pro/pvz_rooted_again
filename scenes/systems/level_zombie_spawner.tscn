@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1e05u3t24pfk"]
+
+[ext_resource type="Script" uid="uid://i7olubyakjhv" path="res://scripts/systems_scripts/level_zombie_spawner/level_1_zombie_spawner.gd" id="1_boylb"]
+
+[node name="LevelZombieSpawner" type="Node2D"]
+script = ExtResource("1_boylb")

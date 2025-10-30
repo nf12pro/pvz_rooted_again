@@ -1,0 +1,91 @@
+[gd_scene load_steps=18 format=3 uid="uid://bj7diua0wsdbs"]
+
+[ext_resource type="PackedScene" uid="uid://bpjbgj1ddg86r" path="res://scenes/systems/sun_counter.tscn" id="1_apo5x"]
+[ext_resource type="Script" uid="uid://vja602aiufli" path="res://scripts/systems_scripts/level_zombie_spawner/level_3.gd" id="1_josfm"]
+[ext_resource type="PackedScene" uid="uid://bqwmap6y4uxsk" path="res://scenes/systems/lawn_grid_1.tscn" id="2_josfm"]
+[ext_resource type="PackedScene" uid="uid://4g3c604f2rnm" path="res://scenes/systems/pause.tscn" id="2_lgrx1"]
+[ext_resource type="PackedScene" uid="uid://bxkydq6w5jpjn" path="res://scenes/systems/lawn_mower.tscn" id="3_lgrx1"]
+[ext_resource type="PackedScene" uid="uid://ci15gfit6kcps" path="res://scenes/systems/score_tracker.tscn" id="4_fhpes"]
+[ext_resource type="PackedScene" uid="uid://dauhkj8urdy50" path="res://scenes/systems/sun_spawner.tscn" id="5_vmg1d"]
+[ext_resource type="PackedScene" uid="uid://dwn5ki6tpl0xj" path="res://scenes/systems/house_collision.tscn" id="6_1nwmf"]
+[ext_resource type="PackedScene" uid="uid://bqibbcgnbrvur" path="res://scenes/systems/shovel.tscn" id="7_5f5xw"]
+[ext_resource type="PackedScene" uid="uid://cww0w62q65q6w" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_1.tscn" id="8_o3ttr"]
+[ext_resource type="PackedScene" uid="uid://b6opcmllm8uws" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_2.tscn" id="9_kdsi4"]
+[ext_resource type="PackedScene" uid="uid://lgbck3y0b0ib" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_3.tscn" id="10_kva3v"]
+[ext_resource type="PackedScene" uid="uid://bfvoyxqr66gn1" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn" id="11_jql0x"]
+[ext_resource type="PackedScene" uid="uid://bu3x00oashbjp" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn" id="12_do6pa"]
+[ext_resource type="PackedScene" uid="uid://ca06yibcpd8c0" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn" id="13_n8qcm"]
+[ext_resource type="PackedScene" uid="uid://b1e05u3t24pfk" path="res://scenes/systems/level_zombie_spawner.tscn" id="14_aey3y"]
+[ext_resource type="PackedScene" uid="uid://b3rng1mcud362" path="res://scenes/systems/speed_up_button.tscn" id="17_lgrx1"]
+
+[node name="Test_Scene" type="Node2D"]
+script = ExtResource("1_josfm")
+
+[node name="Pause" parent="." instance=ExtResource("2_lgrx1")]
+
+[node name="SunCounter" parent="." instance=ExtResource("1_apo5x")]
+offset_left = 1.0
+offset_top = 15.0
+offset_right = 166.0
+offset_bottom = 78.0
+
+[node name="LawnGrid" parent="." instance=ExtResource("2_josfm")]
+position = Vector2(174, 150)
+
+[node name="LawnMower" parent="." instance=ExtResource("3_lgrx1")]
+position = Vector2(72, 458)
+
+[node name="SunCounter2" parent="." instance=ExtResource("4_fhpes")]
+offset_left = 1014.0
+offset_top = 8.0
+offset_right = 1645.0
+offset_bottom = 59.0
+
+[node name="SunSpawner" parent="." instance=ExtResource("5_vmg1d")]
+position = Vector2(550, 62)
+
+[node name="HouseCollision" parent="." instance=ExtResource("6_1nwmf")]
+position = Vector2(-5, 7)
+scale = Vector2(0.23730792, 0.9718405)
+
+[node name="Shovel" parent="." instance=ExtResource("7_5f5xw")]
+position = Vector2(950, 58)
+
+[node name="SeedSlot1" parent="." instance=ExtResource("8_o3ttr")]
+position = Vector2(170, 55)
+
+[node name="SeedSlot2" parent="." instance=ExtResource("9_kdsi4")]
+position = Vector2(300, 55)
+
+[node name="SeedSlot3" parent="." instance=ExtResource("10_kva3v")]
+position = Vector2(419, 53)
+
+[node name="SeedSlot4" parent="." instance=ExtResource("11_jql0x")]
+position = Vector2(515, 51)
+
+[node name="SeedSlot5" parent="." instance=ExtResource("12_do6pa")]
+position = Vector2(652, 51)
+
+[node name="SeedSlot6" parent="." instance=ExtResource("13_n8qcm")]
+position = Vector2(797, 51)
+
+[node name="LawnMower2" parent="." instance=ExtResource("3_lgrx1")]
+position = Vector2(72, 357)
+
+[node name="LawnMower3" parent="." instance=ExtResource("3_lgrx1")]
+position = Vector2(72, 258)
+
+[node name="LawnMower4" parent="." instance=ExtResource("3_lgrx1")]
+position = Vector2(71, 553)
+
+[node name="LawnMower5" parent="." instance=ExtResource("3_lgrx1")]
+position = Vector2(71, 161)
+
+[node name="Level1ZombieSpawner" parent="." instance=ExtResource("14_aey3y")]
+position = Vector2(1001, 165)
+
+[node name="SpeedUpButton" parent="." instance=ExtResource("17_lgrx1")]
+offset_left = 1010.0
+offset_top = 60.0
+offset_right = 1098.0
+offset_bottom = 100.0

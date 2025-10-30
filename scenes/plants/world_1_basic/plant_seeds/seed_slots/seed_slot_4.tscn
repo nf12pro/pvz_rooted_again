@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfvoyxqr66gn1"]
+
+[ext_resource type="Script" uid="uid://dimyoy8vwpsc" path="res://scripts/plant_scripts/seed_packets/seed_slots/seed_slot_4.gd" id="1_pviqv"]
+
+[node name="SeedSlot4" type="Node2D"]
+script = ExtResource("1_pviqv")

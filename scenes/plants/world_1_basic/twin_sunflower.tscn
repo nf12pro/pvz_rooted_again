@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://du5xv3diqbkrv"]
+
+[ext_resource type="Script" uid="uid://co1pvwyebdf6l" path="res://scripts/plant_scripts/twin_sunflower.gd" id="1_hh5ry"]
+[ext_resource type="Texture2D" uid="uid://dd3r4qatw4v13" path="res://assets/sprite/plant_sprites/pixil-frame-0 (22).png" id="2_2e3b3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
+size = Vector2(72, 82)
+
+[node name="StaticBody2D" type="StaticBody2D" groups=["Plant"]]
+collision_layer = 2
+script = ExtResource("1_hh5ry")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4, 3)
+shape = SubResource("RectangleShape2D_k467r")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(-2, 1)
+
+[node name="Sprite" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.5803922)
+position = Vector2(1.9999996, -16.999998)
+scale = Vector2(0.86, 0.85)
+texture = ExtResource("2_2e3b3")
+
+[node name="Node" type="Node" parent="."]

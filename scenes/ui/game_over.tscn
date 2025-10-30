@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=3 uid="uid://bj2dekn8kr6di"]
+
+[ext_resource type="Script" uid="uid://v04s8iblucxu" path="res://scripts/ui_scripts/game_over.gd" id="1_60xr3"]
+
+[node name="GameOver" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_60xr3")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -14.0
+offset_top = -46.0
+offset_right = 1181.0
+offset_bottom = 685.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = -2.0
+offset_top = 152.0
+offset_right = 1145.0
+offset_bottom = 441.0
+bbcode_enabled = true
+text = "[font_size=80][b] GAME OVER [/b][/font_size]"
+horizontal_alignment = 1
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = -2.0
+offset_top = 267.0
+offset_right = 1145.0
+offset_bottom = 556.0
+bbcode_enabled = true
+text = "[font_size=60][b] Press any Key To Restart  [/b][/font_size]"
+horizontal_alignment = 1

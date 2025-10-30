@@ -1,0 +1,149 @@
+[gd_scene load_steps=20 format=3 uid="uid://cak651ycyd1n0"]
+
+[ext_resource type="Script" uid="uid://bosavaxbaoh5x" path="res://scripts/plant_scripts/torchwood_interaction.gd" id="1_clls6"]
+[ext_resource type="Texture2D" uid="uid://c1bep6igxssuf" path="res://assets/sprite/plant_sprites/pixilart-sprite (1).png" id="2_clls6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
+size = Vector2(72, 74)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h7xv6"]
+size = Vector2(68, 67)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h7xv6"]
+atlas = ExtResource("2_clls6")
+region = Rect2(0, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n4xkl"]
+atlas = ExtResource("2_clls6")
+region = Rect2(150, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qjg3b"]
+atlas = ExtResource("2_clls6")
+region = Rect2(300, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0tn5t"]
+atlas = ExtResource("2_clls6")
+region = Rect2(450, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_plvwv"]
+atlas = ExtResource("2_clls6")
+region = Rect2(600, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3nfki"]
+atlas = ExtResource("2_clls6")
+region = Rect2(750, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kcant"]
+atlas = ExtResource("2_clls6")
+region = Rect2(900, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t4q56"]
+atlas = ExtResource("2_clls6")
+region = Rect2(1050, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u1uqo"]
+atlas = ExtResource("2_clls6")
+region = Rect2(1200, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b5suq"]
+atlas = ExtResource("2_clls6")
+region = Rect2(1350, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bs24m"]
+atlas = ExtResource("2_clls6")
+region = Rect2(1500, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y3rag"]
+atlas = ExtResource("2_clls6")
+region = Rect2(1650, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7sa5n"]
+atlas = ExtResource("2_clls6")
+region = Rect2(1800, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hb2sm"]
+atlas = ExtResource("2_clls6")
+region = Rect2(1950, 0, 150, 200)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_l3rtc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h7xv6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n4xkl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qjg3b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0tn5t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_plvwv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3nfki")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kcant")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t4q56")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u1uqo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b5suq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bs24m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y3rag")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7sa5n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hb2sm")
+}],
+"loop": true,
+"name": &"default",
+"speed": 14.0
+}]
+
+[node name="StaticBody2D" type="StaticBody2D" groups=["Plant", "Torchwood"]]
+collision_layer = 18
+collision_mask = 5
+script = ExtResource("1_clls6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Plant", "Torchwood"]]
+position = Vector2(15, 2)
+shape = SubResource("RectangleShape2D_k467r")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Area2D" type="Area2D" parent="." groups=["Plant", "Torchwood"]]
+collision_layer = 18
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" groups=["Plant", "Torchwood"]]
+position = Vector2(16, 2)
+shape = SubResource("RectangleShape2D_h7xv6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(17, -2)
+scale = Vector2(0.69, 0.69)
+sprite_frames = SubResource("SpriteFrames_l3rtc")
+autoplay = "default"
+frame_progress = 0.9862652
+speed_scale = 1.1
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="final_body"]
+[connection signal="body_entered" from="Area2D" to="Area2D" method="extra_body"]

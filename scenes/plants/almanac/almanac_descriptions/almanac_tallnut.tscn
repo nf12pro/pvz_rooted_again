@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6jmu8l67cnb3"]
+
+[ext_resource type="Script" uid="uid://dol1ij0fjrwhi" path="res://scripts/ui_scripts/almanac/almanac_peashooter.gd" id="1_jp4wi"]
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="2_vkpjm"]
+
+[node name="AlmanacPeashooter" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_jp4wi")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_vkpjm")
+theme_override_font_sizes/font_size = 42
+text = "TALL-NUT"
+
+[node name="Label2" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_vkpjm")
+theme_override_font_sizes/font_size = 32
+text = "Tall-nuts are heavy-duty wall plants that can't be vaulted or jumped over.
+
+Cost: 75
+Recharge: 50
+Toughness: 8000
+
+People wonder if there's a rivalry between Wall-nut and Tall-nut. Tall-nut laughs a rich baritone 
+laugh. \"How could there be anything between us? We are brothers. If you knew what Wall-nut 
+has done for me...\" Tall-nut's voice trails off and he smiles knowingly.
+"

@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=3 uid="uid://ck51tnypusxq1"]
+
+[ext_resource type="Script" uid="uid://bg3q8sgbkyvxb" path="res://scripts/plant_scripts/gatling_gun.gd" id="1_ur78i"]
+[ext_resource type="Texture2D" uid="uid://dkxdqbgjrv11v" path="res://assets/prototype_assets/pixil-frame-0 (14).png" id="2_f166k"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
+size = Vector2(72, 82)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_1k0x6"]
+a = Vector2(-37.5, -3.5)
+b = Vector2(1149.5, -3.5)
+
+[node name="StaticBody2D" type="StaticBody2D" groups=["Plant"]]
+collision_layer = 2
+script = ExtResource("1_ur78i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4, 3)
+shape = SubResource("RectangleShape2D_k467r")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+
+[node name="Sprite" type="Sprite2D" parent="."]
+modulate = Color(0.050980393, 0, 1, 1)
+position = Vector2(2, -6)
+texture = ExtResource("2_f166k")
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(36, -2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-35.5, 5.5)
+shape = SubResource("SegmentShape2D_1k0x6")
+
+[node name="Node" type="Node" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -38.0
+offset_top = -32.0
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(1, 1, 1, 0.5058824)
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_tower_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_tower_body_exited"]

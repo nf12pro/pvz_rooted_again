@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://drs170fvvp18u"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_hjrfe"]
+[ext_resource type="Texture2D" uid="uid://bpj8mxnyeapwc" path="res://assets/prototype_assets/pixil-frame-0 (17).png" id="2_hwheu"]
+[ext_resource type="Texture2D" uid="uid://dd3r4qatw4v13" path="res://assets/sprite/plant_sprites/pixil-frame-0 (22).png" id="3_hjrfe"]
+[ext_resource type="Script" uid="uid://c72h3oa6kdtow" path="res://scripts/ui_scripts/seed_picker/twin_sunflower_seed_picker.gd" id="4_hwheu"]
+
+[node name="TwinSunflowerSeedPicker" type="Button"]
+theme_override_fonts/font = ExtResource("1_hjrfe")
+theme_override_font_sizes/font_size = 36
+theme_override_icons/icon = ExtResource("2_hwheu")
+text = "Twin Sunflower"
+icon = ExtResource("3_hjrfe")
+script = ExtResource("4_hwheu")
+
+[connection signal="pressed" from="." to="." method="_on_twin_sunflower_picker_pressed"]

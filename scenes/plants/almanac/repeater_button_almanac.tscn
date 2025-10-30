@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://d4hlww1ya5xrr"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_8ddoh"]
+[ext_resource type="Texture2D" uid="uid://bpj8mxnyeapwc" path="res://assets/prototype_assets/pixil-frame-0 (17).png" id="2_pwdfw"]
+[ext_resource type="Texture2D" uid="uid://dkxdqbgjrv11v" path="res://assets/prototype_assets/pixil-frame-0 (14).png" id="3_pwdfw"]
+[ext_resource type="Script" uid="uid://dop6suxp4kcpd" path="res://scripts/ui_scripts/almanac/repeater_button_almanac.gd" id="4_3f44h"]
+
+[node name="PeashooterSeedPicker" type="Button"]
+theme_override_fonts/font = ExtResource("1_8ddoh")
+theme_override_font_sizes/font_size = 36
+theme_override_icons/icon = ExtResource("2_pwdfw")
+text = "Repeater"
+icon = ExtResource("3_pwdfw")
+script = ExtResource("4_3f44h")
+
+[connection signal="pressed" from="." to="." method="_on_peashooter_picker_pressed"]

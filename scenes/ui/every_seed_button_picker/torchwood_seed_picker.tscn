@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://lmnnn2o7hpfo"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_07ud8"]
+[ext_resource type="Texture2D" uid="uid://bpj8mxnyeapwc" path="res://assets/prototype_assets/pixil-frame-0 (17).png" id="2_2r5a5"]
+[ext_resource type="Script" uid="uid://v2nxir24qdt2" path="res://scripts/ui_scripts/seed_picker/torchwood_seed_picker.gd" id="3_07ud8"]
+
+[node name="TorchwoodSeedPicker" type="Button"]
+theme_override_fonts/font = ExtResource("1_07ud8")
+theme_override_font_sizes/font_size = 36
+theme_override_icons/icon = ExtResource("2_2r5a5")
+text = "Torchwood"
+script = ExtResource("3_07ud8")
+
+[connection signal="pressed" from="." to="." method="_on_torchwood_picker_pressed"]

@@ -1,0 +1,97 @@
+[gd_scene load_steps=18 format=3 uid="uid://17335vsxlcfa"]
+
+[ext_resource type="Script" uid="uid://ckb03i30le2fk" path="res://scripts/plant_scripts/sunflower.gd" id="1_p2dmj"]
+[ext_resource type="Texture2D" uid="uid://bdd5wwkj1fc0d" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-0.png" id="2_2xhmm"]
+[ext_resource type="Texture2D" uid="uid://ddstsdf8ornr8" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-1.png" id="3_qhao5"]
+[ext_resource type="Texture2D" uid="uid://b0x1okn5leoxb" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-2.png" id="4_epsyd"]
+[ext_resource type="Texture2D" uid="uid://bv1gdfxq1rvxx" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-3.png" id="5_3gj24"]
+[ext_resource type="Texture2D" uid="uid://cimtwr3tt7r16" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-4.png" id="6_6mdb7"]
+[ext_resource type="Texture2D" uid="uid://425m8dio4e1p" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-5.png" id="7_n02at"]
+[ext_resource type="Texture2D" uid="uid://cm0n7ln2qx2rf" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-6.png" id="8_nfhtt"]
+[ext_resource type="Texture2D" uid="uid://pf1cyc1p6fpx" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-7.png" id="9_gc67u"]
+[ext_resource type="Texture2D" uid="uid://nkbokqaxj0n6" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-8.png" id="10_2sq2j"]
+[ext_resource type="Texture2D" uid="uid://dv1f6rex56jqj" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-9.png" id="11_0l6ql"]
+[ext_resource type="Texture2D" uid="uid://doh2eq3dw0gec" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-10.png" id="12_4grx4"]
+[ext_resource type="Texture2D" uid="uid://cbnhqhtuwkbm6" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-11.png" id="13_syywe"]
+[ext_resource type="Texture2D" uid="uid://b70wro0wb2rl5" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-12.png" id="14_tev3y"]
+[ext_resource type="Texture2D" uid="uid://cc3e0iidrs4m2" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-13.png" id="15_t16vw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
+size = Vector2(72, 82)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_j0qji"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_2xhmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_qhao5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_epsyd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_3gj24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_6mdb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_n02at")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_nfhtt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gc67u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_2sq2j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_0l6ql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4grx4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_syywe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_tev3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_t16vw")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 10.0
+}]
+
+[node name="StaticBody2D" type="StaticBody2D" groups=["Plant", "Sunflower"]]
+collision_layer = 2
+script = ExtResource("1_p2dmj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Plant", "Sunflower"]]
+position = Vector2(-4, 3)
+shape = SubResource("RectangleShape2D_k467r")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(-2, 1)
+
+[node name="Node" type="Node" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1.5, -11.75)
+scale = Vector2(0.9533333, 0.9514286)
+sprite_frames = SubResource("SpriteFrames_j0qji")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.096007794
+speed_scale = 1.2

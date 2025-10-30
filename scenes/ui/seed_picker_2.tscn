@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://di2o17ce6qaep"]
+
+[ext_resource type="Script" uid="uid://dnwk0qr2ujbnv" path="res://scripts/ui_scripts/seed_picker.gd" id="1_pbwu7"]
+[ext_resource type="PackedScene" uid="uid://iw1tlnkjkt5q" path="res://scenes/ui/every_seed_button_picker/iceberg_lettuce_seed_picker.tscn" id="3_6df0u"]
+[ext_resource type="PackedScene" uid="uid://57beny3br4x5" path="res://scenes/ui/every_seed_button_picker/change_picker_2.tscn" id="3_fueye"]
+[ext_resource type="PackedScene" uid="uid://b3e6c8jw0txyl" path="res://scenes/ui/every_seed_button_picker/doomshroom_seed_picker.tscn" id="3_q5wxm"]
+
+[node name="SeedPicker" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 1.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_pbwu7")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 80
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 30
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+clip_contents = true
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="IcebergLettuceSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("3_6df0u")]
+layout_mode = 2
+
+[node name="CherryBombSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("3_q5wxm")]
+layout_mode = 2
+
+[node name="ChangePicker1" parent="." instance=ExtResource("3_fueye")]
+layout_mode = 0

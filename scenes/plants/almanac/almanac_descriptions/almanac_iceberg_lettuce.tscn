@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://bb20c4hiu0i3o"]
+
+[ext_resource type="Script" uid="uid://dol1ij0fjrwhi" path="res://scripts/ui_scripts/almanac/almanac_peashooter.gd" id="1_edidr"]
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="2_jkmk8"]
+
+[node name="AlmanacPeashooter" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_edidr")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_jkmk8")
+theme_override_font_sizes/font_size = 42
+text = "ICEBERG LETTUCE"
+
+[node name="Label2" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_jkmk8")
+theme_override_font_sizes/font_size = 32
+text = "Iceberg Lettuces freeze a zombie when stepped on.
+
+Cost: 25
+Recharge: 30
+Damage: 190
+Freeze Duration: 3 
+
+Don't get lost staring into Iceberg's adorably cute eyes. If you do, it will be your last step... 
+but only if you're a zombie."

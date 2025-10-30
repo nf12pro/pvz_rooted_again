@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dmqhc1xqtn7qt"]
+
+[ext_resource type="Script" uid="uid://beqnkfcqx0gi7" path="res://scripts/plant_scripts/iceberg_lettuce_seed.gd" id="1_0i65g"]
+[ext_resource type="Texture2D" uid="uid://biwdb4t0cfdm3" path="res://assets/prototype_assets/pixil-frame-0 (23).png" id="2_reyn8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uriph"]
+size = Vector2(106, 111)
+
+[node name="IcebergLettuceSeed" type="Area2D"]
+script = ExtResource("1_0i65g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 2.5)
+shape = SubResource("RectangleShape2D_uriph")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 0, 1, 1)
+texture = ExtResource("2_reyn8")

@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://hrawvxdqbd0o"]
+
+[ext_resource type="Script" uid="uid://4x8ykxh2q1d8" path="res://scripts/zombies_scripts/allstar_zombie.gd" id="1_841d5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_trdey"]
+size = Vector2(43, 45)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eyfnn"]
+size = Vector2(46, 40)
+
+[node name="AllStarZombie" type="CharacterBody2D" groups=["Zombie"]]
+collision_mask = 2
+safe_margin = 0.001
+script = ExtResource("1_841d5")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(1, 0.08627451, 0, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Zombie"]]
+position = Vector2(20.5, 20.5)
+shape = SubResource("RectangleShape2D_trdey")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(18, 20)
+shape = SubResource("RectangleShape2D_eyfnn")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_body_entered"]

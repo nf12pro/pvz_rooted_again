@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://3bd8wirc2wy"]
+
+[ext_resource type="Script" uid="uid://1kwjn052lybi" path="res://scripts/plant_scripts/seed_packets/gatling_gun_seed.gd" id="1_gg5ac"]
+[ext_resource type="Texture2D" uid="uid://s24gslsl4fuv" path="res://assets/prototype_assets/pixil-frame-0 (20).png" id="2_8q738"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uriph"]
+size = Vector2(105, 105)
+
+[node name="PeashooterSeed" type="Area2D"]
+script = ExtResource("1_gg5ac")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -0.5)
+shape = SubResource("RectangleShape2D_uriph")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 0, 1, 0.69803923)
+texture = ExtResource("2_8q738")

@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://vvmdy7884mci"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_h2kp7"]
+[ext_resource type="Script" uid="uid://qfl5rmpo22n0" path="res://scripts/ui_scripts/almanac/return_scene.gd" id="2_d1dpw"]
+
+[node name="ReturnScene" type="Button"]
+theme_override_fonts/font = ExtResource("1_h2kp7")
+theme_override_font_sizes/font_size = 36
+text = "PREVIOUS PAGE"
+script = ExtResource("2_d1dpw")
+
+[connection signal="pressed" from="." to="." method="_on_peashooter_picker_pressed"]

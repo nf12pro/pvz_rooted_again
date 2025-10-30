@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://tlv6by7d73cq"]
+
+[ext_resource type="Script" uid="uid://cdt7o46aqck24" path="res://scripts/plant_scripts/seed_packets/tallnut_seed.gd" id="1_uebw7"]
+[ext_resource type="Texture2D" uid="uid://dxnnk7gmmf8p0" path="res://assets/sprite/ui_sprites/pixil-frame-0 (1) (1).png" id="2_8y3th"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uriph"]
+size = Vector2(106, 111)
+
+[node name="WallNutSeed" type="Area2D"]
+script = ExtResource("1_uebw7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 2.5)
+shape = SubResource("RectangleShape2D_uriph")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0, 0.39215687, 1, 1)
+texture = ExtResource("2_8y3th")

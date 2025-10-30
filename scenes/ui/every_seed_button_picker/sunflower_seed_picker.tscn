@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxtcf6uxt2n3h"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_5rovp"]
+[ext_resource type="Script" uid="uid://cibo0osbxubpg" path="res://scripts/ui_scripts/seed_picker/sunflower_seed_picker.gd" id="1_vjc8n"]
+[ext_resource type="Texture2D" uid="uid://dd3r4qatw4v13" path="res://assets/sprite/plant_sprites/pixil-frame-0 (22).png" id="2_3ktvu"]
+
+[node name="SunflowerSeedPicker" type="Button"]
+theme_override_fonts/font = ExtResource("1_5rovp")
+theme_override_font_sizes/font_size = 36
+text = "Sunflower"
+icon = ExtResource("2_3ktvu")
+script = ExtResource("1_vjc8n")
+
+[connection signal="pressed" from="." to="." method="_on_sunflower_picker_pressed"]

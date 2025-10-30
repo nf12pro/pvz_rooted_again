@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://bku1qpfkcklfa"]
+
+[ext_resource type="Script" uid="uid://cakdhsd8jbtea" path="res://scripts/plant_scripts/repeater.gd" id="1_ec2jo"]
+[ext_resource type="Texture2D" uid="uid://dkxdqbgjrv11v" path="res://assets/prototype_assets/pixil-frame-0 (14).png" id="2_hsf5c"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
+size = Vector2(72, 82)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_1k0x6"]
+a = Vector2(-37.5, -3.5)
+b = Vector2(1149.5, -3.5)
+
+[node name="StaticBody2D" type="StaticBody2D" groups=["Plant"]]
+collision_layer = 2
+script = ExtResource("1_ec2jo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Plant"]]
+position = Vector2(-4, 3)
+shape = SubResource("RectangleShape2D_k467r")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(2, -6)
+texture = ExtResource("2_hsf5c")
+
+[node name="Area2D" type="Area2D" parent="." groups=["Plant"]]
+position = Vector2(36, -2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" groups=["Plant"]]
+position = Vector2(-35.5, 5.5)
+shape = SubResource("SegmentShape2D_1k0x6")
+
+[node name="Node" type="Node" parent="."]
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_tower_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_tower_body_exited"]

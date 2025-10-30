@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwn5ki6tpl0xj"]
+
+[ext_resource type="Script" uid="uid://b80aio2pjwi2k" path="res://scripts/systems_scripts/house_collision.gd" id="1_nvqcn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ofg56"]
+size = Vector2(153, 660)
+
+[node name="HouseCollision" type="Area2D"]
+collision_layer = 4
+script = ExtResource("1_nvqcn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(83, 326)
+shape = SubResource("RectangleShape2D_ofg56")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

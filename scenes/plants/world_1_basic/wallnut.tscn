@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://dgb78i8s1tw78"]
+
+[ext_resource type="Script" uid="uid://b0lkf1gdpkhsn" path="res://scripts/plant_scripts/wallnut.gd" id="1_athl1"]
+[ext_resource type="Texture2D" uid="uid://bpj8mxnyeapwc" path="res://assets/prototype_assets/pixil-frame-0 (17).png" id="2_0802l"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
+size = Vector2(72, 82)
+
+[node name="StaticBody2D" type="StaticBody2D" groups=["Plant"]]
+collision_layer = 2
+script = ExtResource("1_athl1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, -12)
+shape = SubResource("RectangleShape2D_k467r")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(-2, 1)
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(1.9999996, -16.999998)
+scale = Vector2(0.86, 0.85)
+texture = ExtResource("2_0802l")
+
+[node name="Node" type="Node" parent="."]

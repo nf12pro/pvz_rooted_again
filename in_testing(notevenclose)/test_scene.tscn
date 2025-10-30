@@ -1,0 +1,75 @@
+[gd_scene load_steps=17 format=3 uid="uid://cmeddwfi4geeh"]
+
+[ext_resource type="PackedScene" uid="uid://17335vsxlcfa" path="res://scenes/plants/world_1_basic/sunflower.tscn" id="4_t5f63"]
+[ext_resource type="PackedScene" uid="uid://bpjbgj1ddg86r" path="res://scenes/systems/sun_counter.tscn" id="6_4tnus"]
+[ext_resource type="PackedScene" uid="uid://bqwmap6y4uxsk" path="res://scenes/systems/lawn_grid_1.tscn" id="6_ks846"]
+[ext_resource type="PackedScene" uid="uid://bp4yfd4ttqre3" path="res://scenes/systems/zombie_spawner.tscn" id="8_o68hf"]
+[ext_resource type="PackedScene" uid="uid://bxkydq6w5jpjn" path="res://scenes/systems/lawn_mower.tscn" id="9_fcqjf"]
+[ext_resource type="PackedScene" uid="uid://ci15gfit6kcps" path="res://scenes/systems/score_tracker.tscn" id="10_t42sy"]
+[ext_resource type="PackedScene" uid="uid://dauhkj8urdy50" path="res://scenes/systems/sun_spawner.tscn" id="15_0v7k2"]
+[ext_resource type="PackedScene" uid="uid://dwn5ki6tpl0xj" path="res://scenes/systems/house_collision.tscn" id="16_gc2i6"]
+[ext_resource type="PackedScene" uid="uid://du5xv3diqbkrv" path="res://scenes/plants/world_1_basic/twin_sunflower.tscn" id="17_dvqpr"]
+[ext_resource type="PackedScene" uid="uid://b6opcmllm8uws" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_2.tscn" id="18_qiss0"]
+[ext_resource type="PackedScene" uid="uid://lgbck3y0b0ib" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_3.tscn" id="19_c2388"]
+[ext_resource type="PackedScene" uid="uid://bfvoyxqr66gn1" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn" id="20_c2388"]
+[ext_resource type="PackedScene" uid="uid://bu3x00oashbjp" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn" id="21_j62ee"]
+[ext_resource type="PackedScene" uid="uid://bqibbcgnbrvur" path="res://scenes/systems/shovel.tscn" id="21_uvkgl"]
+[ext_resource type="PackedScene" uid="uid://ca06yibcpd8c0" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn" id="22_3kc4b"]
+[ext_resource type="PackedScene" uid="uid://cww0w62q65q6w" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_1.tscn" id="23_qr18a"]
+
+[node name="Test_Scene" type="Node2D"]
+
+[node name="Sunflower" parent="." instance=ExtResource("4_t5f63")]
+position = Vector2(159, 266)
+
+[node name="SunCounter" parent="." instance=ExtResource("6_4tnus")]
+offset_left = 1.0
+offset_top = 15.0
+offset_right = 166.0
+offset_bottom = 78.0
+
+[node name="LawnGrid" parent="." instance=ExtResource("6_ks846")]
+position = Vector2(174, 150)
+
+[node name="LawnMower" parent="." instance=ExtResource("9_fcqjf")]
+position = Vector2(76, 458)
+
+[node name="SunCounter2" parent="." instance=ExtResource("10_t42sy")]
+offset_left = 1014.0
+offset_top = 8.0
+offset_right = 1645.0
+offset_bottom = 59.0
+
+[node name="SunSpawner" parent="." instance=ExtResource("15_0v7k2")]
+position = Vector2(550, 62)
+
+[node name="HouseCollision" parent="." instance=ExtResource("16_gc2i6")]
+position = Vector2(-5, 7)
+scale = Vector2(0.23730792, 0.9718405)
+
+[node name="ZombieSpawner" parent="." instance=ExtResource("8_o68hf")]
+position = Vector2(1107, 156)
+
+[node name="TwinSunflower" parent="." instance=ExtResource("17_dvqpr")]
+position = Vector2(275, 266)
+
+[node name="Shovel" parent="." instance=ExtResource("21_uvkgl")]
+position = Vector2(950, 58)
+
+[node name="SeedSlot1" parent="." instance=ExtResource("23_qr18a")]
+position = Vector2(170, 55)
+
+[node name="SeedSlot2" parent="." instance=ExtResource("18_qiss0")]
+position = Vector2(300, 55)
+
+[node name="SeedSlot3" parent="." instance=ExtResource("19_c2388")]
+position = Vector2(419, 53)
+
+[node name="SeedSlot4" parent="." instance=ExtResource("20_c2388")]
+position = Vector2(515, 51)
+
+[node name="SeedSlot5" parent="." instance=ExtResource("21_j62ee")]
+position = Vector2(652, 51)
+
+[node name="SeedSlot6" parent="." instance=ExtResource("22_3kc4b")]
+position = Vector2(797, 51)

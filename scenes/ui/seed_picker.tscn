@@ -1,0 +1,105 @@
+[gd_scene load_steps=15 format=3 uid="uid://cgrowftbcv3d4"]
+
+[ext_resource type="Script" uid="uid://dnwk0qr2ujbnv" path="res://scripts/ui_scripts/seed_picker.gd" id="1_kfm7h"]
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_vmipt"]
+[ext_resource type="PackedScene" uid="uid://bvv2ocui1u6mq" path="res://scenes/ui/every_seed_button_picker/peashooter_seed_picker.tscn" id="2_iu4w8"]
+[ext_resource type="PackedScene" uid="uid://bxtcf6uxt2n3h" path="res://scenes/ui/every_seed_button_picker/sunflower_seed_picker.tscn" id="3_vmipt"]
+[ext_resource type="PackedScene" uid="uid://5clvviujxl1q" path="res://scenes/ui/every_seed_button_picker/wall_nut_seed_picker.tscn" id="4_kfm7h"]
+[ext_resource type="PackedScene" uid="uid://bwxxnptjx5lqj" path="res://scenes/ui/every_seed_button_picker/repeater_seed_picker.tscn" id="6_kfm7h"]
+[ext_resource type="PackedScene" uid="uid://4xg6fqv5pdvp" path="res://scenes/ui/every_seed_button_picker/gatling_gun_seed_picker.tscn" id="7_uiyt1"]
+[ext_resource type="PackedScene" uid="uid://drs170fvvp18u" path="res://scenes/ui/every_seed_button_picker/twin_sunflower_seed_picker.tscn" id="8_wy5oh"]
+[ext_resource type="PackedScene" uid="uid://lmnnn2o7hpfo" path="res://scenes/ui/every_seed_button_picker/torchwood_seed_picker.tscn" id="9_jdmnt"]
+[ext_resource type="PackedScene" uid="uid://dlp7atjf353bb" path="res://scenes/ui/every_seed_button_picker/plasma_wood_seed_picker.tscn" id="10_m61ll"]
+[ext_resource type="PackedScene" uid="uid://cnukg0kce5e3o" path="res://scenes/ui/every_seed_button_picker/cherrybomb_seed_picker.tscn" id="11_jdmnt"]
+[ext_resource type="PackedScene" uid="uid://dcclixo33s3kw" path="res://scenes/ui/every_seed_button_picker/laser_bean_seed_picker.tscn" id="12_m61ll"]
+[ext_resource type="PackedScene" uid="uid://b0nb14wik8cgr" path="res://scenes/ui/every_seed_button_picker/tallnut_seed_picker.tscn" id="13_ys516"]
+[ext_resource type="PackedScene" uid="uid://bfculyrbmtoc6" path="res://scenes/ui/every_seed_button_picker/change_picker_1.tscn" id="14_yhnq8"]
+
+[node name="SeedPicker" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 1.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_kfm7h")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+offset_right = 1118.0
+offset_bottom = 499.0
+theme_override_fonts/normal_font = ExtResource("1_vmipt")
+bbcode_enabled = true
+text = "[font_size=60] Pick Seeds:"
+scroll_active = false
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 80
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 30
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+clip_contents = true
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="PeashooterSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("2_iu4w8")]
+layout_mode = 2
+
+[node name="SunflowerSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("3_vmipt")]
+layout_mode = 2
+
+[node name="WallNutSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("4_kfm7h")]
+layout_mode = 2
+
+[node name="RepeaterSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("6_kfm7h")]
+layout_mode = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+clip_contents = true
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="GatlingGunSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer2" instance=ExtResource("7_uiyt1")]
+layout_mode = 2
+
+[node name="TwinSunflowerSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer2" instance=ExtResource("8_wy5oh")]
+layout_mode = 2
+
+[node name="TorchwoodSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer2" instance=ExtResource("9_jdmnt")]
+layout_mode = 2
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+clip_contents = true
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="PlasmaWoodSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("10_m61ll")]
+layout_mode = 2
+
+[node name="CherryBombSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("11_jdmnt")]
+layout_mode = 2
+
+[node name="LaserBeanSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("12_m61ll")]
+layout_mode = 2
+
+[node name="TallNutSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("13_ys516")]
+layout_mode = 2
+
+[node name="ChangePicker1" parent="." instance=ExtResource("14_yhnq8")]
+layout_mode = 0
+offset_left = 1000.0
+offset_right = 1152.0
+offset_bottom = 55.0

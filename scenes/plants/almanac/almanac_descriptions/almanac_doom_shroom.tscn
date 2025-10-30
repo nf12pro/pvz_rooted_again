@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5ipe6mogf2up"]
+
+[ext_resource type="Script" uid="uid://dol1ij0fjrwhi" path="res://scripts/ui_scripts/almanac/almanac_peashooter.gd" id="1_514i8"]
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="2_itnlw"]
+
+[node name="AlmanacPeashooter" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_514i8")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_itnlw")
+theme_override_font_sizes/font_size = 42
+text = "DOOM-SHROOM"
+
+[node name="Label2" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_itnlw")
+theme_override_font_sizes/font_size = 32
+text = "Doom-shrooms destroy everything in a large area and leave a crater that can't be planted on.
+
+
+Cost: 200
+Recharge: 50 
+Damage: 1800
+Area: 5x5
+
+\"You're lucky I'm on your side,\" says Doom-shroom. \"I could destroy everything you hold dear. 
+It wouldn't be hard.\""

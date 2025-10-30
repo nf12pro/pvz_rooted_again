@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpjbgj1ddg86r"]
+
+[ext_resource type="Script" uid="uid://d2m7d2xv1cx04" path="res://scripts/systems_scripts/sun_counter.gd" id="1_hy4ql"]
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="2_w7y6c"]
+
+[node name="SunCounter" type="RichTextLabel"]
+offset_right = 631.0
+offset_bottom = 34.0
+theme_override_fonts/normal_font = ExtResource("2_w7y6c")
+theme_override_fonts/bold_font = ExtResource("2_w7y6c")
+theme_override_fonts/bold_italics_font = ExtResource("2_w7y6c")
+theme_override_fonts/italics_font = ExtResource("2_w7y6c")
+theme_override_fonts/mono_font = ExtResource("2_w7y6c")
+theme_override_font_sizes/normal_font_size = 40
+bbcode_enabled = true
+text = "100
+"
+scroll_active = false
+script = ExtResource("1_hy4ql")

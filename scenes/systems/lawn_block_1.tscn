@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dsc4b5moov5wk"]
+
+[ext_resource type="Script" uid="uid://baw0cd4m5pvux" path="res://scripts/systems_scripts/lawn_block_1.gd" id="1_4carc"]
+[ext_resource type="Texture2D" uid="uid://bgvgieyhmpuq6" path="res://assets/sprite/ui_sprites/dark-patch-pixilart (1).png" id="2_4carc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7clw3"]
+size = Vector2(101, 99)
+
+[node name="LawnBlock1" type="Area2D"]
+collision_layer = 8
+collision_mask = 0
+script = ExtResource("1_4carc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_7clw3")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.6156863)
+texture = ExtResource("2_4carc")

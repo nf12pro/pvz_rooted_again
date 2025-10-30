@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0kdc15sehidu"]
+
+[ext_resource type="Script" uid="uid://cif753pnfiwpf" path="res://scripts/ui_scripts/achievements.gd" id="1_vx1xm"]
+[ext_resource type="PackedScene" uid="uid://b7tsvkkfkoird" path="res://scenes/ui/achievements/lawn_mower_achievement.tscn" id="2_g1mra"]
+[ext_resource type="PackedScene" uid="uid://k7w1fsp1w3ee" path="res://scenes/ui/achievements/sun_collector_achievement.tscn" id="3_g1mra"]
+
+[node name="Achievements" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_vx1xm")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 60
+
+[node name="LawnMowerAchievement" parent="MarginContainer/VBoxContainer" instance=ExtResource("2_g1mra")]
+layout_mode = 2
+
+[node name="LawnMowerAchievement2" parent="MarginContainer/VBoxContainer" instance=ExtResource("3_g1mra")]
+layout_mode = 2

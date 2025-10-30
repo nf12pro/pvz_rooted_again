@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cp68jjxlxmxxy"]
+
+[ext_resource type="Script" uid="uid://b46714nd2veo6" path="res://scripts/plant_scripts/seed_packets/plasma_wood_seed.gd" id="1_6vxqv"]
+[ext_resource type="Texture2D" uid="uid://s24gslsl4fuv" path="res://assets/prototype_assets/pixil-frame-0 (20).png" id="2_5pquf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uriph"]
+size = Vector2(105, 105)
+
+[node name="PeashooterSeed" type="Area2D"]
+script = ExtResource("1_6vxqv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -0.5)
+shape = SubResource("RectangleShape2D_uriph")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.1882353, 0.27450982, 1, 1)
+texture = ExtResource("2_5pquf")

@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqibbcgnbrvur"]
+
+[ext_resource type="Script" uid="uid://b2cdu446vn6lq" path="res://scripts/systems_scripts/shovel.gd" id="1_b6sqw"]
+[ext_resource type="Texture2D" uid="uid://s24gslsl4fuv" path="res://assets/prototype_assets/pixil-frame-0 (20).png" id="2_jcwy1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uriph"]
+size = Vector2(105, 105)
+
+[node name="PeashooterSeed" type="Area2D"]
+modulate = Color(0.6, 0, 0, 1)
+script = ExtResource("1_b6sqw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -0.5)
+shape = SubResource("RectangleShape2D_uriph")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_jcwy1")

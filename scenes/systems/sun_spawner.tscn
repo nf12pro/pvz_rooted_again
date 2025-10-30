@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dauhkj8urdy50"]
+
+[ext_resource type="Script" uid="uid://bbxohcv6ibtro" path="res://scripts/systems_scripts/sun_spawner.gd" id="1_f7igc"]
+
+[node name="SunSpawner" type="Node2D"]
+script = ExtResource("1_f7igc")

@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://deksdd0h2sqyo"]
+
+[ext_resource type="Script" uid="uid://dol1ij0fjrwhi" path="res://scripts/ui_scripts/almanac/almanac_peashooter.gd" id="1_aye3p"]
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="2_v3xg8"]
+
+[node name="AlmanacPeashooter" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_aye3p")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_v3xg8")
+theme_override_font_sizes/font_size = 42
+text = "PLASMA WOOD"
+
+[node name="Label2" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_v3xg8")
+theme_override_font_sizes/font_size = 32
+text = "Plasma woods turn peas that pass through them into mini plasma ball that deals 3 times as much 
+damage. Fire peas that pass through it get a bigger boost of 4 times as much!
+
+Cost: 100
+Recharge: 50
+Toughness: 300
+Special: Sets peas on plasma and fire peas into plasma burnt peas.
+
+Plasma wood is one of the nicest guys you will meet! Nice, respectful, quiet and shy but his scary
+looks keeps everyone away. A hard wood with a soft fire! 
+"

@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3rng1mcud362"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_co0oi"]
+[ext_resource type="Script" uid="uid://ddxdflvh5cjo8" path="res://scripts/systems_scripts/speed_up_button.gd" id="1_w6sgr"]
+
+[node name="SpeedUpButton" type="Button"]
+theme_override_fonts/font = ExtResource("1_co0oi")
+theme_override_font_sizes/font_size = 24
+text = "Speed: 1x"
+script = ExtResource("1_w6sgr")
+
+[connection signal="pressed" from="." to="." method="_on_speed_2x_pressed"]
