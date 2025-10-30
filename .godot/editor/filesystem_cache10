@@ -1,0 +1,331 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1761843774
+export_presets.cfg::TextFile::-1::1761840898::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::1385716001083434227::1759085610::1761842249::1::::<><><>0<>0<>75db0460f52da5b5df9a14ddb92a937e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+index.apple-touch-icon.png::CompressedTexture2D::3279556904775756626::1761596322::1761842249::1::::<><><>0<>0<>2003ba376ab1a159b32b2fafee3e3539<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
+index.icon.png::CompressedTexture2D::3920376143092261005::1761596322::1761842249::1::::<><><>0<>0<>64ec1a458dab126cfcd30d13d0ab22c8<>res://.godot/imported/index.icon.png-5665fad188e88d1e882500a4376bfe02.ctex::
+index.png::CompressedTexture2D::586215266606245093::1761596322::1761842249::1::::<><><>0<>0<>5385121e03f151178d8a85c35904ee64<>res://.godot/imported/index.png-5122033cac747157decad52589e2295c.ctex::
+README.md::TextFile::-1::1761841331::0::1::::<><><>0<>0<><>::
+Test.tscn::PackedScene::8099162704508995467::1759312494::0::1::::<><><>0<>0<><>::uid://ocqr4kaowgws::::res://icon.svg
+::res://addons/::1759312494
+::res://addons/godot_super-wakatime/::1759318409
+api_key_prompt.tscn::PackedScene::3919262858641749045::1759312494::0::1::::<><><>0<>0<><>::
+counter.tscn::PackedScene::6849360014225833986::1759312494::0::1::::<><><>0<>0<><>::
+decompressor.gd::GDScript::513498479588648040::1759312494::0::1::::<>RefCounted<><>0<>0<><>::
+godot_super-wakatime.gd::GDScript::6277149880384411866::1759318409::0::1::::<>EditorPlugin<><>0<>1<><>::
+heartbeat.gd::GDScript::2715808424618332339::1759312494::0::1::::<>RefCounted<><>0<>0<><>::
+plugin.cfg::TextFile::-1::1759312494::0::1::::<><><>0<>0<><>::
+README.md::TextFile::-1::1759312494::0::1::::<><><>0<>0<><>::
+utils.gd::GDScript::5251015809120159908::1759312494::0::1::::<>RefCounted<><>0<>0<><>::
+::res://assets/::1760370330
+::res://assets/fonts/::1761842249
+HouseofTerror Regular.ttf::FontFile::4067135053355843912::1760370471::1761842249::1::::<><><>0<>0<>782bb8d26bad6365c2fd1f678d568224<>res://.godot/imported/HouseofTerror Regular.ttf-93bdcb8901d3eb84ed0a613df40734a6.fontdata::
+::res://assets/music_sfx/::1759132784
+::res://assets/prototype_assets/::1761842249
+lawn_sprite.png::CompressedTexture2D::4136716664303810758::1759132833::1761842249::1::::<><><>0<>0<>a09af39e499e950e975e6bed1004254a<>res://.godot/imported/lawn_sprite.png-0c8cecd8ce4b546e4de6658475daab1b.ctex::
+lawn_sprite_1.png::CompressedTexture2D::1251574892218035323::1759132891::1761842249::1::::<><><>0<>0<>32f1c5546510232e2a308aeba766a14c<>res://.godot/imported/lawn_sprite_1.png-9101673c0a95bc11433988b5a1710353.ctex::
+pixil-frame-0 (14).png::CompressedTexture2D::7908841961708449097::1759159488::1761842249::1::::<><><>0<>0<>e8641833c7f475cb516f73224bd11018<>res://.godot/imported/pixil-frame-0 (14).png-b34c41765a3619d48db30b4bf50d900c.ctex::
+pixil-frame-0 (15).png::CompressedTexture2D::153370935156277467::1759160672::1761842249::1::::<><><>0<>0<>2373cb59f7350f71bb7124b06d12a582<>res://.godot/imported/pixil-frame-0 (15).png-3b8654378090fc014f7ec159ec466248.ctex::
+pixil-frame-0 (17).png::CompressedTexture2D::3459859057553601194::1759492312::1761842249::1::::<><><>0<>0<>904936442378d01dff3ffca9639c5585<>res://.godot/imported/pixil-frame-0 (17).png-22482e3939b2f47d7a69d7f460d1af06.ctex::
+pixil-frame-0 (18).png::CompressedTexture2D::3618521072255892303::1759497868::1761842249::1::::<><><>0<>0<>0e9742f32555d9917ae7723eb0ae1594<>res://.godot/imported/pixil-frame-0 (18).png-2350a4287250afe80238b3d8365083d4.ctex::
+pixil-frame-0 (20).png::CompressedTexture2D::1320909855644688489::1759755574::1761842249::1::::<><><>0<>0<>666c1fa4641cc9da176e5d5a69d36b42<>res://.godot/imported/pixil-frame-0 (20).png-becfaf604d579f496b7f72e5a0c1347f.ctex::
+pixil-frame-0 (23).png::CompressedTexture2D::2993533233826076264::1761155873::1761842249::1::::<><><>0<>0<>f1e4a9c0b6706629c595e9b38344d80b<>res://.godot/imported/pixil-frame-0 (23).png-e95b34264c0113df81dd6bb7eb0af911.ctex::
+tile-set.png::CompressedTexture2D::4506450465745387920::1759089225::1761842249::1::::<><><>0<>0<>f454e75309c4f8ed0a60a91f7b23d2a4<>res://.godot/imported/tile-set.png-18bde456c79a09f8c51a262f6625ab33.ctex::
+::res://assets/sprite/::1761326715
+::res://assets/sprite/plant_sprites/::1761842249
+pixil-frame-0 (22).png::CompressedTexture2D::7428715977274785676::1761151779::1761842249::1::::<><><>0<>0<>b9a45a1691f1120e5a22a033691f2ec5<>res://.godot/imported/pixil-frame-0 (22).png-b37c75e54b8a62349693a7bb02ef39ad.ctex::
+pixilart-sprite (1).png::CompressedTexture2D::6600086975495110197::1761326014::1761842249::1::::<><><>0<>0<>d99fedd32349ab16dfcd4da313455f89<>res://.godot/imported/pixilart-sprite (1).png-73b3a500a6581d4c3c02061a0c07c888.ctex::
+::res://assets/sprite/plant_sprites/projectile_sprites/::1761842249
+pixil-frame-0 (16).png::CompressedTexture2D::7142520556207485640::1759419184::1761842249::1::::<><><>0<>0<>5a87404f7b8e89cd19c05b26194087f5<>res://.godot/imported/pixil-frame-0 (16).png-02c52342385de78a326114d635d943c2.ctex::
+::res://assets/sprite/plant_sprites/sunflower_anim/::1761842249
+pixil-frame-0.png::CompressedTexture2D::2605042316523889733::1761299736::1761842249::1::::<><><>0<>0<>d128df2a282d0eee134d3b4ce53f7d35<>res://.godot/imported/pixil-frame-0.png-9ab9a21f4c47f6a86f11dacdbc2df41d.ctex::
+pixil-frame-1.png::CompressedTexture2D::7408173315532161247::1761299736::1761842249::1::::<><><>0<>0<>4a2aa8262761260c52f2f1de25f6ad97<>res://.godot/imported/pixil-frame-1.png-f64e1a713d65073c87943fbb89a1e669.ctex::
+pixil-frame-2.png::CompressedTexture2D::4190226652607777559::1761299736::1761842249::1::::<><><>0<>0<>40f172ff89bfb5c95817e89438043124<>res://.godot/imported/pixil-frame-2.png-4a04167976897b74da2b23cd2ffd8240.ctex::
+pixil-frame-3.png::CompressedTexture2D::3914430179945305825::1761299736::1761842249::1::::<><><>0<>0<>942639cf182f53efa1a703bb2db19456<>res://.godot/imported/pixil-frame-3.png-a31e0f40969a7fddcd7e95f24e7f14a7.ctex::
+pixil-frame-4.png::CompressedTexture2D::5360318496909066855::1761299736::1761842249::1::::<><><>0<>0<>3e3d1d1dbe36bc3fc41256dc7f374374<>res://.godot/imported/pixil-frame-4.png-c10db55b357545b3ac045c667779a28f.ctex::
+pixil-frame-5.png::CompressedTexture2D::2093059342460711195::1761299736::1761842249::1::::<><><>0<>0<>29bed0af8020cf5317bdac2a5e7716fd<>res://.godot/imported/pixil-frame-5.png-0476461c34bd2b0b0c42db2cbaf5213c.ctex::
+pixil-frame-6.png::CompressedTexture2D::5667564000293388427::1761299736::1761842249::1::::<><><>0<>0<>1963c87981ccd41452e65c4497f45e02<>res://.godot/imported/pixil-frame-6.png-d8d34d506d003a8cd6c23b16e67bb6a0.ctex::
+pixil-frame-7.png::CompressedTexture2D::1064738021593125585::1761299736::1761842249::1::::<><><>0<>0<>11c42b7e4e25f3da3aadcab626be42cc<>res://.godot/imported/pixil-frame-7.png-18c9a6f050f6aa23a7586f428a87b822.ctex::
+pixil-frame-8.png::CompressedTexture2D::933185012923944693::1761299736::1761842249::1::::<><><>0<>0<>4c57dce6404f4d5891136225c033ca2c<>res://.godot/imported/pixil-frame-8.png-3aa46c7893be3e859d36510ac607ee7f.ctex::
+pixil-frame-9.png::CompressedTexture2D::8687261433820925829::1761299736::1761842249::1::::<><><>0<>0<>833063c8ff995015747a2a5efc375929<>res://.godot/imported/pixil-frame-9.png-0d63f489840a5ee0c89ac03a10b36f01.ctex::
+pixil-frame-10.png::CompressedTexture2D::8158003892065310378::1761299736::1761842249::1::::<><><>0<>0<>c6968e83b2282cfd32034e93a4f75f07<>res://.godot/imported/pixil-frame-10.png-d1ee1e5c2a018e43899351a1acd5333a.ctex::
+pixil-frame-11.png::CompressedTexture2D::4870321111432092587::1761299736::1761842249::1::::<><><>0<>0<>d665b658f05a2b2ee21baa5043b95cfb<>res://.godot/imported/pixil-frame-11.png-68d65e160e57864adf57362fe04d5386.ctex::
+pixil-frame-12.png::CompressedTexture2D::4685440031247886528::1761299736::1761842249::1::::<><><>0<>0<>f549a855cd56ed89c05ca373fbfec359<>res://.godot/imported/pixil-frame-12.png-98f7ecd1e8ca3c6888103beddc1ea1f8.ctex::
+pixil-frame-13.png::CompressedTexture2D::4971309577299630759::1761299736::1761842249::1::::<><><>0<>0<>1634e40121b1fd94a00cb4e1fbc50519<>res://.godot/imported/pixil-frame-13.png-b1dbb2a0c1205fa440822bfed0a9e716.ctex::
+::res://assets/sprite/ui_sprites/::1761842249
+dark-patch-pixilart (1).png::CompressedTexture2D::2851284514167792423::1761152749::1761842249::1::::<><><>0<>0<>b5e2e82d69fc47e9a078fb219c42c996<>res://.godot/imported/dark-patch-pixilart (1).png-8f7a95886904d6dce7b5397cdc720970.ctex::
+pixil-frame-0 (1) (1).png::CompressedTexture2D::8801251234979365507::1761151701::1761842249::1::::<><><>0<>0<>84c579b2b80a49bb3fb9d90fb173d517<>res://.godot/imported/pixil-frame-0 (1) (1).png-063ab41f1a5f2155492eca6dd4fed2d1.ctex::
+::res://assets/sprite/zombie_sprites/::1761326979
+::res://assets/sprite/zombie_sprites/projectile_z_sprites/::1759086197
+::res://images/::1761842250
+godotwaka2.png::CompressedTexture2D::7026850610005011835::1759312494::1761842250::1::::<><><>0<>0<>46217c9c5839b2c9f7217cd3af6b8860<>res://.godot/imported/godotwaka2.png-7d3d010fb4adc0d433467ab1cc4754ed.ctex::
+godotwaka.png::CompressedTexture2D::7932361111412089001::1759312494::1761842250::1::::<><><>0<>0<>7360cc7c44aafc955def6087604c985e<>res://.godot/imported/godotwaka.png-ef0518417b4f997d237759e5551dd05d.ctex::
+icon.jpg::CompressedTexture2D::3122668444336440389::1759312494::1761842249::1::::<><><>0<>0<>3d1d80fd4049890345f07c1608fe4e66<>res://.godot/imported/icon.jpg-64f68b30ea939aa8019167e67dffb2db.ctex::
+::res://in_testing(notevenclose)/::1761838090
+sample_scene.tscn::PackedScene::1003917904164604654::1759132869::0::1::::<><><>0<>0<><>::
+test_scene.tscn::PackedScene::5623553674059046879::1761838090::0::1::::<><><>0<>0<><>::uid://17335vsxlcfa::::res://scenes/plants/world_1_basic/sunflower.tscn<>uid://bpjbgj1ddg86r::::res://scenes/systems/sun_counter.tscn<>uid://bqwmap6y4uxsk::::res://scenes/systems/lawn_grid_1.tscn<>uid://bp4yfd4ttqre3::::res://scenes/systems/zombie_spawner.tscn<>uid://bxkydq6w5jpjn::::res://scenes/systems/lawn_mower.tscn<>uid://ci15gfit6kcps::::res://scenes/systems/score_tracker.tscn<>uid://dauhkj8urdy50::::res://scenes/systems/sun_spawner.tscn<>uid://dwn5ki6tpl0xj::::res://scenes/systems/house_collision.tscn<>uid://du5xv3diqbkrv::::res://scenes/plants/world_1_basic/twin_sunflower.tscn<>uid://b6opcmllm8uws::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_2.tscn<>uid://lgbck3y0b0ib::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_3.tscn<>uid://bfvoyxqr66gn1::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn<>uid://bu3x00oashbjp::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn<>uid://bqibbcgnbrvur::::res://scenes/systems/shovel.tscn<>uid://ca06yibcpd8c0::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn<>uid://cww0w62q65q6w::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_1.tscn
+::res://scenes/::1759087171
+::res://scenes/levels/::1761723317
+level_1.tscn::PackedScene::2196923684218857933::1761723317::0::1::::<><><>0<>0<><>::uid://c1rypggvd4vas::::res://scripts/systems_scripts/level_zombie_spawner/level_1.gd<>uid://bpjbgj1ddg86r::::res://scenes/systems/sun_counter.tscn<>uid://bqwmap6y4uxsk::::res://scenes/systems/lawn_grid_1.tscn<>uid://bxkydq6w5jpjn::::res://scenes/systems/lawn_mower.tscn<>uid://ci15gfit6kcps::::res://scenes/systems/score_tracker.tscn<>uid://dauhkj8urdy50::::res://scenes/systems/sun_spawner.tscn<>uid://dwn5ki6tpl0xj::::res://scenes/systems/house_collision.tscn<>uid://bqibbcgnbrvur::::res://scenes/systems/shovel.tscn<>uid://cww0w62q65q6w::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_1.tscn<>uid://b6opcmllm8uws::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_2.tscn<>uid://lgbck3y0b0ib::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_3.tscn<>uid://b1e05u3t24pfk::::res://scenes/systems/level_zombie_spawner.tscn<>uid://bfvoyxqr66gn1::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn<>uid://bu3x00oashbjp::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn<>uid://4g3c604f2rnm::::res://scenes/systems/pause.tscn<>uid://ca06yibcpd8c0::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn<>uid://b3rng1mcud362::::res://scenes/systems/speed_up_button.tscn
+level_2.tscn::PackedScene::6918961296601426253::1761652915::0::1::::<><><>0<>0<><>::uid://bpjbgj1ddg86r::::res://scenes/systems/sun_counter.tscn<>uid://bqnofeyru6ife::::res://scripts/systems_scripts/level_zombie_spawner/level_2.gd<>uid://bqwmap6y4uxsk::::res://scenes/systems/lawn_grid_1.tscn<>uid://bxkydq6w5jpjn::::res://scenes/systems/lawn_mower.tscn<>uid://ci15gfit6kcps::::res://scenes/systems/score_tracker.tscn<>uid://dauhkj8urdy50::::res://scenes/systems/sun_spawner.tscn<>uid://dwn5ki6tpl0xj::::res://scenes/systems/house_collision.tscn<>uid://bqibbcgnbrvur::::res://scenes/systems/shovel.tscn<>uid://cww0w62q65q6w::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_1.tscn<>uid://b6opcmllm8uws::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_2.tscn<>uid://lgbck3y0b0ib::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_3.tscn<>uid://bfvoyxqr66gn1::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn<>uid://bu3x00oashbjp::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn<>uid://ca06yibcpd8c0::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn<>uid://b1e05u3t24pfk::::res://scenes/systems/level_zombie_spawner.tscn<>uid://b3rng1mcud362::::res://scenes/systems/speed_up_button.tscn<>uid://4g3c604f2rnm::::res://scenes/systems/pause.tscn
+level_3.tscn::PackedScene::3084377853527842768::1761652950::0::1::::<><><>0<>0<><>::uid://bpjbgj1ddg86r::::res://scenes/systems/sun_counter.tscn<>uid://vja602aiufli::::res://scripts/systems_scripts/level_zombie_spawner/level_3.gd<>uid://bqwmap6y4uxsk::::res://scenes/systems/lawn_grid_1.tscn<>uid://4g3c604f2rnm::::res://scenes/systems/pause.tscn<>uid://bxkydq6w5jpjn::::res://scenes/systems/lawn_mower.tscn<>uid://ci15gfit6kcps::::res://scenes/systems/score_tracker.tscn<>uid://dauhkj8urdy50::::res://scenes/systems/sun_spawner.tscn<>uid://dwn5ki6tpl0xj::::res://scenes/systems/house_collision.tscn<>uid://bqibbcgnbrvur::::res://scenes/systems/shovel.tscn<>uid://cww0w62q65q6w::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_1.tscn<>uid://b6opcmllm8uws::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_2.tscn<>uid://lgbck3y0b0ib::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_3.tscn<>uid://bfvoyxqr66gn1::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn<>uid://bu3x00oashbjp::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn<>uid://ca06yibcpd8c0::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn<>uid://b1e05u3t24pfk::::res://scenes/systems/level_zombie_spawner.tscn<>uid://b3rng1mcud362::::res://scenes/systems/speed_up_button.tscn
+level_4.tscn::PackedScene::7490559290869204569::1761653036::0::1::::<><><>0<>0<><>::uid://bpjbgj1ddg86r::::res://scenes/systems/sun_counter.tscn<>uid://cfj1sgvrupwo4::::res://scripts/systems_scripts/level_zombie_spawner/level_4.gd<>uid://bqwmap6y4uxsk::::res://scenes/systems/lawn_grid_1.tscn<>uid://bxkydq6w5jpjn::::res://scenes/systems/lawn_mower.tscn<>uid://ci15gfit6kcps::::res://scenes/systems/score_tracker.tscn<>uid://dauhkj8urdy50::::res://scenes/systems/sun_spawner.tscn<>uid://dwn5ki6tpl0xj::::res://scenes/systems/house_collision.tscn<>uid://bqibbcgnbrvur::::res://scenes/systems/shovel.tscn<>uid://cww0w62q65q6w::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_1.tscn<>uid://b6opcmllm8uws::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_2.tscn<>uid://lgbck3y0b0ib::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_3.tscn<>uid://bfvoyxqr66gn1::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn<>uid://bu3x00oashbjp::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn<>uid://ca06yibcpd8c0::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn<>uid://b1e05u3t24pfk::::res://scenes/systems/level_zombie_spawner.tscn<>uid://4g3c604f2rnm::::res://scenes/systems/pause.tscn<>uid://b3rng1mcud362::::res://scenes/systems/speed_up_button.tscn
+level_5.tscn::PackedScene::7136697283555776440::1761653010::0::1::::<><><>0<>0<><>::uid://bpjbgj1ddg86r::::res://scenes/systems/sun_counter.tscn<>uid://c7t8g063ia17t::::res://scripts/systems_scripts/level_zombie_spawner/level_5.gd<>uid://bqwmap6y4uxsk::::res://scenes/systems/lawn_grid_1.tscn<>uid://bxkydq6w5jpjn::::res://scenes/systems/lawn_mower.tscn<>uid://ci15gfit6kcps::::res://scenes/systems/score_tracker.tscn<>uid://dauhkj8urdy50::::res://scenes/systems/sun_spawner.tscn<>uid://dwn5ki6tpl0xj::::res://scenes/systems/house_collision.tscn<>uid://bqibbcgnbrvur::::res://scenes/systems/shovel.tscn<>uid://cww0w62q65q6w::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_1.tscn<>uid://b6opcmllm8uws::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_2.tscn<>uid://lgbck3y0b0ib::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_3.tscn<>uid://bfvoyxqr66gn1::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn<>uid://bu3x00oashbjp::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn<>uid://ca06yibcpd8c0::::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn<>uid://b1e05u3t24pfk::::res://scenes/systems/level_zombie_spawner.tscn<>uid://4g3c604f2rnm::::res://scenes/systems/pause.tscn<>uid://b3rng1mcud362::::res://scenes/systems/speed_up_button.tscn
+::res://scenes/plants/::1761559434
+global_plant_variables.tscn::PackedScene::2744202599990742342::1759216693::0::1::::<><><>0<>0<><>::uid://dub5gb2ecnkqe::::res://scripts/auto_load/global_variables.gd
+::res://scenes/plants/almanac/::1761840632
+almanac_page_1.tscn::PackedScene::2554719638143676257::1761840548::0::1::::<><><>0<>0<><>::uid://dtx6u668rmucf::::res://scripts/ui_scripts/almanac/almanac_page_1.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bl2jckvxh2jvd::::res://scenes/plants/almanac/peashooter_button_almanac.tscn<>uid://dtskovvwlviio::::res://scenes/plants/almanac/sunflower_button_almanac.tscn<>uid://bavgpg33nwslq::::res://scripts/ui_scripts/almanac/change_almanac_1.gd<>uid://vbs8ek8wqf76::::res://scenes/plants/almanac/wallnut_button_almanac.tscn<>uid://d4hlww1ya5xrr::::res://scenes/plants/almanac/repeater_button_almanac.tscn<>uid://b70pr73t14tca::::res://scenes/plants/almanac/gatling_pea_button_almanac.tscn<>uid://bqvveicfq6g8n::::res://scenes/plants/almanac/twin_sunflower_button_almanac.tscn<>uid://belt87jogx4bj::::res://scenes/plants/almanac/torchwood_button_almanac.tscn<>uid://ccpn44erx5grp::::res://scenes/plants/almanac/plasma_wood_button_almanac.tscn<>uid://gcbd416q15jn::::res://scenes/plants/almanac/cherry_bomb_button_almanac.tscn<>uid://dmvuptldep38x::::res://scenes/plants/almanac/laser_bean_button_almanac.tscn<>uid://bulbjtq0lqeke::::res://scenes/plants/almanac/tallnut_button_almanac.tscn<>uid://bfculyrbmtoc6::::res://scenes/ui/every_seed_button_picker/change_picker_1.tscn
+almanac_page_2.tscn::PackedScene::8315734773156649542::1761840632::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://dtx6u668rmucf::::res://scripts/ui_scripts/almanac/almanac_page_1.gd<>uid://02bkqqlri85x::::res://scenes/plants/almanac/iceberg_lettuce_button_almanac.tscn<>uid://d10js0ep64emr::::res://scenes/plants/almanac/doom_shroom_button_almanac.tscn<>uid://vvmdy7884mci::::res://scenes/plants/almanac/return_scene.tscn
+cherry_bomb_button_almanac.tscn::PackedScene::425329456483800423::1761817684::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://bv4ca01t1nodh::::res://index.icon.png<>uid://br4v3nvdge03i::::res://scripts/ui_scripts/almanac/cherry_bomb_button_almanac.gd
+doom_shroom_button_almanac.tscn::PackedScene::9036361346731899761::1761840082::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://owyfkdlfabe2::::res://scripts/ui_scripts/almanac/doom_shroom_button_almanac.gd
+gatling_pea_button_almanac.tscn::PackedScene::4685015962250419832::1761725750::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://d1ndpb5tonk0k::::res://scripts/ui_scripts/almanac/gatling_pea_button_almanac.gd
+iceberg_lettuce_button_almanac.tscn::PackedScene::1810538730855572935::1761839679::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://blpl3kjepry8c::::res://scripts/ui_scripts/almanac/iceberg_lettuce_button_almanac.gd
+laser_bean_button_almanac.tscn::PackedScene::8046122249413625793::1761830216::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://cg1i35gchej5u::::res://scripts/ui_scripts/almanac/laser_bean_button_almanac.gd
+peashooter_button_almanac.tscn::PackedScene::3214786746323614809::1761559882::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://bcvhyc8bd3rwx::::res://scripts/plant_scripts/almanac/peashooter_button_almanac.gd
+plasma_wood_button_almanac.tscn::PackedScene::4945027360063065961::1761816805::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://csw1b6it643ly::::res://scripts/ui_scripts/almanac/plasma_wood_button_almanac.gd
+repeater_button_almanac.tscn::PackedScene::9209897532017274015::1761725176::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://dop6suxp4kcpd::::res://scripts/ui_scripts/almanac/repeater_button_almanac.gd
+return_scene.tscn::PackedScene::1518052922067614228::1761840318::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://qfl5rmpo22n0::::res://scripts/ui_scripts/almanac/return_scene.gd
+sunflower_button_almanac.tscn::PackedScene::8530642187263687318::1761651451::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png<>uid://ccahbht16dsdr::::res://scripts/ui_scripts/almanac/sunflower_button_almanac.gd
+tallnut_button_almanac.tscn::PackedScene::3812983524698059320::1761830813::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://cavdoxthqp5s8::::res://scripts/ui_scripts/almanac/tallnut_button_almanac.gd
+torchwood_button_almanac.tscn::PackedScene::2691098462896808375::1761815883::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dbrfksfajlhgf::::res://scripts/ui_scripts/almanac/torchwood_button_almanac.gd
+twin_sunflower_button_almanac.tscn::PackedScene::3554076738286784799::1761744264::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png<>uid://drjs3akj5lrxa::::res://scripts/ui_scripts/almanac/twin_sunflower_button_almanac.gd
+wallnut_button_almanac.tscn::PackedScene::1477182158292246643::1761723844::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://3ynqtnbgvvtq::::res://scripts/ui_scripts/almanac/wallnut_button_almanac.gd
+::res://scenes/plants/almanac/almanac_descriptions/::1761840083
+almanac_cherry_bomb.tscn::PackedScene::349190025937889193::1761823202::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_doom_shroom.tscn::PackedScene::6895941244032618219::1761840033::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_gatling_pea.tscn::PackedScene::5833511357153033749::1761725753::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_iceberg_lettuce.tscn::PackedScene::2513870757479706798::1761840083::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_laser_bean.tscn::PackedScene::7772660086199397169::1761830307::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_peashooter.tscn::PackedScene::8780563095054149702::1761645826::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_plasma_wood.tscn::PackedScene::7461759662968558174::1761816656::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_repeater.tscn::PackedScene::6273161936442202283::1761725259::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_sunflower.tscn::PackedScene::1510144545387439582::1761650357::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_tallnut.tscn::PackedScene::6968040991457797410::1761830730::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_torchwood.tscn::PackedScene::7415795391019241269::1761816114::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_twin_sunflower.tscn::PackedScene::5634863148373457092::1761743028::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_wallnut.tscn::PackedScene::7131539130590063594::1761724017::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+::res://scenes/plants/picked_seeds/::1761320168
+peashooter_seed_picker.tscn::PackedScene::1325782588918731435::1761320168::0::1::::<><><>0<>0<><>::uid://bhuw8x2rv1c18::::res://scripts/plant_scripts/seed_packets/picked_seeds/peashooter_seed_picker.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
+::res://scenes/plants/projectiles/::1761831822
+fire_pea_projectile.tscn::PackedScene::3858847784926777184::1761831538::0::1::::<><><>0<>0<><>::uid://clsbevkam50ll::::res://scripts/plant_scripts/projectiles_scripts/fire_pea_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
+laser_projectile.tscn::PackedScene::1033815016420266980::1761466952::0::1::::<><><>0<>0<><>::uid://buwkafuuxmi7s::::res://scripts/plant_scripts/projectiles_scripts/laser_projectile.gd
+pea_projectile.tscn::PackedScene::5643126151246703992::1761548662::0::1::::<><><>0<>0<><>::uid://l42ksk33n5j4::::res://scripts/plant_scripts/projectiles_scripts/pea_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
+plasma_burnt_projectile.tscn::PackedScene::6010508502856587707::1761831822::0::1::::<><><>0<>0<><>::uid://386buysqxnne::::res://scripts/plant_scripts/projectiles_scripts/plasma_burnt_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
+plasma_projectile.tscn::PackedScene::4626664824593550224::1761831292::0::1::::<><><>0<>0<><>::uid://c2kb3igj67wth::::res://scripts/plant_scripts/projectiles_scripts/plasma_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
+sun_projectile.tscn::PackedScene::4095628269918449737::1759676668::0::1::::<><><>0<>0<><>::uid://ck3bolt1db6i8::::res://scripts/plant_scripts/projectiles_scripts/sun_projectile.gd<>uid://brs3rpqghf4wx::::res://assets/prototype_assets/pixil-frame-0 (18).png
+sun_spawned.tscn::PackedScene::5911683860543605389::1761212010::0::1::::<><><>0<>0<><>::uid://cedmt47mhvqya::::res://scripts/plant_scripts/projectiles_scripts/sun_spawned_projectile.gd<>uid://brs3rpqghf4wx::::res://assets/prototype_assets/pixil-frame-0 (18).png
+::res://scenes/plants/world_1_basic/::1761653710
+cherrybomb.tscn::PackedScene::73787418802628005::1761549265::0::1::::<><><>0<>0<><>::uid://djhcindt68oyp::::res://scripts/plant_scripts/cherry_bomb.gd
+doom_shroom.tscn::PackedScene::7557681803058316973::1761653710::0::1::::<><><>0<>0<><>::uid://biq0bqs18dims::::res://scripts/plant_scripts/doom_shroom.gd
+gatling_gun.tscn::PackedScene::5538274428872290886::1761239102::0::1::::<><><>0<>0<><>::uid://bg3q8sgbkyvxb::::res://scripts/plant_scripts/gatling_gun.gd<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png
+iceberg_lettuce.tscn::PackedScene::3240523217186998598::1761551855::0::1::::<><><>0<>0<><>::uid://dhs063if14l1w::::res://scripts/plant_scripts/iceberg_lettuce.gd
+laser_bean.tscn::PackedScene::6493646558993022020::1761464851::0::1::::<><><>0<>0<><>::uid://bw3dq6rxg0fcw::::res://scripts/plant_scripts/laser_bean.gd<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png
+peashooter.tscn::PackedScene::2959169695481286807::1761136330::0::1::::<><><>0<>0<><>::uid://ek8a4y2w0cu6::::res://scripts/plant_scripts/peashooter.gd<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png
+plasma_wood.tscn::PackedScene::6373522500790058793::1761295210::0::1::::<><><>0<>0<><>::uid://bnuo2own0mcqs::::res://scripts/plant_scripts/plasma_wood.gd<>uid://bkqv5mmp0ataj::::res://images/icon.jpg
+potato_mine.tscn::PackedScene::8173967544239427273::1759150224::0::1::::<><><>0<>0<><>::
+repeater.tscn::PackedScene::3131204685700733894::1761243324::0::1::::<><><>0<>0<><>::uid://cakdhsd8jbtea::::res://scripts/plant_scripts/repeater.gd<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png
+sunflower.tscn::PackedScene::1892721709735958138::1761307313::0::1::::<><><>0<>0<><>::uid://ckb03i30le2fk::::res://scripts/plant_scripts/sunflower.gd<>uid://bdd5wwkj1fc0d::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-0.png<>uid://ddstsdf8ornr8::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-1.png<>uid://b0x1okn5leoxb::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-2.png<>uid://bv1gdfxq1rvxx::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-3.png<>uid://cimtwr3tt7r16::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-4.png<>uid://425m8dio4e1p::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-5.png<>uid://cm0n7ln2qx2rf::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-6.png<>uid://pf1cyc1p6fpx::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-7.png<>uid://nkbokqaxj0n6::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-8.png<>uid://dv1f6rex56jqj::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-9.png<>uid://doh2eq3dw0gec::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-10.png<>uid://cbnhqhtuwkbm6::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-11.png<>uid://b70wro0wb2rl5::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-12.png<>uid://cc3e0iidrs4m2::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-13.png
+tallnut.tscn::PackedScene::2748972586426344240::1761474160::0::1::::<><><>0<>0<><>::uid://b7sc7nof8bwln::::res://scripts/plant_scripts/tallnut.gd<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png
+torchwood.tscn::PackedScene::4795422348325208211::1761328920::0::1::::<><><>0<>0<><>::uid://bosavaxbaoh5x::::res://scripts/plant_scripts/torchwood_interaction.gd<>uid://c1bep6igxssuf::::res://assets/sprite/plant_sprites/pixilart-sprite (1).png
+torchwood_fail.tscn::PackedScene::1399396357879490991::1761293052::0::1::::<><><>0<>0<><>::uid://bk5f68hdjqdr8::::res://scripts/plant_scripts/torchwood_1.gd<>uid://t0ismlnj4xnf::::res://icon.svg
+twin_sunflower.tscn::PackedScene::8626405724640509127::1761227195::0::1::::<><><>0<>0<><>::uid://co1pvwyebdf6l::::res://scripts/plant_scripts/twin_sunflower.gd<>uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png
+wallnut.tscn::PackedScene::7584461837647648241::1761210305::0::1::::<><><>0<>0<><>::uid://b0lkf1gdpkhsn::::res://scripts/plant_scripts/wallnut.gd<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png
+::res://scenes/plants/world_1_basic/plant_seeds/::1761724166
+cherrybomb_seed.tscn::PackedScene::3328257594455407169::1761462805::0::1::::<><><>0<>0<><>::uid://dc2axkyibmsoc::::res://scripts/plant_scripts/seed_packets/cherrybomb_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
+doomshroom_seed.tscn::PackedScene::6755677730702361846::1761653360::0::1::::<><><>0<>0<><>::uid://bibvmxharrw2p::::res://scripts/plant_scripts/seed_packets/doomshroom_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
+gatling_gun_seed.tscn::PackedScene::57870419130718480::1761239587::0::1::::<><><>0<>0<><>::uid://1kwjn052lybi::::res://scripts/plant_scripts/seed_packets/gatling_gun_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
+iceberg_lettuce_seed.tscn::PackedScene::8034988211228334219::1761554240::0::1::::<><><>0<>0<><>::uid://beqnkfcqx0gi7::::res://scripts/plant_scripts/iceberg_lettuce_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
+laser_bean_seed.tscn::PackedScene::6592871201035626860::1761466039::0::1::::<><><>0<>0<><>::uid://h4iulfgp114v::::res://scripts/plant_scripts/seed_packets/laser_bean_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
+peashooter_seed.tscn::PackedScene::4337168415911417929::1759917605::0::1::::<><><>0<>0<><>::uid://bq550sinbdmnm::::res://scripts/plant_scripts/seed_packets/peashooter_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
+plasma_wood_seed.tscn::PackedScene::5891689974010655602::1761296169::0::1::::<><><>0<>0<><>::uid://b46714nd2veo6::::res://scripts/plant_scripts/seed_packets/plasma_wood_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
+repeater_seed_1.tscn::PackedScene::7575959019971608418::1761239898::0::1::::<><><>0<>0<><>::uid://1plvxtej8awl::::res://scripts/plant_scripts/seed_packets/repeater_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
+sunflower_seed.tscn::PackedScene::6738616831019360667::1761155899::0::1::::<><><>0<>0<><>::uid://c4e23lj442scn::::res://scripts/plant_scripts/seed_packets/sunflower_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
+tallnut_seed.tscn::PackedScene::1357626691934309236::1761474372::0::1::::<><><>0<>0<><>::uid://cdt7o46aqck24::::res://scripts/plant_scripts/seed_packets/tallnut_seed.gd<>uid://dxnnk7gmmf8p0::::res://assets/sprite/ui_sprites/pixil-frame-0 (1) (1).png
+torchwood_seed.tscn::PackedScene::25715887100261436::1761294403::0::1::::<><><>0<>0<><>::uid://bido25cyfq7ka::::res://scripts/plant_scripts/seed_packets/torchwood_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
+twin_sunflower_seed.tscn::PackedScene::1678924142805599478::1761237488::0::1::::<><><>0<>0<><>::uid://ls8js52d6pvi::::res://scripts/plant_scripts/seed_packets/twin_sunflower_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
+wallnut_seed.tscn::PackedScene::4186595991784845664::1761724166::0::1::::<><><>0<>0<><>::uid://el86fid7c2pv::::res://scripts/plant_scripts/seed_packets/wallnut_seed.gd<>uid://dxnnk7gmmf8p0::::res://assets/sprite/ui_sprites/pixil-frame-0 (1) (1).png
+::res://scenes/plants/world_1_basic/plant_seeds/overlays/::1761210704
+peashooter_overlay.tscn::PackedScene::4076195618786742150::1761154605::0::1::::<><><>0<>0<><>::uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
+repeater_overlay.tscn::PackedScene::403386117193750781::1761210049::0::1::::<><><>0<>0<><>::uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
+sun_overlay.tscn::PackedScene::8167996778469253479::1761154813::0::1::::<><><>0<>0<><>::uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
+wallnut_overlay.tscn::PackedScene::906291149806750161::1761210704::0::1::::<><><>0<>0<><>::uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
+::res://scenes/plants/world_1_basic/plant_seeds/seed_slots/::1761654026
+seed_slot_1.tscn::PackedScene::6363971121000464532::1761654026::0::1::::<><><>0<>0<><>::uid://wj87h5s2h67j::::res://scripts/plant_scripts/seed_packets/seed_slots/seed_slot_1.gd
+seed_slot_2.tscn::PackedScene::4592091099298445494::1761408049::0::1::::<><><>0<>0<><>::uid://dppk2xreidjh2::::res://scripts/plant_scripts/seed_packets/seed_slots/seed_slot_2.gd
+seed_slot_3.tscn::PackedScene::784528404735243277::1761408388::0::1::::<><><>0<>0<><>::uid://didd02kq2hkf0::::res://scripts/plant_scripts/seed_packets/seed_slots/seed_slot_3.gd
+seed_slot_4.tscn::PackedScene::2781610965239944692::1761408521::0::1::::<><><>0<>0<><>::uid://dimyoy8vwpsc::::res://scripts/plant_scripts/seed_packets/seed_slots/seed_slot_4.gd
+seed_slot_5.tscn::PackedScene::3849442603984019613::1761408644::0::1::::<><><>0<>0<><>::uid://cnsppwcd561li::::res://scripts/plant_scripts/seed_packets/seed_slots/seed_slot_5.gd
+seed_slot_6.tscn::PackedScene::4826376318909852009::1761408785::0::1::::<><><>0<>0<><>::uid://d1bfa247kpwns::::res://scripts/plant_scripts/seed_packets/seed_slots/seed_slot_6.gd
+::res://scenes/systems/::1761651886
+house_collision.tscn::PackedScene::8732093358600353763::1761221538::0::1::::<><><>0<>0<><>::uid://b80aio2pjwi2k::::res://scripts/systems_scripts/house_collision.gd
+lawn_block_1.tscn::PackedScene::8428554165549960758::1761152767::0::1::::<><><>0<>0<><>::uid://baw0cd4m5pvux::::res://scripts/systems_scripts/lawn_block_1.gd<>uid://bgvgieyhmpuq6::::res://assets/sprite/ui_sprites/dark-patch-pixilart (1).png
+lawn_grid_1.tscn::PackedScene::3555587933273338106::1760452571::0::1::::<><><>0<>0<><>::uid://cc0y47p60xqgq::::res://scripts/systems_scripts/lawn_grid_1.gd
+lawn_mower.tscn::PackedScene::4022871319419133475::1761594145::0::1::::<><><>0<>0<><>::uid://ce5258kwqulbg::::res://scripts/systems_scripts/lawn_mower.gd
+level_zombie_spawner.tscn::PackedScene::4221160722556528616::1761469590::0::1::::<><><>0<>0<><>::uid://i7olubyakjhv::::res://scripts/systems_scripts/level_zombie_spawner/level_1_zombie_spawner.gd
+pause.tscn::PackedScene::2049568047581923730::1761564126::0::1::::<><><>0<>0<><>::uid://bsrn6qwc754da::::res://scripts/systems_scripts/pause.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+score_tracker.tscn::PackedScene::5389858438522720056::1761149901::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://dyo6rh8ufguc0::::res://scripts/systems_scripts/score_tracker.gd
+shovel.tscn::PackedScene::3526019821628985541::1761252128::0::1::::<><><>0<>0<><>::uid://b2cdu446vn6lq::::res://scripts/systems_scripts/shovel.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
+speed_up_button.tscn::PackedScene::4387604147308923073::1761651886::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://ddxdflvh5cjo8::::res://scripts/systems_scripts/speed_up_button.gd
+sun_counter.tscn::PackedScene::3457904682821977075::1760372282::0::1::::<><><>0<>0<><>::uid://d2m7d2xv1cx04::::res://scripts/systems_scripts/sun_counter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+sun_spawner.tscn::PackedScene::7200993007669182813::1761211720::0::1::::<><><>0<>0<><>::uid://bbxohcv6ibtro::::res://scripts/systems_scripts/sun_spawner.gd
+zombie_spawner.tscn::PackedScene::3500586633185930552::1761477654::0::1::::<><><>0<>0<><>::uid://bcj6nmjmh8pej::::res://scripts/systems_scripts/zombie_spawner.gd
+::res://scenes/ui/::1761842270
+game_over.tscn::PackedScene::3074048316778320754::1761223840::0::1::::<><><>0<>0<><>::uid://v04s8iblucxu::::res://scripts/ui_scripts/game_over.gd
+game_won.tscn::PackedScene::3712917960076526646::1761594630::0::1::::<><><>0<>0<><>::uid://v04s8iblucxu::::res://scripts/ui_scripts/game_over.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+seed_picker.tscn::PackedScene::5229958468415051419::1761840656::0::1::::<><><>0<>0<><>::uid://dnwk0qr2ujbnv::::res://scripts/ui_scripts/seed_picker.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bvv2ocui1u6mq::::res://scenes/ui/every_seed_button_picker/peashooter_seed_picker.tscn<>uid://bxtcf6uxt2n3h::::res://scenes/ui/every_seed_button_picker/sunflower_seed_picker.tscn<>uid://5clvviujxl1q::::res://scenes/ui/every_seed_button_picker/wall_nut_seed_picker.tscn<>uid://bwxxnptjx5lqj::::res://scenes/ui/every_seed_button_picker/repeater_seed_picker.tscn<>uid://4xg6fqv5pdvp::::res://scenes/ui/every_seed_button_picker/gatling_gun_seed_picker.tscn<>uid://drs170fvvp18u::::res://scenes/ui/every_seed_button_picker/twin_sunflower_seed_picker.tscn<>uid://lmnnn2o7hpfo::::res://scenes/ui/every_seed_button_picker/torchwood_seed_picker.tscn<>uid://dlp7atjf353bb::::res://scenes/ui/every_seed_button_picker/plasma_wood_seed_picker.tscn<>uid://cnukg0kce5e3o::::res://scenes/ui/every_seed_button_picker/cherrybomb_seed_picker.tscn<>uid://dcclixo33s3kw::::res://scenes/ui/every_seed_button_picker/laser_bean_seed_picker.tscn<>uid://b0nb14wik8cgr::::res://scenes/ui/every_seed_button_picker/tallnut_seed_picker.tscn<>uid://bfculyrbmtoc6::::res://scenes/ui/every_seed_button_picker/change_picker_1.tscn
+seed_picker_2.tscn::PackedScene::7777409152144044551::1761654029::0::1::::<><><>0<>0<><>::uid://dnwk0qr2ujbnv::::res://scripts/ui_scripts/seed_picker.gd<>uid://iw1tlnkjkt5q::::res://scenes/ui/every_seed_button_picker/iceberg_lettuce_seed_picker.tscn<>uid://57beny3br4x5::::res://scenes/ui/every_seed_button_picker/change_picker_2.tscn<>uid://b3e6c8jw0txyl::::res://scenes/ui/every_seed_button_picker/doomshroom_seed_picker.tscn
+start_menu.tscn::PackedScene::1903386590748824399::1761842270::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://dfxxd5d08t4g1::::res://scripts/ui_scripts/menu_button.gd
+::res://scenes/ui/achievements/::1761643951
+achievements.tscn::PackedScene::6548393371218422354::1761643951::0::1::::<><><>0<>0<><>::uid://cif753pnfiwpf::::res://scripts/ui_scripts/achievements.gd<>uid://b7tsvkkfkoird::::res://scenes/ui/achievements/lawn_mower_achievement.tscn<>uid://k7w1fsp1w3ee::::res://scenes/ui/achievements/sun_collector_achievement.tscn
+lawn_mower_achievement.tscn::PackedScene::4672817805901718421::1761643166::0::1::::<><><>0<>0<><>::uid://b5i7r7cbx32je::::res://scripts/ui_scripts/achievements/lawn_mower_achievement.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+sun_collector_achievement.tscn::PackedScene::769331020133029676::1761643520::0::1::::<><><>0<>0<><>::uid://c8ffxmf3uwqds::::res://scripts/ui_scripts/achievements/sun_collector_achievement.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+::res://scenes/ui/every_seed_button_picker/::1761736162
+change_picker_1.tscn::PackedScene::2742728927863978707::1761559192::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://jl0aqai5wub1::::res://scripts/ui_scripts/seed_picker/change_picker_1.gd
+change_picker_2.tscn::PackedScene::2171793978592358968::1761558818::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://b14yiv83534k::::res://scripts/plant_scripts/seed_packets/picked_seeds/change_picker_2.gd
+cherrybomb_seed_picker.tscn::PackedScene::5727203103082111302::1761654031::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://t0ismlnj4xnf::::res://icon.svg<>uid://b8t8bnj0r6430::::res://scripts/ui_scripts/seed_picker/cherrybomb_seed_picker.gd
+doomshroom_seed_picker.tscn::PackedScene::4361853363145373503::1761722479::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://t0ismlnj4xnf::::res://icon.svg<>uid://cyatnjho7eixj::::res://scripts/ui_scripts/seed_picker/doomshroom_seed_picker.gd
+gatling_gun_seed_picker.tscn::PackedScene::2083377103742413661::1761726055::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://cgi78tf0pk035::::res://scripts/ui_scripts/seed_picker/gatling_gun_seed_picker.gd
+iceberg_lettuce_seed_picker.tscn::PackedScene::608540229895801528::1761557044::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://bp6exry1a8jmr::::res://scripts/ui_scripts/seed_picker/iceberg_lettuce_seed_picker.gd
+laser_bean_seed_picker.tscn::PackedScene::7304451898109822378::1761466316::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://b8jlrw7suipk3::::res://scripts/ui_scripts/seed_picker/laser_bean_seed_picker.gd
+peashooter_seed_picker.tscn::PackedScene::3905402829188238564::1761736162::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://bgs0pyc2erbo2::::res://scripts/ui_scripts/seed_picker/peashooter_seed_picker.gd
+plasma_wood_seed_picker.tscn::PackedScene::7964248953289781411::1761475714::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dt5xqkmdjbfu0::::res://scripts/ui_scripts/seed_picker/plasma_wood_seed_picker.gd
+repeater_seed_picker.tscn::PackedScene::3979476455869963669::1761400650::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://c3t2poj5el3w4::::res://scripts/ui_scripts/seed_picker/repeater_seed_picker.gd
+sunflower_seed_picker.tscn::PackedScene::4040119287841464155::1761398978::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://cibo0osbxubpg::::res://scripts/ui_scripts/seed_picker/sunflower_seed_picker.gd<>uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png
+tallnut_seed_picker.tscn::PackedScene::4168087390621979149::1761474886::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://t0ismlnj4xnf::::res://icon.svg<>uid://b0b2p6ri81c3k::::res://scripts/ui_scripts/seed_picker/tallnut_seed_picker.gd
+torchwood_seed_picker.tscn::PackedScene::797663074486223660::1761401806::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://v2nxir24qdt2::::res://scripts/ui_scripts/seed_picker/torchwood_seed_picker.gd
+twin_sunflower_seed_picker.tscn::PackedScene::8391268301506417798::1761412810::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png<>uid://c72h3oa6kdtow::::res://scripts/ui_scripts/seed_picker/twin_sunflower_seed_picker.gd
+wall_nut_seed_picker.tscn::PackedScene::2110500569511966456::1761394877::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dpf5fs0kjbt37::::res://scripts/ui_scripts/seed_picker/wall_nut_seed_picker.gd
+::res://scenes/ui/level_clear/::1761477458
+level_1_clear.tscn::PackedScene::4098905080338325330::1761477458::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+::res://scenes/zombies/::1761472448
+allstar_zombie.tscn::PackedScene::526456753429736468::1761472448::0::1::::<><><>0<>0<><>::uid://4x8ykxh2q1d8::::res://scripts/zombies_scripts/allstar_zombie.gd
+basic_zombie.tscn::PackedScene::1898256651109890110::1761318588::0::1::::<><><>0<>0<><>::uid://m4trri6o3ord::::res://scripts/zombies_scripts/basic_zombie_script.gd
+bucket_head_zombie.tscn::PackedScene::851205246053470004::1761318687::0::1::::<><><>0<>0<><>::uid://bqf7crlea0uxy::::res://scripts/zombies_scripts/bucket_head_zombie.gd
+conehead_zombie.tscn::PackedScene::2602638577584328018::1761318687::0::1::::<><><>0<>0<><>::uid://c2mgbwetbce1g::::res://scripts/zombies_scripts/conehead_zombie.gd
+::res://scenes/zombies/projectiles_z/::1759087181
+::res://scripts/::1761326987
+::res://scripts/auto_load/::1761731816
+global_variables.gd::GDScript::8566935620558440724::1761731816::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/levels_scripts/::1759090482
+::res://scripts/plant_scripts/::1761840033
+cherry_bomb.gd::GDScript::7805548696780763791::1761820011::0::1::::<>Area2D<><>0<>0<><>::
+doom_shroom.gd::GDScript::2982482056881012530::1761840033::0::1::::<>Area2D<><>0<>0<><>::
+gatling_gun.gd::GDScript::2866387680466990307::1761472806::0::1::::<>StaticBody2D<><>0<>0<><>::
+iceberg_lettuce.gd::GDScript::7689317523824133854::1761566445::0::1::::<>Area2D<><>0<>0<><>::
+iceberg_lettuce_seed.gd::GDScript::2701013547620251904::1761652330::0::1::::<>Area2D<><>0<>0<><>::
+laser_bean.gd::GDScript::3988590200063815734::1761823348::0::1::::<>StaticBody2D<><>0<>0<><>::
+peashooter.gd::GDScript::303404374363622231::1761156795::0::1::::<>StaticBody2D<><>0<>0<><>::
+plasma_wood.gd::GDScript::3341062230340022858::1761836361::0::1::::<>StaticBody2D<><>0<>0<><>::
+repeater.gd::GDScript::4793680748028606796::1761294959::0::1::::<>StaticBody2D<><>0<>0<><>::
+sunflower.gd::GDScript::5478362573161183120::1761238783::0::1::::<>StaticBody2D<><>0<>0<><>::
+tallnut.gd::GDScript::4669801763775857939::1761830730::0::1::::<>StaticBody2D<><>0<>0<><>::
+torchwood_1.gd::GDScript::3150601141503254175::1761293102::0::1::::<>Area2D<><>0<>0<><>::
+torchwood_interaction.gd::GDScript::3406260831447129599::1761312590::0::1::::<>StaticBody2D<><>0<>0<><>::
+twin_sunflower.gd::GDScript::5810108449259921381::1761240663::0::1::::<>StaticBody2D<><>0<>0<><>::
+wallnut.gd::GDScript::4164467403868440621::1761474372::0::1::::<>StaticBody2D<><>0<>0<><>::
+::res://scripts/plant_scripts/almanac/::1761650357
+peashooter_button_almanac.gd::GDScript::2570618337883315255::1761650357::0::1::::<>Button<><>0<>0<><>::
+::res://scripts/plant_scripts/projectiles_scripts/::1761836469
+fire_pea_projectile.gd::GDScript::5582146425601661973::1761293715::0::1::::<>CharacterBody2D<><>0<>0<><>::
+laser_projectile.gd::GDScript::3836221331423493698::1761823349::0::1::::<>CharacterBody2D<><>0<>0<><>::
+pea_projectile.gd::GDScript::833602413808335215::1761314067::0::1::::<>CharacterBody2D<><>0<>0<><>::
+plasma_burnt_projectile.gd::GDScript::2035297188700991978::1761831893::0::1::::<>CharacterBody2D<><>0<>0<><>::
+plasma_projectile.gd::GDScript::6688695072283034485::1761836469::0::1::::<>CharacterBody2D<><>0<>0<><>::
+sun_projectile.gd::GDScript::5532618707281175653::1761312590::0::1::::<>Node2D<><>0<>0<><>::
+sun_spawned_projectile.gd::GDScript::5060553982364221192::1761312670::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/plant_scripts/seed_packets/::1761840033
+cherrybomb_seed.gd::GDScript::7355419573648914582::1761819909::0::1::::<>Area2D<><>0<>0<><>::
+doomshroom_seed.gd::GDScript::2951293515800470869::1761840033::0::1::::<>Area2D<><>0<>0<><>::
+gatling_gun_seed.gd::GDScript::1846906280938712210::1761725912::0::1::::<>Area2D<><>0<>0<><>::
+laser_bean_seed.gd::GDScript::551710897928774039::1761823348::0::1::::<>Area2D<><>0<>0<><>::
+peashooter_seed.gd::GDScript::3573240627524895806::1761724139::0::1::::<>Area2D<><>0<>0<><>::
+plasma_wood_seed.gd::GDScript::4487883777414776835::1761816657::0::1::::<>Area2D<><>0<>0<><>::
+repeater_seed.gd::GDScript::1856582227075576271::1761652224::0::1::::<>Area2D<><>0<>0<><>::
+sunflower_seed.gd::GDScript::6818265297956966433::1761724166::0::1::::<>Area2D<><>0<>0<><>::
+tallnut_seed.gd::GDScript::5024600591598193963::1761830730::0::1::::<>Area2D<><>0<>0<><>::
+torchwood_seed.gd::GDScript::2955024400281613348::1761815999::0::1::::<>Area2D<><>0<>0<><>::
+twin_sunflower_seed.gd::GDScript::811256805494306582::1761816657::0::1::::<>Area2D<><>0<>0<><>::
+wallnut_seed.gd::GDScript::305522825373497583::1761724139::0::1::::<>Area2D<><>0<>0<><>::
+::res://scripts/plant_scripts/seed_packets/picked_seeds/::1761558818
+change_picker_2.gd::GDScript::125666771253224292::1761558818::0::1::::<>Button<><>0<>0<><>::
+peashooter_seed_picker.gd::GDScript::2920426099828509981::1761322542::0::1::::<>Button<><>0<>0<><>::
+::res://scripts/plant_scripts/seed_packets/seed_slots/::1761723317
+seed_slot_1.gd::GDScript::1564795180851314669::1761654026::0::1::::<>Node2D<><>0<>0<><>::
+seed_slot_2.gd::GDScript::8243716992815071749::1761722842::0::1::::<>Node2D<><>0<>0<><>::
+seed_slot_3.gd::GDScript::7727194163613496147::1761722951::0::1::::<>Node2D<><>0<>0<><>::
+seed_slot_4.gd::GDScript::227853789844013122::1761723317::0::1::::<>Node2D<><>0<>0<><>::
+seed_slot_5.gd::GDScript::5723393834834726686::1761723317::0::1::::<>Node2D<><>0<>0<><>::
+seed_slot_6.gd::GDScript::8986541412783731580::1761723317::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/systems_scripts/::1761831013
+house_collision.gd::GDScript::4754277031681957792::1761224267::0::1::::<>Area2D<><>0<>0<><>::
+lawn_block_1.gd::GDScript::2433358693644695723::1761240654::0::1::::<>Area2D<><>0<>0<><>::
+lawn_grid_1.gd::GDScript::4966339199725498500::1761154032::0::1::::<>Node2D<><>0<>0<><>::
+lawn_mower.gd::GDScript::5117222756922324788::1761594175::0::1::::<>CharacterBody2D<><>0<>0<><>::
+pause.gd::GDScript::3685759846007861770::1761652330::0::1::::<>Control<><>0<>0<><>::
+score_tracker.gd::GDScript::8874608591778706797::1761652129::0::1::::<>RichTextLabel<><>0<>0<><>::
+shovel.gd::GDScript::4285867653698082906::1761652224::0::1::::<>Area2D<><>0<>0<><>::
+speed_up_button.gd::GDScript::7417500960840570929::1761831013::0::1::::<>Button<><>0<>0<><>::
+sun_counter.gd::GDScript::9081083118155086555::1761652086::0::1::::<>RichTextLabel<><>0<>0<><>::
+sun_spawner.gd::GDScript::2504952893037416772::1761216451::0::1::::<>Node2D<><>0<>0<><>::
+torchwood.gd::GDScript::7846044608521457201::1761140970::0::1::::<>RefCounted<><>0<>0<><>::
+zombie_spawner.gd::GDScript::2547283857591563269::1761477654::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/systems_scripts/level_zombie_spawner/::1761814775
+level_1.gd::GDScript::6634330043897273246::1761736162::0::1::::<>Node2D<><>0<>0<><>::
+level_1_zombie_spawner.gd::GDScript::628441571968517431::1761652339::0::1::::<>Node2D<><>0<>0<><>::
+level_2.gd::GDScript::3537138307541714598::1761814775::0::1::::<>Node2D<><>0<>0<><>::
+level_3.gd::GDScript::1492601830601225586::1761736162::0::1::::<>Node2D<><>0<>0<><>::
+level_4.gd::GDScript::5143976119845856233::1761736162::0::1::::<>Node2D<><>0<>0<><>::
+level_5.gd::GDScript::7060123278910701051::1761736162::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/systems_scripts/overlays/::1761652129
+peashooter_overlay.gd::GDScript::3941053833473849726::1761652129::0::1::::<>Sprite2D<><>0<>0<><>::
+::res://scripts/ui_scripts/::1761830943
+achievements.gd::GDScript::5346672017269986635::1761642672::0::1::::<>Control<><>0<>0<><>::
+game_over.gd::GDScript::1527369843020604442::1761736086::0::1::::<>Control<><>0<>0<><>::
+menu_button.gd::GDScript::7559090387343866082::1761559636::0::1::::<>Button<><>0<>0<><>::
+seed_picker.gd::GDScript::8117786011627442171::1761830943::0::1::::<>Control<><>0<>0<><>::
+start_button_picker.gd::GDScript::8619337556682602314::1761393062::0::1::::<>Button<><>0<>0<><>::
+::res://scripts/ui_scripts/achievements/::1761643520
+lawn_mower_achievement.gd::GDScript::4510576001045577490::1761643167::0::1::::<>Control<><>0<>0<><>::
+sun_collector_achievement.gd::GDScript::7099740393739240296::1761643520::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/ui_scripts/almanac/::1761840632
+almanac_page_1.gd::GDScript::8542250388834524521::1761840632::0::1::::<>Control<><>0<>0<><>::
+almanac_peashooter.gd::GDScript::8166207457039740998::1761830943::0::1::::<>Control<><>0<>0<><>::
+change_almanac_1.gd::GDScript::2430164065078603214::1761649877::0::1::::<>Button<><>0<>0<><>::
+cherry_bomb_button_almanac.gd::GDScript::3640823754873773892::1761817684::0::1::::<>Button<><>0<>0<><>::
+doom_shroom_button_almanac.gd::GDScript::1029526788692075415::1761840082::0::1::::<>Button<><>0<>0<><>::
+gatling_pea_button_almanac.gd::GDScript::9011217934107782828::1761725750::0::1::::<>Button<><>0<>0<><>::
+iceberg_lettuce_button_almanac.gd::GDScript::3190182058511347068::1761839679::0::1::::<>Button<><>0<>0<><>::
+laser_bean_button_almanac.gd::GDScript::5248185574061144068::1761830216::0::1::::<>Button<><>0<>0<><>::
+plasma_wood_button_almanac.gd::GDScript::6083238932554094902::1761816806::0::1::::<>Button<><>0<>0<><>::
+repeater_button_almanac.gd::GDScript::8174786986106887113::1761725329::0::1::::<>Button<><>0<>0<><>::
+return_scene.gd::GDScript::1134065759852333399::1761840318::0::1::::<>Button<><>0<>0<><>::
+sunflower_button_almanac.gd::GDScript::4913646257643158215::1761650365::0::1::::<>Button<><>0<>0<><>::
+tallnut_button_almanac.gd::GDScript::4816401690042816789::1761830813::0::1::::<>Button<><>0<>0<><>::
+torchwood_button_almanac.gd::GDScript::7264867712596025365::1761815883::0::1::::<>Button<><>0<>0<><>::
+twin_sunflower_button_almanac.gd::GDScript::8372194716709030954::1761744258::0::1::::<>Button<><>0<>0<><>::
+wallnut_button_almanac.gd::GDScript::2015651599651197650::1761723844::0::1::::<>Button<><>0<>0<><>::
+::res://scripts/ui_scripts/level_clear/::1761477459
+level_1_clear.gd::GDScript::5299275239354030670::1761477459::0::1::::<>RefCounted<><>0<>0<><>::
+::res://scripts/ui_scripts/seed_picker/::1761731914
+change_picker_1.gd::GDScript::655926513634174236::1761558795::0::1::::<>Button<><>0<>0<><>::
+cherrybomb_seed_picker.gd::GDScript::4743881845497151533::1761731816::0::1::::<>Button<><>0<>0<><>::
+doomshroom_seed_picker.gd::GDScript::6458550937085113943::1761731816::0::1::::<>Button<><>0<>0<><>::
+gatling_gun_seed_picker.gd::GDScript::5212492333038291418::1761731720::0::1::::<>Button<><>0<>0<><>::
+iceberg_lettuce_seed_picker.gd::GDScript::3503533921025205653::1761731720::0::1::::<>Button<><>0<>0<><>::
+laser_bean_seed_picker.gd::GDScript::4721931374743863020::1761731720::0::1::::<>Button<><>0<>0<><>::
+peashooter_picker.gd::GDScript::5289141717520228337::1761394544::0::1::::<>Button<><>0<>0<><>::
+peashooter_seed_picker.gd::GDScript::2846258521704890275::1761731914::0::1::::<>Button<><>0<>0<><>::
+plasma_wood_seed_picker.gd::GDScript::8556207020279352269::1761731328::0::1::::<>Button<><>0<>0<><>::
+repeater_seed_picker.gd::GDScript::6779019062890527889::1761731240::0::1::::<>Button<><>0<>0<><>::
+sunflower_picker.gd::GDScript::3800848149404139557::1761727977::0::1::::<>Button<><>0<>0<><>::
+sunflower_seed_picker.gd::GDScript::5337311940201214264::1761731240::0::1::::<>Button<><>0<>0<><>::
+tallnut_seed_picker.gd::GDScript::4144873953005375594::1761731056::0::1::::<>Button<><>0<>0<><>::
+torchwood_seed_picker.gd::GDScript::1530534757638690077::1761731013::0::1::::<>Button<><>0<>0<><>::
+twin_sunflower_seed_picker.gd::GDScript::7075098321090458582::1761730915::0::1::::<>Button<><>0<>0<><>::
+wall_nut_seed_picker.gd::GDScript::8224248017679462716::1761730804::0::1::::<>Button<><>0<>0<><>::
+::res://scripts/zombies_scripts/::1761820456
+allstar_zombie.gd::GDScript::2085004234780115903::1761820455::0::1::::<>CharacterBody2D<><>0<>0<><>::
+basic_zombie_script.gd::GDScript::903317966566780061::1761551109::0::1::::<>CharacterBody2D<><>0<>0<><>::
+bucket_head_zombie.gd::GDScript::3521711496100803966::1761820456::0::1::::<>CharacterBody2D<><>0<>0<><>::
+conehead_zombie.gd::GDScript::6693079928969911818::1761820456::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/zombies_scripts/projectiles_z/::1759087198
