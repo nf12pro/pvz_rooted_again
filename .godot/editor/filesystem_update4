@@ -1,2 +1,2 @@
-res://scenes/ui/start_menu.tscn
-res://scripts/auto_load/global_variables.gd
+res://scenes/plants/world_1_basic/peashooter.tscn
+res://scenes/plants/world_1_basic/plant_seeds/overlays/peashooter_overlay.tscn
