@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://cmeddwfi4geeh"]
+[gd_scene load_steps=20 format=3 uid="uid://cmeddwfi4geeh"]
 
 [ext_resource type="PackedScene" uid="uid://17335vsxlcfa" path="res://scenes/plants/world_1_basic/sunflower.tscn" id="4_t5f63"]
 [ext_resource type="PackedScene" uid="uid://bpjbgj1ddg86r" path="res://scenes/systems/sun_counter.tscn" id="6_4tnus"]
@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://du5xv3diqbkrv" path="res://scenes/plants/world_1_basic/twin_sunflower.tscn" id="17_dvqpr"]
 [ext_resource type="PackedScene" uid="uid://b6opcmllm8uws" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_2.tscn" id="18_qiss0"]
 [ext_resource type="PackedScene" uid="uid://lgbck3y0b0ib" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_3.tscn" id="19_c2388"]
+[ext_resource type="PackedScene" uid="uid://dcusrkeo0go05" path="res://scenes/plants/world_1_basic/plasma_peashooter.tscn" id="19_g8rqy"]
 [ext_resource type="PackedScene" uid="uid://2bsalhpfl2pm" path="res://scenes/zombies/basic_zombie.tscn" id="19_uvkgl"]
 [ext_resource type="PackedScene" uid="uid://bfvoyxqr66gn1" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn" id="20_c2388"]
 [ext_resource type="PackedScene" uid="uid://melhxkjg1r6c" path="res://scenes/zombies/bucket_head_zombie.tscn" id="20_j62ee"]
@@ -81,3 +82,6 @@ position = Vector2(996, 441)
 
 [node name="ConeHeadZombie" parent="." instance=ExtResource("20_j62ee")]
 position = Vector2(1088, 437)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("19_g8rqy")]
+position = Vector2(189, 464)
