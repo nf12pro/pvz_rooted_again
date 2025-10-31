@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://byfgndeky0ari"]
+
+[ext_resource type="Texture2D" uid="uid://dxsxwhxr22sgy" path="res://assets/sprite/plant_sprites/laser_bean_sprites/pixil-frame-0 (4) (1).png" id="1_pvxo3"]
+[ext_resource type="Script" uid="uid://bwfct0pojb0lm" path="res://scripts/systems_scripts/overlays/peashooter_overlay.gd" id="2_qv8f5"]
+
+[node name="PeashooterOverlay" type="Sprite2D"]
+modulate = Color(1, 1, 1, 0.6313726)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_pvxo3")
+script = ExtResource("2_qv8f5")

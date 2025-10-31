@@ -2,7 +2,7 @@
 
 [ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_qu15q"]
 [ext_resource type="Texture2D" uid="uid://bpj8mxnyeapwc" path="res://assets/prototype_assets/pixil-frame-0 (17).png" id="2_2phr1"]
-[ext_resource type="Texture2D" uid="uid://dkxdqbgjrv11v" path="res://assets/prototype_assets/pixil-frame-0 (14).png" id="3_11ntk"]
+[ext_resource type="Texture2D" uid="uid://dxsxwhxr22sgy" path="res://assets/sprite/plant_sprites/laser_bean_sprites/pixil-frame-0 (4) (1).png" id="3_qu15q"]
 [ext_resource type="Script" uid="uid://b8jlrw7suipk3" path="res://scripts/ui_scripts/seed_picker/laser_bean_seed_picker.gd" id="4_qu15q"]
 
 [node name="LaserBeanSeedPicker" type="Button"]
@@ -10,7 +10,7 @@ theme_override_fonts/font = ExtResource("1_qu15q")
 theme_override_font_sizes/font_size = 36
 theme_override_icons/icon = ExtResource("2_2phr1")
 text = "Laser-Bean"
-icon = ExtResource("3_11ntk")
+icon = ExtResource("3_qu15q")
 script = ExtResource("4_qu15q")
 
 [connection signal="pressed" from="." to="." method="_on_laser_bean_picker_pressed"]
