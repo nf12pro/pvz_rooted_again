@@ -69,7 +69,6 @@ var level_data := {
 #region Achievements
 var mower_used: bool = false
 var mower_not_used_achievement: bool = false
-
 var sun_collector_achievement:  bool = false
 #endregion
 

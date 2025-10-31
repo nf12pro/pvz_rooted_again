@@ -2,7 +2,7 @@
 
 [ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_8ddoh"]
 [ext_resource type="Texture2D" uid="uid://bpj8mxnyeapwc" path="res://assets/prototype_assets/pixil-frame-0 (17).png" id="2_pwdfw"]
-[ext_resource type="Texture2D" uid="uid://dkxdqbgjrv11v" path="res://assets/prototype_assets/pixil-frame-0 (14).png" id="3_pwdfw"]
+[ext_resource type="Texture2D" uid="uid://dplmhul78ee2d" path="res://assets/sprite/plant_sprites/repeater_sprites/pixil-frame-1 (1).png" id="3_pwdfw"]
 [ext_resource type="Script" uid="uid://dop6suxp4kcpd" path="res://scripts/ui_scripts/almanac/repeater_button_almanac.gd" id="4_3f44h"]
 
 [node name="PeashooterSeedPicker" type="Button"]

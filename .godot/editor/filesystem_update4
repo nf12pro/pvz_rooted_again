@@ -25,3 +25,7 @@ res://scenes/plants/world_1_basic/plasma_wood.tscn
 res://scenes/plants/world_1_basic/plant_seeds/overlays/plasma_wood_overlay.tscn
 res://scripts/auto_load/global_variables.gd
 res://scenes/plants/world_1_basic/torchwood.tscn
+res://scenes/ui/every_seed_button_picker/repeater_seed_picker.tscn
+res://scenes/plants/world_1_basic/repeater.tscn
+res://scenes/plants/world_1_basic/plant_seeds/overlays/repeater_overlay.tscn
+res://scenes/plants/almanac/repeater_button_almanac.tscn
