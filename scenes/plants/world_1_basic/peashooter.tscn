@@ -115,11 +115,11 @@ shape = SubResource("SegmentShape2D_1k0x6")
 [node name="Node" type="Node" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-3.0000002, -9)
+position = Vector2(-3, -10.000001)
 scale = Vector2(0.65, 0.65)
 sprite_frames = SubResource("SpriteFrames_aoue1")
 autoplay = "default"
-frame_progress = 0.33927214
+frame_progress = 0.616399
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_tower_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_tower_body_exited"]

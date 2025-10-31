@@ -3,7 +3,7 @@ extends StaticBody2D
 #region Variables
 var bullet = preload("res://scenes/plants/projectiles/pea_projectile.tscn")
 var plant_hp = 300
-
+var is_peashooter = true
 # Shooting logic
 var targets = []               # List of zombies currently in range
 var shoot_cooldown = 1.0       # Seconds between shots

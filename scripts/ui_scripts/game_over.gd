@@ -7,7 +7,7 @@ func _ready() -> void:
 #endregion
 
 #region Game Over Scene
-func _unhandled_key_input(event: InputEvent) -> void:
+func _unhandled_key_input(_event: InputEvent) -> void:
 	if Global.game_over == true:
 		Global.sun_value = 50 
 		Global.score = 0

@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://di2o17ce6qaep"]
+[gd_scene load_steps=6 format=3 uid="uid://di2o17ce6qaep"]
 
 [ext_resource type="Script" uid="uid://dnwk0qr2ujbnv" path="res://scripts/ui_scripts/seed_picker.gd" id="1_pbwu7"]
 [ext_resource type="PackedScene" uid="uid://iw1tlnkjkt5q" path="res://scenes/ui/every_seed_button_picker/iceberg_lettuce_seed_picker.tscn" id="3_6df0u"]
 [ext_resource type="PackedScene" uid="uid://57beny3br4x5" path="res://scenes/ui/every_seed_button_picker/change_picker_2.tscn" id="3_fueye"]
 [ext_resource type="PackedScene" uid="uid://b3e6c8jw0txyl" path="res://scenes/ui/every_seed_button_picker/doomshroom_seed_picker.tscn" id="3_q5wxm"]
+[ext_resource type="PackedScene" uid="uid://celgu6e3k2t1u" path="res://scenes/ui/every_seed_button_picker/plasma_pea_seed_picker.tscn" id="4_q5wxm"]
 
 [node name="SeedPicker" type="Control"]
 layout_mode = 3
@@ -40,6 +41,9 @@ theme_override_constants/separation = 15
 layout_mode = 2
 
 [node name="CherryBombSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("3_q5wxm")]
+layout_mode = 2
+
+[node name="WallNutSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("4_q5wxm")]
 layout_mode = 2
 
 [node name="ChangePicker1" parent="." instance=ExtResource("3_fueye")]

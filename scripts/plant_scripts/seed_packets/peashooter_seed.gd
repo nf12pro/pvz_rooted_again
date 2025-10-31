@@ -77,8 +77,8 @@ func _unhandled_input(event):
 				return
 
 		is_selected = false
-		overlay_instance.queue_free()
-		print("You must plant on a grid square!")
+		if overlay_instance:
+			overlay_instance.queue_free()
 #endregion
 
 

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dubor7hp41mr4"]
+
+[ext_resource type="Texture2D" uid="uid://cr85mfnkb4u7d" path="res://assets/sprite/plant_sprites/plasma_peashooter_sprites/pixil-frame-0 (5) (1).png" id="1_6qe40"]
+[ext_resource type="Script" uid="uid://bwfct0pojb0lm" path="res://scripts/systems_scripts/overlays/peashooter_overlay.gd" id="2_iok54"]
+
+[node name="SunOverlay" type="Sprite2D"]
+modulate = Color(1, 1, 1, 0.6313726)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_6qe40")
+script = ExtResource("2_iok54")

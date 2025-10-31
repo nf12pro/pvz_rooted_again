@@ -1,7 +1,7 @@
 extends Node2D
 
 #region Basic Global Variables
-var sun_value: int = 50 #if you're reading this lemme give u a cool 7 hint: Mbabyl bwkhalz dpss ohcl zwspa bwnyhklz huk lhjo zwspa bwnyhkl dpss nv bw av 3
+var sun_value: int = 2000 #if you're reading this lemme give u a cool 7 hint: Mbabyl bwkhalz dpss ohcl zwspa bwnyhklz huk lhjo zwspa bwnyhkl dpss nv bw av 3
 var score: int = 0
 var game_over: bool = false
 var seed_selector: bool = false
@@ -21,6 +21,7 @@ var laser_bean_selected: bool = false
 var tall_nut_selected: bool = false
 var iceberg_lettuce_selected: bool = false
 var doomshroom_selected: bool = false
+var plasma_pea_selected: bool = false
 
 var twin_sunflower_unlocked: bool = false
 var gatling_gun_unlocked: bool = false
@@ -52,6 +53,7 @@ var slot_of_iceberg_lettuce: int = 0
 var slot_of_gatling_gun: int = 0
 var slot_of_doomshroom: int = 0
 var slot_of_cherry_bomb: int = 0
+var slot_of_plasma_pea: int = 0
 #endregion
 
 #region Level Data

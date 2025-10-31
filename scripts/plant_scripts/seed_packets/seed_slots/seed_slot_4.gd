@@ -14,7 +14,7 @@ var laserbean_scene = preload("res://scenes/plants/world_1_basic/plant_seeds/las
 var tallnut_scene = preload("res://scenes/plants/world_1_basic/plant_seeds/tallnut_seed.tscn")
 var iceberg_scene = preload("res://scenes/plants/world_1_basic/plant_seeds/iceberg_lettuce_seed.tscn")
 var doomshroom_scene = preload("res://scenes/plants/world_1_basic/plant_seeds/doomshroom_seed.tscn")
-
+var plasmapea_scene = preload("res://scenes/plants/world_1_basic/plant_seeds/plasma_pea_seed.tscn")
 #endregion
 
 #region Pick Seed / Spawn Timer
@@ -33,6 +33,7 @@ func _ready() -> void:
 	var tallnut_seed = tallnut_scene.instantiate()
 	var iceberg_lettuce_seed = iceberg_scene.instantiate()
 	var doomshroom_seed = doomshroom_scene.instantiate()
+	var plasma_pea_seed = plasmapea_scene.instantiate()
 	if Global.seed_4 == "Peashooter":
 		peashooter_seed.position = Vector2(560, 55)
 		get_tree().current_scene.call_deferred("add_child", peashooter_seed)
@@ -72,4 +73,7 @@ func _ready() -> void:
 	elif Global.seed_4 == "Doom Shroom":
 		doomshroom_seed.position = Vector2(560, 55)
 		get_tree().current_scene.call_deferred("add_child", doomshroom_seed)
+	elif Global.seed_4 == "Plasma Pea":
+		plasma_pea_seed.position = Vector2(560, 55)
+		get_tree().current_scene.call_deferred("add_child", plasma_pea_seed)
 #endregion
