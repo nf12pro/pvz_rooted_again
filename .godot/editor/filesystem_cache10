@@ -32,10 +32,12 @@ pixil-frame-0 (20).png::CompressedTexture2D::1320909855644688489::1759755574::17
 pixil-frame-0 (23).png::CompressedTexture2D::2993533233826076264::1761155873::1761842249::1::::<><><>0<>0<>f1e4a9c0b6706629c595e9b38344d80b<>res://.godot/imported/pixil-frame-0 (23).png-e95b34264c0113df81dd6bb7eb0af911.ctex::
 tile-set.png::CompressedTexture2D::4506450465745387920::1759089225::1761842249::1::::<><><>0<>0<>f454e75309c4f8ed0a60a91f7b23d2a4<>res://.godot/imported/tile-set.png-18bde456c79a09f8c51a262f6625ab33.ctex::
 ::res://assets/sprite/::1761326715
-::res://assets/sprite/plant_sprites/::1761852184
+::res://assets/sprite/plant_sprites/::1761896555
 pixil-frame-0 (22).png::CompressedTexture2D::7428715977274785676::1761151779::1761842249::1::::<><><>0<>0<>b9a45a1691f1120e5a22a033691f2ec5<>res://.godot/imported/pixil-frame-0 (22).png-b37c75e54b8a62349693a7bb02ef39ad.ctex::
 pixilart-sprite (1).png::CompressedTexture2D::6600086975495110197::1761326014::1761842249::1::::<><><>0<>0<>d99fedd32349ab16dfcd4da313455f89<>res://.godot/imported/pixilart-sprite (1).png-73b3a500a6581d4c3c02061a0c07c888.ctex::
-::res://assets/sprite/plant_sprites/peashooter_sprite/::1761852947
+::res://assets/sprite/plant_sprites/fire_pea_sprites/::1761896559
+pixilart-sprite (17).png::CompressedTexture2D::8139164944291607166::1761896559::1761896560::1::::<><><>0<>0<>3f60e096bc2bc637042f69974e356e48<>res://.godot/imported/pixilart-sprite (17).png-eed5c76c5fe49c269b22c4167da3783e.ctex::
+::res://assets/sprite/plant_sprites/peashooter_sprite/::1761852948
 pixil-frame-0 (3) (1).png::CompressedTexture2D::2801907858406655719::1761852947::1761852948::1::::<><><>0<>0<>64f831875e74d8fcab3189d139ee2b6c<>res://.godot/imported/pixil-frame-0 (3) (1).png-d63deb8d26ab0e0c1723423c1766002c.ctex::
 pixilart-sprite (2).png::CompressedTexture2D::6906578155764700269::1761852199::1761852199::1::::<><><>0<>0<>01c5bfd1472dcff495464b2aaf836ae6<>res://.godot/imported/pixilart-sprite (2).png-a6280af923389c1a3a26606abf88aec2.ctex::
 ::res://assets/sprite/plant_sprites/projectile_sprites/::1761842249
@@ -147,8 +149,8 @@ tallnut_seed.tscn::PackedScene::1357626691934309236::1761474372::0::1::::<><><>0
 torchwood_seed.tscn::PackedScene::25715887100261436::1761294403::0::1::::<><><>0<>0<><>::uid://bido25cyfq7ka::::res://scripts/plant_scripts/seed_packets/torchwood_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
 twin_sunflower_seed.tscn::PackedScene::1678924142805599478::1761237488::0::1::::<><><>0<>0<><>::uid://ls8js52d6pvi::::res://scripts/plant_scripts/seed_packets/twin_sunflower_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
 wallnut_seed.tscn::PackedScene::4186595991784845664::1761724166::0::1::::<><><>0<>0<><>::uid://el86fid7c2pv::::res://scripts/plant_scripts/seed_packets/wallnut_seed.gd<>uid://dxnnk7gmmf8p0::::res://assets/sprite/ui_sprites/pixil-frame-0 (1) (1).png
-::res://scenes/plants/world_1_basic/plant_seeds/overlays/::1761210704
-peashooter_overlay.tscn::PackedScene::4076195618786742150::1761154605::0::1::::<><><>0<>0<><>::uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
+::res://scenes/plants/world_1_basic/plant_seeds/overlays/::1761853684
+peashooter_overlay.tscn::PackedScene::4076195618786742150::1761853684::0::1::::<><><>0<>0<><>::uid://bf6japdqa0xd4::::res://assets/sprite/plant_sprites/peashooter_sprite/pixil-frame-0 (3) (1).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 repeater_overlay.tscn::PackedScene::403386117193750781::1761210049::0::1::::<><><>0<>0<><>::uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 sun_overlay.tscn::PackedScene::8167996778469253479::1761154813::0::1::::<><><>0<>0<><>::uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 wallnut_overlay.tscn::PackedScene::906291149806750161::1761210704::0::1::::<><><>0<>0<><>::uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd

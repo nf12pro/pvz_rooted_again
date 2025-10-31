@@ -19,7 +19,7 @@ script = ExtResource("1_n36mn")
 
 [node name="PixilFrame0(15)" type="Sprite2D" parent="."]
 position = Vector2(6.0282226, 2.4853072)
-scale = Vector2(0.4302822, 0.3951469)
+scale = Vector2(0.3, 0.276)
 texture = ExtResource("2_n36mn")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Pea_Projectile", "Projectile"]]

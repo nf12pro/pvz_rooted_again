@@ -1,2 +1,4 @@
 res://scenes/plants/world_1_basic/peashooter.tscn
 res://scenes/plants/world_1_basic/plant_seeds/overlays/peashooter_overlay.tscn
+res://scenes/plants/projectiles/fire_pea_projectile.tscn
+res://scenes/plants/projectiles/pea_projectile.tscn
