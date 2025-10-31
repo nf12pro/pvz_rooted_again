@@ -16,3 +16,12 @@ res://scenes/plants/world_1_basic/plant_seeds/laser_bean_seed.tscn
 res://scripts/plant_scripts/seed_packets/laser_bean_seed.gd
 res://scenes/plants/projectiles/plasma_projectile.tscn
 res://in_testing(notevenclose)/test_scene.tscn
+res://scenes/systems/sun_counter.tscn
+res://scenes/plants/almanac/plasma_wood_button_almanac.tscn
+res://scenes/ui/every_seed_button_picker/plasma_wood_seed_picker.tscn
+res://scenes/plants/world_1_basic/plant_seeds/plasma_wood_seed.tscn
+res://scripts/plant_scripts/seed_packets/plasma_wood_seed.gd
+res://scenes/plants/world_1_basic/plasma_wood.tscn
+res://scenes/plants/world_1_basic/plant_seeds/overlays/plasma_wood_overlay.tscn
+res://scripts/auto_load/global_variables.gd
+res://scenes/plants/world_1_basic/torchwood.tscn

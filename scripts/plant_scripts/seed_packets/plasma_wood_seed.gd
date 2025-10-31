@@ -2,7 +2,7 @@ extends Area2D
 
 #region Variables
 var plant_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plasma_wood.tscn")
-var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/peashooter_overlay.tscn")
+var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/plasma_wood_overlay.tscn")
 var overlay_instance: Node2D = null
 var cost: int = 100
 var is_selected: bool = false
