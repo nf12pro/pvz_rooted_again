@@ -32,11 +32,14 @@ pixil-frame-0 (20).png::CompressedTexture2D::1320909855644688489::1759755574::17
 pixil-frame-0 (23).png::CompressedTexture2D::2993533233826076264::1761155873::1761842249::1::::<><><>0<>0<>f1e4a9c0b6706629c595e9b38344d80b<>res://.godot/imported/pixil-frame-0 (23).png-e95b34264c0113df81dd6bb7eb0af911.ctex::
 tile-set.png::CompressedTexture2D::4506450465745387920::1759089225::1761842249::1::::<><><>0<>0<>f454e75309c4f8ed0a60a91f7b23d2a4<>res://.godot/imported/tile-set.png-18bde456c79a09f8c51a262f6625ab33.ctex::
 ::res://assets/sprite/::1761326715
-::res://assets/sprite/plant_sprites/::1761896555
+::res://assets/sprite/plant_sprites/::1761898472
 pixil-frame-0 (22).png::CompressedTexture2D::7428715977274785676::1761151779::1761842249::1::::<><><>0<>0<>b9a45a1691f1120e5a22a033691f2ec5<>res://.godot/imported/pixil-frame-0 (22).png-b37c75e54b8a62349693a7bb02ef39ad.ctex::
 pixilart-sprite (1).png::CompressedTexture2D::6600086975495110197::1761326014::1761842249::1::::<><><>0<>0<>d99fedd32349ab16dfcd4da313455f89<>res://.godot/imported/pixilart-sprite (1).png-73b3a500a6581d4c3c02061a0c07c888.ctex::
-::res://assets/sprite/plant_sprites/fire_pea_sprites/::1761896559
+::res://assets/sprite/plant_sprites/fire_pea_sprites/::1761896560
 pixilart-sprite (17).png::CompressedTexture2D::8139164944291607166::1761896559::1761896560::1::::<><><>0<>0<>3f60e096bc2bc637042f69974e356e48<>res://.godot/imported/pixilart-sprite (17).png-eed5c76c5fe49c269b22c4167da3783e.ctex::
+::res://assets/sprite/plant_sprites/iceberg_bomb_sprites/::1761898495
+pixil-frame-0 (8) (1).png::CompressedTexture2D::2735820902858138142::1761898495::1761898495::1::::<><><>0<>0<>5c0c9dac11b791bf18081b3e92027ce8<>res://.godot/imported/pixil-frame-0 (8) (1).png-33ebdfde2d7441667153e7fad1eeb1fd.ctex::
+pixilart-sprite (10).png::CompressedTexture2D::1920238631980249973::1761898476::1761898476::1::::<><><>0<>0<>ebf09aaf8a12d06abd487f5db3161a12<>res://.godot/imported/pixilart-sprite (10).png-be6248ddd9e252d7a5896b7e3392de49.ctex::
 ::res://assets/sprite/plant_sprites/peashooter_sprite/::1761852948
 pixil-frame-0 (3) (1).png::CompressedTexture2D::2801907858406655719::1761852947::1761852948::1::::<><><>0<>0<>64f831875e74d8fcab3189d139ee2b6c<>res://.godot/imported/pixil-frame-0 (3) (1).png-d63deb8d26ab0e0c1723423c1766002c.ctex::
 pixilart-sprite (2).png::CompressedTexture2D::6906578155764700269::1761852199::1761852199::1::::<><><>0<>0<>01c5bfd1472dcff495464b2aaf836ae6<>res://.godot/imported/pixilart-sprite (2).png-a6280af923389c1a3a26606abf88aec2.ctex::
@@ -111,10 +114,10 @@ almanac_twin_sunflower.tscn::PackedScene::5634863148373457092::1761743028::0::1:
 almanac_wallnut.tscn::PackedScene::7131539130590063594::1761724017::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 ::res://scenes/plants/picked_seeds/::1761320168
 peashooter_seed_picker.tscn::PackedScene::1325782588918731435::1761320168::0::1::::<><><>0<>0<><>::uid://bhuw8x2rv1c18::::res://scripts/plant_scripts/seed_packets/picked_seeds/peashooter_seed_picker.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
-::res://scenes/plants/projectiles/::1761831822
-fire_pea_projectile.tscn::PackedScene::3858847784926777184::1761831538::0::1::::<><><>0<>0<><>::uid://clsbevkam50ll::::res://scripts/plant_scripts/projectiles_scripts/fire_pea_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
+::res://scenes/plants/projectiles/::1761896893
+fire_pea_projectile.tscn::PackedScene::3858847784926777184::1761896690::0::1::::<><><>0<>0<><>::uid://clsbevkam50ll::::res://scripts/plant_scripts/projectiles_scripts/fire_pea_projectile.gd<>uid://dn7w4fiu458na::::res://assets/sprite/plant_sprites/fire_pea_sprites/pixilart-sprite (17).png
 laser_projectile.tscn::PackedScene::1033815016420266980::1761466952::0::1::::<><><>0<>0<><>::uid://buwkafuuxmi7s::::res://scripts/plant_scripts/projectiles_scripts/laser_projectile.gd
-pea_projectile.tscn::PackedScene::5643126151246703992::1761548662::0::1::::<><><>0<>0<><>::uid://l42ksk33n5j4::::res://scripts/plant_scripts/projectiles_scripts/pea_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
+pea_projectile.tscn::PackedScene::5643126151246703992::1761896893::0::1::::<><><>0<>0<><>::uid://l42ksk33n5j4::::res://scripts/plant_scripts/projectiles_scripts/pea_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
 plasma_burnt_projectile.tscn::PackedScene::6010508502856587707::1761831822::0::1::::<><><>0<>0<><>::uid://386buysqxnne::::res://scripts/plant_scripts/projectiles_scripts/plasma_burnt_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
 plasma_projectile.tscn::PackedScene::4626664824593550224::1761831292::0::1::::<><><>0<>0<><>::uid://c2kb3igj67wth::::res://scripts/plant_scripts/projectiles_scripts/plasma_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
 sun_projectile.tscn::PackedScene::4095628269918449737::1759676668::0::1::::<><><>0<>0<><>::uid://ck3bolt1db6i8::::res://scripts/plant_scripts/projectiles_scripts/sun_projectile.gd<>uid://brs3rpqghf4wx::::res://assets/prototype_assets/pixil-frame-0 (18).png

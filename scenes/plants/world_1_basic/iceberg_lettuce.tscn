@@ -1,20 +1,92 @@
-[gd_scene load_steps=3 format=3 uid="uid://bmfy7dgv7b5t7"]
+[gd_scene load_steps=15 format=3 uid="uid://bmfy7dgv7b5t7"]
 
 [ext_resource type="Script" uid="uid://dhs063if14l1w" path="res://scripts/plant_scripts/iceberg_lettuce.gd" id="1_a13jg"]
+[ext_resource type="Texture2D" uid="uid://2mgbxqen3n5v" path="res://assets/sprite/plant_sprites/iceberg_bomb_sprites/pixilart-sprite (10).png" id="2_dfc3f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8siae"]
 size = Vector2(64, 53)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_hvn0v"]
+atlas = ExtResource("2_dfc3f")
+region = Rect2(0, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nkx4x"]
+atlas = ExtResource("2_dfc3f")
+region = Rect2(150, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8wcr5"]
+atlas = ExtResource("2_dfc3f")
+region = Rect2(300, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_csnps"]
+atlas = ExtResource("2_dfc3f")
+region = Rect2(450, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xeha"]
+atlas = ExtResource("2_dfc3f")
+region = Rect2(600, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qbb24"]
+atlas = ExtResource("2_dfc3f")
+region = Rect2(750, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_506sn"]
+atlas = ExtResource("2_dfc3f")
+region = Rect2(900, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ewjis"]
+atlas = ExtResource("2_dfc3f")
+region = Rect2(1050, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ncb8"]
+atlas = ExtResource("2_dfc3f")
+region = Rect2(1200, 0, 150, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ssrea"]
+atlas = ExtResource("2_dfc3f")
+region = Rect2(1350, 0, 150, 200)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ov2so"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hvn0v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nkx4x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8wcr5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_csnps")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4xeha")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qbb24")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_506sn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ewjis")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ncb8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ssrea")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
 [node name="IcebergLettuce" type="Area2D"]
 top_level = true
 script = ExtResource("1_a13jg")
-
-[node name="ColorRect" type="ColorRect" parent="."]
-offset_left = -31.0
-offset_top = -26.0
-offset_right = 29.0
-offset_bottom = 22.0
-color = Color(4.931753e-06, 1.2857943, 1.0938221, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 top_level = true
@@ -23,5 +95,12 @@ shape = SubResource("RectangleShape2D_8siae")
 
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(-2, 2)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -6)
+scale = Vector2(0.85, 0.85)
+sprite_frames = SubResource("SpriteFrames_ov2so")
+autoplay = "default"
+frame_progress = 0.6747476
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

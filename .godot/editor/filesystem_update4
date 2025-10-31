@@ -2,3 +2,9 @@ res://scenes/plants/world_1_basic/peashooter.tscn
 res://scenes/plants/world_1_basic/plant_seeds/overlays/peashooter_overlay.tscn
 res://scenes/plants/projectiles/fire_pea_projectile.tscn
 res://scenes/plants/projectiles/pea_projectile.tscn
+res://scenes/plants/world_1_basic/iceberg_lettuce.tscn
+res://scenes/plants/world_1_basic/plant_seeds/overlays/iceberg_bomb_overlay.tscn
+res://scenes/plants/world_1_basic/plant_seeds/iceberg_lettuce_seed.tscn
+res://scripts/plant_scripts/iceberg_lettuce_seed.gd
+res://scenes/ui/every_seed_button_picker/iceberg_lettuce_seed_picker.tscn
+res://scenes/plants/almanac/iceberg_lettuce_button_almanac.tscn
