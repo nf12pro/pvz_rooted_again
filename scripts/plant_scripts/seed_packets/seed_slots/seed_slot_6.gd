@@ -18,7 +18,6 @@ var plasmapea_scene = preload("res://scenes/plants/world_1_basic/plant_seeds/pla
 #endregion
 
 #region Pick Seed / Spawn Timer
-
 func _ready() -> void:
 	var peashooter_seed = peashooter_scene.instantiate()
 	var sunflower_seed = sunflower_scene.instantiate() 
