@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dn7w4fiu458na"
-path="res://.godot/imported/pixilart-sprite (17).png-eed5c76c5fe49c269b22c4167da3783e.ctex"
+uid="uid://c44oxmkq88d78"
+path="res://.godot/imported/pixilart-sprite (15).png-36cbd3250cf398c53274995d821444bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/fire_pea_sprites/pixilart-sprite (17).png"
-dest_files=["res://.godot/imported/pixilart-sprite (17).png-eed5c76c5fe49c269b22c4167da3783e.ctex"]
+source_file="res://assets/sprite/plant_sprites/projectile_sprites/pixilart-sprite (15).png"
+dest_files=["res://.godot/imported/pixilart-sprite (15).png-36cbd3250cf398c53274995d821444bf.ctex"]
 
 [params]
 

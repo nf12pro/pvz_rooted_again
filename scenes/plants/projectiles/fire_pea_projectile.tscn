@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://bu8iwocq3dc85"]
 
 [ext_resource type="Script" uid="uid://clsbevkam50ll" path="res://scripts/plant_scripts/projectiles_scripts/fire_pea_projectile.gd" id="1_fhxqc"]
-[ext_resource type="Texture2D" uid="uid://dn7w4fiu458na" path="res://assets/sprite/plant_sprites/fire_pea_sprites/pixilart-sprite (17).png" id="2_fhxqc"]
+[ext_resource type="Texture2D" uid="uid://dn7w4fiu458na" path="res://assets/sprite/plant_sprites/projectile_sprites/pixilart-sprite (17).png" id="2_fhxqc"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7xwni"]
 radius = 32.0
@@ -76,6 +76,6 @@ position = Vector2(4, 0)
 scale = Vector2(0.3, 0.3)
 sprite_frames = SubResource("SpriteFrames_plkkj")
 autoplay = "default"
-frame_progress = 0.0903269
+frame_progress = 0.85662067
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_body_entered"]

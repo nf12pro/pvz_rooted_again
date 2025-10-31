@@ -1,7 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://b66gq1yi5nsd1"]
+[gd_scene load_steps=11 format=3 uid="uid://b66gq1yi5nsd1"]
 
 [ext_resource type="Script" uid="uid://c2kb3igj67wth" path="res://scripts/plant_scripts/projectiles_scripts/plasma_projectile.gd" id="1_18oly"]
-[ext_resource type="Texture2D" uid="uid://c805jgfcxvx33" path="res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png" id="2_egbmw"]
+[ext_resource type="Texture2D" uid="uid://c44oxmkq88d78" path="res://assets/sprite/plant_sprites/projectile_sprites/pixilart-sprite (15).png" id="2_18oly"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7xwni"]
 radius = 32.0
@@ -11,16 +11,53 @@ height = 70.0
 radius = 39.0
 height = 80.0
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_egbmw"]
+atlas = ExtResource("2_18oly")
+region = Rect2(0, 0, 400, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ih351"]
+atlas = ExtResource("2_18oly")
+region = Rect2(400, 0, 400, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3tc5f"]
+atlas = ExtResource("2_18oly")
+region = Rect2(800, 0, 400, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bb8j7"]
+atlas = ExtResource("2_18oly")
+region = Rect2(1200, 0, 400, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2f4rf"]
+atlas = ExtResource("2_18oly")
+region = Rect2(1600, 0, 400, 200)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_iqewy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_egbmw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ih351")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3tc5f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bb8j7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2f4rf")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
 [node name="FirePeaProjectile" type="CharacterBody2D" groups=["Plasma_Basic_Projectile", "Projectile"]]
 collision_layer = 4
 safe_margin = 0.001
 script = ExtResource("1_18oly")
-
-[node name="PixilFrame0(15)" type="Sprite2D" parent="."]
-modulate = Color(0.1764706, 0, 0.1764706, 1)
-position = Vector2(6.0282226, 2.4853072)
-scale = Vector2(0.4302822, 0.3951469)
-texture = ExtResource("2_egbmw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Plasma_Basic_Projectile", "Projectile"]]
 position = Vector2(7, 2)
@@ -33,5 +70,11 @@ shape = SubResource("CapsuleShape2D_7xwni")
 position = Vector2(7, 3)
 rotation = 1.5731245
 shape = SubResource("CapsuleShape2D_2k2sg")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(3, 0)
+scale = Vector2(0.3, 0.3)
+sprite_frames = SubResource("SpriteFrames_iqewy")
+autoplay = "default"
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_body_entered"]
