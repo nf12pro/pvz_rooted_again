@@ -62,3 +62,5 @@ res://scripts/zombies_scripts/bucket_head_zombie.gd
 res://scripts/zombies_scripts/conehead_zombie.gd
 res://scripts/plant_scripts/projectiles_scripts/ice_projectile.gd
 res://scenes/plants/almanac/almanac_descriptions/almanac_plasma_pea.tscn
+res://scenes/plants/world_1_basic/ice_peashooter.tscn
+res://scripts/plant_scripts/ice_peashooter.gd

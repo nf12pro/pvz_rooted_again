@@ -74,6 +74,7 @@ func take_freeze(ice_time: float):
 	speed = original_speed
 
 func slow_down(slow_time: float, slow_amount: float):
-	speed =- slow_amount
-	await get_tree().create_timer(slow_time).timeout
-	speed = original_speed
+	if speed == original_speed:
+		speed -= slow_amount
+		await get_tree().create_timer(slow_time).timeout
+		speed = original_speed
