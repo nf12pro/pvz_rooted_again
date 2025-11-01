@@ -1,8 +1,10 @@
 extends StaticBody2D
 
 #region Variables
-var bullet = preload("res://scenes/plants/projectiles/frost_pea_projectile.tscn")
+var bullet = preload("res://scenes/plants/projectiles/ice_pea_projectile.tscn")
+var frost_bullet = preload("res://scenes/plants/projectiles/frost_pea_projectile.tscn")
 var plant_hp = 300
+var shot_count = 0
 # Shooting logic
 var targets = []               # List of zombies currently in range
 var shoot_cooldown = 1.0       # Seconds between shots
@@ -34,9 +36,16 @@ func _process(delta):
 func shoot_at_first_target():
 	var target = targets[0]
 	if is_instance_valid(target):
-		var pea = bullet.instantiate()
-		pea.position = global_position
-		get_parent().add_child(pea)
+		if shot_count < 2:
+			var pea = bullet.instantiate()
+			pea.position = global_position
+			get_parent().add_child(pea)
+			shot_count += 1 
+		elif shot_count == 2:
+			var frost_pea = frost_bullet.instantiate()
+			frost_pea.position = global_position
+			get_parent().add_child(frost_pea)
+			shot_count = 0
 	else:
 		targets.remove(0)  # Remove dead or invalid target
 #endregion
