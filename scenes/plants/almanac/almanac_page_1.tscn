@@ -1,8 +1,7 @@
-[gd_scene load_steps=16 format=3 uid="uid://bcnr4hhv5dx6p"]
+[gd_scene load_steps=15 format=3 uid="uid://bcnr4hhv5dx6p"]
 
 [ext_resource type="Script" uid="uid://dtx6u668rmucf" path="res://scripts/ui_scripts/almanac/almanac_page_1.gd" id="1_dq4nw"]
 [ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="2_ikf75"]
-[ext_resource type="PackedScene" uid="uid://bl2jckvxh2jvd" path="res://scenes/plants/almanac/peashooter_button_almanac.tscn" id="3_3el0u"]
 [ext_resource type="PackedScene" uid="uid://dtskovvwlviio" path="res://scenes/plants/almanac/sunflower_button_almanac.tscn" id="3_byscb"]
 [ext_resource type="Script" uid="uid://bavgpg33nwslq" path="res://scripts/ui_scripts/almanac/change_almanac_1.gd" id="4_3el0u"]
 [ext_resource type="PackedScene" uid="uid://vbs8ek8wqf76" path="res://scenes/plants/almanac/wallnut_button_almanac.tscn" id="4_mt5ta"]
@@ -55,9 +54,6 @@ layout_mode = 2
 clip_contents = true
 layout_mode = 2
 theme_override_constants/separation = 15
-
-[node name="PeashooterSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("3_3el0u")]
-layout_mode = 2
 
 [node name="PeashooterSeedPicker2" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("3_byscb")]
 layout_mode = 2

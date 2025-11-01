@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1761913143
+::res://::1762013545
 export_presets.cfg::TextFile::-1::1761840898::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::1385716001083434227::1759085610::1761842249::1::::<><><>0<>0<>75db0460f52da5b5df9a14ddb92a937e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 index.apple-touch-icon.png::CompressedTexture2D::3279556904775756626::1761596322::1761842249::1::::<><><>0<>0<>2003ba376ab1a159b32b2fafee3e3539<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
@@ -40,7 +40,7 @@ pixilart-sprite (1).png::CompressedTexture2D::6600086975495110197::1761326014::1
 ::res://assets/sprite/plant_sprites/iceberg_bomb_sprites/::1761898495
 pixil-frame-0 (8) (1).png::CompressedTexture2D::2735820902858138142::1761898495::1761898495::1::::<><><>0<>0<>5c0c9dac11b791bf18081b3e92027ce8<>res://.godot/imported/pixil-frame-0 (8) (1).png-33ebdfde2d7441667153e7fad1eeb1fd.ctex::
 pixilart-sprite (10).png::CompressedTexture2D::1920238631980249973::1761898476::1761898476::1::::<><><>0<>0<>ebf09aaf8a12d06abd487f5db3161a12<>res://.godot/imported/pixilart-sprite (10).png-be6248ddd9e252d7a5896b7e3392de49.ctex::
-::res://assets/sprite/plant_sprites/ice_peashooter_sprite/::1761918566
+::res://assets/sprite/plant_sprites/ice_peashooter_sprite/::1761918567
 pixil-frame-0 (7) (1).png::CompressedTexture2D::1506549665302718631::1761918566::1761918567::1::::<><><>0<>0<>a12f74bfaefc91ba371ebe035bbd510d<>res://.godot/imported/pixil-frame-0 (7) (1).png-ba62d82bb8515c22cb70165a1716d182.ctex::
 pixilart-sprite (8).png::CompressedTexture2D::7602850330486902311::1761918562::1761918562::1::::<><><>0<>0<>8be83a5c58c14753b5f79eeb2ad46e3a<>res://.godot/imported/pixilart-sprite (8).png-5cd1f02bf811f0fb0b8950da4f012d83.ctex::
 ::res://assets/sprite/plant_sprites/laser_bean_sprites/::1761900161
@@ -107,9 +107,9 @@ gatling_pea_button_almanac.tscn::PackedScene::4685015962250419832::1761725750::0
 iceberg_lettuce_button_almanac.tscn::PackedScene::1810538730855572935::1761899776::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://blpl3kjepry8c::::res://scripts/ui_scripts/almanac/iceberg_lettuce_button_almanac.gd<>uid://be8itntmb54kw::::res://assets/sprite/plant_sprites/iceberg_bomb_sprites/pixil-frame-0 (8) (1).png
 laser_bean_button_almanac.tscn::PackedScene::8046122249413625793::1761900257::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dxsxwhxr22sgy::::res://assets/sprite/plant_sprites/laser_bean_sprites/pixil-frame-0 (4) (1).png<>uid://cg1i35gchej5u::::res://scripts/ui_scripts/almanac/laser_bean_button_almanac.gd
 peashooter_button_almanac.tscn::PackedScene::3214786746323614809::1761912126::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://bf6japdqa0xd4::::res://assets/sprite/plant_sprites/peashooter_sprite/pixil-frame-0 (3) (1).png<>uid://bcvhyc8bd3rwx::::res://scripts/plant_scripts/almanac/peashooter_button_almanac.gd
+plasma_pea_button_almanac.tscn::PackedScene::7881296293537689188::1761916473::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://cr85mfnkb4u7d::::res://assets/sprite/plant_sprites/plasma_peashooter_sprites/pixil-frame-0 (5) (1).png<>uid://owyfkdlfabe2::::res://scripts/ui_scripts/almanac/doom_shroom_button_almanac.gd
 plasma_wood_button_almanac.tscn::PackedScene::4945027360063065961::1761902304::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://csw1b6it643ly::::res://scripts/ui_scripts/almanac/plasma_wood_button_almanac.gd<>uid://cixfktlwwkci5::::res://assets/sprite/plant_sprites/plasma_wood_sprites/pixil-frame-0 (10) (1).png
 repeater_button_almanac.tscn::PackedScene::9209897532017274015::1761903568::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dplmhul78ee2d::::res://assets/sprite/plant_sprites/repeater_sprites/pixil-frame-1 (1).png<>uid://dop6suxp4kcpd::::res://scripts/ui_scripts/almanac/repeater_button_almanac.gd
-plasma_pea_button_almanac.tscn::PackedScene::7881296293537689188::1761916473::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://cr85mfnkb4u7d::::res://assets/sprite/plant_sprites/plasma_peashooter_sprites/pixil-frame-0 (5) (1).png<>uid://owyfkdlfabe2::::res://scripts/ui_scripts/almanac/doom_shroom_button_almanac.gd
 return_scene.tscn::PackedScene::1518052922067614228::1761840318::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://qfl5rmpo22n0::::res://scripts/ui_scripts/almanac/return_scene.gd
 sunflower_button_almanac.tscn::PackedScene::8530642187263687318::1761651451::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png<>uid://ccahbht16dsdr::::res://scripts/ui_scripts/almanac/sunflower_button_almanac.gd
 tallnut_button_almanac.tscn::PackedScene::3812983524698059320::1761830813::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://cavdoxthqp5s8::::res://scripts/ui_scripts/almanac/tallnut_button_almanac.gd
@@ -123,6 +123,7 @@ almanac_gatling_pea.tscn::PackedScene::5833511357153033749::1761725753::0::1::::
 almanac_iceberg_lettuce.tscn::PackedScene::2513870757479706798::1761840083::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 almanac_laser_bean.tscn::PackedScene::7772660086199397169::1761830307::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 almanac_peashooter.tscn::PackedScene::8780563095054149702::1761645826::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
+almanac_plasma_pea.tscn::PackedScene::6764073388764120364::1761917506::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 almanac_plasma_wood.tscn::PackedScene::7461759662968558174::1761816656::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 almanac_repeater.tscn::PackedScene::6273161936442202283::1761725259::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 almanac_sunflower.tscn::PackedScene::1510144545387439582::1761650357::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
@@ -130,30 +131,29 @@ almanac_tallnut.tscn::PackedScene::6968040991457797410::1761830730::0::1::::<><>
 almanac_torchwood.tscn::PackedScene::7415795391019241269::1761816114::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 almanac_twin_sunflower.tscn::PackedScene::5634863148373457092::1761743028::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 almanac_wallnut.tscn::PackedScene::7131539130590063594::1761724017::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
-almanac_plasma_pea.tscn::PackedScene::6764073388764120364::1761917506::0::1::::<><><>0<>0<><>::uid://dol1ij0fjrwhi::::res://scripts/ui_scripts/almanac/almanac_peashooter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 ::res://scenes/plants/picked_seeds/::1761320168
 peashooter_seed_picker.tscn::PackedScene::1325782588918731435::1761320168::0::1::::<><><>0<>0<><>::uid://bhuw8x2rv1c18::::res://scripts/plant_scripts/seed_packets/picked_seeds/peashooter_seed_picker.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
 ::res://scenes/plants/projectiles/::1761918359
 fire_pea_projectile.tscn::PackedScene::3858847784926777184::1761901378::0::1::::<><><>0<>0<><>::uid://clsbevkam50ll::::res://scripts/plant_scripts/projectiles_scripts/fire_pea_projectile.gd<>uid://dn7w4fiu458na::::res://assets/sprite/plant_sprites/projectile_sprites/pixilart-sprite (17).png
+ice_pea_projectile.tscn::PackedScene::8527126326689862356::1761918359::0::1::::<><><>0<>0<><>::uid://dkt04da4qyf7d::::res://scripts/plant_scripts/projectiles_scripts/ice_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
 laser_projectile.tscn::PackedScene::1033815016420266980::1761466952::0::1::::<><><>0<>0<><>::uid://buwkafuuxmi7s::::res://scripts/plant_scripts/projectiles_scripts/laser_projectile.gd
 pea_projectile.tscn::PackedScene::5643126151246703992::1761896893::0::1::::<><><>0<>0<><>::uid://l42ksk33n5j4::::res://scripts/plant_scripts/projectiles_scripts/pea_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
 plasma_burnt_projectile.tscn::PackedScene::6010508502856587707::1761831822::0::1::::<><><>0<>0<><>::uid://386buysqxnne::::res://scripts/plant_scripts/projectiles_scripts/plasma_burnt_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
 plasma_projectile.tscn::PackedScene::4626664824593550224::1761901698::0::1::::<><><>0<>0<><>::uid://c2kb3igj67wth::::res://scripts/plant_scripts/projectiles_scripts/plasma_projectile.gd<>uid://c44oxmkq88d78::::res://assets/sprite/plant_sprites/projectile_sprites/pixilart-sprite (15).png
-ice_pea_projectile.tscn::PackedScene::8527126326689862356::1761918359::0::1::::<><><>0<>0<><>::uid://dkt04da4qyf7d::::res://scripts/plant_scripts/projectiles_scripts/ice_projectile.gd<>uid://c805jgfcxvx33::::res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png
 sun_projectile.tscn::PackedScene::4095628269918449737::1759676668::0::1::::<><><>0<>0<><>::uid://ck3bolt1db6i8::::res://scripts/plant_scripts/projectiles_scripts/sun_projectile.gd<>uid://brs3rpqghf4wx::::res://assets/prototype_assets/pixil-frame-0 (18).png
 sun_spawned.tscn::PackedScene::5911683860543605389::1761212010::0::1::::<><><>0<>0<><>::uid://cedmt47mhvqya::::res://scripts/plant_scripts/projectiles_scripts/sun_spawned_projectile.gd<>uid://brs3rpqghf4wx::::res://assets/prototype_assets/pixil-frame-0 (18).png
-::res://scenes/plants/world_1_basic/::1761918045
+::res://scenes/plants/world_1_basic/::1761918684
 cherrybomb.tscn::PackedScene::73787418802628005::1761549265::0::1::::<><><>0<>0<><>::uid://djhcindt68oyp::::res://scripts/plant_scripts/cherry_bomb.gd
 doom_shroom.tscn::PackedScene::7557681803058316973::1761653710::0::1::::<><><>0<>0<><>::uid://biq0bqs18dims::::res://scripts/plant_scripts/doom_shroom.gd
 gatling_gun.tscn::PackedScene::5538274428872290886::1761239102::0::1::::<><><>0<>0<><>::uid://bg3q8sgbkyvxb::::res://scripts/plant_scripts/gatling_gun.gd<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png
 iceberg_lettuce.tscn::PackedScene::3240523217186998598::1761898645::0::1::::<><><>0<>0<><>::uid://dhs063if14l1w::::res://scripts/plant_scripts/iceberg_lettuce.gd<>uid://2mgbxqen3n5v::::res://assets/sprite/plant_sprites/iceberg_bomb_sprites/pixilart-sprite (10).png
+ice_peashooter.tscn::PackedScene::1510588373554292179::1761918684::0::1::::<><><>0<>0<><>::uid://dyxmv4jpd4v3s::::res://scripts/plant_scripts/ice_peashooter.gd<>uid://dgk43mjsnpbkh::::res://assets/sprite/plant_sprites/ice_peashooter_sprite/pixilart-sprite (8).png
 laser_bean.tscn::PackedScene::6493646558993022020::1761900257::0::1::::<><><>0<>0<><>::uid://bw3dq6rxg0fcw::::res://scripts/plant_scripts/laser_bean.gd<>uid://dyd3la51olatd::::res://assets/sprite/plant_sprites/laser_bean_sprites/pixilart-sprite (3).png
 peashooter.tscn::PackedScene::2959169695481286807::1761911498::0::1::::<><><>0<>0<><>::uid://ek8a4y2w0cu6::::res://scripts/plant_scripts/peashooter.gd<>uid://c5nulleubi72h::::res://assets/sprite/plant_sprites/peashooter_sprite/pixilart-sprite (2).png
 plasma_peashooter.tscn::PackedScene::7342051089885219368::1761910543::0::1::::<><><>0<>0<><>::uid://dryt2haiqlvqn::::res://scripts/plant_scripts/plasma_peashooter.gd<>uid://d20aewsgk7mv2::::res://assets/sprite/plant_sprites/plasma_peashooter_sprites/pixilart-sprite (4).png
 plasma_wood.tscn::PackedScene::6373522500790058793::1761902729::0::1::::<><><>0<>0<><>::uid://bnuo2own0mcqs::::res://scripts/plant_scripts/plasma_wood.gd<>uid://dh4ivlc0yr4u0::::res://assets/sprite/plant_sprites/plasma_wood_sprites/pixilart-sprite (12).png
 potato_mine.tscn::PackedScene::8173967544239427273::1759150224::0::1::::<><><>0<>0<><>::
 repeater.tscn::PackedScene::3131204685700733894::1761903422::0::1::::<><><>0<>0<><>::uid://cakdhsd8jbtea::::res://scripts/plant_scripts/repeater.gd<>uid://by7ej7bjbvwx4::::res://assets/sprite/plant_sprites/repeater_sprites/pixilart-sprite (7).png
-ice_peashooter.tscn::PackedScene::1510588373554292179::1761918045::0::1::::<><><>0<>0<><>::uid://dyxmv4jpd4v3s::::res://scripts/plant_scripts/ice_peashooter.gd<>uid://c5nulleubi72h::::res://assets/sprite/plant_sprites/peashooter_sprite/pixilart-sprite (2).png
 sunflower.tscn::PackedScene::1892721709735958138::1761307313::0::1::::<><><>0<>0<><>::uid://ckb03i30le2fk::::res://scripts/plant_scripts/sunflower.gd<>uid://bdd5wwkj1fc0d::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-0.png<>uid://ddstsdf8ornr8::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-1.png<>uid://b0x1okn5leoxb::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-2.png<>uid://bv1gdfxq1rvxx::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-3.png<>uid://cimtwr3tt7r16::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-4.png<>uid://425m8dio4e1p::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-5.png<>uid://cm0n7ln2qx2rf::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-6.png<>uid://pf1cyc1p6fpx::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-7.png<>uid://nkbokqaxj0n6::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-8.png<>uid://dv1f6rex56jqj::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-9.png<>uid://doh2eq3dw0gec::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-10.png<>uid://cbnhqhtuwkbm6::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-11.png<>uid://b70wro0wb2rl5::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-12.png<>uid://cc3e0iidrs4m2::::res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-13.png
 tallnut.tscn::PackedScene::2748972586426344240::1761474160::0::1::::<><><>0<>0<><>::uid://b7sc7nof8bwln::::res://scripts/plant_scripts/tallnut.gd<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png
 torchwood.tscn::PackedScene::4795422348325208211::1761902648::0::1::::<><><>0<>0<><>::uid://bosavaxbaoh5x::::res://scripts/plant_scripts/torchwood_interaction.gd<>uid://c1bep6igxssuf::::res://assets/sprite/plant_sprites/pixilart-sprite (1).png
@@ -205,11 +205,11 @@ speed_up_button.tscn::PackedScene::4387604147308923073::1761651886::0::1::::<><>
 sun_counter.tscn::PackedScene::3457904682821977075::1761901836::0::1::::<><><>0<>0<><>::uid://d2m7d2xv1cx04::::res://scripts/systems_scripts/sun_counter.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 sun_spawner.tscn::PackedScene::7200993007669182813::1761211720::0::1::::<><><>0<>0<><>::uid://bbxohcv6ibtro::::res://scripts/systems_scripts/sun_spawner.gd
 zombie_spawner.tscn::PackedScene::3500586633185930552::1761477654::0::1::::<><><>0<>0<><>::uid://bcj6nmjmh8pej::::res://scripts/systems_scripts/zombie_spawner.gd
-::res://scenes/ui/::1761914019
+::res://scenes/ui/::1761919187
 game_over.tscn::PackedScene::3074048316778320754::1761223840::0::1::::<><><>0<>0<><>::uid://v04s8iblucxu::::res://scripts/ui_scripts/game_over.gd
 game_won.tscn::PackedScene::3712917960076526646::1761594630::0::1::::<><><>0<>0<><>::uid://v04s8iblucxu::::res://scripts/ui_scripts/game_over.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 seed_picker.tscn::PackedScene::5229958468415051419::1761840656::0::1::::<><><>0<>0<><>::uid://dnwk0qr2ujbnv::::res://scripts/ui_scripts/seed_picker.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bvv2ocui1u6mq::::res://scenes/ui/every_seed_button_picker/peashooter_seed_picker.tscn<>uid://bxtcf6uxt2n3h::::res://scenes/ui/every_seed_button_picker/sunflower_seed_picker.tscn<>uid://5clvviujxl1q::::res://scenes/ui/every_seed_button_picker/wall_nut_seed_picker.tscn<>uid://bwxxnptjx5lqj::::res://scenes/ui/every_seed_button_picker/repeater_seed_picker.tscn<>uid://4xg6fqv5pdvp::::res://scenes/ui/every_seed_button_picker/gatling_gun_seed_picker.tscn<>uid://drs170fvvp18u::::res://scenes/ui/every_seed_button_picker/twin_sunflower_seed_picker.tscn<>uid://lmnnn2o7hpfo::::res://scenes/ui/every_seed_button_picker/torchwood_seed_picker.tscn<>uid://dlp7atjf353bb::::res://scenes/ui/every_seed_button_picker/plasma_wood_seed_picker.tscn<>uid://cnukg0kce5e3o::::res://scenes/ui/every_seed_button_picker/cherrybomb_seed_picker.tscn<>uid://dcclixo33s3kw::::res://scenes/ui/every_seed_button_picker/laser_bean_seed_picker.tscn<>uid://b0nb14wik8cgr::::res://scenes/ui/every_seed_button_picker/tallnut_seed_picker.tscn<>uid://bfculyrbmtoc6::::res://scenes/ui/every_seed_button_picker/change_picker_1.tscn
-seed_picker_2.tscn::PackedScene::7777409152144044551::1761914019::0::1::::<><><>0<>0<><>::uid://dnwk0qr2ujbnv::::res://scripts/ui_scripts/seed_picker.gd<>uid://iw1tlnkjkt5q::::res://scenes/ui/every_seed_button_picker/iceberg_lettuce_seed_picker.tscn<>uid://57beny3br4x5::::res://scenes/ui/every_seed_button_picker/change_picker_2.tscn<>uid://b3e6c8jw0txyl::::res://scenes/ui/every_seed_button_picker/doomshroom_seed_picker.tscn<>uid://celgu6e3k2t1u::::res://scenes/ui/every_seed_button_picker/plasma_pea_seed_picker.tscn
+seed_picker_2.tscn::PackedScene::7777409152144044551::1761919187::0::1::::<><><>0<>0<><>::uid://dnwk0qr2ujbnv::::res://scripts/ui_scripts/seed_picker.gd<>uid://iw1tlnkjkt5q::::res://scenes/ui/every_seed_button_picker/iceberg_lettuce_seed_picker.tscn<>uid://57beny3br4x5::::res://scenes/ui/every_seed_button_picker/change_picker_2.tscn<>uid://b3e6c8jw0txyl::::res://scenes/ui/every_seed_button_picker/doomshroom_seed_picker.tscn<>uid://celgu6e3k2t1u::::res://scenes/ui/every_seed_button_picker/plasma_pea_seed_picker.tscn
 start_menu.tscn::PackedScene::1903386590748824399::1761844078::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://dfxxd5d08t4g1::::res://scripts/ui_scripts/menu_button.gd
 ::res://scenes/ui/achievements/::1761643951
 achievements.tscn::PackedScene::6548393371218422354::1761643951::0::1::::<><><>0<>0<><>::uid://cif753pnfiwpf::::res://scripts/ui_scripts/achievements.gd<>uid://b7tsvkkfkoird::::res://scenes/ui/achievements/lawn_mower_achievement.tscn<>uid://k7w1fsp1w3ee::::res://scenes/ui/achievements/sun_collector_achievement.tscn
@@ -250,12 +250,12 @@ doom_shroom.gd::GDScript::2982482056881012530::1761840033::0::1::::<>Area2D<><>0
 gatling_gun.gd::GDScript::2866387680466990307::1761472806::0::1::::<>StaticBody2D<><>0<>0<><>::
 iceberg_lettuce.gd::GDScript::7689317523824133854::1761566445::0::1::::<>Area2D<><>0<>0<><>::
 iceberg_lettuce_seed.gd::GDScript::2701013547620251904::1761899679::0::1::::<>Area2D<><>0<>0<><>::
+ice_peashooter.gd::GDScript::8892042630087754966::1761918045::0::1::::<>StaticBody2D<><>0<>0<><>::
 laser_bean.gd::GDScript::3988590200063815734::1761823348::0::1::::<>StaticBody2D<><>0<>0<><>::
 peashooter.gd::GDScript::303404374363622231::1761911639::0::1::::<>StaticBody2D<><>0<>0<><>::
 plasma_peashooter.gd::GDScript::8403219666370056281::1761910543::0::1::::<>StaticBody2D<><>0<>0<><>::
 plasma_wood.gd::GDScript::3341062230340022858::1761836361::0::1::::<>StaticBody2D<><>0<>0<><>::
 repeater.gd::GDScript::4793680748028606796::1761294959::0::1::::<>StaticBody2D<><>0<>0<><>::
-ice_peashooter.gd::GDScript::8892042630087754966::1761918045::0::1::::<>StaticBody2D<><>0<>0<><>::
 sunflower.gd::GDScript::5478362573161183120::1761238783::0::1::::<>StaticBody2D<><>0<>0<><>::
 tallnut.gd::GDScript::4669801763775857939::1761830730::0::1::::<>StaticBody2D<><>0<>0<><>::
 torchwood_1.gd::GDScript::3150601141503254175::1761293102::0::1::::<>Area2D<><>0<>0<><>::
@@ -266,11 +266,11 @@ wallnut.gd::GDScript::4164467403868440621::1761474372::0::1::::<>StaticBody2D<><
 peashooter_button_almanac.gd::GDScript::2570618337883315255::1761650357::0::1::::<>Button<><>0<>0<><>::
 ::res://scripts/plant_scripts/projectiles_scripts/::1761917487
 fire_pea_projectile.gd::GDScript::5582146425601661973::1761293715::0::1::::<>CharacterBody2D<><>0<>0<><>::
+ice_projectile.gd::GDScript::7901943536539175607::1761917487::0::1::::<>CharacterBody2D<><>0<>0<><>::
 laser_projectile.gd::GDScript::3836221331423493698::1761823349::0::1::::<>CharacterBody2D<><>0<>0<><>::
 pea_projectile.gd::GDScript::833602413808335215::1761314067::0::1::::<>CharacterBody2D<><>0<>0<><>::
 plasma_burnt_projectile.gd::GDScript::2035297188700991978::1761831893::0::1::::<>CharacterBody2D<><>0<>0<><>::
 plasma_projectile.gd::GDScript::6688695072283034485::1761836469::0::1::::<>CharacterBody2D<><>0<>0<><>::
-ice_projectile.gd::GDScript::7901943536539175607::1761917487::0::1::::<>CharacterBody2D<><>0<>0<><>::
 sun_projectile.gd::GDScript::5532618707281175653::1761312590::0::1::::<>Node2D<><>0<>0<><>::
 sun_spawned_projectile.gd::GDScript::5060553982364221192::1761312670::0::1::::<>Node2D<><>0<>0<><>::
 ::res://scripts/plant_scripts/seed_packets/::1761912056
@@ -290,13 +290,13 @@ wallnut_seed.gd::GDScript::305522825373497583::1761724139::0::1::::<>Area2D<><>0
 ::res://scripts/plant_scripts/seed_packets/picked_seeds/::1761558818
 change_picker_2.gd::GDScript::125666771253224292::1761558818::0::1::::<>Button<><>0<>0<><>::
 peashooter_seed_picker.gd::GDScript::2920426099828509981::1761322542::0::1::::<>Button<><>0<>0<><>::
-::res://scripts/plant_scripts/seed_packets/seed_slots/::1761914477
+::res://scripts/plant_scripts/seed_packets/seed_slots/::1761919187
 seed_slot_1.gd::GDScript::1564795180851314669::1761914188::0::1::::<>Node2D<><>0<>0<><>::
 seed_slot_2.gd::GDScript::8243716992815071749::1761914350::0::1::::<>Node2D<><>0<>0<><>::
 seed_slot_3.gd::GDScript::7727194163613496147::1761914350::0::1::::<>Node2D<><>0<>0<><>::
 seed_slot_4.gd::GDScript::227853789844013122::1761914350::0::1::::<>Node2D<><>0<>0<><>::
 seed_slot_5.gd::GDScript::5723393834834726686::1761914477::0::1::::<>Node2D<><>0<>0<><>::
-seed_slot_6.gd::GDScript::8986541412783731580::1761914477::0::1::::<>Node2D<><>0<>0<><>::
+seed_slot_6.gd::GDScript::8986541412783731580::1761919187::0::1::::<>Node2D<><>0<>0<><>::
 ::res://scripts/systems_scripts/::1761831013
 house_collision.gd::GDScript::4754277031681957792::1761224267::0::1::::<>Area2D<><>0<>0<><>::
 lawn_block_1.gd::GDScript::2433358693644695723::1761240654::0::1::::<>Area2D<><>0<>0<><>::
