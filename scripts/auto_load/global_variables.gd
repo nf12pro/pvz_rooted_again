@@ -65,11 +65,12 @@ var slot_of_frost_pea: int = 0
 #region RogueLite Upgrades
 var sun_boost: bool = false
 var pea_boost: bool = false
-var cooldown_boost: bool = true
+var cooldown_boost: bool = false
+var defense_boost: bool = false
 #endregion
 
 #region RogueLite Nerfs
-var mowers_nerf: bool = false
+var mowers_nerf: bool = true
 #endregion
 
 #region Level Data

@@ -6,6 +6,9 @@ var damage: int = 9999999999
 var active: bool = false
 #endregion
 
+func _ready() -> void:
+	if Global.mowers_nerf == true:
+		queue_free()
 
 #region Layer Settings
 func layer_setting():

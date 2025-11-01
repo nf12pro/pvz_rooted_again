@@ -1,0 +1,63 @@
+[gd_scene load_steps=7 format=3 uid="uid://deobyej67pj67"]
+
+[ext_resource type="Script" uid="uid://dnwk0qr2ujbnv" path="res://scripts/ui_scripts/seed_picker.gd" id="1_et4aq"]
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="2_ht4dn"]
+[ext_resource type="PackedScene" uid="uid://bvv2ocui1u6mq" path="res://scenes/ui/every_seed_button_picker/peashooter_seed_picker.tscn" id="3_bsq43"]
+[ext_resource type="PackedScene" uid="uid://bxtcf6uxt2n3h" path="res://scenes/ui/every_seed_button_picker/sunflower_seed_picker.tscn" id="4_0mdk1"]
+[ext_resource type="PackedScene" uid="uid://5clvviujxl1q" path="res://scenes/ui/every_seed_button_picker/wall_nut_seed_picker.tscn" id="5_4p01u"]
+[ext_resource type="PackedScene" uid="uid://bfculyrbmtoc6" path="res://scenes/ui/every_seed_button_picker/change_picker_1.tscn" id="14_s7ol4"]
+
+[node name="SeedPicker" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 1.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_et4aq")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+offset_right = 1118.0
+offset_bottom = 499.0
+theme_override_fonts/normal_font = ExtResource("2_ht4dn")
+bbcode_enabled = true
+text = "[font_size=60] Pick Seeds:"
+scroll_active = false
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 60
+theme_override_constants/margin_top = 180
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 180
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+clip_contents = true
+layout_mode = 2
+theme_override_constants/separation = 100
+
+[node name="PeashooterSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("3_bsq43")]
+layout_mode = 2
+
+[node name="SunflowerSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("4_0mdk1")]
+layout_mode = 2
+
+[node name="WallNutSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("5_4p01u")]
+layout_mode = 2
+
+[node name="ChangePicker1" parent="." instance=ExtResource("14_s7ol4")]
+layout_mode = 0
+offset_left = 1000.0
+offset_right = 1152.0
+offset_bottom = 55.0

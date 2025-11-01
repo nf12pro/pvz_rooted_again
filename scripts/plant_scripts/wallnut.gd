@@ -7,6 +7,9 @@ var square: Node = null
 var is_wallnut = true
 #endregion
 
+func _ready() -> void:
+	if Global.defense_boost == true:
+		plant_hp *= 2
 
 func set_square(square_node):
 	square = square_node
