@@ -89,7 +89,7 @@ position = Vector2(1088, 437)
 position = Vector2(172, 461)
 
 [node name="StaticBody2D2" parent="." instance=ExtResource("20_uvkgl")]
-position = Vector2(382, 478)
+position = Vector2(382, 461)
 
 [node name="StaticBody2D3" parent="." instance=ExtResource("21_3kc4b")]
 position = Vector2(277, 460)
