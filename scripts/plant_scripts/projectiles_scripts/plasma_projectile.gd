@@ -7,6 +7,8 @@ var recent: bool = true
 #endregion
 
 func _ready() -> void:
+	if Global.pea_boost == true:
+		damage = damage * 2
 	await get_tree().create_timer(0.02).timeout
 	recent = false
 

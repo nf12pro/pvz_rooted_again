@@ -17,6 +17,8 @@ var on_cooldown: bool = false
 #region Setup
 func _ready():
 	connect("input_event", Callable(self, "_on_input_event"))
+	if Global.cooldown_boost == true:
+		cooldown_time = cooldown_time / 2
 #endregion
 
 

@@ -7,6 +7,9 @@ var slow_power: float = 12.5
 var slow_duration: float = 1.5
 #endregion
 
+func _ready() -> void:
+	if Global.pea_boost == true:
+		damage = damage * 2
 
 #region Layer Settings
 func layer_setting():

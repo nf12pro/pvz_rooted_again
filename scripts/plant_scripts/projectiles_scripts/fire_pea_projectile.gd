@@ -5,6 +5,9 @@ var speed: float = 600.0
 var damage: int = 40
 #endregion
 
+func _ready() -> void:
+	if Global.pea_boost == true:
+		damage = damage * 2
 
 #region Layer Settings
 func layer_setting():

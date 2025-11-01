@@ -6,6 +6,10 @@ var damage: int = 160
 var blast_size: Vector2 = Vector2(150, 150)
 #endregion
 
+func _ready() -> void:
+	if Global.pea_boost == true:
+		damage = damage * 2
+
 #region Layer Settings
 func layer_setting():
 	collision_layer = 3

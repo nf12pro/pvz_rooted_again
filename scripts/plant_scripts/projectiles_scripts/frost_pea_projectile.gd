@@ -6,6 +6,9 @@ var damage: int = 40
 var freeze_duration: float = 0.75
 #endregion
 
+func _ready() -> void:
+	if Global.pea_boost == true:
+		damage = damage * 2
 
 #region Layer Settings
 func layer_setting():

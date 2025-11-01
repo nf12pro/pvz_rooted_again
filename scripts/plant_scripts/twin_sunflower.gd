@@ -6,6 +6,7 @@ var plant_hp = 300
 var produce_interval = 5.0 # seconds between suns
 var produce_timer = 0.0
 var square: Node = null
+var sun_count: int = 2
 #endregion
 
 
@@ -25,13 +26,15 @@ func _process(delta):
 		produce_sun()
 		produce_timer = 0.0
 
-
 func produce_sun():
-	for i in range(2):
+	for i in range(sun_count):
 		var sun = sun_scene.instantiate()
 		sun.position = global_position + Vector2(0, -20) # slightly above the flower
 		get_parent().add_child(sun)
-		Global.sun_value += 25
+		if Global.sun_boost == true:
+			Global.sun_value += 50
+		else:
+			Global.sun_value += 25
 		await get_tree().create_timer(0.75).timeout
 #endregion
 
