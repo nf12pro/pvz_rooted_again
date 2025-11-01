@@ -24,3 +24,6 @@ res://scenes/plants/almanac/almanac_descriptions/almanac_ice_pea.tscn
 res://scenes/plants/almanac/ice_pea_button_almanac.tscn
 res://scripts/ui_scripts/almanac/ice_pea_button_almanac.gd
 res://scripts/plant_scripts/ice_peashooter.gd
+res://scripts/zombies_scripts/conehead_zombie.gd
+res://scripts/zombies_scripts/bucket_head_zombie.gd
+res://scripts/zombies_scripts/basic_zombie_script.gd

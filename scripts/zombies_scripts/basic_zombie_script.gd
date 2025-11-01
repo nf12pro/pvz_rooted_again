@@ -5,6 +5,7 @@ var speed: float = 25.0
 var original_speed: float = 25.0
 var hp: int = 190
 var damage_per_second: float = 20.0   # Damage to plants per second
+var current_slow: float = 0.0
 
 var attacking_plant = null  # Reference to the plant currently being attacked
 var damage_timer: float = 0.0          # Timer to control damage message frequency
@@ -70,5 +71,13 @@ func take_freeze(ice_time: float):
 func slow_down(slow_time: float, slow_amount: float):
 	if speed == original_speed:
 		speed -= slow_amount
+		current_slow = slow_amount
 		await get_tree().create_timer(slow_time).timeout
 		speed = original_speed
+		current_slow = 0
+	elif speed != original_speed:
+		if slow_amount > current_slow:
+			speed = original_speed
+			speed -= slow_amount
+			await get_tree().create_timer(slow_time).timeout
+			speed = original_speed
