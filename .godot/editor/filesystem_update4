@@ -27,3 +27,11 @@ res://scripts/plant_scripts/ice_peashooter.gd
 res://scripts/zombies_scripts/conehead_zombie.gd
 res://scripts/zombies_scripts/bucket_head_zombie.gd
 res://scripts/zombies_scripts/basic_zombie_script.gd
+res://scenes/plants/world_1_basic/frost_peashooter.tscn
+res://scripts/plant_scripts/frost_peashooter.gd
+res://scenes/plants/projectiles/frost_pea_projectile.tscn
+res://scripts/plant_scripts/projectiles_scripts/frost_pea_projectile.gd
+res://in_testing(notevenclose)/test_scene.tscn
+res://scenes/plants/projectiles/ice_pea_projectile.tscn
+res://scripts/plant_scripts/torchwood_interaction.gd
+res://scripts/plant_scripts/projectiles_scripts/pea_projectile.gd

@@ -3,6 +3,7 @@ extends StaticBody2D
 #region Variables
 var plant_hp = 200 
 var bullet = preload("res://scenes/plants/projectiles/fire_pea_projectile.tscn")
+var bullet1 = preload("res://scenes/plants/projectiles/pea_projectile.tscn")
 var square: Node = null
 var is_torchwood = true
 #endregion
@@ -15,10 +16,16 @@ func _ready():
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
 	if body.is_in_group("Pea_Projectile"):
-		body.queue_free()
-		var pea = bullet.instantiate()
-		pea.position = global_position
-		get_parent().add_child(pea)
+		if "recent" in body and body.recent == false:
+			body.queue_free()
+			var pea = bullet.instantiate()
+			pea.position = global_position
+			get_parent().add_child(pea)
+	elif body.is_in_group("Ice_Pea_Projectile"):
+			body.queue_free()
+			var pea1 = bullet1.instantiate()
+			pea1.position = global_position
+			get_parent().add_child(pea1)
 
 #region Take Damage
 func take_damage(amount: float) -> void:

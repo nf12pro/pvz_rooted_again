@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://b1wllbf1mqihf"]
+
+[ext_resource type="Script" uid="uid://ywfm164cb8qf" path="res://scripts/plant_scripts/projectiles_scripts/frost_pea_projectile.gd" id="1_rwb3m"]
+[ext_resource type="Texture2D" uid="uid://c805jgfcxvx33" path="res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png" id="2_xw0mj"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7xwni"]
+radius = 32.0
+height = 70.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2k2sg"]
+radius = 39.0
+height = 80.0
+
+[node name="PeaProjectile" type="CharacterBody2D" groups=["Projectile"]]
+collision_layer = 4
+collision_mask = 17
+safe_margin = 0.001
+script = ExtResource("1_rwb3m")
+
+[node name="PixilFrame0(15)" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 0.627451, 1)
+position = Vector2(6.0282226, 2.4853072)
+scale = Vector2(0.3, 0.276)
+texture = ExtResource("2_xw0mj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Pea_Projectile", "Projectile"]]
+position = Vector2(7, 2)
+rotation = 1.5707964
+shape = SubResource("CapsuleShape2D_7xwni")
+
+[node name="Area2D" type="Area2D" parent="." groups=["Pea_Projectile", "Projectile"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" groups=["Pea_Projectile", "Projectile"]]
+position = Vector2(7, 3)
+rotation = 1.5731245
+shape = SubResource("CapsuleShape2D_2k2sg")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_body_entered"]

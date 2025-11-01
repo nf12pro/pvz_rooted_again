@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://cmeddwfi4geeh"]
+[gd_scene load_steps=22 format=3 uid="uid://cmeddwfi4geeh"]
 
 [ext_resource type="PackedScene" uid="uid://17335vsxlcfa" path="res://scenes/plants/world_1_basic/sunflower.tscn" id="4_t5f63"]
 [ext_resource type="PackedScene" uid="uid://bpjbgj1ddg86r" path="res://scenes/systems/sun_counter.tscn" id="6_4tnus"]
@@ -11,10 +11,12 @@
 [ext_resource type="PackedScene" uid="uid://du5xv3diqbkrv" path="res://scenes/plants/world_1_basic/twin_sunflower.tscn" id="17_dvqpr"]
 [ext_resource type="PackedScene" uid="uid://b6opcmllm8uws" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_2.tscn" id="18_qiss0"]
 [ext_resource type="PackedScene" uid="uid://lgbck3y0b0ib" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_3.tscn" id="19_c2388"]
-[ext_resource type="PackedScene" uid="uid://vr0f1kk30gwh" path="res://scenes/plants/world_1_basic/ice_peashooter.tscn" id="19_g8rqy"]
+[ext_resource type="PackedScene" uid="uid://dahqxqe1r2ljh" path="res://scenes/plants/world_1_basic/frost_peashooter.tscn" id="19_g8rqy"]
 [ext_resource type="PackedScene" uid="uid://2bsalhpfl2pm" path="res://scenes/zombies/basic_zombie.tscn" id="19_uvkgl"]
 [ext_resource type="PackedScene" uid="uid://bfvoyxqr66gn1" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn" id="20_c2388"]
 [ext_resource type="PackedScene" uid="uid://melhxkjg1r6c" path="res://scenes/zombies/bucket_head_zombie.tscn" id="20_j62ee"]
+[ext_resource type="PackedScene" uid="uid://cak651ycyd1n0" path="res://scenes/plants/world_1_basic/torchwood.tscn" id="20_uvkgl"]
+[ext_resource type="PackedScene" uid="uid://vr0f1kk30gwh" path="res://scenes/plants/world_1_basic/ice_peashooter.tscn" id="21_3kc4b"]
 [ext_resource type="PackedScene" uid="uid://bu3x00oashbjp" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn" id="21_j62ee"]
 [ext_resource type="PackedScene" uid="uid://bqibbcgnbrvur" path="res://scenes/systems/shovel.tscn" id="21_uvkgl"]
 [ext_resource type="PackedScene" uid="uid://ca06yibcpd8c0" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn" id="22_3kc4b"]
@@ -84,4 +86,13 @@ position = Vector2(996, 441)
 position = Vector2(1088, 437)
 
 [node name="StaticBody2D" parent="." instance=ExtResource("19_g8rqy")]
-position = Vector2(180, 461)
+position = Vector2(172, 461)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("20_uvkgl")]
+position = Vector2(382, 478)
+
+[node name="StaticBody2D3" parent="." instance=ExtResource("21_3kc4b")]
+position = Vector2(277, 460)
+
+[node name="StaticBody2D4" parent="." instance=ExtResource("20_uvkgl")]
+position = Vector2(472, 467)
