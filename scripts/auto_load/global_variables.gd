@@ -22,6 +22,7 @@ var tall_nut_selected: bool = false
 var iceberg_lettuce_selected: bool = false
 var doomshroom_selected: bool = false
 var plasma_pea_selected: bool = false
+var snow_pea_selected: bool = false
 
 var twin_sunflower_unlocked: bool = false
 var gatling_gun_unlocked: bool = false
@@ -54,6 +55,7 @@ var slot_of_gatling_gun: int = 0
 var slot_of_doomshroom: int = 0
 var slot_of_cherry_bomb: int = 0
 var slot_of_plasma_pea: int = 0
+var slot_of_snow_pea: int = 0
 #endregion
 
 #region Level Data
