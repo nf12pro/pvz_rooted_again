@@ -23,11 +23,14 @@ var iceberg_lettuce_selected: bool = false
 var doomshroom_selected: bool = false
 var plasma_pea_selected: bool = false
 var snow_pea_selected: bool = false
+var frost_pea_selected: bool = false
 
 var twin_sunflower_unlocked: bool = false
 var gatling_gun_unlocked: bool = false
 var plasma_wood_unlocked: bool = false
 var tall_nut_unlocked: bool = false
+var plasma_pea_unlocked: bool = false
+var frost_pea_unlocked: bool = true
 
 var new_open_slot: bool = false
 var open_slot: int = 0
@@ -56,6 +59,7 @@ var slot_of_doomshroom: int = 0
 var slot_of_cherry_bomb: int = 0
 var slot_of_plasma_pea: int = 0
 var slot_of_snow_pea: int = 0
+var slot_of_frost_pea: int = 0
 #endregion
 
 #region Level Data

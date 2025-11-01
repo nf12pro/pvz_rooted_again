@@ -37,3 +37,6 @@ res://scripts/plant_scripts/torchwood_interaction.gd
 res://scripts/plant_scripts/projectiles_scripts/pea_projectile.gd
 res://scenes/plants/world_1_basic/plant_seeds/frost_pea_seed.tscn
 res://scripts/plant_scripts/seed_packets/frost_pea_seed.gd
+res://scenes/ui/every_seed_button_picker/frost_peashooter_seed_picker.tscn
+res://scripts/ui_scripts/seed_picker/frost_peashooter_seed_picker.gd
+res://scripts/ui_scripts/seed_picker/plasma_pea_seed_picker.gd

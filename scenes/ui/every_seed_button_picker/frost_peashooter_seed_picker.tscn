@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://fcts244ibuij"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_06gpf"]
+[ext_resource type="Texture2D" uid="uid://bpj8mxnyeapwc" path="res://assets/prototype_assets/pixil-frame-0 (17).png" id="2_wysst"]
+[ext_resource type="Texture2D" uid="uid://vp1wgyyhcn8r" path="res://assets/sprite/plant_sprites/ice_peashooter_sprite/pixil-frame-0 (7) (1).png" id="3_xo2xm"]
+[ext_resource type="Script" uid="uid://w10div2rmvpn" path="res://scripts/ui_scripts/seed_picker/frost_peashooter_seed_picker.gd" id="4_06gpf"]
+
+[node name="PeashooterSeedPicker" type="Button"]
+theme_override_fonts/font = ExtResource("1_06gpf")
+theme_override_font_sizes/font_size = 36
+theme_override_icons/icon = ExtResource("2_wysst")
+text = "Frost Pea"
+icon = ExtResource("3_xo2xm")
+script = ExtResource("4_06gpf")
+
+[connection signal="pressed" from="." to="." method="_on_frost_pea_picker_pressed"]
