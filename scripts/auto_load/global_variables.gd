@@ -66,7 +66,7 @@ var slot_of_frost_pea: int = 0
 var power_selected: bool = false
 
 var sun_boost: int = 0
-var pea_boost: int = 3
+var pea_boost: int = 0
 var cooldown_boost: bool = false
 var defense_boost: int = 0
 #endregion
