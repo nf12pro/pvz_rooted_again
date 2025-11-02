@@ -7,8 +7,12 @@ var blast_size: Vector2 = Vector2(150, 150)
 #endregion
 
 func _ready() -> void:
-	if Global.pea_boost == true:
-		damage = damage * 2
+	if Global.pea_boost == 1:
+		damage = 240
+	elif Global.pea_boost == 2:
+		damage = 320
+	elif Global.pea_boost == 3:
+		damage = 400
 
 #region Layer Settings
 func layer_setting():

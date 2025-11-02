@@ -1,8 +1,8 @@
 extends Button
 
 func _on_pressed() -> void:
-	if Global.sun_boost < 3:
-		Global.sun_boost += 1
+	if Global.pea_boost < 3:
+		Global.pea_boost += 1
 		Global.power_selected = true
-	elif Global.sun_boost == 3:
+	elif Global.pea_boost == 3:
 		print("MAX BOOST ACHIEVED")

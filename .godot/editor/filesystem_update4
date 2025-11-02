@@ -4,3 +4,17 @@ res://scenes/systems/power_systems/sun_boost_power.tscn
 res://scenes/systems/power_systems/powers_picker.tscn
 res://scripts/systems_scripts/powers/powers_picker.gd
 res://scripts/auto_load/global_variables.gd
+res://scenes/systems/power_systems/pea_boost_power.tscn
+res://scripts/systems_scripts/powers/pea_boost_power.gd
+res://scripts/plant_scripts/sunflower.gd
+res://scripts/plant_scripts/twin_sunflower.gd
+res://scripts/plant_scripts/projectiles_scripts/fire_pea_projectile.gd
+res://scripts/plant_scripts/projectiles_scripts/frost_pea_projectile.gd
+res://scripts/plant_scripts/projectiles_scripts/ice_projectile.gd
+res://scripts/plant_scripts/projectiles_scripts/pea_projectile.gd
+res://scripts/plant_scripts/projectiles_scripts/plasma_burnt_projectile.gd
+res://scripts/plant_scripts/tallnut.gd
+res://scripts/plant_scripts/wallnut.gd
+res://scenes/systems/power_systems/defense_boost_power.tscn
+res://scripts/systems_scripts/powers/defense_boost_power.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_1.gd

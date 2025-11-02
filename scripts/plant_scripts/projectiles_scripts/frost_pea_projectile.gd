@@ -7,9 +7,12 @@ var freeze_duration: float = 1.5
 #endregion
 
 func _ready() -> void:
-	if Global.pea_boost == true:
-		damage = damage * 2
-
+	if Global.pea_boost == 1:
+		damage = 60
+	elif Global.pea_boost == 2:
+		damage = 80
+	elif Global.pea_boost == 3:
+		damage = 120
 #region Layer Settings
 func layer_setting():
 	collision_layer = 3  # Layer 1 and Layer 5

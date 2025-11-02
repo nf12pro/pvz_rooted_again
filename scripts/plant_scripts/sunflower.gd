@@ -30,10 +30,15 @@ func produce_sun():
 	var sun = sun_scene.instantiate()
 	sun.position = global_position + Vector2(0, -20) # slightly above the flower
 	get_parent().add_child(sun)
-	if Global.sun_boost == true:
-		Global.sun_value += 50
-	else:
+	if Global.sun_boost == 0:
 		Global.sun_value += 25
+	elif Global.sun_boost == 1:
+		Global.sun_value += 50
+	elif Global.sun_boost == 2:
+		Global.sun_value += 75
+	elif Global.sun_boost == 3:
+		Global.sun_value += 100
+	
 #endregion
 
 #region Take Damage

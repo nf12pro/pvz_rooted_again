@@ -4,41 +4,81 @@ extends Control
 var powers_randomized: int = 0
 var powers_randomized_1: int = 0
 var powers_randomized_2: int = 0
-var max_powers: int = 3
+var max_powers: int = 5
+var banned_powers: Array = []
 var generated: bool = false
 
-var sunboost_scene = preload("res://scenes/systems/power_systems/sun_boost_power.tscn")  
+var sunboost_scene = preload("res://scenes/systems/power_systems/sun_boost_power.tscn")
+var peaboost_scene = preload("res://scenes/systems/power_systems/pea_boost_power.tscn")
+var defenseboost_scene = preload("res://scenes/systems/power_systems/defense_boost_power.tscn")
 #endregion
 
 
 func _process(_delta: float) -> void:
-	if generated == false:
-		powers_randomized = randi() % max_powers + 1 
-		powers_randomized_1 = randi() % max_powers + 1
-		powers_randomized_2 = randi() % max_powers + 1
+	if Global.pea_boost == 3:
+		banned_powers.append(2)
+	if Global.sun_boost == 3:
+		banned_powers.append(1)
+	if not generated:
+		# Create array [1, 2, 3, ..., max_powers]
+		var all_powers: Array = []
+		for i in range(1, max_powers + 1):
+			if i not in banned_powers:
+				all_powers.append(i)
 
-		while powers_randomized == powers_randomized_1 or \
-			  powers_randomized == powers_randomized_2 or \
-			  powers_randomized_1 == powers_randomized_2:
-			powers_randomized = randi() % max_powers + 1 
-			powers_randomized_1 = randi() % max_powers + 1
-			powers_randomized_2 = randi() % max_powers + 1
+		all_powers.shuffle()
+
+		# Pick the first 3 unique powers
+		powers_randomized = all_powers[0]
+		powers_randomized_1 = all_powers[1]
+		powers_randomized_2 = all_powers[2]
 
 		print(powers_randomized)
 		print(powers_randomized_1)
 		print(powers_randomized_2)
-		
+
 		var sun_boost_power = sunboost_scene.instantiate()
+		var pea_boost_power = peaboost_scene.instantiate()
+		var defense_boost_power = defenseboost_scene.instantiate()
+
 		#region Sun_Boost
 		if powers_randomized == 1:
 			sun_boost_power.position = Vector2(60, 100)
 			get_tree().current_scene.call_deferred("add_child", sun_boost_power)
-		if powers_randomized_1 == 1:
+		elif powers_randomized_1 == 1:
 			sun_boost_power.position = Vector2(450, 100)
 			get_tree().current_scene.call_deferred("add_child", sun_boost_power)
-		if powers_randomized_2 == 1:
+		elif powers_randomized_2 == 1:
 			sun_boost_power.position = Vector2(840, 100)
 			get_tree().current_scene.call_deferred("add_child", sun_boost_power)
 		#endregion
 
+		#region Pea_Boost
+		if powers_randomized == 2:
+			pea_boost_power.position = Vector2(60, 100)
+			get_tree().current_scene.call_deferred("add_child", pea_boost_power)
+		elif powers_randomized_1 == 2:
+			pea_boost_power.position = Vector2(450, 100)
+			get_tree().current_scene.call_deferred("add_child", pea_boost_power)
+		elif powers_randomized_2 == 2:
+			pea_boost_power.position = Vector2(840, 100)
+			get_tree().current_scene.call_deferred("add_child", pea_boost_power)
+		#endregion
+
+		#region Defense_Boost
+		if powers_randomized == 3:
+			defense_boost_power.position = Vector2(60, 100)
+			get_tree().current_scene.call_deferred("add_child", defense_boost_power)
+		elif powers_randomized_1 == 3:
+			defense_boost_power.position = Vector2(450, 100)
+			get_tree().current_scene.call_deferred("add_child", defense_boost_power)
+		elif powers_randomized_2 == 3:
+			defense_boost_power.position = Vector2(840, 100)
+			get_tree().current_scene.call_deferred("add_child", defense_boost_power)
+		#endregion
+
 		generated = true
+
+	if Global.power_selected == true:
+		await get_tree().create_timer(0.5).timeout
+		get_tree().change_scene_to_file("res://scenes/ui/start_menu.tscn")

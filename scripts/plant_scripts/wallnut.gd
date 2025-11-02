@@ -8,8 +8,12 @@ var is_wallnut = true
 #endregion
 
 func _ready() -> void:
-	if Global.defense_boost == true:
-		plant_hp *= 2
+	if Global.defense_boost == 1:
+		plant_hp = 6000
+	elif Global.defense_boost == 2:
+		plant_hp = 8000
+	elif Global.defense_boost == 3:
+		plant_hp = 12000
 
 func set_square(square_node):
 	square = square_node

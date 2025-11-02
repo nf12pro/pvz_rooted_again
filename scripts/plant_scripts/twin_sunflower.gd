@@ -4,6 +4,7 @@ extends StaticBody2D
 var sun_scene = preload("res://scenes/plants/projectiles/sun_projectile.tscn")
 var plant_hp = 300
 var produce_interval = 5.0 # seconds between suns
+var second_sun_delay = 0.95
 var produce_timer = 0.0
 var square: Node = null
 var sun_count: int = 2
@@ -31,11 +32,15 @@ func produce_sun():
 		var sun = sun_scene.instantiate()
 		sun.position = global_position + Vector2(0, -20) # slightly above the flower
 		get_parent().add_child(sun)
-		if Global.sun_boost == true:
-			Global.sun_value += 50
-		else:
-			Global.sun_value += 25
-		await get_tree().create_timer(0.75).timeout
+	if Global.sun_boost == 0:
+		Global.sun_value += 25
+	elif Global.sun_boost == 1:
+		Global.sun_value += 50
+	elif Global.sun_boost == 2:
+		Global.sun_value += 75
+	elif Global.sun_boost == 3:
+		Global.sun_value += 100
+		await get_tree().create_timer(second_sun_delay).timeout
 #endregion
 
 #region Take Damage

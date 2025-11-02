@@ -6,8 +6,12 @@ var square: Node = null
 #endregion
 
 func _ready() -> void:
-	if Global.defense_boost == true:
-		plant_hp *= 2
+	if Global.defense_boost == 1:
+		plant_hp = 12000
+	elif Global.defense_boost == 2:
+		plant_hp = 16000
+	elif Global.defense_boost == 3:
+		plant_hp = 24000
 
 func set_square(square_node):
 	square = square_node
