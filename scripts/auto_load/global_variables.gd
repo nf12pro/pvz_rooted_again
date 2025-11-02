@@ -72,7 +72,7 @@ var defense_boost: int = 0
 #endregion
 
 #region RogueLite Nerfs
-var mowers_nerf: bool = true
+var mowers_nerf: bool = false
 #endregion
 
 #region Level Data

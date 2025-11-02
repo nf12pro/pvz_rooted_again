@@ -126,5 +126,8 @@ func _process(_delta: float) -> void:
 		generated = true
 
 	if Global.power_selected == true:
-		await get_tree().create_timer(0.25).timeout
-		get_tree().change_scene_to_file("res://scenes/ui/start_menu.tscn")
+		await get_tree().create_timer(0.15).timeout
+		if Global.current_level == 1:
+			get_tree().change_scene_to_file("res://scenes/levels/level_1.tscn")
+		else:
+			get_tree().change_scene_to_file("res://scenes/ui/start_menu.tscn")
