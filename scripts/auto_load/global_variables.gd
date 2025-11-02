@@ -63,6 +63,8 @@ var slot_of_frost_pea: int = 0
 #endregion
 
 #region RogueLite Upgrades
+var power_selected: bool = false
+
 var sun_boost: bool = false
 var pea_boost: bool = false
 var cooldown_boost: bool = false

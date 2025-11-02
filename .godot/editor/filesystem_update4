@@ -1,5 +1,6 @@
-res://scenes/systems/lawn_mower.tscn
-res://scripts/plant_scripts/frost_peashooter.gd
+res://scripts/ui_scripts/seed_picker.gd
+res://scripts/systems_scripts/powers/sun_boost_power.gd
+res://scenes/systems/power_systems/sun_boost_power.tscn
+res://scenes/systems/power_systems/powers_picker.tscn
+res://scripts/systems_scripts/powers/powers_picker.gd
 res://scripts/auto_load/global_variables.gd
-res://scenes/plants/world_1_basic/wallnut.tscn
-res://scripts/plant_scripts/projectiles_scripts/frost_pea_projectile.gd
