@@ -6,7 +6,6 @@ var torchwood_is_pressed: bool = false
 func _on_torchwood_picker_pressed() -> void:
 	if Global.amount_of_seeds < 6:
 		if torchwood_is_pressed == false:
-			$".".modulate.a = 0.5
 			if Global.new_open_slot == false:
 				Global.torchwood_selected = true
 				Global.amount_of_seeds += 1
@@ -53,7 +52,6 @@ func _on_torchwood_picker_pressed() -> void:
 				Global.open_slot = 0
 			torchwood_is_pressed = true
 		elif torchwood_is_pressed == true:
-			$".".modulate.a = 1
 			Global.torchwood_selected = false
 			Global.amount_of_seeds -= 1
 			print("test")
@@ -85,7 +83,6 @@ func _on_torchwood_picker_pressed() -> void:
 			Global.new_open_slot = true
 	else:
 		if torchwood_is_pressed == true:
-			$".".modulate.a = 1
 			Global.torchwood_selected = false
 			Global.amount_of_seeds -= 1
 			print("test")

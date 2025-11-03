@@ -9,7 +9,6 @@ func _on_plasma_pea_picker_pressed() -> void:
 	else:
 		if Global.amount_of_seeds < 6:
 			if plasma_pea_is_pressed == false:
-				$".".modulate.a = 0.5
 				if Global.new_open_slot == false:
 					Global.plasma_pea_selected = true
 					Global.amount_of_seeds += 1
@@ -57,7 +56,6 @@ func _on_plasma_pea_picker_pressed() -> void:
 				plasma_pea_is_pressed = true
 			
 			elif plasma_pea_is_pressed == true:
-				$".".modulate.a = 1
 				Global.plasma_pea_selected = false
 				Global.amount_of_seeds -= 1
 				print("test")

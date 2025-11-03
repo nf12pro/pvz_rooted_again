@@ -2,6 +2,7 @@ extends Node2D
 	
 func _unhandled_input(_event: InputEvent) -> void:
 	if Global.current_level == 6:
+		Global.reset_seeds()
 		if Global.mowers_nerf == true:
 			Global.mower_not_used_achievement = true
 		

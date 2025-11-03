@@ -2,3 +2,14 @@ res://in_testing(notevenclose)/test_scene.tscn
 res://scenes/plants/projectiles/plasma_burnt_projectile.tscn
 res://scripts/auto_load/global_variables.gd
 res://scripts/zombies_scripts/allstar_zombie.gd
+res://scenes/plants/world_1_basic/citric_hero.tscn
+res://scenes/ui/seed_picker.tscn
+res://scripts/systems_scripts/powers/powers_picker.gd
+res://scripts/ui_scripts/seed_picker/plasma_pea_seed_picker.gd
+res://scripts/ui_scripts/seed_picker/torchwood_seed_picker.gd
+res://scenes/ui/every_seed_button_picker/torchwood_seed_picker.tscn
+res://scripts/systems_scripts/level_zombie_spawner/level_1.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_2.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_3.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_4.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_5.gd
