@@ -13,3 +13,7 @@ res://scripts/systems_scripts/level_zombie_spawner/level_2.gd
 res://scripts/systems_scripts/level_zombie_spawner/level_3.gd
 res://scripts/systems_scripts/level_zombie_spawner/level_4.gd
 res://scripts/systems_scripts/level_zombie_spawner/level_5.gd
+res://scripts/plant_scripts/projectiles_scripts/plasma_projectile.gd
+res://scenes/systems/power_systems/powers_picker.tscn
+res://scenes/systems/lawn_block_1.tscn
+res://scripts/plant_scripts/torchwood_interaction.gd

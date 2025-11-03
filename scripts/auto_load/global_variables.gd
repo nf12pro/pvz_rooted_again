@@ -27,10 +27,10 @@ var frost_pea_selected: bool = false
 
 var twin_sunflower_unlocked: bool = false
 var gatling_gun_unlocked: bool = false
-var plasma_wood_unlocked: bool = true
+var plasma_wood_unlocked: bool = false
 var tall_nut_unlocked: bool = false
 var plasma_pea_unlocked: bool = false
-var frost_pea_unlocked: bool = true
+var frost_pea_unlocked: bool = false
 
 var new_open_slot: bool = false
 var open_slot: int = 0
@@ -194,13 +194,6 @@ func reset_seeds():
 	plasma_pea_selected = false
 	snow_pea_selected = false
 	frost_pea_selected = false
-
-	twin_sunflower_unlocked = false
-	gatling_gun_unlocked = false
-	plasma_wood_unlocked = false
-	tall_nut_unlocked = false
-	plasma_pea_unlocked = false
-	frost_pea_unlocked = true
 
 	new_open_slot = false
 	open_slot = 0

@@ -13,7 +13,7 @@ func _ready() -> void:
 		damage = 120
 	elif Global.pea_boost == 3:
 		damage = 180
-	await get_tree().create_timer(0.02).timeout
+	await get_tree().create_timer(0.04).timeout
 	recent = false
 
 #region Layer Settings
