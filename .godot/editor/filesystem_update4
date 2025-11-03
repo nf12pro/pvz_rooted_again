@@ -17,3 +17,4 @@ res://scripts/plant_scripts/projectiles_scripts/plasma_projectile.gd
 res://scenes/systems/power_systems/powers_picker.tscn
 res://scenes/systems/lawn_block_1.tscn
 res://scripts/plant_scripts/torchwood_interaction.gd
+res://scripts/ui_scripts/label.gd
