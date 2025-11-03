@@ -4,7 +4,7 @@ extends Control
 var powers_randomized: int = 0
 var powers_randomized_1: int = 0
 var powers_randomized_2: int = 0
-var max_powers: int = 5
+var max_powers: int = 10
 var banned_powers: Array = []
 var generated: bool = false
 
@@ -12,7 +12,13 @@ var sunboost_scene = preload("res://scenes/systems/power_systems/sun_boost_power
 var peaboost_scene = preload("res://scenes/systems/power_systems/pea_boost_power.tscn")
 var defenseboost_scene = preload("res://scenes/systems/power_systems/defense_boost_power.tscn")
 var cooldownboost_scene = preload("res://scenes/systems/power_systems/cooldown_boost_power.tscn")
+
 var twinsun_scene = preload("res://scenes/systems/power_systems/twin_sunflower_power.tscn")
+var gatling_scene = preload("res://scenes/systems/power_systems/gatling_gun_power.tscn")
+var frostpea_scene = preload("res://scenes/systems/power_systems/frost_pea_power.tscn")
+var plasmapea_scene = preload("res://scenes/systems/power_systems/plasma_pea_power.tscn")
+var plasmawood_scene = preload("res://scenes/systems/power_systems/plasma_wood_power.tscn")
+var tallnut_scene = preload("res://scenes/systems/power_systems/tall_nut_power.tscn")
 #endregion
 
 
@@ -27,6 +33,17 @@ func _process(_delta: float) -> void:
 		banned_powers.append(4)
 	if Global.twin_sunflower_unlocked == true:
 		banned_powers.append(5)
+	if Global.gatling_gun_unlocked == true:
+		banned_powers.append(6)
+	if Global.frost_pea_unlocked == true:
+		banned_powers.append(7)
+	if Global.plasma_pea_unlocked == true:
+		banned_powers.append(8)
+	if Global.plasma_wood_unlocked == true:
+		banned_powers.append(9)
+	if Global.tall_nut_unlocked == true:
+		banned_powers.append(10)
+	
 	if not generated:
 		var all_powers: Array = []
 		for i in range(1, max_powers + 1):
@@ -49,6 +66,11 @@ func _process(_delta: float) -> void:
 		var defense_boost_power = defenseboost_scene.instantiate()
 		var cooldown_boost_power = cooldownboost_scene.instantiate()
 		var twin_sun_unlock = twinsun_scene.instantiate()
+		var gatling_pea_unlock = gatling_scene.instantiate()
+		var frost_pea_unlock = frostpea_scene.instantiate()
+		var plasma_pea_unlock = plasmapea_scene.instantiate()
+		var plasma_wood_unlock = plasmawood_scene.instantiate()
+		var tall_nut_unlock = tallnut_scene.instantiate()
 
 		#region Sun_Boost
 		if powers_randomized == 1:
@@ -85,18 +107,6 @@ func _process(_delta: float) -> void:
 			defense_boost_power.position = Vector2(840, 100)
 			get_tree().current_scene.call_deferred("add_child", defense_boost_power)
 		#endregion
-		
-		#region Defense_Boost
-		if powers_randomized == 3:
-			defense_boost_power.position = Vector2(60, 100)
-			get_tree().current_scene.call_deferred("add_child", defense_boost_power)
-		elif powers_randomized_1 == 3:
-			defense_boost_power.position = Vector2(450, 100)
-			get_tree().current_scene.call_deferred("add_child", defense_boost_power)
-		elif powers_randomized_2 == 3:
-			defense_boost_power.position = Vector2(840, 100)
-			get_tree().current_scene.call_deferred("add_child", defense_boost_power)
-		#endregion
 
 		#region Cooldown_Boost
 		if powers_randomized == 4:
@@ -120,6 +130,66 @@ func _process(_delta: float) -> void:
 		elif powers_randomized_2 == 5:
 			twin_sun_unlock.position = Vector2(840, 100)
 			get_tree().current_scene.call_deferred("add_child", twin_sun_unlock)
+		#endregion
+		
+		#region Gatling_Pea_Unlock
+		if powers_randomized == 6:
+			gatling_pea_unlock.position = Vector2(60, 100)
+			get_tree().current_scene.call_deferred("add_child", gatling_pea_unlock)
+		elif powers_randomized_1 == 6:
+			gatling_pea_unlock.position = Vector2(450, 100)
+			get_tree().current_scene.call_deferred("add_child", gatling_pea_unlock)
+		elif powers_randomized_2 == 6:
+			gatling_pea_unlock.position = Vector2(840, 100)
+			get_tree().current_scene.call_deferred("add_child", gatling_pea_unlock)
+		#endregion
+		
+		#region Frost_Pea_Unlock
+		if powers_randomized == 7:
+			frost_pea_unlock.position = Vector2(60, 100)
+			get_tree().current_scene.call_deferred("add_child", frost_pea_unlock)
+		elif powers_randomized_1 == 7:
+			frost_pea_unlock.position = Vector2(450, 100)
+			get_tree().current_scene.call_deferred("add_child", frost_pea_unlock)
+		elif powers_randomized_2 == 7:
+			frost_pea_unlock.position = Vector2(840, 100)
+			get_tree().current_scene.call_deferred("add_child", frost_pea_unlock)
+		#endregion
+		
+		#region Plasma_Pea_Unlock
+		if powers_randomized == 8:
+			plasma_pea_unlock.position = Vector2(60, 100)
+			get_tree().current_scene.call_deferred("add_child", plasma_pea_unlock)
+		elif powers_randomized_1 == 8:
+			plasma_pea_unlock.position = Vector2(450, 100)
+			get_tree().current_scene.call_deferred("add_child", plasma_pea_unlock)
+		elif powers_randomized_2 == 8:
+			plasma_pea_unlock.position = Vector2(840, 100)
+			get_tree().current_scene.call_deferred("add_child", plasma_pea_unlock)
+		#endregion
+		
+		#region Plasma_Wood_Unlock
+		if powers_randomized == 9:
+			plasma_wood_unlock.position = Vector2(60, 100)
+			get_tree().current_scene.call_deferred("add_child", plasma_wood_unlock)
+		elif powers_randomized_1 == 9:
+			plasma_wood_unlock.position = Vector2(450, 100)
+			get_tree().current_scene.call_deferred("add_child", plasma_wood_unlock)
+		elif powers_randomized_2 == 9:
+			plasma_wood_unlock.position = Vector2(840, 100)
+			get_tree().current_scene.call_deferred("add_child", plasma_wood_unlock)
+		#endregion
+		
+		#region Tall_Nut_Unlock
+		if powers_randomized == 10:
+			tall_nut_unlock.position = Vector2(60, 100)
+			get_tree().current_scene.call_deferred("add_child", tall_nut_unlock)
+		elif powers_randomized_1 == 10:
+			tall_nut_unlock.position = Vector2(450, 100)
+			get_tree().current_scene.call_deferred("add_child", tall_nut_unlock)
+		elif powers_randomized_2 == 10:
+			tall_nut_unlock.position = Vector2(840, 100)
+			get_tree().current_scene.call_deferred("add_child", tall_nut_unlock)
 		#endregion
 		
 		generated = true

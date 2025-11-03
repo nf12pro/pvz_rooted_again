@@ -76,7 +76,7 @@ var mowers_nerf: bool = false
 #endregion
 
 #region Level Data
-var current_level: int = 1
+var current_level: int = 2
 
 var level_data := {
 	1: {"zombies": 10, "coneheads": 2, "bucketheads": 0, "allstars": 0},
