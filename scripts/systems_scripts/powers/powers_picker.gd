@@ -28,7 +28,6 @@ func _process(_delta: float) -> void:
 	if Global.twin_sunflower_unlocked == true:
 		banned_powers.append(5)
 	if not generated:
-		# Create array [1, 2, 3, ..., max_powers]
 		var all_powers: Array = []
 		for i in range(1, max_powers + 1):
 			if i not in banned_powers:

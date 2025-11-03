@@ -14,3 +14,8 @@ res://scripts/ui_scripts/almanac/almanac_peashooter_button.gd
 res://scenes/plants/almanac/doom_shroom_button_almanac.tscn
 res://scripts/ui_scripts/almanac/doom_shroom_button_almanac.gd
 res://scenes/plants/almanac/plasma_pea_button_almanac.tscn
+res://scenes/systems/power_systems/frost_pea_power.tscn
+res://scripts/systems_scripts/powers/frost_pea_power.gd
+res://scenes/systems/power_systems/plasma_pea_power.tscn
+res://scripts/systems_scripts/powers/plasma_pea_power.gd
+res://scripts/systems_scripts/powers/powers_picker.gd
