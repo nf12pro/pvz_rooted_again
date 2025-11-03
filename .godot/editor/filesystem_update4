@@ -29,3 +29,4 @@ res://scenes/systems/power_systems/sun_boost_power.tscn
 res://scenes/systems/power_systems/powers_picker.tscn
 res://scripts/auto_load/global_variables.gd
 res://scripts/ui_scripts/game_over.gd
+res://scenes/plants/projectiles/plasma_burnt_projectile.tscn

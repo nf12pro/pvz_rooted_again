@@ -1,3 +1,4 @@
+res://assets/sprite/plant_sprites/projectile_sprites
 res://scripts/systems_scripts/powers
 res://scripts/ui_scripts/almanac
 res://scripts/ui_scripts/settings
@@ -10,7 +11,6 @@ res://assets/sprite/plant_sprites/ice_peashooter_sprite
 res://assets/sprite/plant_sprites/plasma_peashooter_sprites
 res://assets/sprite/plant_sprites/repeater_sprites
 res://assets/sprite/plant_sprites/plasma_wood_sprites
-res://assets/sprite/plant_sprites/projectile_sprites
 res://assets/sprite/plant_sprites/laser_bean_sprites
 res://assets/sprite/plant_sprites/iceberg_bomb_sprites
 res://assets/sprite/plant_sprites/fire_pea_sprites
