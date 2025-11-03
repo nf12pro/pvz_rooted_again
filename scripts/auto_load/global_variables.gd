@@ -97,3 +97,82 @@ var sun_collector_achievement:  bool = false
 func _ready():
 	randomize()
 #endregion
+
+func reset_game_state():
+	# Basic Globals
+	sun_value = 2000
+	score = 0
+	game_over = false
+	seed_selector = false
+
+	# Seed Picker
+	peashooter_selected = false
+	sunflower_selected = false
+	wallnut_selected = false
+	repeater_selected = false
+	gatling_gun_selected = false
+	torchwood_selected = false
+	plasma_wood_selected = false
+	twin_sunflower_selected = false
+	cherry_bomb_selected = false
+	laser_bean_selected = false
+	tall_nut_selected = false
+	iceberg_lettuce_selected = false
+	doomshroom_selected = false
+	plasma_pea_selected = false
+	snow_pea_selected = false
+	frost_pea_selected = false
+
+	twin_sunflower_unlocked = false
+	gatling_gun_unlocked = false
+	plasma_wood_unlocked = false
+	tall_nut_unlocked = false
+	plasma_pea_unlocked = false
+	frost_pea_unlocked = true
+
+	new_open_slot = false
+	open_slot = 0
+	amount_of_seeds = 0
+	max_amount_seeds = 6
+
+	seed_1 = ""
+	seed_2 = ""
+	seed_3 = ""
+	seed_4 = ""
+	seed_5 = ""
+	seed_6 = ""
+
+	slot_of_wallnut = 0
+	slot_of_twin_sunflower = 0
+	slot_of_torchwood = 0
+	slot_of_tall_nut = 0
+	slot_of_sunflower = 0
+	slot_of_repeater = 0
+	slot_of_plasma_wood = 0
+	slot_of_peashooter = 0
+	slot_of_laser_bean = 0
+	slot_of_iceberg_lettuce = 0
+	slot_of_gatling_gun = 0
+	slot_of_doomshroom = 0
+	slot_of_cherry_bomb = 0
+	slot_of_plasma_pea = 0
+	slot_of_snow_pea = 0
+	slot_of_frost_pea = 0
+
+	# Roguelite powers
+	power_selected = false
+	sun_boost = 0
+	pea_boost = 0
+	cooldown_boost = false
+	defense_boost = 0
+
+	# Roguelite nerfs
+	mowers_nerf = false
+
+	# Level data
+	current_level = 1
+
+	# Achievements
+	mower_used = false
+	mower_not_used_achievement = false
+	sun_collector_achievement = false
