@@ -72,8 +72,9 @@ rotation = 1.5731245
 shape = SubResource("CapsuleShape2D_2k2sg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.6, 0.6)
 sprite_frames = SubResource("SpriteFrames_0gd6r")
 autoplay = "default"
-frame_progress = 0.14994934
+frame_progress = 0.75853646
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_body_entered"]

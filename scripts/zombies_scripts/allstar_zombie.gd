@@ -2,8 +2,11 @@ extends CharacterBody2D
 
 #region Variables
 var speed: float = 15.0
-var original_speed: float = 15
+var original_speed: float = 15.0
+var original_first_speed: float = 50.0
 var first_hit_speed: float = 50.0        # Speed before first attack
+var current_slow: float = 0.0
+
 var hp: int = 190
 var armour_hp: int = 1500
 var damage_per_second: float = 50.0       # Damage to plants per second
@@ -26,6 +29,7 @@ func _physics_process(delta: float):
 	var current_speed = speed
 	if not first_hit_done:
 		current_speed = first_hit_speed
+		
 
 	if attacking_plant == null:
 		velocity.x = -current_speed
@@ -77,3 +81,31 @@ func _on_body_entered(body: Node2D):
 	if body.is_in_group("Plant"):
 		attacking_plant = body
 #endregion
+
+func take_freeze(ice_time: float):
+	speed = 0
+	first_hit_speed = 0
+	await get_tree().create_timer(ice_time).timeout
+	speed = original_speed
+	first_hit_speed = original_first_speed
+
+func slow_down(slow_time: float, slow_amount: float):
+	if speed == original_speed:
+		if first_hit_done:
+			speed -= slow_amount
+			current_slow = slow_amount
+			await get_tree().create_timer(slow_time).timeout
+			speed = original_speed
+			current_slow = 0
+		elif not first_hit_done:
+			first_hit_speed -= slow_amount
+			current_slow = slow_amount
+			await get_tree().create_timer(slow_time).timeout
+			first_hit_speed = original_first_speed
+			current_slow = 0
+	elif speed != original_speed:
+		if slow_amount > current_slow:
+			speed = original_speed
+			speed -= slow_amount
+			await get_tree().create_timer(slow_time).timeout
+			speed = original_speed
