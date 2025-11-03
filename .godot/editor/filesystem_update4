@@ -1,3 +1,10 @@
 res://scripts/systems_scripts/level_zombie_spawner/level_5.gd
 res://scenes/plants/almanac/almanac_descriptions/almanac_frost_pea.tscn
 res://scenes/plants/almanac/frost_pea_button_almanac.tscn
+res://scripts/ui_scripts/almanac/frost_pea_button_almanac.gd
+res://scripts/ui_scripts/almanac/ice_pea_button_almanac.gd
+res://scenes/plants/almanac/almanac_page_2.tscn
+res://scripts/ui_scripts/settings/turn_off_mowers.gd
+res://scenes/ui/settings/turn_off_mowers.tscn
+res://scenes/ui/settings/settings.tscn
+res://scripts/ui_scripts/settings/settings.gd
