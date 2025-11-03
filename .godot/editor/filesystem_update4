@@ -8,3 +8,9 @@ res://scripts/ui_scripts/settings/turn_off_mowers.gd
 res://scenes/ui/settings/turn_off_mowers.tscn
 res://scenes/ui/settings/settings.tscn
 res://scripts/ui_scripts/settings/settings.gd
+res://scenes/plants/almanac/almanac_page_1.tscn
+res://scenes/plants/almanac/peashooter_button_almanac.tscn
+res://scripts/ui_scripts/almanac/almanac_peashooter_button.gd
+res://scenes/plants/almanac/doom_shroom_button_almanac.tscn
+res://scripts/ui_scripts/almanac/doom_shroom_button_almanac.gd
+res://scenes/plants/almanac/plasma_pea_button_almanac.tscn
