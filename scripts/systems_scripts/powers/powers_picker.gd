@@ -130,4 +130,4 @@ func _process(_delta: float) -> void:
 		if Global.current_level == 1:
 			get_tree().change_scene_to_file("res://scenes/levels/level_1.tscn")
 		else:
-			get_tree().change_scene_to_file("res://scenes/ui/start_menu.tscn")
+			get_tree().change_scene_to_file("res://scenes/ui/seed_picker.tscn")
