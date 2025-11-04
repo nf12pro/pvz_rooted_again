@@ -15,7 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://dmqhc1xqtn7qt" path="res://scenes/plants/world_1_basic/plant_seeds/iceberg_lettuce_seed.tscn" id="19_g8rqy"]
 [ext_resource type="PackedScene" uid="uid://bfvoyxqr66gn1" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn" id="20_c2388"]
 [ext_resource type="PackedScene" uid="uid://2bsalhpfl2pm" path="res://scenes/zombies/basic_zombie.tscn" id="20_uvkgl"]
-[ext_resource type="PackedScene" uid="uid://vr0f1kk30gwh" path="res://scenes/plants/world_1_basic/ice_peashooter.tscn" id="21_3kc4b"]
+[ext_resource type="PackedScene" uid="uid://bdc0cvfhwfrg1" path="res://scenes/zombies/conehead_zombie.tscn" id="21_3kc4b"]
 [ext_resource type="PackedScene" uid="uid://bu3x00oashbjp" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn" id="21_j62ee"]
 [ext_resource type="PackedScene" uid="uid://c3aibgdfw3u2v" path="res://scenes/plants/world_1_basic/plant_seeds/sunflower_seed.tscn" id="21_qr18a"]
 [ext_resource type="PackedScene" uid="uid://bqibbcgnbrvur" path="res://scenes/systems/shovel.tscn" id="21_uvkgl"]
@@ -82,9 +82,6 @@ position = Vector2(797, 51)
 [node name="AllStarZombie" parent="." instance=ExtResource("17_qiss0")]
 position = Vector2(1065, 423)
 
-[node name="StaticBody2D" parent="." instance=ExtResource("21_3kc4b")]
-position = Vector2(192, 450)
-
 [node name="IcebergLettuceSeed" parent="." instance=ExtResource("19_g8rqy")]
 position = Vector2(440, 64)
 
@@ -96,3 +93,6 @@ position = Vector2(295, 55)
 
 [node name="AllStarZombie2" parent="." instance=ExtResource("17_qiss0")]
 position = Vector2(256, 439)
+
+[node name="ConeHeadZombie2" parent="." instance=ExtResource("21_3kc4b")]
+position = Vector2(146, 447)
