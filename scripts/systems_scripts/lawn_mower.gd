@@ -19,6 +19,7 @@ func layer_setting():
 #region Bullet Speed/Movement
 func _physics_process(delta):
 	if active == true:
+		$AnimatedSprite2D.play("default")
 		position.x += speed * delta
 		delete_mower()
 #endregion

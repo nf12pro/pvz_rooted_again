@@ -2,3 +2,4 @@ res://scenes/levels/level_4.tscn
 res://in_testing(notevenclose)/test_scene.tscn
 res://scripts/systems_scripts/lawn_mower.gd
 res://scenes/zombies/conehead_zombie.tscn
+res://scenes/systems/lawn_mower.tscn
