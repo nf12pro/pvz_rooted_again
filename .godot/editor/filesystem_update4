@@ -25,3 +25,8 @@ res://scenes/ui/settings/easy_mode_button.tscn
 res://scripts/ui_scripts/settings/easy_mode_button.gd
 res://scripts/auto_load/global_variables.gd
 res://scripts/zombies_scripts/allstar_zombie.gd
+res://scenes/ui/game_won.tscn
+res://scripts/ui_scripts/game_over.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_1.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_2.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_5.gd
