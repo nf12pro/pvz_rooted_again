@@ -7,7 +7,7 @@
 size = Vector2(72, 82)
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_1k0x6"]
-a = Vector2(-37.5, -3.5)
+a = Vector2(-597.5, -1.5)
 b = Vector2(1149.5, -3.5)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_phjdk"]

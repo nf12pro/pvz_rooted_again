@@ -5,7 +5,7 @@ var speed: float = 25.0
 var original_speed: float = 25.0
 var hp: int = 190
 var armour_hp: int = 1100
-var damage_per_second: float = 50.0   # Damage to plants per second
+var damage_per_second: float = 100.0   # Damage to plants per second
 var current_slow: float = 0.0
 
 var attacking_plant = null  # Reference to the plant currently being attacked
