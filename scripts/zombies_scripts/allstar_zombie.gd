@@ -44,21 +44,29 @@ func _physics_process(delta: float):
 			if attacking_plant.has_method("take_damage"):
 				# First hit bonus (only once)
 				if not first_hit_done:
+					first_hit_speed = 0
 					attacking_plant.take_damage(first_hit_bonus)
 					first_hit_done = true
-					print(hp)
 
 				# Normal damage over time
 				attacking_plant.take_damage(damage_per_second * delta)
 				damage_timer += delta
+				speed = 0
 				if damage_timer >= 0.5:
 					damage_timer = 0.0
 
 			# Check if plant died
 			if attacking_plant.plant_hp <= 0:
 				attacking_plant = null
+				first_hit_speed = original_first_speed
+				speed = original_speed
 		else:
 			attacking_plant = null
+			if not first_hit_done:
+				first_hit_speed = original_first_speed
+			
+			speed = original_speed
+
 
 	velocity.y = 0
 	move_and_slide()

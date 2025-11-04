@@ -7,9 +7,11 @@ size = Vector2(64, 53)
 
 [node name="Cherrybomb" type="Area2D"]
 top_level = true
+visibility_layer = 2
 script = ExtResource("1_don03")
 
 [node name="ColorRect" type="ColorRect" parent="."]
+visibility_layer = 4
 offset_left = -31.0
 offset_top = -26.0
 offset_right = 29.0

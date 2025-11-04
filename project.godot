@@ -67,6 +67,9 @@ Space={
 
 [layer_names]
 
+2d_render/layer_1="UI"
+2d_render/layer_2="Zombies"
+2d_render/layer_3="Plants"
 2d_physics/layer_1="Zombie"
 2d_physics/layer_2="Plants"
 2d_physics/layer_3="Projectiles"

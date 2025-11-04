@@ -33,6 +33,7 @@ func _physics_process(delta: float):
 		if attacking_plant != null and attacking_plant.is_inside_tree():
 			if attacking_plant.has_method("take_damage"):
 				attacking_plant.take_damage(damage_per_second * delta)
+				speed = 0
 				damage_timer += delta
 				print_timer += delta
 				if damage_timer >= 0.5:
@@ -44,8 +45,10 @@ func _physics_process(delta: float):
 			# Check if plant died
 			if attacking_plant.plant_hp <= 0:
 				attacking_plant = null
+				speed = original_speed
 		else:
 			attacking_plant = null
+			speed = original_speed
 
 	velocity.y = 0
 	move_and_slide()
@@ -67,6 +70,7 @@ func _on_body_entered(body: Node2D):
 		attacking_plant = body
 #endregion
 
+#region Slow and Freze
 func take_freeze(ice_time: float):
 	speed = 0
 	await get_tree().create_timer(ice_time).timeout
@@ -85,3 +89,4 @@ func slow_down(slow_time: float, slow_amount: float):
 			speed -= slow_amount
 			await get_tree().create_timer(slow_time).timeout
 			speed = original_speed
+#endregion

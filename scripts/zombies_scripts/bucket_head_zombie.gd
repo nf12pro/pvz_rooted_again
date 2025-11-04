@@ -33,6 +33,7 @@ func _physics_process(delta: float):
 		# Deal damage over time
 		if attacking_plant != null and attacking_plant.is_inside_tree():
 			if attacking_plant.has_method("take_damage"):
+				speed = 0
 				attacking_plant.take_damage(damage_per_second * delta)
 				damage_timer += delta
 				print_timer += delta
@@ -45,8 +46,12 @@ func _physics_process(delta: float):
 			# Check if plant died
 			if attacking_plant.plant_hp <= 0:
 				attacking_plant = null
+				speed = original_speed
+
 		else:
 			attacking_plant = null
+			speed = original_speed
+
 	velocity.y = 0
 	move_and_slide()
 #endregion

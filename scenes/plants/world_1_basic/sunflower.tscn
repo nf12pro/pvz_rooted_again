@@ -88,6 +88,7 @@ position = Vector2(-2, 1)
 [node name="Node" type="Node" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+visibility_layer = 4
 position = Vector2(-1.5, -11.75)
 scale = Vector2(0.9533333, 0.9514286)
 sprite_frames = SubResource("SpriteFrames_j0qji")

@@ -30,3 +30,12 @@ res://scripts/ui_scripts/game_over.gd
 res://scripts/systems_scripts/level_zombie_spawner/level_1.gd
 res://scripts/systems_scripts/level_zombie_spawner/level_2.gd
 res://scripts/systems_scripts/level_zombie_spawner/level_5.gd
+res://scenes/zombies/basic_zombie.tscn
+res://in_testing(notevenclose)/test_scene.tscn
+res://scenes/zombies/bucket_head_zombie.tscn
+res://scenes/zombies/conehead_zombie.tscn
+res://scenes/zombies/allstar_zombie.tscn
+res://scenes/plants/world_1_basic/sunflower.tscn
+res://scenes/plants/world_1_basic/cherrybomb.tscn
+res://scenes/plants/world_1_basic/citric_hero.tscn
+res://scenes/plants/world_1_basic/tallnut.tscn
