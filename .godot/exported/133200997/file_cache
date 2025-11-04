@@ -105,7 +105,7 @@ res://scenes/systems/power_systems/powers_picker.tscn::1d57e4737d90c1a2a887d7cc0
 res://scenes/systems/house_collision.tscn::1e4aa933b7320d952dc9e658e71a6c49::1761221538::res://.godot/exported/133200997/export-7d9aee625edbfacf59556ae9d7e73eef-house_collision.scn
 res://scenes/systems/lawn_block_1.tscn::a3952f3818deeb0f1f0ede0d84b61ca4::1762201374::res://.godot/exported/133200997/export-a7f6ed984bdc49043e6b8011d11ccf01-lawn_block_1.scn
 res://scenes/systems/lawn_grid_1.tscn::948305808662d63c0a00060e17ce9fc9::1760452571::res://.godot/exported/133200997/export-c2c5a80f827bf2a43a730253876756e8-lawn_grid_1.scn
-res://scenes/systems/lawn_mower.tscn::03ca323150c8b9df9aaba109e94d6cc1::1762031908::res://.godot/exported/133200997/export-18d6b1ec07cb06c65992db85ec7a5ced-lawn_mower.scn
+res://scenes/systems/lawn_mower.tscn::486f61d2b167c99e845daf4e93c7302c::1762284723::res://.godot/exported/133200997/export-18d6b1ec07cb06c65992db85ec7a5ced-lawn_mower.scn
 res://scenes/systems/level_zombie_spawner.tscn::898353c398229e6dfb5fefd4e2255c18::1761469590::res://.godot/exported/133200997/export-2a0bf14834f085a686ef3376dbbd3e59-level_zombie_spawner.scn
 res://scenes/systems/pause.tscn::526024b521543f221533bec58742d874::1761564126::res://.godot/exported/133200997/export-da2b83591bbe112fa74a8c9c129ee56a-pause.scn
 res://scenes/systems/score_tracker.tscn::c31f65e5880547ce0d8ab965b3c921fb::1761149901::res://.godot/exported/133200997/export-974a302993aea5ed4c81cd0df3756b32-score_tracker.scn
