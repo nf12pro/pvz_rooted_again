@@ -2,3 +2,8 @@ res://scenes/plants/world_1_basic/laser_bean.tscn
 res://scripts/zombies_scripts/basic_zombie_script.gd
 res://scripts/zombies_scripts/bucket_head_zombie.gd
 res://scripts/zombies_scripts/conehead_zombie.gd
+res://scripts/ui_scripts/label.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_3.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_4.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_1_zombie_spawner.gd
+res://scenes/levels/level_4.tscn

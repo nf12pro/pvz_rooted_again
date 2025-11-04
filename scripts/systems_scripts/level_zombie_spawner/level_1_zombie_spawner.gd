@@ -121,20 +121,13 @@ func spawn_allstar_zombie():
 func check_zombie():
 	var data = Global.level_data[Global.current_level]
 
-	if data["zombies"] + data["coneheads"] + data["bucketheads"] <= 0:
+	if data["zombies"] + data["coneheads"] + data["bucketheads"] + data["allstars"] <= 0:
 		if get_tree().get_nodes_in_group("Zombie").size() == 0:
 			level_cleared = true
 			show_level_clear()
-			await get_tree().create_timer(1.0).timeout
 
 			# Move to next level if it exists
 			Global.current_level += 1
-			level_cleared = false
-
-			# If next level doesn't exist, stop everything
-			if not Global.level_data.has(Global.current_level):
-				print("All levels completed!")
-				return
 #endregion
 
 

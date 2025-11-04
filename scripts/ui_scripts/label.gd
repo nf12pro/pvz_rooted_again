@@ -1,6 +1,6 @@
 extends Label
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if Global.amount_of_seeds == 1:
 		text = "Remaining Seeds: 5"
 	elif Global.amount_of_seeds == 2:

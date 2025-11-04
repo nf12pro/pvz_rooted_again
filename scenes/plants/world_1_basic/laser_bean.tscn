@@ -105,7 +105,7 @@ position = Vector2(0, -2)
 scale = Vector2(0.85, 0.85)
 sprite_frames = SubResource("SpriteFrames_xyvug")
 autoplay = "default"
-frame_progress = 0.6784591
+frame_progress = 0.7254244
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_tower_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_tower_body_exited"]
