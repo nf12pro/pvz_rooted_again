@@ -2,10 +2,13 @@ extends Button
 
 var frost_pea_is_pressed: bool = false
 
+func _ready() -> void:
+	if Global.frost_pea_unlocked == false:
+		queue_free()
 #region frost_pea Picking
 func _on_frost_pea_picker_pressed() -> void:
 	if Global.frost_pea_unlocked == false:
-		print("You Need To Unlock Frost Pea Wood")
+		print("You Need To Unlock Frost Pea")
 	else:
 		if Global.amount_of_seeds < 6:
 			if frost_pea_is_pressed == false:

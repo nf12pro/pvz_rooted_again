@@ -2,6 +2,9 @@ extends Button
 
 var plasma_wood_is_pressed: bool = false
 
+func _ready() -> void:
+	if Global.plasma_wood_unlocked == false:
+		queue_free()
 #region plasma_wood Picking
 func _on_plasma_wood_picker_pressed() -> void:
 	if Global.plasma_wood_unlocked == false:

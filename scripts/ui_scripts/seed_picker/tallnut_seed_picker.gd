@@ -2,6 +2,10 @@ extends Button
 
 var tall_nut_is_pressed: bool = false
 
+func _ready() -> void:
+	if Global.tall_nut_unlocked == false:
+		queue_free()
+
 #region tall_nut Picking
 func _on_tall_nut_picker_pressed() -> void:
 	if Global.tall_nut_unlocked == false:

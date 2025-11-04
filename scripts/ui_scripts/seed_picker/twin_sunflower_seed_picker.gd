@@ -2,6 +2,10 @@ extends Button
 
 var twin_sunflower_is_pressed: bool = false
 
+func _ready() -> void:
+	if Global.twin_sunflower_unlocked == false:
+		queue_free()
+
 #region twin_sunflower Picking
 func _on_twin_sunflower_picker_pressed() -> void:
 	if Global.twin_sunflower_unlocked == false:

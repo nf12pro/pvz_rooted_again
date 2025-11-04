@@ -2,6 +2,9 @@ extends Button
 
 var gatling_gun_is_pressed: bool = false
 
+func _ready() -> void:
+	if Global.gatling_gun_unlocked == false:
+		queue_free()
 #region gatling_gun Picking
 func _on_gatling_gun_picker_pressed() -> void:
 	if Global.gatling_gun_unlocked == false:
