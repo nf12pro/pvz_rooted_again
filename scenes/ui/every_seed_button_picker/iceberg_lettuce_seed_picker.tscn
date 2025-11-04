@@ -9,7 +9,7 @@
 theme_override_fonts/font = ExtResource("1_yili1")
 theme_override_font_sizes/font_size = 36
 theme_override_icons/icon = ExtResource("2_5kidh")
-text = "Iceberg Lettuce"
+text = "Iceberg Bomb"
 icon = ExtResource("3_5kidh")
 script = ExtResource("3_yili1")
 

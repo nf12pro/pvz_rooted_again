@@ -4,7 +4,7 @@ extends CharacterBody2D
 var speed: float = 25.0
 var original_speed: float = 25.0
 var hp: int = 190
-var armour_hp: int = 1100
+var armour_hp: int = 570
 var damage_per_second: float = 100.0   # Damage to plants per second
 var current_slow: float = 0.0
 
@@ -19,6 +19,10 @@ func layer_setting():
 	collision_layer = 1
 	collision_mask = 2
 #endregion
+
+func _ready() -> void:
+	if Global.easy_mode == true:
+		armour_hp = 285
 
 #region Zombie Movement
 func _physics_process(delta: float):

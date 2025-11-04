@@ -71,8 +71,9 @@ var cooldown_boost: bool = false
 var defense_boost: int = 0
 #endregion
 
-#region RogueLite Nerfs
+#region RogueLite Settings
 var mowers_nerf: bool = false
+var easy_mode: bool = false
 #endregion
 
 #region Level Data

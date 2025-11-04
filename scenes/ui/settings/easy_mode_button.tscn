@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdnt00qn76rtk"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_8hrto"]
+[ext_resource type="Script" uid="uid://wm0kj1aotpkd" path="res://scripts/ui_scripts/settings/easy_mode_button.gd" id="2_8hrto"]
+
+[node name="TurnOffMowers" type="Button"]
+theme_override_fonts/font = ExtResource("1_8hrto")
+theme_override_font_sizes/font_size = 30
+text = "EASY MODE: OFF"
+script = ExtResource("2_8hrto")
+
+[connection signal="pressed" from="." to="." method="_on_easy_pressed"]

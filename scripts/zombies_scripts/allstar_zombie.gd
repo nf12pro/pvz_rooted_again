@@ -17,6 +17,10 @@ var damage_timer: float = 0.0             # Timer to control damage frequency
 var first_hit_done: bool = false          # Track if first hit has been applied
 #endregion
 
+func _ready() -> void:
+	if Global.easy_mode == true:
+		armour_hp = 750
+
 #region Layers/Masks
 func layer_setting():
 	collision_layer = 1

@@ -15,3 +15,13 @@ res://scripts/ui_scripts/seed_picker/tallnut_seed_picker.gd
 res://scripts/ui_scripts/seed_picker/plasma_wood_seed_picker.gd
 res://scripts/ui_scripts/seed_picker/gatling_gun_seed_picker.gd
 res://scripts/ui_scripts/seed_picker/twin_sunflower_seed_picker.gd
+res://scenes/ui/every_seed_button_picker/iceberg_lettuce_seed_picker.tscn
+res://scenes/ui/settings/almanac_button.tscn
+res://scripts/ui_scripts/settings/turn_off_mowers.gd
+res://scripts/ui_scripts/menu_button.gd
+res://scenes/ui/settings/settings.tscn
+res://scripts/plant_scripts/almanac/almanac_button.gd
+res://scenes/ui/settings/easy_mode_button.tscn
+res://scripts/ui_scripts/settings/easy_mode_button.gd
+res://scripts/auto_load/global_variables.gd
+res://scripts/zombies_scripts/allstar_zombie.gd

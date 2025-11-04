@@ -19,6 +19,10 @@ func layer_setting():
 	collision_mask = 2
 #endregion
 
+func _ready() -> void:
+	if Global.easy_mode == true:
+		hp = 100
+
 #region Zombie Movement
 func _physics_process(delta: float):
 	if attacking_plant == null:
