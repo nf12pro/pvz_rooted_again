@@ -4,10 +4,10 @@ extends Area2D
 var plant_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plasma_wood.tscn")
 var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/plasma_wood_overlay.tscn")
 var overlay_instance: Node2D = null
-var cost: int = 100
+@export var cost: int = 100
 var is_selected: bool = false
 
-var cooldown_time: float = 50.0
+@export var cooldown_time: float = 50.0
 var cooldown_timer: float = 0.0
 #endregion
 

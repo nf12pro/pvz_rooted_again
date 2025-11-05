@@ -25,10 +25,10 @@ var plasma_pea_selected: bool = false
 var snow_pea_selected: bool = false
 var frost_pea_selected: bool = false
 
-var twin_sunflower_unlocked: bool = true
-var gatling_gun_unlocked: bool = false
-var plasma_wood_unlocked: bool = true
-var tall_nut_unlocked: bool = false
+var twin_sunflower_unlocked: bool = false
+var gatling_gun_unlocked: bool = true
+var plasma_wood_unlocked: bool = false
+var tall_nut_unlocked: bool = true
 var plasma_pea_unlocked: bool = false
 var frost_pea_unlocked: bool = false
 
