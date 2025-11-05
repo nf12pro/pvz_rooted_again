@@ -6,3 +6,6 @@ res://scenes/ui/seed_picker.tscn
 res://scripts/auto_load/global_variables.gd
 res://scenes/ui/labels/gatling_pea_upgrade_error.tscn
 res://scenes/ui/labels/tall_nut_upgrade_error.tscn
+res://scenes/ui/labels/plasma_pea_upgrade_error.tscn
+res://scenes/ui/labels/plasma_wood_upgrade_error.tscn
+res://scenes/ui/labels/twin_sunflower_upgrade_error.tscn

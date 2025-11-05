@@ -28,27 +28,27 @@ func _unhandled_key_input(_event: InputEvent) -> void:
 				plasma_pea_label.position = Vector2(50, 360) 
 			#endregion
 			#region Twin Sunflower Error
-			if Global.twin_sunflower_selected == true and Global.sunflower_selected == false:
+			elif Global.twin_sunflower_selected == true and Global.sunflower_selected == false:
 				get_parent().add_child(twin_sunflower_label)
 				twin_sunflower_label.position = Vector2(50, 360) 
 			#endregion
 			#region Plasma Wood Error
-			if Global.plasma_wood_selected == true and Global.torchwood_selected == false:
+			elif Global.plasma_wood_selected == true and Global.torchwood_selected == false:
 				get_parent().add_child(plasma_wood_label)
 				plasma_wood_label.position = Vector2(50, 360)
 			#endregion
 			#region Frost Pea Error
-			if Global.frost_pea_selected == true and Global.snow_pea_selected == false:
+			elif Global.frost_pea_selected == true and Global.snow_pea_selected == false:
 				get_parent().add_child(frost_pea_label)
 				frost_pea_label.position = Vector2(50, 360)
 			#endregion
 			#region Gatling Pea Error
-			if Global.gatling_gun_selected == true and Global.repeater_selected == false:
+			elif Global.gatling_gun_selected == true and Global.repeater_selected == false:
 				get_parent().add_child(gatling_pea_label)
 				gatling_pea_label.position = Vector2(50, 360)
 			#endregion
 			#region Tall Nut Error
-			if Global.tall_nut_selected == true and Global.wallnut_selected == false:
+			elif Global.tall_nut_selected == true and Global.wallnut_selected == false:
 				get_parent().add_child(tall_nut_label)
 				tall_nut_label.position = Vector2(50, 360)
 			#endregion
