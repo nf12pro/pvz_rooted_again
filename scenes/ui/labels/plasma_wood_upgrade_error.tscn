@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cu61c4g5i1hj0"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_u5ijo"]
+[ext_resource type="Script" uid="uid://cbujgqct6gafx" path="res://scripts/ui_scripts/labels/plasma_wood_upgrade_error.gd" id="2_jplbp"]
+
+[node name="PlasmaPeaUpgradeError" type="Label"]
+theme_override_fonts/font = ExtResource("1_u5ijo")
+theme_override_font_sizes/font_size = 40
+text = "YOU NEED TO SELECT TORCHWOOD TO BE ABLE TO USE PLASMA WOOD"
+script = ExtResource("2_jplbp")

@@ -83,7 +83,6 @@ theme_override_constants/separation = 15
 
 [node name="IcebergLettuceSeedPicker" parent="MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("11_s3m4m")]
 layout_mode = 2
-text = "Iceberg Bomb"
 
 [node name="CherryBombSeedPicker2" parent="MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("9_0170d")]
 layout_mode = 2

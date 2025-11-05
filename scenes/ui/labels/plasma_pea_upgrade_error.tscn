@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://bmw0owps82jp7"]
+[gd_scene load_steps=3 format=3 uid="uid://bmw0owps82jp7"]
 
 [ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_6bvh5"]
+[ext_resource type="Script" uid="uid://cbujgqct6gafx" path="res://scripts/ui_scripts/labels/plasma_wood_upgrade_error.gd" id="2_bmidb"]
 
 [node name="PlasmaPeaUpgradeError" type="Label"]
 theme_override_fonts/font = ExtResource("1_6bvh5")
 theme_override_font_sizes/font_size = 40
 text = "YOU NEED TO SELECT PEASHOOTER TO BE ABLE TO USE PLASMA PEASHOOTER"
+script = ExtResource("2_bmidb")
