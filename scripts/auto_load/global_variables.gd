@@ -29,7 +29,7 @@ var twin_sunflower_unlocked: bool = false
 var gatling_gun_unlocked: bool = false
 var plasma_wood_unlocked: bool = false
 var tall_nut_unlocked: bool = false
-var plasma_pea_unlocked: bool = false
+var plasma_pea_unlocked: bool = true
 var frost_pea_unlocked: bool = false
 
 var new_open_slot: bool = false
@@ -99,6 +99,7 @@ func _ready():
 	randomize()
 #endregion
 
+#region Reset After Game Finished
 func reset_game_state():
 	# Basic Globals
 	sun_value = 2000
@@ -227,3 +228,4 @@ func reset_seeds():
 	slot_of_plasma_pea = 0
 	slot_of_snow_pea = 0
 	slot_of_frost_pea = 0
+#endregion

@@ -3,3 +3,7 @@ res://scripts/auto_load/global_variables.gd
 res://scripts/plant_scripts/plasma_wood.gd
 res://scripts/plant_scripts/torchwood_interaction.gd
 res://scripts/systems_scripts/house_collision.gd
+res://scripts/systems_scripts/level_zombie_spawner/level_1_zombie_spawner.gd
+res://scenes/ui/labels/plasma_pea_upgrade_error.tscn
+res://scripts/ui_scripts/seed_picker/plasma_pea_seed_picker.gd
+res://scripts/ui_scripts/seed_picker.gd

@@ -2,6 +2,7 @@ extends Button
 
 var plasma_pea_is_pressed: bool = false
 
+
 func _ready() -> void:
 	if Global.plasma_pea_unlocked == false:
 		queue_free()
