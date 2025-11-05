@@ -60,6 +60,8 @@ var slot_of_cherry_bomb: int = 0
 var slot_of_plasma_pea: int = 0
 var slot_of_snow_pea: int = 0
 var slot_of_frost_pea: int = 0
+
+var plasma_pea_is_selected: bool = false
 #endregion
 
 #region RogueLite Upgrades

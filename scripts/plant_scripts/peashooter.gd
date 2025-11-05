@@ -9,7 +9,10 @@ var targets = []               # List of zombies currently in range
 var shoot_cooldown = 1.0       # Seconds between shots
 var shoot_timer = 0.0
 var square: Node = null
+
+@onready var my_sprite = $AnimatedSprite2D 
 #endregion
+
 
 func set_square(square_node):
 	square = square_node
@@ -60,3 +63,11 @@ func _on_tower_body_exited(body: Node2D) -> void:
 	if targets.has(body):
 		targets.erase(body)
 #endregion
+
+
+
+func _physics_process(_delta: float) -> void:
+	if Global.plasma_pea_is_selected == true:
+		my_sprite.modulate = Color(2.454, 2.454, 2.454)
+	else:
+		my_sprite.modulate = Color(1, 1, 1)
