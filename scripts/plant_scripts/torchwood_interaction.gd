@@ -1,12 +1,10 @@
 extends StaticBody2D
 
-#region Variables
 var plant_hp = 200 
 var bullet = preload("res://scenes/plants/projectiles/fire_pea_projectile.tscn")
 var bullet1 = preload("res://scenes/plants/projectiles/pea_projectile.tscn")
 var square: Node = null
 var is_torchwood = true
-#endregion
 
 func set_square(square_node):
 	square = square_node
@@ -17,21 +15,20 @@ func _ready():
 func _on_area_2d_body_entered(body: Node2D) -> void:
 	if body.is_in_group("Pea_Projectile"):
 		if "recent" in body and body.recent == false:
-			body.queue_free()
-			var pea = bullet.instantiate()
-			pea.position = global_position
-			get_parent().add_child(pea)
+			body.call_deferred("queue_free")
+			call_deferred("_spawn_bullet", bullet)
 	elif body.is_in_group("Ice_Pea_Projectile"):
-			body.queue_free()
-			var pea1 = bullet1.instantiate()
-			pea1.position = global_position
-			get_parent().add_child(pea1)
+		body.call_deferred("queue_free")
+		call_deferred("_spawn_bullet", bullet1)
 
-#region Take Damage
+func _spawn_bullet(bullet_scene: PackedScene) -> void:
+	var pea = bullet_scene.instantiate()
+	pea.position = global_position
+	get_parent().add_child(pea)
+
 func take_damage(amount: float) -> void:
 	plant_hp -= amount
 	if plant_hp <= 0:
 		if square != null and square.has_method("free_square"):
 			square.free_square()
 		queue_free()
-#endregion

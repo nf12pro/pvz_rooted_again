@@ -1,2 +1,5 @@
 res://scenes/levels/level_1.tscn
 res://scripts/auto_load/global_variables.gd
+res://scripts/plant_scripts/plasma_wood.gd
+res://scripts/plant_scripts/torchwood_interaction.gd
+res://scripts/systems_scripts/house_collision.gd
