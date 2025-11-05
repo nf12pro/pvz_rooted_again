@@ -1,7 +1,7 @@
 extends Node2D
 
 #region Basic Global Variables
-var sun_value: int = 125 #if you're reading this lemme give u a cool 7 hint: Mbabyl bwkhalz dpss ohcl zwspa bwnyhklz huk lhjo zwspa bwnyhkl dpss nv bw av 3
+var sun_value: int = 2000 #if you're reading this lemme give u a cool 7 hint: Mbabyl bwkhalz dpss ohcl zwspa bwnyhklz huk lhjo zwspa bwnyhkl dpss nv bw av 3
 var score: int = 0
 var game_over: bool = false
 var seed_selector: bool = false
@@ -25,11 +25,11 @@ var plasma_pea_selected: bool = false
 var snow_pea_selected: bool = false
 var frost_pea_selected: bool = false
 
-var twin_sunflower_unlocked: bool = false
+var twin_sunflower_unlocked: bool = true
 var gatling_gun_unlocked: bool = false
 var plasma_wood_unlocked: bool = false
 var tall_nut_unlocked: bool = false
-var plasma_pea_unlocked: bool = true
+var plasma_pea_unlocked: bool = false
 var frost_pea_unlocked: bool = false
 
 var new_open_slot: bool = false
@@ -62,6 +62,11 @@ var slot_of_snow_pea: int = 0
 var slot_of_frost_pea: int = 0
 
 var plasma_pea_is_selected: bool = false
+var twin_sunflower_is_selected: bool = false
+var gatling_gun_is_selected: bool = false
+var plasma_wood_is_selected: bool = false
+var frost_pea_is_selected: bool = false
+var tall_nut_is_selected: bool = false
 #endregion
 
 #region RogueLite Upgrades

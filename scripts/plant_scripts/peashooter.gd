@@ -64,10 +64,10 @@ func _on_tower_body_exited(body: Node2D) -> void:
 		targets.erase(body)
 #endregion
 
-
-
+#region Contrast
 func _physics_process(_delta: float) -> void:
 	if Global.plasma_pea_is_selected == true:
-		my_sprite.modulate = Color(2.454, 2.454, 2.454)
+		my_sprite.modulate = Color(1.825, 1.825, 1.825)
 	else:
 		my_sprite.modulate = Color(1, 1, 1)
+#endregion

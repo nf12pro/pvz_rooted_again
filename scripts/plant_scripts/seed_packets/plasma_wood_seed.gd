@@ -26,6 +26,8 @@ func _on_input_event(_viewport, event, _shape_idx):
 			return
 		if Global.sun_value >= cost:
 			is_selected = true
+			Global.plasma_wood_is_selected = true
+
 			if overlay_instance == null:
 				overlay_instance = overlay_scene.instantiate()
 				get_tree().current_scene.add_child(overlay_instance)
@@ -67,6 +69,8 @@ func _unhandled_input(event):
 
 						Global.sun_value -= cost
 						is_selected = false
+						Global.plasma_wood_is_selected = false
+
 						cooldown_timer = cooldown_time
 
 						if overlay_instance:
@@ -74,8 +78,9 @@ func _unhandled_input(event):
 							overlay_instance = null
 						return
 
-		# If clicked tile has no Torchwood, just cancel selection
 		is_selected = false
+		Global.plasma_wood_is_selected = false
+
 		if overlay_instance:
 			overlay_instance.queue_free()
 			overlay_instance = null

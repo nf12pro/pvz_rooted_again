@@ -7,6 +7,9 @@ var produce_interval = 5.0 # seconds between suns
 var produce_timer = 0.0
 var square: Node = null
 var is_sunflower = true
+
+@onready var my_sprite = $AnimatedSprite2D 
+
 #endregion
 
 
@@ -48,4 +51,12 @@ func take_damage(amount: float) -> void:
 		if square != null and square.has_method("free_square"):
 			square.free_square()
 		queue_free()
+#endregion
+
+#region Contrast
+func _physics_process(_delta: float) -> void:
+	if Global.twin_sunflower_is_selected == true:
+		my_sprite.modulate = Color(1.825, 1.825, 1.825)
+	else:
+		my_sprite.modulate = Color(1, 1, 1)
 #endregion

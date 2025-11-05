@@ -6,6 +6,10 @@ var bullet1 = preload("res://scenes/plants/projectiles/pea_projectile.tscn")
 var square: Node = null
 var is_torchwood = true
 
+@onready var my_sprite = $AnimatedSprite2D 
+
+
+
 func set_square(square_node):
 	square = square_node
 
@@ -32,3 +36,11 @@ func take_damage(amount: float) -> void:
 		if square != null and square.has_method("free_square"):
 			square.free_square()
 		queue_free()
+
+#region Contrast
+func _physics_process(_delta: float) -> void:
+	if Global.plasma_wood_is_selected == true:
+		my_sprite.modulate = Color(1.825, 1.825, 1.825)
+	else:
+		my_sprite.modulate = Color(1, 1, 1)
+#endregion

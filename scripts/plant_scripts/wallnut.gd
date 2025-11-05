@@ -5,6 +5,8 @@ var plant_hp = 4000
 var square: Node = null
 
 var is_wallnut = true
+@onready var my_sprite = $AnimatedSprite2D 
+
 #endregion
 
 func _ready() -> void:
@@ -31,4 +33,12 @@ func take_damage(amount: float) -> void:
 		if square != null and square.has_method("free_square"):
 			square.free_square()
 		queue_free()
+#endregion
+
+#region Contrast
+func _physics_process(_delta: float) -> void:
+	if Global.tall_nut_is_selected == true:
+		my_sprite.modulate = Color(1.825, 1.825, 1.825)
+	else:
+		my_sprite.modulate = Color(1, 1, 1)
 #endregion

@@ -73,6 +73,7 @@ func _unhandled_input(event):
 
 						Global.sun_value -= cost
 						is_selected = false
+
 						Global.plasma_pea_is_selected = false
 
 						cooldown_timer = cooldown_time

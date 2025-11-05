@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 var speed: float = 100
-var damage: int = 30
+var damage: int = 35
 var lifetime: float = 0.3  # how long the laser stays on screen
 
 func _ready():

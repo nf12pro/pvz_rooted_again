@@ -28,6 +28,7 @@ func _on_input_event(_viewport, event, _shape_idx):
 			return
 		if Global.sun_value >= cost:
 			is_selected = true
+			Global.tall_nut_is_selected = true
 
 			if overlay_instance == null:
 				overlay_instance = overlay_scene.instantiate()
@@ -72,6 +73,7 @@ func _unhandled_input(event):
 
 						Global.sun_value -= cost
 						is_selected = false
+						Global.tall_nut_is_selected = false
 						cooldown_timer = cooldown_time
 
 						if overlay_instance:
@@ -86,6 +88,7 @@ func _unhandled_input(event):
 		overlay_instance.queue_free()
 		overlay_instance = null
 		is_selected = false
+		Global.tall_nut_is_selected = false
 
 #endregion
 

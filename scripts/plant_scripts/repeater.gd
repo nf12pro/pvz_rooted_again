@@ -11,6 +11,9 @@ var shoot_timer = 0.0
 var repeater_shot_delay = 0.2  # Delay between the two shots
 var shot_count = 0              # Counter for number of shots in this firing sequence
 var is_repeater = true
+
+@onready var my_sprite = $AnimatedSprite2D 
+
 #endregion
 
 #region Take Damage
@@ -76,4 +79,12 @@ func _on_tower_body_entered(body: Node2D) -> void:
 func _on_tower_body_exited(body: Node2D) -> void:
 	if targets.has(body):
 		targets.erase(body)
+#endregion
+
+#region Contrast
+func _physics_process(_delta: float) -> void:
+	if Global.gatling_gun_is_selected == true:
+		my_sprite.modulate = Color(1.825, 1.825, 1.825)
+	else:
+		my_sprite.modulate = Color(1, 1, 1)
 #endregion
