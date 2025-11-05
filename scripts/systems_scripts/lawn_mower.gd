@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 #region Variables
-var speed: float = 600.0
+var speed: float = 300.0
 var damage: int = 9999999999
 var active: bool = false
 #endregion

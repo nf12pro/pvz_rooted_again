@@ -129,7 +129,7 @@ func reset_game_state():
 	plasma_wood_unlocked = false
 	tall_nut_unlocked = false
 	plasma_pea_unlocked = false
-	frost_pea_unlocked = true
+	frost_pea_unlocked = false
 
 	new_open_slot = false
 	open_slot = 0
@@ -172,11 +172,14 @@ func reset_game_state():
 
 	# Level data
 	current_level = 1
-
-	# Achievements
-	mower_used = false
-	mower_not_used_achievement = false
-	sun_collector_achievement = false
+	
+	level_data = {
+	1: {"zombies": 10, "coneheads": 2, "bucketheads": 0, "allstars": 0},
+	2: {"zombies": 15, "coneheads": 5, "bucketheads": 2, "allstars": 0},
+	3: {"zombies": 20, "coneheads": 7, "bucketheads": 5, "allstars": 0},
+	4: {"zombies": 35, "coneheads": 20, "bucketheads": 10, "allstars": 1},
+	5: {"zombies": 30, "coneheads": 10, "bucketheads": 20, "allstars": 2},
+}
 
 func reset_seeds():
 	peashooter_selected = false

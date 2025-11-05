@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://iq3y0le76thb"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_qnmd7"]
+[ext_resource type="Script" uid="uid://c0xjmua3bn4af" path="res://scripts/ui_scripts/settings/achievement_button.gd" id="2_qnmd7"]
+
+[node name="TurnOffMowers" type="Button"]
+theme_override_fonts/font = ExtResource("1_qnmd7")
+theme_override_font_sizes/font_size = 30
+text = "ACHIEVEMENTS"
+script = ExtResource("2_qnmd7")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
