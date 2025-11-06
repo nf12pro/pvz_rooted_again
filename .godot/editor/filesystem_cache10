@@ -61,11 +61,14 @@ tile-set.png::CompressedTexture2D::4506450465745387920::1759089225::1761842249::
 ::res://assets/sprite/::1762284336
 ::res://assets/sprite/mower/::1762284443
 pixilart-sprite (24).png::CompressedTexture2D::5832230347061034967::1762284443::1762284443::1::::<><><>0<>0<>35be505c595b85b11b985817d5dc8a65<>res://.godot/imported/pixilart-sprite (24).png-a59d21a135db11e7b12d2ac68c4ad058.ctex::
-::res://assets/sprite/plant_sprites/::1761918529
+::res://assets/sprite/plant_sprites/::1762454959
 pixil-frame-0 (9) (1).png::CompressedTexture2D::1668490119293161935::1761910718::1761910718::1::::<><><>0<>0<>e0a680b83541e3c7efe7b3fe5b921a4e<>res://.godot/imported/pixil-frame-0 (9) (1).png-c15128aaa8c60f07ce2c38eafb7f65d2.ctex::
 pixil-frame-0 (22).png::CompressedTexture2D::7428715977274785676::1761151779::1761842249::1::::<><><>0<>0<>b9a45a1691f1120e5a22a033691f2ec5<>res://.godot/imported/pixil-frame-0 (22).png-b37c75e54b8a62349693a7bb02ef39ad.ctex::
 pixilart-sprite (1).png::CompressedTexture2D::6600086975495110197::1761326014::1761842249::1::::<><><>0<>0<>d99fedd32349ab16dfcd4da313455f89<>res://.godot/imported/pixilart-sprite (1).png-73b3a500a6581d4c3c02061a0c07c888.ctex::
 ::res://assets/sprite/plant_sprites/fire_pea_sprites/::1761901378
+::res://assets/sprite/plant_sprites/frost_peashooter/::1762454968
+pixil-frame-1 (4).png::CompressedTexture2D::5131604392726821820::1762454964::1762454964::1::::<><><>0<>0<>e514b9de355d47c04e7fa31ee07be0d1<>res://.godot/imported/pixil-frame-1 (4).png-9bf517ac3f21635265a57ca3b7aa33b3.ctex::
+pixilart-sprite (25).png::CompressedTexture2D::3016957711966570458::1762454968::1762454968::1::::<><><>0<>0<>50f9907075034955c30b1047bd657280<>res://.godot/imported/pixilart-sprite (25).png-81e8e002cefa25add90ac2885639a678.ctex::
 ::res://assets/sprite/plant_sprites/iceberg_bomb_sprites/::1761898495
 pixil-frame-0 (8) (1).png::CompressedTexture2D::2735820902858138142::1761898495::1761898495::1::::<><><>0<>0<>5c0c9dac11b791bf18081b3e92027ce8<>res://.godot/imported/pixil-frame-0 (8) (1).png-33ebdfde2d7441667153e7fad1eeb1fd.ctex::
 pixilart-sprite (10).png::CompressedTexture2D::1920238631980249973::1761898476::1761898476::1::::<><><>0<>0<>ebf09aaf8a12d06abd487f5db3161a12<>res://.godot/imported/pixilart-sprite (10).png-be6248ddd9e252d7a5896b7e3392de49.ctex::
@@ -302,9 +305,9 @@ almanac_button.tscn::PackedScene::1123387607009085911::1762243525::0::1::::<><><
 easy_mode_button.tscn::PackedScene::2625023731555446764::1762246674::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://wm0kj1aotpkd::::res://scripts/ui_scripts/settings/easy_mode_button.gd
 settings.tscn::PackedScene::4545124010271735918::1762287038::0::1::::<><><>0<>0<><>::uid://6wfdwbd0ceov::::res://scenes/ui/settings/turn_off_mowers.tscn<>uid://dd31qox666d40::::res://scripts/ui_scripts/settings/settings.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bdnt00qn76rtk::::res://scenes/ui/settings/easy_mode_button.tscn<>uid://iq3y0le76thb::::res://scenes/ui/settings/achievement_button.tscn<>uid://qagbanvkcr88::::res://scenes/ui/settings/almanac_button.tscn
 turn_off_mowers.tscn::PackedScene::2221580562942171969::1762170807::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://dh50o0n1p5bbp::::res://scripts/ui_scripts/settings/turn_off_mowers.gd
-::res://scenes/zombies/::1762272112
+::res://scenes/zombies/::1762454811
 allstar_zombie.tscn::PackedScene::526456753429736468::1762256725::0::1::::<><><>0<>0<><>::uid://4x8ykxh2q1d8::::res://scripts/zombies_scripts/allstar_zombie.gd
-basic_zombie.tscn::PackedScene::1898256651109890110::1762256725::0::1::::<><><>0<>0<><>::uid://m4trri6o3ord::::res://scripts/zombies_scripts/basic_zombie_script.gd
+basic_zombie.tscn::PackedScene::1898256651109890110::1762454811::0::1::::<><><>0<>0<><>::uid://m4trri6o3ord::::res://scripts/zombies_scripts/basic_zombie_script.gd
 bucket_head_zombie.tscn::PackedScene::851205246053470004::1762256725::0::1::::<><><>0<>0<><>::uid://bqf7crlea0uxy::::res://scripts/zombies_scripts/bucket_head_zombie.gd
 conehead_zombie.tscn::PackedScene::2602638577584328018::1762272112::0::1::::<><><>0<>0<><>::uid://c2mgbwetbce1g::::res://scripts/zombies_scripts/conehead_zombie.gd
 ::res://scenes/zombies/projectiles_z/::1759087181
@@ -312,12 +315,12 @@ conehead_zombie.tscn::PackedScene::2602638577584328018::1762272112::0::1::::<><>
 ::res://scripts/auto_load/::1762377670
 global_variables.gd::GDScript::8566935620558440724::1762377670::0::1::::<>Node2D<><>0<>0<><>::
 ::res://scripts/levels_scripts/::1759090482
-::res://scripts/plant_scripts/::1762349288
-cherry_bomb.gd::GDScript::7805548696780763791::1761820011::0::1::::<>Area2D<><>0<>0<><>::
-doom_shroom.gd::GDScript::2982482056881012530::1761840033::0::1::::<>Area2D<><>0<>0<><>::
+::res://scripts/plant_scripts/::1762454772
+cherry_bomb.gd::GDScript::7805548696780763791::1762454772::0::1::::<>Area2D<><>0<>0<><>::
+doom_shroom.gd::GDScript::2982482056881012530::1762454772::0::1::::<>Area2D<><>0<>0<><>::
 frost_peashooter.gd::GDScript::4049763372861740534::1762032118::0::1::::<>StaticBody2D<><>0<>0<><>::
 gatling_gun.gd::GDScript::2866387680466990307::1761472806::0::1::::<>StaticBody2D<><>0<>0<><>::
-iceberg_lettuce.gd::GDScript::7689317523824133854::1761566445::0::1::::<>Area2D<><>0<>0<><>::
+iceberg_lettuce.gd::GDScript::7689317523824133854::1762454684::0::1::::<>Area2D<><>0<>0<><>::
 iceberg_lettuce_seed.gd::GDScript::2701013547620251904::1762021986::0::1::::<>Area2D<><>0<>0<><>::
 ice_peashooter.gd::GDScript::8892042630087754966::1762347464::0::1::::<>StaticBody2D<><>0<>0<><>::
 laser_bean.gd::GDScript::3988590200063815734::1761823348::0::1::::<>StaticBody2D<><>0<>0<><>::
@@ -370,14 +373,14 @@ seed_slot_3.gd::GDScript::7727194163613496147::1762019925::0::1::::<>Node2D<><>0
 seed_slot_4.gd::GDScript::227853789844013122::1762020181::0::1::::<>Node2D<><>0<>0<><>::
 seed_slot_5.gd::GDScript::5723393834834726686::1762020181::0::1::::<>Node2D<><>0<>0<><>::
 seed_slot_6.gd::GDScript::8986541412783731580::1762020181::0::1::::<>Node2D<><>0<>0<><>::
-::res://scripts/systems_scripts/::1762350164
+::res://scripts/systems_scripts/::1762454684
 house_collision.gd::GDScript::4754277031681957792::1762327678::0::1::::<>Area2D<><>0<>0<><>::
 lawn_block_1.gd::GDScript::2433358693644695723::1761240654::0::1::::<>Area2D<><>0<>0<><>::
 lawn_grid_1.gd::GDScript::4966339199725498500::1761154032::0::1::::<>Node2D<><>0<>0<><>::
 lawn_mower.gd::GDScript::5117222756922324788::1762286644::0::1::::<>CharacterBody2D<><>0<>0<><>::
 pause.gd::GDScript::3685759846007861770::1761652330::0::1::::<>Control<><>0<>0<><>::
 score_tracker.gd::GDScript::8874608591778706797::1761652129::0::1::::<>RichTextLabel<><>0<>0<><>::
-shovel.gd::GDScript::4285867653698082906::1761652224::0::1::::<>Area2D<><>0<>0<><>::
+shovel.gd::GDScript::4285867653698082906::1762454684::0::1::::<>Area2D<><>0<>0<><>::
 speed_up_button.gd::GDScript::7417500960840570929::1761831013::0::1::::<>Button<><>0<>0<><>::
 sun_counter.gd::GDScript::9081083118155086555::1762350164::0::1::::<>RichTextLabel<><>0<>0<><>::
 sun_spawner.gd::GDScript::2504952893037416772::1761216451::0::1::::<>Node2D<><>0<>0<><>::
@@ -464,9 +467,9 @@ achievement_button.gd::GDScript::6575612080883219057::1762287027::0::1::::<>Butt
 easy_mode_button.gd::GDScript::1570463388738179595::1762246674::0::1::::<>Button<><>0<>0<><>::
 settings.gd::GDScript::7429239145930031495::1762170379::0::1::::<>Control<><>0<>0<><>::
 turn_off_mowers.gd::GDScript::7714059549469910677::1762243525::0::1::::<>Button<><>0<>0<><>::
-::res://scripts/zombies_scripts/::1762256569
+::res://scripts/zombies_scripts/::1762454527
 allstar_zombie.gd::GDScript::2085004234780115903::1762256569::0::1::::<>CharacterBody2D<><>0<>0<><>::
-basic_zombie_script.gd::GDScript::903317966566780061::1762250896::0::1::::<>CharacterBody2D<><>0<>0<><>::
-bucket_head_zombie.gd::GDScript::3521711496100803966::1762256470::0::1::::<>CharacterBody2D<><>0<>0<><>::
+basic_zombie_script.gd::GDScript::903317966566780061::1762454527::0::1::::<>CharacterBody2D<><>0<>0<><>::
+bucket_head_zombie.gd::GDScript::3521711496100803966::1762454403::0::1::::<>CharacterBody2D<><>0<>0<><>::
 conehead_zombie.gd::GDScript::6693079928969911818::1762256470::0::1::::<>CharacterBody2D<><>0<>0<><>::
 ::res://scripts/zombies_scripts/projectiles_z/::1759087198
