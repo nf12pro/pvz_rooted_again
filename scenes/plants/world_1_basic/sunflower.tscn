@@ -1,23 +1,66 @@
-[gd_scene load_steps=18 format=3 uid="uid://17335vsxlcfa"]
+[gd_scene load_steps=19 format=3 uid="uid://17335vsxlcfa"]
 
 [ext_resource type="Script" uid="uid://ckb03i30le2fk" path="res://scripts/plant_scripts/sunflower.gd" id="1_p2dmj"]
-[ext_resource type="Texture2D" uid="uid://bdd5wwkj1fc0d" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-0.png" id="2_2xhmm"]
-[ext_resource type="Texture2D" uid="uid://ddstsdf8ornr8" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-1.png" id="3_qhao5"]
-[ext_resource type="Texture2D" uid="uid://b0x1okn5leoxb" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-2.png" id="4_epsyd"]
-[ext_resource type="Texture2D" uid="uid://bv1gdfxq1rvxx" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-3.png" id="5_3gj24"]
-[ext_resource type="Texture2D" uid="uid://cimtwr3tt7r16" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-4.png" id="6_6mdb7"]
-[ext_resource type="Texture2D" uid="uid://425m8dio4e1p" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-5.png" id="7_n02at"]
-[ext_resource type="Texture2D" uid="uid://cm0n7ln2qx2rf" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-6.png" id="8_nfhtt"]
-[ext_resource type="Texture2D" uid="uid://pf1cyc1p6fpx" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-7.png" id="9_gc67u"]
-[ext_resource type="Texture2D" uid="uid://nkbokqaxj0n6" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-8.png" id="10_2sq2j"]
-[ext_resource type="Texture2D" uid="uid://dv1f6rex56jqj" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-9.png" id="11_0l6ql"]
-[ext_resource type="Texture2D" uid="uid://doh2eq3dw0gec" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-10.png" id="12_4grx4"]
-[ext_resource type="Texture2D" uid="uid://cbnhqhtuwkbm6" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-11.png" id="13_syywe"]
-[ext_resource type="Texture2D" uid="uid://b70wro0wb2rl5" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-12.png" id="14_tev3y"]
-[ext_resource type="Texture2D" uid="uid://cc3e0iidrs4m2" path="res://assets/sprite/plant_sprites/sunflower_anim/pixil-frame-13.png" id="15_t16vw"]
+[ext_resource type="Texture2D" uid="uid://b125444kgixbi" path="res://assets/sprite/plant_sprites/sunflower_anim/pixilart-sprite (6).png" id="2_p2dmj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
 size = Vector2(72, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5hbg0"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(0, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jb3k7"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(150, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a4h58"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(300, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t7v25"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(450, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lij4x"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(600, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7uji8"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(750, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xl2uq"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(900, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s3dva"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(1050, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4cfqb"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(1200, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qpqy8"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(1350, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ijk6b"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(1500, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bhnyh"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(1650, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2xhmm"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(1800, 0, 150, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhao5"]
+atlas = ExtResource("2_p2dmj")
+region = Rect2(1950, 0, 150, 175)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_j0qji"]
 animations = [{
@@ -28,46 +71,46 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_2xhmm")
+"texture": SubResource("AtlasTexture_5hbg0")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_qhao5")
+"texture": SubResource("AtlasTexture_jb3k7")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_epsyd")
+"texture": SubResource("AtlasTexture_a4h58")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_3gj24")
+"texture": SubResource("AtlasTexture_t7v25")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_6mdb7")
+"texture": SubResource("AtlasTexture_lij4x")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_n02at")
+"texture": SubResource("AtlasTexture_7uji8")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_nfhtt")
+"texture": SubResource("AtlasTexture_xl2uq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_gc67u")
+"texture": SubResource("AtlasTexture_s3dva")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_2sq2j")
+"texture": SubResource("AtlasTexture_4cfqb")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_0l6ql")
+"texture": SubResource("AtlasTexture_qpqy8")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_4grx4")
+"texture": SubResource("AtlasTexture_ijk6b")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_syywe")
+"texture": SubResource("AtlasTexture_bhnyh")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_tev3y")
+"texture": SubResource("AtlasTexture_2xhmm")
 }, {
 "duration": 1.0,
-"texture": ExtResource("15_t16vw")
+"texture": SubResource("AtlasTexture_qhao5")
 }],
 "loop": true,
 "name": &"new_animation",

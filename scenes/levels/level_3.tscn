@@ -22,6 +22,10 @@
 script = ExtResource("1_josfm")
 
 [node name="Pause" parent="." instance=ExtResource("2_lgrx1")]
+offset_left = 500.0
+offset_top = 300.0
+offset_right = 500.0
+offset_bottom = 300.0
 
 [node name="SunCounter" parent="." instance=ExtResource("1_apo5x")]
 offset_left = 1.0

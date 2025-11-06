@@ -1,6 +1,6 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1762454014
-export_presets.cfg::TextFile::-1::1762377679::0::1::::<><><>0<>0<><>::
+::res://::1762455649
+export_presets.cfg::TextFile::-1::1762455649::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::1385716001083434227::1759085610::1761842249::1::::<><><>0<>0<>75db0460f52da5b5df9a14ddb92a937e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 index.apple-touch-icon.png::CompressedTexture2D::3279556904775756626::1761596322::1761842249::1::::<><><>0<>0<>2003ba376ab1a159b32b2fafee3e3539<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
 index.icon.png::CompressedTexture2D::3920376143092261005::1761596322::1761842249::1::::<><><>0<>0<>64ec1a458dab126cfcd30d13d0ab22c8<>res://.godot/imported/index.icon.png-5665fad188e88d1e882500a4376bfe02.ctex::
@@ -95,7 +95,7 @@ pixilart-sprite (19).png::CompressedTexture2D::4724529305931450426::1762186688::
 ::res://assets/sprite/plant_sprites/repeater_sprites/::1761903196
 pixil-frame-1 (1).png::CompressedTexture2D::8235545034373025177::1761903191::1761903192::1::::<><><>0<>0<>ea986592ea5f41a17008eb18f5ab9af5<>res://.godot/imported/pixil-frame-1 (1).png-edad925e65e906a20a5921218c718f2f.ctex::
 pixilart-sprite (7).png::CompressedTexture2D::4137273641955116827::1761903196::1761903196::1::::<><><>0<>0<>c7e92301fc0add91999f0a3a1698c076<>res://.godot/imported/pixilart-sprite (7).png-3505c59f566b63e08237fe41950d937a.ctex::
-::res://assets/sprite/plant_sprites/sunflower_anim/::1761842249
+::res://assets/sprite/plant_sprites/sunflower_anim/::1762455840
 pixil-frame-0.png::CompressedTexture2D::2605042316523889733::1761299736::1761842249::1::::<><><>0<>0<>d128df2a282d0eee134d3b4ce53f7d35<>res://.godot/imported/pixil-frame-0.png-9ab9a21f4c47f6a86f11dacdbc2df41d.ctex::
 pixil-frame-1.png::CompressedTexture2D::7408173315532161247::1761299736::1761842249::1::::<><><>0<>0<>4a2aa8262761260c52f2f1de25f6ad97<>res://.godot/imported/pixil-frame-1.png-f64e1a713d65073c87943fbb89a1e669.ctex::
 pixil-frame-2.png::CompressedTexture2D::4190226652607777559::1761299736::1761842249::1::::<><><>0<>0<>40f172ff89bfb5c95817e89438043124<>res://.godot/imported/pixil-frame-2.png-4a04167976897b74da2b23cd2ffd8240.ctex::
@@ -110,6 +110,7 @@ pixil-frame-10.png::CompressedTexture2D::8158003892065310378::1761299736::176184
 pixil-frame-11.png::CompressedTexture2D::4870321111432092587::1761299736::1761842249::1::::<><><>0<>0<>d665b658f05a2b2ee21baa5043b95cfb<>res://.godot/imported/pixil-frame-11.png-68d65e160e57864adf57362fe04d5386.ctex::
 pixil-frame-12.png::CompressedTexture2D::4685440031247886528::1761299736::1761842249::1::::<><><>0<>0<>f549a855cd56ed89c05ca373fbfec359<>res://.godot/imported/pixil-frame-12.png-98f7ecd1e8ca3c6888103beddc1ea1f8.ctex::
 pixil-frame-13.png::CompressedTexture2D::4971309577299630759::1761299736::1761842249::1::::<><><>0<>0<>1634e40121b1fd94a00cb4e1fbc50519<>res://.godot/imported/pixil-frame-13.png-b1dbb2a0c1205fa440822bfed0a9e716.ctex::
+pixilart-sprite (6).png::CompressedTexture2D::4268943683886988454::1762455840::1762455840::1::::<><><>0<>0<>fa6b9938090f8297f63d1be783d9b4b2<>res://.godot/imported/pixilart-sprite (6).png-3a055aee7a6365f15dcd5bddf6bf8d05.ctex::
 ::res://assets/sprite/ui_sprites/::1761842249
 dark-patch-pixilart (1).png::CompressedTexture2D::2851284514167792423::1761152749::1761842249::1::::<><><>0<>0<>b5e2e82d69fc47e9a078fb219c42c996<>res://.godot/imported/dark-patch-pixilart (1).png-8f7a95886904d6dce7b5397cdc720970.ctex::
 pixil-frame-0 (1) (1).png::CompressedTexture2D::8801251234979365507::1761151701::1761842249::1::::<><><>0<>0<>84c579b2b80a49bb3fb9d90fb173d517<>res://.godot/imported/pixil-frame-0 (1) (1).png-063ab41f1a5f2155492eca6dd4fed2d1.ctex::
@@ -181,11 +182,11 @@ plasma_burnt_projectile.tscn::PackedScene::6010508502856587707::1762195491::0::1
 plasma_projectile.tscn::PackedScene::4626664824593550224::1761901698::0::1::::<><><>0<>0<><>::uid://c2kb3igj67wth::::res://scripts/plant_scripts/projectiles_scripts/plasma_projectile.gd<>uid://c44oxmkq88d78::::res://assets/sprite/plant_sprites/projectile_sprites/pixilart-sprite (15).png
 sun_projectile.tscn::PackedScene::4095628269918449737::1759676668::0::1::::<><><>0<>0<><>::uid://ck3bolt1db6i8::::res://scripts/plant_scripts/projectiles_scripts/sun_projectile.gd<>uid://brs3rpqghf4wx::::res://assets/prototype_assets/pixil-frame-0 (18).png
 sun_spawned.tscn::PackedScene::5911683860543605389::1761212010::0::1::::<><><>0<>0<><>::uid://cedmt47mhvqya::::res://scripts/plant_scripts/projectiles_scripts/sun_spawned_projectile.gd<>uid://brs3rpqghf4wx::::res://assets/prototype_assets/pixil-frame-0 (18).png
-::res://scenes/plants/world_1_basic/::1762349625
+::res://scenes/plants/world_1_basic/::1762455311
 cherrybomb.tscn::PackedScene::73787418802628005::1762256725::0::1::::<><><>0<>0<><>::uid://djhcindt68oyp::::res://scripts/plant_scripts/cherry_bomb.gd
 citric_hero.tscn::PackedScene::6754435444565756201::1762256725::0::1::::<><><>0<>0<><>::uid://ek8a4y2w0cu6::::res://scripts/plant_scripts/peashooter.gd<>uid://c5nulleubi72h::::res://assets/sprite/plant_sprites/peashooter_sprite/pixilart-sprite (2).png
 doom_shroom.tscn::PackedScene::7557681803058316973::1761653710::0::1::::<><><>0<>0<><>::uid://biq0bqs18dims::::res://scripts/plant_scripts/doom_shroom.gd
-frost_peashooter.tscn::PackedScene::7174726088259730573::1762017256::0::1::::<><><>0<>0<><>::uid://bxx0am2hrrc6y::::res://scripts/plant_scripts/frost_peashooter.gd<>uid://dgk43mjsnpbkh::::res://assets/sprite/plant_sprites/ice_peashooter_sprite/pixilart-sprite (8).png
+frost_peashooter.tscn::PackedScene::7174726088259730573::1762455311::0::1::::<><><>0<>0<><>::uid://bxx0am2hrrc6y::::res://scripts/plant_scripts/frost_peashooter.gd<>uid://bi8o380240ksw::::res://assets/sprite/plant_sprites/frost_peashooter/pixilart-sprite (25).png
 gatling_gun.tscn::PackedScene::5538274428872290886::1761239102::0::1::::<><><>0<>0<><>::uid://bg3q8sgbkyvxb::::res://scripts/plant_scripts/gatling_gun.gd<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png
 iceberg_lettuce.tscn::PackedScene::3240523217186998598::1761898645::0::1::::<><><>0<>0<><>::uid://dhs063if14l1w::::res://scripts/plant_scripts/iceberg_lettuce.gd<>uid://2mgbxqen3n5v::::res://assets/sprite/plant_sprites/iceberg_bomb_sprites/pixilart-sprite (10).png
 ice_peashooter.tscn::PackedScene::1510588373554292179::1761918684::0::1::::<><><>0<>0<><>::uid://dyxmv4jpd4v3s::::res://scripts/plant_scripts/ice_peashooter.gd<>uid://dgk43mjsnpbkh::::res://assets/sprite/plant_sprites/ice_peashooter_sprite/pixilart-sprite (8).png
@@ -201,10 +202,10 @@ torchwood.tscn::PackedScene::4795422348325208211::1761902648::0::1::::<><><>0<>0
 torchwood_fail.tscn::PackedScene::1399396357879490991::1761293052::0::1::::<><><>0<>0<><>::uid://bk5f68hdjqdr8::::res://scripts/plant_scripts/torchwood_1.gd<>uid://t0ismlnj4xnf::::res://icon.svg
 twin_sunflower.tscn::PackedScene::8626405724640509127::1761227195::0::1::::<><><>0<>0<><>::uid://co1pvwyebdf6l::::res://scripts/plant_scripts/twin_sunflower.gd<>uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png
 wallnut.tscn::PackedScene::7584461837647648241::1762349625::0::1::::<><><>0<>0<><>::uid://b0lkf1gdpkhsn::::res://scripts/plant_scripts/wallnut.gd<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png
-::res://scenes/plants/world_1_basic/plant_seeds/::1762348670
+::res://scenes/plants/world_1_basic/plant_seeds/::1762455034
 cherrybomb_seed.tscn::PackedScene::3328257594455407169::1761462805::0::1::::<><><>0<>0<><>::uid://dc2axkyibmsoc::::res://scripts/plant_scripts/seed_packets/cherrybomb_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
 doomshroom_seed.tscn::PackedScene::6755677730702361846::1761653360::0::1::::<><><>0<>0<><>::uid://bibvmxharrw2p::::res://scripts/plant_scripts/seed_packets/doomshroom_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
-frost_pea_seed.tscn::PackedScene::6682065739434195699::1762018420::0::1::::<><><>0<>0<><>::uid://cyxv88ifyx1cu::::res://scripts/plant_scripts/seed_packets/frost_pea_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
+frost_pea_seed.tscn::PackedScene::6682065739434195699::1762455034::0::1::::<><><>0<>0<><>::uid://cyxv88ifyx1cu::::res://scripts/plant_scripts/seed_packets/frost_pea_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
 gatling_gun_seed.tscn::PackedScene::57870419130718480::1761239587::0::1::::<><><>0<>0<><>::uid://1kwjn052lybi::::res://scripts/plant_scripts/seed_packets/gatling_gun_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
 iceberg_lettuce_seed.tscn::PackedScene::8034988211228334219::1761899879::0::1::::<><><>0<>0<><>::uid://beqnkfcqx0gi7::::res://scripts/plant_scripts/iceberg_lettuce_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
 ice_peashooter_seed.tscn::PackedScene::3397513278864284911::1762014543::0::1::::<><><>0<>0<><>::uid://bwvwx8idqvtfo::::res://scripts/plant_scripts/seed_packets/ice_peashooter_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
@@ -218,7 +219,7 @@ tallnut_seed.tscn::PackedScene::1357626691934309236::1762348670::0::1::::<><><>0
 torchwood_seed.tscn::PackedScene::25715887100261436::1761294403::0::1::::<><><>0<>0<><>::uid://bido25cyfq7ka::::res://scripts/plant_scripts/seed_packets/torchwood_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
 twin_sunflower_seed.tscn::PackedScene::1678924142805599478::1761237488::0::1::::<><><>0<>0<><>::uid://ls8js52d6pvi::::res://scripts/plant_scripts/seed_packets/twin_sunflower_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
 wallnut_seed.tscn::PackedScene::4186595991784845664::1761724166::0::1::::<><><>0<>0<><>::uid://el86fid7c2pv::::res://scripts/plant_scripts/seed_packets/wallnut_seed.gd<>uid://dxnnk7gmmf8p0::::res://assets/sprite/ui_sprites/pixil-frame-0 (1) (1).png
-::res://scenes/plants/world_1_basic/plant_seeds/overlays/::1762014334
+::res://scenes/plants/world_1_basic/plant_seeds/overlays/::1762455017
 iceberg_bomb_overlay.tscn::PackedScene::1879908516137171546::1761899705::0::1::::<><><>0<>0<><>::uid://be8itntmb54kw::::res://assets/sprite/plant_sprites/iceberg_bomb_sprites/pixil-frame-0 (8) (1).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 ice_peashooter_overlay.tscn::PackedScene::5084534209216716367::1762014334::0::1::::<><><>0<>0<><>::uid://vp1wgyyhcn8r::::res://assets/sprite/plant_sprites/ice_peashooter_sprite/pixil-frame-0 (7) (1).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 laser_bean_overlay.tscn::PackedScene::4081662501290217170::1761901143::0::1::::<><><>0<>0<><>::uid://dxsxwhxr22sgy::::res://assets/sprite/plant_sprites/laser_bean_sprites/pixil-frame-0 (4) (1).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
@@ -226,6 +227,7 @@ peashooter_overlay.tscn::PackedScene::4076195618786742150::1761853684::0::1::::<
 plasma_pea_overlay.tscn::PackedScene::8565985390271281359::1761911458::0::1::::<><><>0<>0<><>::uid://cr85mfnkb4u7d::::res://assets/sprite/plant_sprites/plasma_peashooter_sprites/pixil-frame-0 (5) (1).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 plasma_wood_overlay.tscn::PackedScene::7509001059350060702::1761902484::0::1::::<><><>0<>0<><>::uid://cixfktlwwkci5::::res://assets/sprite/plant_sprites/plasma_wood_sprites/pixil-frame-0 (10) (1).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 repeater_overlay.tscn::PackedScene::403386117193750781::1761903614::0::1::::<><><>0<>0<><>::uid://dplmhul78ee2d::::res://assets/sprite/plant_sprites/repeater_sprites/pixil-frame-1 (1).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
+frost_peashooter_overlay.tscn::PackedScene::3651052653257803634::1762455017::0::1::::<><><>0<>0<><>::uid://cfd11lpletuk7::::res://assets/sprite/plant_sprites/frost_peashooter/pixil-frame-1 (4).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 sun_overlay.tscn::PackedScene::8167996778469253479::1761154813::0::1::::<><><>0<>0<><>::uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 torchwood_overlay.tscn::PackedScene::2109199890229728494::1761911219::0::1::::<><><>0<>0<><>::uid://x1h12rawlim6::::res://assets/sprite/plant_sprites/pixil-frame-0 (9) (1).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 wallnut_overlay.tscn::PackedScene::906291149806750161::1761210704::0::1::::<><><>0<>0<><>::uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
@@ -312,8 +314,8 @@ bucket_head_zombie.tscn::PackedScene::851205246053470004::1762256725::0::1::::<>
 conehead_zombie.tscn::PackedScene::2602638577584328018::1762272112::0::1::::<><><>0<>0<><>::uid://c2mgbwetbce1g::::res://scripts/zombies_scripts/conehead_zombie.gd
 ::res://scenes/zombies/projectiles_z/::1759087181
 ::res://scripts/::1761326987
-::res://scripts/auto_load/::1762377670
-global_variables.gd::GDScript::8566935620558440724::1762377670::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/auto_load/::1762455254
+global_variables.gd::GDScript::8566935620558440724::1762455254::0::1::::<>Node2D<><>0<>0<><>::
 ::res://scripts/levels_scripts/::1759090482
 ::res://scripts/plant_scripts/::1762454772
 cherry_bomb.gd::GDScript::7805548696780763791::1762454772::0::1::::<>Area2D<><>0<>0<><>::
@@ -347,10 +349,10 @@ plasma_burnt_projectile.gd::GDScript::2035297188700991978::1762082571::0::1::::<
 plasma_projectile.gd::GDScript::6688695072283034485::1762200650::0::1::::<>CharacterBody2D<><>0<>0<><>::
 sun_projectile.gd::GDScript::5532618707281175653::1761312590::0::1::::<>Node2D<><>0<>0<><>::
 sun_spawned_projectile.gd::GDScript::5060553982364221192::1761312670::0::1::::<>Node2D<><>0<>0<><>::
-::res://scripts/plant_scripts/seed_packets/::1762374942
+::res://scripts/plant_scripts/seed_packets/::1762455035
 cherrybomb_seed.gd::GDScript::7355419573648914582::1762021986::0::1::::<>Area2D<><>0<>0<><>::
 doomshroom_seed.gd::GDScript::2951293515800470869::1762021986::0::1::::<>Area2D<><>0<>0<><>::
-frost_pea_seed.gd::GDScript::6506190036978484888::1762347700::0::1::::<>Area2D<><>0<>0<><>::
+frost_pea_seed.gd::GDScript::6506190036978484888::1762455035::0::1::::<>Area2D<><>0<>0<><>::
 gatling_gun_seed.gd::GDScript::1846906280938712210::1762345613::0::1::::<>Area2D<><>0<>0<><>::
 ice_peashooter_seed.gd::GDScript::3975305769453268876::1762021986::0::1::::<>Area2D<><>0<>0<><>::
 laser_bean_seed.gd::GDScript::551710897928774039::1762285096::0::1::::<>Area2D<><>0<>0<><>::

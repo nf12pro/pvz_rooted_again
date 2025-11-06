@@ -6,7 +6,7 @@ res://scenes/levels/level_1.tscn::4c5e8f4c556c43e94877b99d83121988::1762327678::
 res://scenes/levels/level_2.tscn::fce1d43a71133e672c91eb55138461b8::1761652915::res://.godot/exported/133200997/export-a18c5401c17cd33ddcb0f5ac6af637f4-level_2.scn
 res://scenes/levels/level_3.tscn::9ad7b82cf06263c44e424d64b6bd4dc0::1761652950::res://.godot/exported/133200997/export-b6a8ed086a8d8ba97c24b83f09c5fd0c-level_3.scn
 res://scenes/levels/level_4.tscn::7ec16ed30ff662814ca3c4dafe277a52::1762289086::res://.godot/exported/133200997/export-547f64fc5b8d61f421d631ad3dc05ab1-level_4.scn
-res://scenes/levels/level_5.tscn::8b3722a0b0fae513b959573661cd9c95::1761653010::res://.godot/exported/133200997/export-3964df4752e866b3a07ed11179692f3c-level_5.scn
+res://scenes/levels/level_5.tscn::956a0a2c0168ea5b4da6034eb82bcd90::1762456460::res://.godot/exported/133200997/export-3964df4752e866b3a07ed11179692f3c-level_5.scn
 res://scenes/plants/almanac/almanac_descriptions/almanac_cherry_bomb.tscn::36a5e0c5c444276de1e3ad8f85be8848::1761823202::res://.godot/exported/133200997/export-56f6056f987cbc57371a309ce3dfe205-almanac_cherry_bomb.scn
 res://scenes/plants/almanac/almanac_descriptions/almanac_doom_shroom.tscn::bb098c83d21db1e0c24cdab837b336ff::1761840033::res://.godot/exported/133200997/export-66a8fc8ffd444a7f4d9ee99843496557-almanac_doom_shroom.scn
 res://scenes/plants/almanac/almanac_descriptions/almanac_gatling_pea.tscn::e165db914515f51281775bda1a03db42::1761725753::res://.godot/exported/133200997/export-692a2878a6083f4b365e72c587e08536-almanac_gatling_pea.scn
@@ -68,7 +68,7 @@ res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn::a55c1
 res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn::cc1a690a79b19971962a45560450fef7::1761408785::res://.godot/exported/133200997/export-39e5de2a8e7192e8fc60b44fa4eb5b8f-seed_slot_6.scn
 res://scenes/plants/world_1_basic/plant_seeds/cherrybomb_seed.tscn::9c4afa15c38f8afa5b73e5b4248da901::1761462805::res://.godot/exported/133200997/export-a75687ae5b2b8fd400a31d3aeb8ce9f7-cherrybomb_seed.scn
 res://scenes/plants/world_1_basic/plant_seeds/doomshroom_seed.tscn::9a1d03f87a4ccb15f7e68bb59aeeb554::1761653360::res://.godot/exported/133200997/export-3fcb749921739d66092f1277668eb8ba-doomshroom_seed.scn
-res://scenes/plants/world_1_basic/plant_seeds/frost_pea_seed.tscn::d900d9524b535316ed25f084cbbc94a4::1762018420::res://.godot/exported/133200997/export-d6cd9bee1988a672924cae953ac9e51d-frost_pea_seed.scn
+res://scenes/plants/world_1_basic/plant_seeds/frost_pea_seed.tscn::d900d9524b535316ed25f084cbbc94a4::1762455034::res://.godot/exported/133200997/export-d6cd9bee1988a672924cae953ac9e51d-frost_pea_seed.scn
 res://scenes/plants/world_1_basic/plant_seeds/gatling_gun_seed.tscn::21c0f7c968bb2546ded7dbb0893b241b::1761239587::res://.godot/exported/133200997/export-7e00e172bde5e5d900ec290b9887d261-gatling_gun_seed.scn
 res://scenes/plants/world_1_basic/plant_seeds/iceberg_lettuce_seed.tscn::fb0c962b90b94c28da7c5398be8677c6::1761899879::res://.godot/exported/133200997/export-9e7a54bb0a02a655a3bc03611136e053-iceberg_lettuce_seed.scn
 res://scenes/plants/world_1_basic/plant_seeds/ice_peashooter_seed.tscn::7e2c5b13df8826166331294eda984101::1762014543::res://.godot/exported/133200997/export-f573c814c555540cfa31d906d2f77268-ice_peashooter_seed.scn
@@ -84,7 +84,7 @@ res://scenes/plants/world_1_basic/plant_seeds/twin_sunflower_seed.tscn::7994402b
 res://scenes/plants/world_1_basic/plant_seeds/wallnut_seed.tscn::e177856ae287f6df3f29c0f1109e43ff::1761724166::res://.godot/exported/133200997/export-125a9b3eb6e50c1d944cbeeeed33cf59-wallnut_seed.scn
 res://scenes/plants/world_1_basic/cherrybomb.tscn::09d6163b24adb70d7f5942a0816b211e::1762256725::res://.godot/exported/133200997/export-dd8b7ff89f9042efb4d8c66bcf678598-cherrybomb.scn
 res://scenes/plants/world_1_basic/doom_shroom.tscn::e5b4591aa62baf14c23cbc3a1fd9b7bc::1761653710::res://.godot/exported/133200997/export-bf569860bb74e1629e26b04f96e6c82f-doom_shroom.scn
-res://scenes/plants/world_1_basic/frost_peashooter.tscn::bf9da28437d1e52f660e4cbc0314fe2d::1762017256::res://.godot/exported/133200997/export-0836fc9c8bf4a07672bfa082a15cbe30-frost_peashooter.scn
+res://scenes/plants/world_1_basic/frost_peashooter.tscn::fb6965af234350deac67a139b9c39806::1762455311::res://.godot/exported/133200997/export-0836fc9c8bf4a07672bfa082a15cbe30-frost_peashooter.scn
 res://scenes/plants/world_1_basic/gatling_gun.tscn::5d29053f329159299ea8c8dafe49b7b1::1761239102::res://.godot/exported/133200997/export-c04e1acf65dc5a21293c2b12fe4dfc2e-gatling_gun.scn
 res://scenes/plants/world_1_basic/iceberg_lettuce.tscn::5209f63eed251c982a738cc563a5e1d7::1761898645::res://.godot/exported/133200997/export-e21bcb4e2c71bb345ca32a8d7fb43de9-iceberg_lettuce.scn
 res://scenes/plants/world_1_basic/ice_peashooter.tscn::ab32e73c2aed630d4b6c6b23151caa0a::1761918684::res://.godot/exported/133200997/export-313f8c99a2dbc025d7ae7485536bb314-ice_peashooter.scn
@@ -94,7 +94,7 @@ res://scenes/plants/world_1_basic/plasma_peashooter.tscn::521b1deb65e5fc71f0142d
 res://scenes/plants/world_1_basic/plasma_wood.tscn::9417638f6a1d635b3e87e2df41082af2::1761902729::res://.godot/exported/133200997/export-a5a519db64315df35eaa888097211cdb-plasma_wood.scn
 res://scenes/plants/world_1_basic/potato_mine.tscn::be3904882e5f5ef034fd98f4bca8c657::1759150224::res://.godot/exported/133200997/export-185202e277bfbb61a4f3eb6c7f67a154-potato_mine.scn
 res://scenes/plants/world_1_basic/repeater.tscn::1aedaaa1a71bf3407f4be66bda374c06::1762347700::res://.godot/exported/133200997/export-ccd82e3ce6ed2c2d408c2c544095bb1e-repeater.scn
-res://scenes/plants/world_1_basic/sunflower.tscn::477c3586b978d9c841026923278fc0cb::1762256724::res://.godot/exported/133200997/export-eace144c7a6f9b19db220d6a3d81c6a0-sunflower.scn
+res://scenes/plants/world_1_basic/sunflower.tscn::135bf718ebe3b959208a872692bb9239::1762456127::res://.godot/exported/133200997/export-eace144c7a6f9b19db220d6a3d81c6a0-sunflower.scn
 res://scenes/plants/world_1_basic/tallnut.tscn::c07f52fc1b03b7c4ddf933f07da0f041::1762256920::res://.godot/exported/133200997/export-acba6899d529e61c982cc6d8287a04e7-tallnut.scn
 res://scenes/plants/world_1_basic/torchwood.tscn::2fbf254010136aa59eb7c9f7ddabbb22::1761902648::res://.godot/exported/133200997/export-c7a479bbabc6743e1e07af42f092ed29-torchwood.scn
 res://scenes/plants/world_1_basic/torchwood_fail.tscn::475d17404c3026d5bbd354b68fb18f7d::1761293052::res://.godot/exported/133200997/export-d00edfebd8d0e0901cf15a5c34b70984-torchwood_fail.scn
@@ -140,9 +140,9 @@ res://scenes/ui/game_over.tscn::38018fab8ddd295093fe6ac71970331e::1762287175::re
 res://scenes/ui/game_won.tscn::00a6fbb25b6f2af41a0884350c48f41e::1762286644::res://.godot/exported/133200997/export-ea69cf7ca5b75c28b9db3e6b906f33bc-game_won.scn
 res://scenes/ui/seed_picker.tscn::1c895d1b25fe0ad769cf0e7c2250c585::1762377670::res://.godot/exported/133200997/export-d3ea13d4a654ab878c6b8c0304faf173-seed_picker.scn
 res://scenes/ui/seed_picker_2.tscn::274483870f680e1b1d0aec3f0be49e3b::1762242023::res://.godot/exported/133200997/export-bad68c15c21ffc6844f8585b81d064cc-seed_picker_2.scn
-res://scenes/ui/start_menu.tscn::89ef7e40a1143f6203339cf7bfbc6712::1761844078::res://.godot/exported/133200997/export-0d1e5e5969cfd7fbc6405e3a19dac33b-start_menu.scn
+res://scenes/ui/start_menu.tscn::e04b5beed53c4fc48d67f827c8032886::1762455843::res://.godot/exported/133200997/export-0d1e5e5969cfd7fbc6405e3a19dac33b-start_menu.scn
 res://scenes/zombies/allstar_zombie.tscn::83e72d7fe50db256a3ed56c3d0041ebf::1762256725::res://.godot/exported/133200997/export-f3836c9d6f453128570621eec58ff464-allstar_zombie.scn
-res://scenes/zombies/basic_zombie.tscn::dafe32c3243dfd596d551aa6691e6c0c::1762256725::res://.godot/exported/133200997/export-b809186d4b50553f4da8c9d6521b8809-basic_zombie.scn
+res://scenes/zombies/basic_zombie.tscn::b1d3e014d2c2006b9e52a14fee74e66d::1762454811::res://.godot/exported/133200997/export-b809186d4b50553f4da8c9d6521b8809-basic_zombie.scn
 res://scenes/zombies/bucket_head_zombie.tscn::8c0899ba474952aa50cb250fe788a3f1::1762256725::res://.godot/exported/133200997/export-caa5c6003cf3bd49fc2a6398ab1f437c-bucket_head_zombie.scn
 res://scenes/zombies/conehead_zombie.tscn::c88f67ba1d70e2f4ee0996b2b70a27a9::1762272112::res://.godot/exported/133200997/export-6b82436ab52bea937709a983692ce613-conehead_zombie.scn
 res://Test.tscn::9745d3afc3dd40f349aa41f53b4acb10::1759312494::res://.godot/exported/133200997/export-424cafac01f45de89b53d7dc0c0edabc-Test.scn
@@ -179,3 +179,4 @@ res://scenes/ui/labels/gatling_pea_upgrade_error.tscn::8b0ba0c86b03015061390d545
 res://scenes/ui/labels/tall_nut_upgrade_error.tscn::5abc60f23de0f731482ce350765546a3::1762377187::res://.godot/exported/133200997/export-4ba9af85c895a8f27d0ac7b66faf490e-tall_nut_upgrade_error.scn
 res://scenes/ui/labels/twin_sunflower_upgrade_error.tscn::8b27ad6b44e054c00bcad809dba3faac::1762377197::res://.godot/exported/133200997/export-96fad276580daf629b5ee5e1156fb6a8-twin_sunflower_upgrade_error.scn
 res://scenes/ui/settings/achievement_button.tscn::6ef3714fb870ec87c3753fa68383041d::1762287027::res://.godot/exported/133200997/export-7234ab5ded4f893c3756566b949c1781-achievement_button.scn
+res://scenes/plants/world_1_basic/plant_seeds/overlays/frost_peashooter_overlay.tscn::3b85653b7fc80f6300c178743290bbdf::1762455017::res://.godot/exported/133200997/export-a6ae2709f4827bb103d1e1a9be0eacb2-frost_peashooter_overlay.scn

@@ -59,6 +59,7 @@ func take_damage(amount: int) -> void:
 	hp -= amount
 	if hp <= 0:
 		Global.score += 10
+		Global.spawn_score += 10
 		queue_free()
 
 #endregion

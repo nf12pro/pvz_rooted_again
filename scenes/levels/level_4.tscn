@@ -83,10 +83,10 @@ position = Vector2(71, 161)
 position = Vector2(1001, 165)
 
 [node name="Pause" parent="." instance=ExtResource("17_1bx01")]
-offset_left = 507.0
-offset_top = 304.0
-offset_right = 507.0
-offset_bottom = 304.0
+offset_left = 500.0
+offset_top = 300.0
+offset_right = 500.0
+offset_bottom = 300.0
 
 [node name="SpeedUpButton" parent="." instance=ExtResource("17_vq5n0")]
 offset_left = 1008.0
