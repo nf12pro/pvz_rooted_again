@@ -5,6 +5,8 @@ var ice_duration = 3
 var ice_timer = 0.0
 var damage = 190
 
+var plant_hp = 1500
+
 var square: Node = null
 #endregion
 
@@ -29,4 +31,13 @@ func _on_body_entered(body: Node) -> void:
 			if square != null and square.has_method("free_square"):
 				square.free_square()
 				queue_free()
+#endregion
+
+#region Take Damage
+func take_damage(amount: float) -> void:
+	plant_hp -= amount
+	if plant_hp <= 0:
+		if square != null and square.has_method("free_square"):
+			square.free_square()
+		queue_free()
 #endregion

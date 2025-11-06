@@ -4,6 +4,8 @@ extends Area2D
 var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/peashooter_overlay.tscn")
 var overlay_instance: Node2D = null
 var is_selected: bool = false
+
+var damage = 9999999
 #endregion
 
 #region Setup
@@ -58,8 +60,7 @@ func _unhandled_input(event):
 
 				# if a plant exists, delete it and free the tile
 				if plant != null:
-					# optional: you can play a sound or effect here
-					plant.queue_free()
+					plant.take_damage(damage)
 					if clicked_node.has_method("free_square"):
 						clicked_node.free_square()
 					# stop after deleting one plant

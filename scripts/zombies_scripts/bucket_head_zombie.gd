@@ -76,8 +76,11 @@ func take_damage(amount: int) -> void:
 func _on_body_entered(body: Node2D):
 	if body.is_in_group("Plant"):
 		attacking_plant = body
+
+
 #endregion
 
+#region Slow/Freeze
 func take_freeze(ice_time: float):
 	speed = 0
 	await get_tree().create_timer(ice_time).timeout
@@ -96,3 +99,4 @@ func slow_down(slow_time: float, slow_amount: float):
 			speed -= slow_amount
 			await get_tree().create_timer(slow_time).timeout
 			speed = original_speed
+#endregion

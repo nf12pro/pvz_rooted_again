@@ -4,6 +4,7 @@ var damage: int = 1800
 var blast_size: Vector2 = Vector2(500, 500)
 var explosion_delay: float = 1.5
 
+var plant_hp = 1500
 var square: Node = null
 
 func _ready() -> void:
@@ -48,3 +49,12 @@ func _explode() -> void:
 		await get_tree().create_timer(40.0).timeout
 		square.free_square()
 		queue_free()
+
+#region Take Damage
+func take_damage(amount: float) -> void:
+	plant_hp -= amount
+	if plant_hp <= 0:
+		if square != null and square.has_method("free_square"):
+			square.free_square()
+		queue_free()
+#endregion
