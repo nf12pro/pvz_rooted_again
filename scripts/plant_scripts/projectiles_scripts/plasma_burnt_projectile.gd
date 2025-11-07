@@ -3,26 +3,26 @@ extends CharacterBody2D
 #region Variables
 var speed: float = 600.0
 var damage: int = 160
+var aoe_damage: int = 80
 var blast_size: Vector2 = Vector2(150, 150)
 #endregion
 
 func _ready() -> void:
 	if Global.pea_boost == 1:
 		damage = 240
+		aoe_damage = 160
 	elif Global.pea_boost == 2:
 		damage = 320
+		aoe_damage = 240
 	elif Global.pea_boost == 3:
 		damage = 400
+		aoe_damage = 320
 
 #region Layer Settings
 func layer_setting():
 	collision_layer = 3
 	collision_mask = 1
 #endregion
-
-func _draw() -> void:
-	var top_left = -blast_size / 2
-	draw_rect(Rect2(top_left, blast_size), Color(1, 0, 0, 0.3), true)
 
 #region Bullet Speed/Movement
 func _physics_process(delta):
@@ -44,7 +44,7 @@ func apply_aoe_damage():
 	for b in get_tree().get_nodes_in_group("Zombie"):
 		if b.global_position.distance_to(global_position) <= blast_size.x / 2:
 			if b.has_method("take_damage"):
-				b.take_damage(damage)
+				b.take_damage(aoe_damage)
 #endregion
 
 #region Delete Pea

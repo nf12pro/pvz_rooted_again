@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://cmeddwfi4geeh"]
+[gd_scene load_steps=23 format=3 uid="uid://cmeddwfi4geeh"]
 
 [ext_resource type="PackedScene" uid="uid://17335vsxlcfa" path="res://scenes/plants/world_1_basic/sunflower.tscn" id="4_t5f63"]
 [ext_resource type="PackedScene" uid="uid://bpjbgj1ddg86r" path="res://scenes/systems/sun_counter.tscn" id="6_4tnus"]
@@ -15,17 +15,18 @@
 [ext_resource type="PackedScene" uid="uid://dmqhc1xqtn7qt" path="res://scenes/plants/world_1_basic/plant_seeds/iceberg_lettuce_seed.tscn" id="19_g8rqy"]
 [ext_resource type="PackedScene" uid="uid://bfvoyxqr66gn1" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn" id="20_c2388"]
 [ext_resource type="PackedScene" uid="uid://2bsalhpfl2pm" path="res://scenes/zombies/basic_zombie.tscn" id="20_uvkgl"]
-[ext_resource type="PackedScene" uid="uid://bdc0cvfhwfrg1" path="res://scenes/zombies/conehead_zombie.tscn" id="21_3kc4b"]
+[ext_resource type="PackedScene" uid="uid://0etkue3af2wm" path="res://scenes/zombies/gargantuar_zombie.tscn" id="21_3kc4b"]
 [ext_resource type="PackedScene" uid="uid://bu3x00oashbjp" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn" id="21_j62ee"]
 [ext_resource type="PackedScene" uid="uid://c3aibgdfw3u2v" path="res://scenes/plants/world_1_basic/plant_seeds/sunflower_seed.tscn" id="21_qr18a"]
 [ext_resource type="PackedScene" uid="uid://bqibbcgnbrvur" path="res://scenes/systems/shovel.tscn" id="21_uvkgl"]
 [ext_resource type="PackedScene" uid="uid://ca06yibcpd8c0" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn" id="22_3kc4b"]
+[ext_resource type="PackedScene" uid="uid://bffvgapv1hxtw" path="res://scenes/plants/world_1_basic/tallnut.tscn" id="22_qr18a"]
 [ext_resource type="PackedScene" uid="uid://cww0w62q65q6w" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_1.tscn" id="23_qr18a"]
 
 [node name="Test_Scene" type="Node2D"]
 
 [node name="Sunflower" parent="." instance=ExtResource("4_t5f63")]
-position = Vector2(159, 266)
+position = Vector2(189, 261)
 
 [node name="SunCounter" parent="." instance=ExtResource("6_4tnus")]
 offset_left = 1.0
@@ -91,8 +92,8 @@ position = Vector2(332, 260)
 [node name="SunflowerSeed" parent="." instance=ExtResource("21_qr18a")]
 position = Vector2(295, 55)
 
-[node name="AllStarZombie2" parent="." instance=ExtResource("17_qiss0")]
-position = Vector2(256, 439)
+[node name="GargantuarZombie" parent="." instance=ExtResource("21_3kc4b")]
+position = Vector2(412, 444)
 
-[node name="ConeHeadZombie2" parent="." instance=ExtResource("21_3kc4b")]
-position = Vector2(146, 447)
+[node name="StaticBody2D" parent="." instance=ExtResource("22_qr18a")]
+position = Vector2(83, 280)

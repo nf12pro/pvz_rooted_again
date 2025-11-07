@@ -5,6 +5,7 @@ var zombie_scene = preload("res://scenes/zombies/basic_zombie.tscn")
 var conehead_zombie_scene = preload("res://scenes/zombies/conehead_zombie.tscn")
 var buckethead_zombie_scene = preload("res://scenes/zombies/bucket_head_zombie.tscn")
 var allstar_zombie_scene = preload("res://scenes/zombies/allstar_zombie.tscn")
+var gargantuar_zombie_scene = preload("res://scenes/zombies/gargantuar_zombie.tscn")
 var level_clear = preload("res://scenes/ui/level_clear/level_1_clear.tscn")
 
 var base_min_interval: float = 1.5  # Shortest delay
@@ -68,6 +69,9 @@ func choose_zombie():
 		options.append("buckethead")
 	if data["allstars"] > 0:
 		options.append("allstar")
+	if data["gargantuars"] > 0:
+		if data["zombies"] + data["coneheads"] + data["bucketheads"] + data["allstars"]:
+			options.append("gargantuar")
 
 	if options.size() == 0:
 		return
@@ -87,6 +91,9 @@ func choose_zombie():
 		"allstar":
 			spawn_allstar_zombie()
 			data["allstars"] -= 1
+		"gargantuar":
+			spawn_gargantuar_zombie()
+			data["gargantuars"] -= 1
 #endregion
 
 
@@ -114,6 +121,12 @@ func spawn_allstar_zombie():
 	allstar_zombie.position = choose_lane()
 	get_parent().add_child(allstar_zombie)
 	allstar_zombie.add_to_group("Zombie")
+
+func spawn_gargantuar_zombie():
+	var gargantuar_zombie = gargantuar_zombie_scene.instantiate()
+	gargantuar_zombie.position = choose_lane()
+	get_parent().add_child(gargantuar_zombie)
+	gargantuar_zombie.add_to_group("Zombie")
 #endregion
 
 
@@ -121,7 +134,7 @@ func spawn_allstar_zombie():
 func check_zombie():
 	var data = Global.level_data[Global.current_level]
 
-	if data["zombies"] + data["coneheads"] + data["bucketheads"] + data["allstars"] <= 0:
+	if data["zombies"] + data["coneheads"] + data["bucketheads"] + data["allstars"] + data["gargantuars"] <= 0:
 		if get_tree().get_nodes_in_group("Zombie").size() == 0:
 			level_cleared = true
 			show_level_clear()

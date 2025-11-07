@@ -95,6 +95,7 @@ func _on_body_entered(body: Node2D):
 		attacking_plant = body
 #endregion
 
+#region Freze/Slow
 func take_freeze(ice_time: float):
 	speed = 0
 	first_hit_speed = 0
@@ -122,3 +123,4 @@ func slow_down(slow_time: float, slow_amount: float):
 			speed -= slow_amount
 			await get_tree().create_timer(slow_time).timeout
 			speed = original_speed
+#endregion

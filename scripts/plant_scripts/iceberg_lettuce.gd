@@ -5,7 +5,7 @@ var ice_duration = 3
 var ice_timer = 0.0
 var damage = 190
 
-var plant_hp = 1500
+var plant_hp = 9999999
 
 var square: Node = null
 #endregion

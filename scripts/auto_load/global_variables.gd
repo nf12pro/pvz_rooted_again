@@ -96,11 +96,11 @@ var easy_mode: bool = false
 var current_level: int = 1
 
 var level_data := {
-	1: {"zombies": 10, "coneheads": 2, "bucketheads": 0, "allstars": 0},
-	2: {"zombies": 15, "coneheads": 5, "bucketheads": 2, "allstars": 0},
-	3: {"zombies": 20, "coneheads": 7, "bucketheads": 5, "allstars": 0},
-	4: {"zombies": 35, "coneheads": 20, "bucketheads": 10, "allstars": 1},
-	5: {"zombies": 30, "coneheads": 10, "bucketheads": 20, "allstars": 2},
+	1: {"zombies": 10, "coneheads": 2, "bucketheads": 0, "allstars": 0, "gargantuars": 0},
+	2: {"zombies": 15, "coneheads": 5, "bucketheads": 2, "allstars": 0, "gargantuars": 0},
+	3: {"zombies": 20, "coneheads": 7, "bucketheads": 5, "allstars": 0, "gargantuars": 0},
+	4: {"zombies": 35, "coneheads": 20, "bucketheads": 10, "allstars": 1, "gargantuars": 0},
+	5: {"zombies": 30, "coneheads": 10, "bucketheads": 20, "allstars": 2, "gargantuars": 1},
 }
 #endregion
 

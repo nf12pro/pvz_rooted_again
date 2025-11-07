@@ -4,7 +4,7 @@ var damage: int = 1800
 var blast_size: Vector2 = Vector2(500, 500)
 var explosion_delay: float = 1.5
 
-var plant_hp = 1500
+var plant_hp = 9999999
 var square: Node = null
 
 func _ready() -> void:
