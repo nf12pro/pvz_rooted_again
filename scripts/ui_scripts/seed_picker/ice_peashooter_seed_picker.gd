@@ -4,7 +4,7 @@ var snow_pea_is_pressed: bool = false
 
 #region snow_pea Picking
 func _on_snow_pea_picker_pressed() -> void:
-	if Global.amount_of_seeds < 6:
+	if Global.amount_of_seeds < Global.max_amount_seeds:
 		$".".modulate.a = 0.5
 		if snow_pea_is_pressed == false:
 			if Global.new_open_slot == false:

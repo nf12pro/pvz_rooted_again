@@ -1,7 +1,8 @@
+res://scripts/plant_scripts/seed_packets/seed_slots
+res://scripts/ui_scripts/labels
 /Users/rayanefaik/Desktop/PvZ Roooted Again Release Upd Html
 res://assets/sprite/plant_sprites/sunflower_anim
 res://assets/sprite/plant_sprites/frost_peashooter
-res://scripts/ui_scripts/labels
 res://scripts/ui_scripts/settings
 res://assets/sprite/mower
 res://scripts/plant_scripts/almanac
@@ -19,4 +20,3 @@ res://assets/sprite/plant_sprites/repeater_sprites
 res://assets/sprite/plant_sprites/plasma_wood_sprites
 res://assets/sprite/plant_sprites/laser_bean_sprites
 res://assets/sprite/plant_sprites/iceberg_bomb_sprites
-res://assets/sprite/plant_sprites/fire_pea_sprites

@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://deyqogheeo6k0"]
+[gd_scene load_steps=21 format=3 uid="uid://deyqogheeo6k0"]
 
 [ext_resource type="PackedScene" uid="uid://bpjbgj1ddg86r" path="res://scenes/systems/sun_counter.tscn" id="1_ov8fk"]
 [ext_resource type="Script" uid="uid://cfj1sgvrupwo4" path="res://scripts/systems_scripts/level_zombie_spawner/level_4.gd" id="1_pmra4"]
@@ -17,6 +17,9 @@
 [ext_resource type="PackedScene" uid="uid://b1e05u3t24pfk" path="res://scenes/systems/level_zombie_spawner.tscn" id="14_suy3i"]
 [ext_resource type="PackedScene" uid="uid://4g3c604f2rnm" path="res://scenes/systems/pause.tscn" id="17_1bx01"]
 [ext_resource type="PackedScene" uid="uid://b3rng1mcud362" path="res://scenes/systems/speed_up_button.tscn" id="17_vq5n0"]
+[ext_resource type="PackedScene" uid="uid://do6p0c86w1qyr" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/upgrade_seed_slot_1.tscn" id="18_beuva"]
+[ext_resource type="PackedScene" uid="uid://dfo7mms37fi4e" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/upgrade_seed_slot_2.tscn" id="19_05se8"]
+[ext_resource type="PackedScene" uid="uid://ok5kmkhwqd26" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/upgrade_seed_slot_3.tscn" id="20_12cdj"]
 
 [node name="Test_Scene" type="Node2D"]
 script = ExtResource("1_pmra4")
@@ -47,7 +50,7 @@ position = Vector2(-5, 7)
 scale = Vector2(0.23730792, 0.9718405)
 
 [node name="Shovel" parent="." instance=ExtResource("7_05se8")]
-position = Vector2(950, 58)
+position = Vector2(1050, 55)
 
 [node name="SeedSlot1" parent="." instance=ExtResource("8_12cdj")]
 position = Vector2(170, 55)
@@ -89,7 +92,16 @@ offset_right = 500.0
 offset_bottom = 300.0
 
 [node name="SpeedUpButton" parent="." instance=ExtResource("17_vq5n0")]
-offset_left = 1008.0
-offset_top = 55.0
-offset_right = 1096.0
-offset_bottom = 95.0
+offset_left = 1025.0
+offset_top = 115.0
+offset_right = 1113.0
+offset_bottom = 155.0
+
+[node name="SeedSlot7" parent="." instance=ExtResource("18_beuva")]
+position = Vector2(352, 40)
+
+[node name="SeedSlot8" parent="." instance=ExtResource("19_05se8")]
+position = Vector2(237, 27)
+
+[node name="SeedSlot9" parent="." instance=ExtResource("20_12cdj")]
+position = Vector2(109, 38)

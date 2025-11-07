@@ -4,7 +4,7 @@ var peashooter_is_pressed: bool = false
 
 #region peashooter Picking
 func _on_peashooter_picker_pressed() -> void:
-	if Global.amount_of_seeds < 6:
+	if Global.amount_of_seeds < Global.max_amount_seeds:
 		$".".modulate.a = 0.5
 		if peashooter_is_pressed == false:
 			if Global.new_open_slot == false:

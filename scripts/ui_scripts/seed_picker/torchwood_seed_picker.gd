@@ -4,7 +4,7 @@ var torchwood_is_pressed: bool = false
 
 #region torchwood Picking
 func _on_torchwood_picker_pressed() -> void:
-	if Global.amount_of_seeds < 6:
+	if Global.amount_of_seeds < Global.max_amount_seeds:
 		if torchwood_is_pressed == false:
 			if Global.new_open_slot == false:
 				Global.torchwood_selected = true

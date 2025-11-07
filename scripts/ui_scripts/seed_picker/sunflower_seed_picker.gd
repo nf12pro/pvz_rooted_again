@@ -5,7 +5,7 @@ var sunflower_is_pressed: bool = false
 
 #region sunflower Picking
 func _on_sunflower_picker_pressed() -> void:
-	if Global.amount_of_seeds < 6:
+	if Global.amount_of_seeds < Global.max_amount_seeds:
 		if sunflower_is_pressed == false:
 			$".".modulate.a = 0.5
 			if Global.new_open_slot == false:

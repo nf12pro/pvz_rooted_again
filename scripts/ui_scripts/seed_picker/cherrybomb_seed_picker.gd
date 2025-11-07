@@ -4,7 +4,7 @@ var cherry_bomb_is_pressed: bool = false
 
 #region cherry_bomb Picking
 func _on_cherry_bomb_picker_pressed() -> void:
-	if Global.amount_of_seeds < 5:
+	if Global.amount_of_seeds < Global.max_amount_seeds:
 		$".".modulate.a = 0.5
 		if cherry_bomb_is_pressed == false:
 			if Global.new_open_slot == false:

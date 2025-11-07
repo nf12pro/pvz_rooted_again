@@ -5,7 +5,7 @@ var laser_bean_is_pressed: bool = false
 
 #region laser_bean Picking
 func _on_laser_bean_picker_pressed() -> void:
-	if Global.amount_of_seeds < 6:
+	if Global.amount_of_seeds < Global.max_amount_seeds:
 		if laser_bean_is_pressed == false:
 			$".".modulate.a = 0.5
 			if Global.new_open_slot == false:

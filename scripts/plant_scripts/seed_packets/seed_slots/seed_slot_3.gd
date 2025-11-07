@@ -39,51 +39,51 @@ func _ready() -> void:
 	var snow_pea_seed = snowpea_scene.instantiate()
 	var frost_pea_seed = frostpea_scene.instantiate()
 	if Global.seed_3 == "Peashooter":
-		peashooter_seed.position = Vector2(430, 55)
+		peashooter_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", peashooter_seed)
 	elif Global.seed_3 == "Sunflower":
-		sunflower_seed.position = Vector2(430, 55)
+		sunflower_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", sunflower_seed)
 	elif Global.seed_3 == "Gatling Gun":
-		gatling_gun_seed.position = Vector2(430, 55)
+		gatling_gun_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", gatling_gun_seed)
 	elif Global.seed_3 == "Repeater":
-		repeater_seed.position = Vector2(430, 55)
+		repeater_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", repeater_seed)
 	elif Global.seed_3 == "WallNut":
-		wallnut_seed.position = Vector2(430, 55)
+		wallnut_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", wallnut_seed)
 	elif Global.seed_3 == "Twin Sunflower":
-		twin_seed.position = Vector2(430, 55)
+		twin_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", twin_seed)
 	elif Global.seed_3 == "Torchwood":
-		torchwood_seed.position = Vector2(430, 55)
+		torchwood_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", torchwood_seed)
 	elif Global.seed_3 == "Plasma Wood":
-		plasma_wood_seed.position = Vector2(430, 55)
+		plasma_wood_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", plasma_wood_seed)
 	elif Global.seed_3 == "Cherry Bomb":
-		cherry_bomb_seed.position = Vector2(430, 55)
+		cherry_bomb_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", cherry_bomb_seed)
 	elif Global.seed_3 == "Laser Bean":
-		laser_bean_seed.position = Vector2(430, 55)
+		laser_bean_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", laser_bean_seed)
 	elif Global.seed_3 == "Tall Nut":
-		tallnut_seed.position = Vector2(430, 55)
+		tallnut_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", tallnut_seed)
 	elif Global.seed_3 == "Iceberg Lettuce":
-		iceberg_lettuce_seed.position = Vector2(430, 55)
+		iceberg_lettuce_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", iceberg_lettuce_seed)
 	elif Global.seed_3 == "Doom Shroom":
-		doomshroom_seed.position = Vector2(430, 55)
+		doomshroom_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", doomshroom_seed)
 	elif Global.seed_3 == "Plasma Pea":
-		plasma_pea_seed.position = Vector2(430, 55)
+		plasma_pea_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", plasma_pea_seed)
 	elif Global.seed_3 == "Snow Pea":
-		snow_pea_seed.position = Vector2(430, 55)
+		snow_pea_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", snow_pea_seed)
 	elif Global.seed_3 == "Frost Pea":
-		frost_pea_seed.position = Vector2(430, 55)
+		frost_pea_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", frost_pea_seed)
 #endregion

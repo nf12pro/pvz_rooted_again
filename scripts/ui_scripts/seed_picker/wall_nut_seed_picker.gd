@@ -4,7 +4,7 @@ var wallnut_is_pressed: bool = false
 
 #region wallnut Picking
 func _on_wallnut_picker_pressed() -> void:
-	if Global.amount_of_seeds < 6:
+	if Global.amount_of_seeds < Global.max_amount_seeds:
 		if wallnut_is_pressed == false:
 			$".".modulate.a = 0.5
 			if Global.new_open_slot == false:
