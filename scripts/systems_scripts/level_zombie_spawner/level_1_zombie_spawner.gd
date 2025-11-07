@@ -64,11 +64,14 @@ func choose_zombie():
 	if data["zombies"] > 0:
 		options.append("zombie")
 	if data["coneheads"] > 0:
-		options.append("conehead")
+		if Global.spawn_score >= 10:
+			options.append("conehead")
 	if data["bucketheads"] > 0:
-		options.append("buckethead")
+		if Global.spawn_score >= 40:
+			options.append("buckethead")
 	if data["allstars"] > 0:
-		options.append("allstar")
+		if Global.spawn_score >= 50:
+			options.append("allstar")
 	if data["gargantuars"] > 0:
 		if data["zombies"] + data["coneheads"] + data["bucketheads"] + data["allstars"] <= 0:
 			options.append("gargantuar")
