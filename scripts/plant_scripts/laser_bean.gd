@@ -1,8 +1,8 @@
 extends StaticBody2D
 
 var bullet_scene = preload("res://scenes/plants/projectiles/laser_projectile.tscn")
-var plant_hp = 300
-var shoot_cooldown = 2.7
+@export var plant_hp = 300
+@export var shoot_cooldown = 2.7
 var shoot_timer = 0.0
 var targets = []
 var square: Node = null

@@ -1,10 +1,10 @@
 extends Area2D
 
-var damage: int = 1800
-var blast_size: Vector2 = Vector2(500, 500)
-var explosion_delay: float = 1.5
+@export var damage: int = 1800
+@export var blast_size: Vector2 = Vector2(500, 500)
+@export var explosion_delay: float = 1.5
 
-var plant_hp = 9999999
+@export var plant_hp = 9999999
 var square: Node = null
 
 func _ready() -> void:

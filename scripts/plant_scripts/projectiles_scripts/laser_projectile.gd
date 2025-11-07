@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
 var speed: float = 100
-var damage: int = 35
-var lifetime: float = 0.3  # how long the laser stays on screen
+@export var damage: int = 35
+@export var lifetime: float = 0.3  # how long the laser stays on screen
 
 func _ready():
 	_free_after_delay()  # Start a timer to free the laser after `lifetime` seconds

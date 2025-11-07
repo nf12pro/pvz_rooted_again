@@ -6,8 +6,9 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uriph"]
 size = Vector2(105, 105)
 
-[node name="PeashooterSeed" type="Area2D"]
+[node name="LaserBeanSeed" type="Area2D"]
 scale = Vector2(0.8, 1)
+collision_mask = 0
 script = ExtResource("1_u6ufb")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

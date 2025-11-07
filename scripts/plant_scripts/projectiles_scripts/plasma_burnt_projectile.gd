@@ -2,9 +2,9 @@ extends CharacterBody2D
 
 #region Variables
 var speed: float = 600.0
-var damage: int = 160
-var aoe_damage: int = 80
-var blast_size: Vector2 = Vector2(150, 150)
+@export var damage: int = 160
+@export var aoe_damage: int = 80
+@export var blast_size: Vector2 = Vector2(150, 150)
 #endregion
 
 func _ready() -> void:

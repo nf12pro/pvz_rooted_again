@@ -3,11 +3,11 @@ extends StaticBody2D
 #region Variables
 var bullet = preload("res://scenes/plants/projectiles/ice_pea_projectile.tscn")
 var frost_bullet = preload("res://scenes/plants/projectiles/frost_pea_projectile.tscn")
-var plant_hp = 300
+@export var plant_hp = 300
 var shot_count = 0
 # Shooting logic
 var targets = []               # List of zombies currently in range
-var shoot_cooldown = 1.0       # Seconds between shots
+@export var shoot_cooldown = 1.0       # Seconds between shots
 var shoot_timer = 0.0
 var square: Node = null
 #endregion

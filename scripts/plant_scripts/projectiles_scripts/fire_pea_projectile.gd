@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
 #region Variables
-var speed: float = 600.0
-var damage: int = 40
+@export var speed: float = 600.0
+@export var damage: int = 40
 #endregion
 
 func _ready() -> void:

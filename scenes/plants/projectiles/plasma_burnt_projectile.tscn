@@ -54,7 +54,7 @@ animations = [{
 "speed": 15.0
 }]
 
-[node name="FirePeaProjectile" type="CharacterBody2D" groups=["Projectile"]]
+[node name="SuperNovaProjectile" type="CharacterBody2D" groups=["Projectile"]]
 collision_layer = 4
 safe_margin = 0.001
 script = ExtResource("1_fwei3")

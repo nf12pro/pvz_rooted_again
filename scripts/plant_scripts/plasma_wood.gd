@@ -1,6 +1,6 @@
 extends StaticBody2D
 
-var plant_hp = 200 
+@export var plant_hp = 300 
 var bullet = preload("res://scenes/plants/projectiles/plasma_projectile.tscn")
 var bullet1 = preload("res://scenes/plants/projectiles/plasma_burnt_projectile.tscn")
 var square: Node = null

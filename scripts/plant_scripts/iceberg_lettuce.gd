@@ -1,11 +1,11 @@
 extends Area2D
 
 #region Variables
-var ice_duration = 3
+@export var ice_duration = 3
 var ice_timer = 0.0
-var damage = 190
+@export var damage = 190
 
-var plant_hp = 9999999
+@export var plant_hp = 9999999
 
 var square: Node = null
 #endregion

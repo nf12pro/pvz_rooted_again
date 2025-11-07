@@ -4,10 +4,10 @@ extends Area2D
 var plant_scene: PackedScene = preload("res://scenes/plants/world_1_basic/gatling_gun.tscn")
 var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/peashooter_overlay.tscn")
 var overlay_instance: Node2D = null
-var cost: int = 250
+@export var cost: int = 250
 var is_selected: bool = false
 
-var cooldown_time: float = 50.0
+@export var cooldown_time: float = 50.0
 var cooldown_timer: float = 0.0
 #endregion
 

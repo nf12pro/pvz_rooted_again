@@ -8,6 +8,7 @@ size = Vector2(106, 111)
 
 [node name="TwinSunflowerSeed" type="Area2D"]
 scale = Vector2(0.8, 1)
+collision_mask = 0
 script = ExtResource("1_vkelt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

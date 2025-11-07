@@ -5,10 +5,10 @@ var plant_scene: PackedScene = preload("res://scenes/plants/world_1_basic/torchw
 var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/torchwood_overlay.tscn")
 var overlay_instance: Node2D = null
 
-var cost: int = 175
+@export var cost: int = 175
 var is_selected: bool = false
 
-var cooldown_time: float = 5.0
+@export var cooldown_time: float = 5.0
 var cooldown_timer: float = 0.0
 var on_cooldown: bool = false
 var is_torchwood = true

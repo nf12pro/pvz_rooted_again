@@ -1,12 +1,11 @@
 extends StaticBody2D
 
 #region Variables
-var plant_hp = 4000
+@export var plant_hp = 4000
 var square: Node = null
 
 var is_wallnut = true
 @onready var my_sprite = $AnimatedSprite2D 
-
 #endregion
 
 func _ready() -> void:

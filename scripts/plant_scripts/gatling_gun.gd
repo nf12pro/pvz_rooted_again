@@ -2,13 +2,13 @@ extends StaticBody2D
 
 #region Variables
 var bullet = preload("res://scenes/plants/projectiles/pea_projectile.tscn")
-var plant_hp = 300
+@export var plant_hp = 300
 
 # Shooting logic
 var targets = []               # List of zombies currently in range
-var shoot_cooldown = 1.35     # Seconds between shots (longer than Peashooter)
+@export var shoot_cooldown = 1.35     # Seconds between shots (longer than Peashooter)
 var shoot_timer = 0.0
-var repeater_shot_delay = 0.05  # Delay between the two shots
+@export var repeater_shot_delay = 0.05  # Delay between the two shots
 var shot_count = 0              # Counter for number of shots in this firing sequence
 #endregion
 

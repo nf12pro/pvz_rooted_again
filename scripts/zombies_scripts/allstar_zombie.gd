@@ -1,16 +1,16 @@
 extends CharacterBody2D
 
 #region Variables
-var speed: float = 15.0
-var original_speed: float = 15.0
-var original_first_speed: float = 50.0
-var first_hit_speed: float = 50.0        # Speed before first attack
+@export var speed: float = 15.0
+@export var original_speed: float = 15.0
+@export var original_first_speed: float = 50.0
+@export var first_hit_speed: float = 50.0        # Speed before first attack
 var current_slow: float = 0.0
 
-var hp: int = 190
-var armour_hp: int = 1500
-var damage_per_second: float = 50.0       # Damage to plants per second
-var first_hit_bonus: int = 1000            # Extra damage on first attack
+@export var hp: int = 190
+@export var armour_hp: int = 1500
+@export var damage_per_second: float = 50.0       # Damage to plants per second
+@export var first_hit_bonus: int = 1000            # Extra damage on first attack
 
 var attacking_plant = null                # Reference to the plant currently being attacked
 var damage_timer: float = 0.0             # Timer to control damage frequency

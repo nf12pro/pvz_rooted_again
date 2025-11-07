@@ -1,7 +1,7 @@
 extends StaticBody2D
 
 #region Variables
-var plant_hp = 8000
+@export var plant_hp = 8000
 var square: Node = null
 #endregion
 

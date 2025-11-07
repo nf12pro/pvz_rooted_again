@@ -1,10 +1,10 @@
 extends CharacterBody2D
 
 #region Variables
-var speed: float = 25.0
-var original_speed: float = 25.0
-var hp: int = 3000
-var damage_per_second: float = 999999.0
+@export var speed: float = 25.0
+@export var original_speed: float = 25.0
+@export var hp: int = 3000
+@export var damage_per_second: float = 999999.0
 var current_slow: float = 0.0
 
 var attacking_plant = null
@@ -12,7 +12,7 @@ var damage_timer: float = 0.0
 var print_timer: float = 0.0
 
 var is_winding_up: bool = false
-var windup_time: float = 1.0
+@export var windup_time: float = 1.0
 #endregion
 
 #region Layers/Masks

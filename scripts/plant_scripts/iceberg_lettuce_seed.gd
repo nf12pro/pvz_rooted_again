@@ -7,7 +7,7 @@ var overlay_instance: Node2D = null
 @export var cost: int = 25
 var is_selected: bool = false
 
-var cooldown_time: float = 30.0
+@export var cooldown_time: float = 30.0
 var cooldown_timer: float = 0.0
 #endregion
 
