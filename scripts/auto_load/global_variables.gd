@@ -149,16 +149,19 @@ func reset_game_state():
 	frost_pea_unlocked = false
 
 	new_open_slot = false
+	upgrade_new_open_slot = false
 	open_slot = 0
+	upgrade_open_slot = 0
 	amount_of_seeds = 0
-	max_amount_seeds = 6
+	amount_of_upgrade_seeds = 0
 
 	seed_1 = ""
 	seed_2 = ""
 	seed_3 = ""
 	seed_4 = ""
 	seed_5 = ""
-	
+	seed_6 = ""
+
 	upgrade_seed_1 = ""
 	upgrade_seed_2 = ""
 	upgrade_seed_3 = ""
@@ -179,6 +182,13 @@ func reset_game_state():
 	slot_of_plasma_pea = 0
 	slot_of_snow_pea = 0
 	slot_of_frost_pea = 0
+
+	plasma_pea_is_selected = false
+	twin_sunflower_is_selected = false
+	gatling_gun_is_selected = false
+	plasma_wood_is_selected = false
+	frost_pea_is_selected = false
+	tall_nut_is_selected = false
 
 	# Roguelite powers
 	power_selected = false
@@ -194,60 +204,11 @@ func reset_game_state():
 	current_level = 1
 	
 	level_data = {
-	1: {"zombies": 10, "coneheads": 2, "bucketheads": 0, "allstars": 0},
-	2: {"zombies": 15, "coneheads": 5, "bucketheads": 2, "allstars": 0},
-	3: {"zombies": 20, "coneheads": 7, "bucketheads": 5, "allstars": 0},
-	4: {"zombies": 35, "coneheads": 20, "bucketheads": 10, "allstars": 1},
-	5: {"zombies": 30, "coneheads": 10, "bucketheads": 20, "allstars": 2},
+	1: {"zombies": 10, "coneheads": 2, "bucketheads": 0, "allstars": 0, "gargantuars": 0},
+	2: {"zombies": 15, "coneheads": 5, "bucketheads": 2, "allstars": 0, "gargantuars": 0},
+	3: {"zombies": 20, "coneheads": 7, "bucketheads": 5, "allstars": 0, "gargantuars": 0},
+	4: {"zombies": 35, "coneheads": 20, "bucketheads": 10, "allstars": 1, "gargantuars": 0},
+	5: {"zombies": 30, "coneheads": 10, "bucketheads": 20, "allstars": 2, "gargantuars": 1},
 }
 
-func reset_seeds():
-	peashooter_selected = false
-	sunflower_selected = false
-	wallnut_selected = false
-	repeater_selected = false
-	gatling_gun_selected = false
-	torchwood_selected = false
-	plasma_wood_selected = false
-	twin_sunflower_selected = false
-	cherry_bomb_selected = false
-	laser_bean_selected = false
-	tall_nut_selected = false
-	iceberg_lettuce_selected = false
-	doomshroom_selected = false
-	plasma_pea_selected = false
-	snow_pea_selected = false
-	frost_pea_selected = false
-
-	new_open_slot = false
-	open_slot = 0
-	amount_of_seeds = 0
-	max_amount_seeds = 6
-
-	seed_1 = ""
-	seed_2 = ""
-	seed_3 = ""
-	seed_4 = ""
-	seed_5 = ""
-	
-	upgrade_seed_1 = ""
-	upgrade_seed_2 = ""
-	upgrade_seed_3 = ""
-
-	slot_of_wallnut = 0
-	slot_of_twin_sunflower = 0
-	slot_of_torchwood = 0
-	slot_of_tall_nut = 0
-	slot_of_sunflower = 0
-	slot_of_repeater = 0
-	slot_of_plasma_wood = 0
-	slot_of_peashooter = 0
-	slot_of_laser_bean = 0
-	slot_of_iceberg_lettuce = 0
-	slot_of_gatling_gun = 0
-	slot_of_doomshroom = 0
-	slot_of_cherry_bomb = 0
-	slot_of_plasma_pea = 0
-	slot_of_snow_pea = 0
-	slot_of_frost_pea = 0
 #endregion

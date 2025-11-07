@@ -70,7 +70,7 @@ func choose_zombie():
 	if data["allstars"] > 0:
 		options.append("allstar")
 	if data["gargantuars"] > 0:
-		if data["zombies"] + data["coneheads"] + data["bucketheads"] + data["allstars"]:
+		if data["zombies"] + data["coneheads"] + data["bucketheads"] + data["allstars"] <= 0:
 			options.append("gargantuar")
 
 	if options.size() == 0:
