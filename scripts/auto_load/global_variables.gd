@@ -36,14 +36,19 @@ var frost_pea_unlocked: bool = false
 var new_open_slot: bool = false
 var open_slot: int = 0
 var amount_of_seeds: int = 0
-var max_amount_seeds: int = 6
+var amount_of_upgrade_seeds: int = 0
+var max_amount_seeds: int = 5
+var max_amount_upgrade_seeds: int = 3
 
 var seed_1: String = ""
 var seed_2: String = ""
 var seed_3: String = ""
 var seed_4: String = ""
 var seed_5: String = ""
-var seed_6: String = ""
+
+var upgrade_seed_1: String = ""
+var upgrade_seed_2: String = ""
+var upgrade_seed_3: String = ""
 
 var slot_of_wallnut: int = 0
 var slot_of_twin_sunflower: int = 0
@@ -150,7 +155,10 @@ func reset_game_state():
 	seed_3 = ""
 	seed_4 = ""
 	seed_5 = ""
-	seed_6 = ""
+	
+	upgrade_seed_1 = ""
+	upgrade_seed_2 = ""
+	upgrade_seed_3 = ""
 
 	slot_of_wallnut = 0
 	slot_of_twin_sunflower = 0
@@ -218,7 +226,10 @@ func reset_seeds():
 	seed_3 = ""
 	seed_4 = ""
 	seed_5 = ""
-	seed_6 = ""
+	
+	upgrade_seed_1 = ""
+	upgrade_seed_2 = ""
+	upgrade_seed_3 = ""
 
 	slot_of_wallnut = 0
 	slot_of_twin_sunflower = 0

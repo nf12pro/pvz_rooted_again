@@ -10,7 +10,7 @@ func _on_frost_pea_picker_pressed() -> void:
 	if Global.frost_pea_unlocked == false:
 		print("You Need To Unlock Frost Pea")
 	else:
-		if Global.amount_of_seeds < 6:
+		if Global.amount_of_seeds < 5:
 			if frost_pea_is_pressed == false:
 				$".".modulate.a = 0.5
 				if Global.new_open_slot == false:
