@@ -81,6 +81,7 @@ func _unhandled_input(event):
 		is_selected = false
 		if overlay_instance:
 			overlay_instance.queue_free()
+			overlay_instance = null
 #endregion
 
 
