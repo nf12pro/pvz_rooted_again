@@ -1,2 +1,7 @@
 res://scenes/plants/world_1_basic/cherrybomb.tscn
 res://scripts/plant_scripts/cherry_bomb.gd
+res://scenes/plants/world_1_basic/spike_weed.tscn
+res://scripts/plant_scripts/spike_weed.gd
+res://scenes/plants/world_1_basic/peashooter.tscn
+res://scenes/plants/projectiles/spike_weed_projectile.tscn
+res://scripts/plant_scripts/projectiles_scripts/spike_weed_projectile.gd

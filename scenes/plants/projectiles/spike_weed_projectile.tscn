@@ -1,7 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://bifpde8mrnn6n"]
+[gd_scene load_steps=5 format=3 uid="uid://cptlh2ts7vihv"]
 
-[ext_resource type="Script" uid="uid://dmkeg67uyi1lf" path="res://scripts/plant_scripts/projectiles_scripts/spike_weed_projectile.gd" id="1_1mi6r"]
-[ext_resource type="Texture2D" uid="uid://c805jgfcxvx33" path="res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png" id="2_c1mpp"]
+[ext_resource type="Script" uid="uid://dmkeg67uyi1lf" path="res://scripts/plant_scripts/projectiles_scripts/spike_weed_projectile.gd" id="1_sx8kx"]
+[ext_resource type="Texture2D" uid="uid://c805jgfcxvx33" path="res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png" id="2_5kxss"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7xwni"]
 radius = 32.0
@@ -15,12 +15,12 @@ height = 80.0
 collision_layer = 4
 collision_mask = 17
 safe_margin = 0.001
-script = ExtResource("1_1mi6r")
+script = ExtResource("1_sx8kx")
 
 [node name="PixilFrame0(15)" type="Sprite2D" parent="."]
 position = Vector2(6.0282226, 2.4853072)
 scale = Vector2(0.3, 0.276)
-texture = ExtResource("2_c1mpp")
+texture = ExtResource("2_5kxss")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Pea_Projectile", "Projectile"]]
 position = Vector2(7, 2)
