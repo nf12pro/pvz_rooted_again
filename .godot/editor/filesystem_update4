@@ -6,3 +6,10 @@ res://scenes/plants/world_1_basic/peashooter.tscn
 res://scenes/plants/projectiles/spike_weed_projectile.tscn
 res://scripts/plant_scripts/projectiles_scripts/spike_weed_projectile.gd
 res://in_testing(notevenclose)/test_scene.tscn
+res://scenes/plants/world_1_basic/tallnut.tscn
+res://scripts/auto_load/global_variables.gd
+res://scenes/plants/world_1_basic/plant_seeds/overlays/tallnut_overlay.tscn
+res://scenes/ui/every_seed_button_picker/tallnut_seed_picker.tscn
+res://scenes/plants/almanac/tallnut_button_almanac.tscn
+res://scenes/plants/world_1_basic/plant_seeds/tallnut_seed.tscn
+res://scripts/plant_scripts/seed_packets/tallnut_seed.gd

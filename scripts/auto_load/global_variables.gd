@@ -1,7 +1,7 @@
 extends Node2D
 
 #region Basic Global Variables
-var sun_value: int = 125 #if you're reading this lemme give u a cool 7 hint: Mbabyl bwkhalz dpss ohcl zwspa bwnyhklz huk lhjo zwspa bwnyhkl dpss nv bw av 3
+var sun_value: int = 1250 #if you're reading this lemme give u a cool 7 hint: Mbabyl bwkhalz dpss ohcl zwspa bwnyhklz huk lhjo zwspa bwnyhkl dpss nv bw av 3
 var score: int = 0
 var spawn_score: int = 0
 var game_over: bool = false
@@ -29,7 +29,7 @@ var frost_pea_selected: bool = false
 var twin_sunflower_unlocked: bool = false
 var gatling_gun_unlocked: bool = false
 var plasma_wood_unlocked: bool = false
-var tall_nut_unlocked: bool = false
+var tall_nut_unlocked: bool = true
 var plasma_pea_unlocked: bool = false
 var frost_pea_unlocked: bool = false 
 

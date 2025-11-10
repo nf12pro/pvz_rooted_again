@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 #region Variables
 @export var speed: float = 0.00000000000000000000000000000000000000000000000000000000000000000000000000000001
-@export var damage: int = 999999
+@export var damage: int = 20
 var recent: bool = true
 @export var projectile_decay: float = 1.0
 #endregion
@@ -35,7 +35,6 @@ func _on_body_entered(body: Node) -> void:
 	if body.is_in_group("Zombie"):
 		if body.has_method("take_damage"):
 			body.take_damage(damage)
-			print(damage)
 #endregion
 
 #region Delete Pea

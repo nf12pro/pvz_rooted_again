@@ -1,10 +1,10 @@
+AnimatedSprite2D
 ColorRect
 Button
 ScrollContainer
 VScrollBar
 CanvasModulate
 Label
-AnimatedSprite2D
 VBoxContainer
 MarginContainer
 Control
