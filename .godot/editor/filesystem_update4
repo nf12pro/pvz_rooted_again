@@ -5,3 +5,4 @@ res://scripts/plant_scripts/spike_weed.gd
 res://scenes/plants/world_1_basic/peashooter.tscn
 res://scenes/plants/projectiles/spike_weed_projectile.tscn
 res://scripts/plant_scripts/projectiles_scripts/spike_weed_projectile.gd
+res://in_testing(notevenclose)/test_scene.tscn

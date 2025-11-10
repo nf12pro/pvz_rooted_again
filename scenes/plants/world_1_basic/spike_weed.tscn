@@ -7,8 +7,8 @@
 size = Vector2(72, 82)
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_1k0x6"]
-a = Vector2(-37.5, -3.5)
-b = Vector2(1149.5, -3.5)
+a = Vector2(500, -7)
+b = Vector2(574, -9)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_c1mpp"]
 atlas = ExtResource("2_0pomu")
@@ -90,7 +90,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lb21t")
 }],
-"loop": true,
+"loop": false,
 "name": &"default",
 "speed": 15.0
 }]
@@ -108,7 +108,7 @@ shape = SubResource("RectangleShape2D_k467r")
 position = Vector2(36, -2)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(-35.5, 5.5)
+position = Vector2(-574, 9)
 shape = SubResource("SegmentShape2D_1k0x6")
 
 [node name="Node" type="Node" parent="."]
@@ -117,8 +117,8 @@ shape = SubResource("SegmentShape2D_1k0x6")
 position = Vector2(-1.9999995, 27.999998)
 scale = Vector2(0.65, 0.15)
 sprite_frames = SubResource("SpriteFrames_aoue1")
-autoplay = "default"
-frame_progress = 0.52867466
+frame = 10
+frame_progress = 1.0
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_tower_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_tower_body_exited"]

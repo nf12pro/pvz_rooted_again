@@ -114,7 +114,7 @@ shape = SubResource("SegmentShape2D_1k0x6")
 [node name="Node" type="Node" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-4, 1.0000019)
+position = Vector2(-4, -11.999998)
 scale = Vector2(0.65, 0.65)
 sprite_frames = SubResource("SpriteFrames_aoue1")
 autoplay = "default"

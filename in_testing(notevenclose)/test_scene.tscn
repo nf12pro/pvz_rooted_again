@@ -9,7 +9,6 @@
 [ext_resource type="PackedScene" uid="uid://dauhkj8urdy50" path="res://scenes/systems/sun_spawner.tscn" id="15_0v7k2"]
 [ext_resource type="PackedScene" uid="uid://dwn5ki6tpl0xj" path="res://scenes/systems/house_collision.tscn" id="16_gc2i6"]
 [ext_resource type="PackedScene" uid="uid://du5xv3diqbkrv" path="res://scenes/plants/world_1_basic/twin_sunflower.tscn" id="17_dvqpr"]
-[ext_resource type="PackedScene" uid="uid://hrawvxdqbd0o" path="res://scenes/zombies/allstar_zombie.tscn" id="17_qiss0"]
 [ext_resource type="PackedScene" uid="uid://b6opcmllm8uws" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_2.tscn" id="18_qiss0"]
 [ext_resource type="PackedScene" uid="uid://lgbck3y0b0ib" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_3.tscn" id="19_c2388"]
 [ext_resource type="PackedScene" uid="uid://dmqhc1xqtn7qt" path="res://scenes/plants/world_1_basic/plant_seeds/iceberg_lettuce_seed.tscn" id="19_g8rqy"]
@@ -20,6 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://c3aibgdfw3u2v" path="res://scenes/plants/world_1_basic/plant_seeds/sunflower_seed.tscn" id="21_qr18a"]
 [ext_resource type="PackedScene" uid="uid://bqibbcgnbrvur" path="res://scenes/systems/shovel.tscn" id="21_uvkgl"]
 [ext_resource type="PackedScene" uid="uid://ca06yibcpd8c0" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn" id="22_3kc4b"]
+[ext_resource type="PackedScene" uid="uid://cn64sj5lx1lks" path="res://scenes/plants/world_1_basic/spike_weed.tscn" id="22_j62ee"]
 [ext_resource type="PackedScene" uid="uid://bffvgapv1hxtw" path="res://scenes/plants/world_1_basic/tallnut.tscn" id="22_qr18a"]
 [ext_resource type="PackedScene" uid="uid://cww0w62q65q6w" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_1.tscn" id="23_qr18a"]
 
@@ -80,20 +80,20 @@ position = Vector2(652, 51)
 [node name="SeedSlot6" parent="." instance=ExtResource("22_3kc4b")]
 position = Vector2(797, 51)
 
-[node name="AllStarZombie" parent="." instance=ExtResource("17_qiss0")]
-position = Vector2(1065, 423)
-
 [node name="IcebergLettuceSeed" parent="." instance=ExtResource("19_g8rqy")]
 position = Vector2(440, 64)
 
 [node name="BasicZombie" parent="." instance=ExtResource("20_uvkgl")]
-position = Vector2(332, 260)
+position = Vector2(972, 437)
 
 [node name="SunflowerSeed" parent="." instance=ExtResource("21_qr18a")]
 position = Vector2(295, 55)
 
 [node name="GargantuarZombie" parent="." instance=ExtResource("21_3kc4b")]
-position = Vector2(412, 444)
+position = Vector2(940, 290)
 
 [node name="StaticBody2D" parent="." instance=ExtResource("22_qr18a")]
 position = Vector2(83, 280)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("22_j62ee")]
+position = Vector2(465, 444)

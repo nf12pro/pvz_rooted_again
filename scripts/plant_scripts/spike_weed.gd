@@ -1,7 +1,7 @@
 extends StaticBody2D
 
 #region Variables
-var bullet = preload("res://scenes/plants/projectiles/pea_projectile.tscn")
+var bullet = preload("res://scenes/plants/projectiles/spike_weed_projectile.tscn")
 @export var plant_hp = 300
 var is_peashooter = true
 # Shooting logic
