@@ -4,7 +4,7 @@ extends Area2D
 @export var blast_size: Vector2 = Vector2(300, 300)
 @export var explosion_delay: float = 1.5
 
-@export var plant_hp = 9999999
+@export var plant_hp = 600
 var square: Node = null
 
 func _ready() -> void:

@@ -9,18 +9,11 @@ size = Vector2(64, 53)
 top_level = true
 visibility_layer = 2
 script = ExtResource("1_don03")
-
-[node name="ColorRect" type="ColorRect" parent="."]
-visibility_layer = 4
-offset_left = -31.0
-offset_top = -26.0
-offset_right = 29.0
-offset_bottom = 22.0
-color = Color(1.4194503, 0, 0, 1)
+explosion_delay = 800.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 top_level = true
-position = Vector2(-1, 1)
+position = Vector2(-1, -2)
 shape = SubResource("RectangleShape2D_8siae")
 
 [node name="Marker2D" type="Marker2D" parent="."]

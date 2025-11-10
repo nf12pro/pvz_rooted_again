@@ -1,2 +1,2 @@
-res://scenes/plants/world_1_basic/plant_seeds/frost_pea_seed.tscn
-res://scripts/auto_load/global_variables.gd
+res://scenes/plants/world_1_basic/cherrybomb.tscn
+res://scripts/plant_scripts/cherry_bomb.gd
