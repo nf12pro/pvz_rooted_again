@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 #region Variables
 @export var speed: float = 0.00000000000000000000000000000000000000000000000000000000000000000000000000000001
-@export var damage: int = 20
+@export var damage: int = 10
 var recent: bool = true
 @export var projectile_decay: float = 1.0
 #endregion
