@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=3 uid="uid://hhc8g2x4wkt4"]
+
+[ext_resource type="Script" uid="uid://cg5ltvyaenfra" path="res://scripts/plant_scripts/projectiles_scripts/acid_level_2_projectile.gd" id="1_jjmab"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sx8kx"]
+size = Vector2(43, 76)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6v60k"]
+size = Vector2(34.997604, 63.99518)
+
+[node name="SpikeWeedProjectile" type="CharacterBody2D" groups=["Pea_Projectile", "Projectile", "SpikeWeed"]]
+collision_layer = 4
+collision_mask = 17
+safe_margin = 0.001
+script = ExtResource("1_jjmab")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Pea_Projectile", "Projectile"]]
+position = Vector2(7, 11.5)
+rotation = 1.5707964
+shape = SubResource("RectangleShape2D_sx8kx")
+
+[node name="Area2D" type="Area2D" parent="." groups=["Projectile"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" groups=["Pea_Projectile", "Projectile"]]
+position = Vector2(6.9918547, 10.498805)
+rotation = 1.5731245
+shape = SubResource("RectangleShape2D_6v60k")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -22.0
+offset_top = 17.0
+offset_right = 38.0
+offset_bottom = 25.0
+color = Color(1, 1, 0, 1)
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_body_entered"]
