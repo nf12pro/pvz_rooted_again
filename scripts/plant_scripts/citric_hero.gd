@@ -10,7 +10,8 @@ var is_peashooter = true
 # Shooting logic
 var targets = []               # List of zombies currently in range
 var range_fix = 0
-@export var shoot_cooldown = 1.0       # Seconds between shots
+var range_priority = false
+@export var shoot_cooldown = 3.5       # Seconds between shots
 
 var charge_counting = 0.0
 @export var cooldown_1_acid = 1.0
@@ -46,7 +47,7 @@ func _process(delta):
 			shoot_at_first_target_medium()
 		elif charge_counting >= cooldown_3_acid:
 			shoot_at_first_target_strong()
-			
+		range_priority = false
 		shoot_timer = shoot_cooldown  # Reset timer
 #endregion
 
@@ -55,7 +56,10 @@ func shoot_at_first_target_weak():
 	var target = targets[0]
 	if is_instance_valid(target):
 		var pea1 = bullet.instantiate()
-		pea1.position = global_position + Vector2(50, 0)
+		if range_fix == 1:
+			pea1.position = global_position + Vector2(100, 0)
+		elif range_fix == 2:
+			pea1.position = global_position + Vector2(200, 0)
 		get_parent().add_child(pea1)
 		print("Weak Charge")
 		charge_counting = 0
@@ -66,18 +70,24 @@ func shoot_at_first_target_medium():
 	var target = targets[0]
 	if is_instance_valid(target):
 		var pea2 = bullet2.instantiate()
-		pea2.position = global_position + Vector2(50, 0)
+		if range_fix == 1:
+			pea2.position = global_position + Vector2(100, 0)
+		elif range_fix == 2:
+			pea2.position = global_position + Vector2(200, 0)
 		get_parent().add_child(pea2)
 		print("Medium Charge")
 		charge_counting = 0
 	else:
-		targets.remove(0)	
+		targets.remove(0)
 
 func shoot_at_first_target_strong():
 	var target = targets[0]
 	if is_instance_valid(target):
 		var pea3 = bullet3.instantiate()
-		pea3.position = global_position + Vector2(50, 0)
+		if range_fix == 1:
+			pea3.position = global_position + Vector2(100, 0)
+		elif range_fix == 2:
+			pea3.position = global_position + Vector2(200, 0)
 		get_parent().add_child(pea3)
 		print("Strong Charge")
 		charge_counting = 0
@@ -98,16 +108,29 @@ func take_damage(amount: float) -> void:
 func _on_tower_body_entered(body: Node2D) -> void:
 	if body.is_in_group("Zombie") and not targets.has(body):
 		targets.append(body)
+		range_priority = true
 		range_fix = 1
-
-func _on_tower_body_exited(body: Node2D) -> void:
-	if targets.has(body):
-		targets.erase(body)
-#endregion
 
 func _on_tower_body_entered_medium(body: Node2D) -> void:
 	if body.is_in_group("Zombie") and not targets.has(body):
 		targets.append(body)
+		if not range_priority:
+			range_fix = 2
+
+func _on_tower_body_exited(body: Node2D) -> void:
+	if targets.has(body):
+		targets.erase(body)
+		range_fix = 0
+#endregion
+
+#region Picking Range
+func _on_check_range_1(body: Node2D) -> void:
+	if body.is_in_group("Zombie"):
+		range_priority = true
+		range_fix = 1
+
+func _on_check_range_2(body: Node2D) -> void:
+	if body.is_in_group("Zombie") and not range_priority:
 		range_fix = 2
 
 #region Contrast

@@ -109,16 +109,16 @@ shape = SubResource("RectangleShape2D_k467r")
 position = Vector2(36, -2)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(-345, 6)
-scale = Vector2(5, 1)
+position = Vector2(-204, 5)
+scale = Vector2(2.9, 1)
 shape = SubResource("SegmentShape2D_1k0x6")
 
 [node name="Area2D2" type="Area2D" parent="."]
 position = Vector2(36, -2)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
-position = Vector2(-51.5, 5.5)
-scale = Vector2(1.5, 1)
+position = Vector2(-95, 5)
+scale = Vector2(2.8, 1)
 shape = SubResource("SegmentShape2D_1k0x6")
 debug_color = Color(1, 0.6, 0.69803923, 0.41960785)
 
@@ -134,6 +134,7 @@ autoplay = "default"
 frame_progress = 0.616399
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_tower_body_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_check_range_1"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_tower_body_exited"]
 [connection signal="body_entered" from="Area2D2" to="." method="_on_tower_body_entered_medium"]
-[connection signal="body_exited" from="Area2D2" to="." method="_on_tower_body_exited"]
+[connection signal="body_entered" from="Area2D2" to="." method="_on_check_range_2"]
