@@ -47,6 +47,7 @@ func _process(delta):
 			shoot_at_first_target_medium()
 		elif charge_counting >= cooldown_3_acid:
 			shoot_at_first_target_strong()
+		$AnimatedSprite2D.play("attack_animation")
 		range_priority = false
 		shoot_timer = shoot_cooldown  # Reset timer
 #endregion
@@ -138,5 +139,5 @@ func _on_check_range_2(body: Node2D) -> void:
 	#if Global.plasma_pea_is_selected == true:
 		#my_sprite.modulate = Color(1.825, 1.825, 1.825)
 	#else:
-		#my_sprite.modulate = Color(1, 1, 1)
+		#my_sprit`e.modulate = Color(1, 1, 1)
 #endregion
