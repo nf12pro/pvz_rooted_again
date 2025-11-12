@@ -1,14 +1,14 @@
 [gd_scene load_steps=17 format=3 uid="uid://c3h5thcjfjyej"]
 
-[ext_resource type="Script" uid="uid://ek8a4y2w0cu6" path="res://scripts/plant_scripts/peashooter.gd" id="1_uw8gr"]
+[ext_resource type="Script" uid="uid://b41sb6qh7iy72" path="res://scripts/plant_scripts/citric_hero.gd" id="1_uw8gr"]
 [ext_resource type="Texture2D" uid="uid://c5nulleubi72h" path="res://assets/sprite/plant_sprites/peashooter_sprite/pixilart-sprite (2).png" id="2_g1u3y"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
 size = Vector2(72, 82)
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_1k0x6"]
-a = Vector2(-37.5, -3.5)
-b = Vector2(1149.5, -3.5)
+a = Vector2(68.333336, -3.5)
+b = Vector2(103.5, -3.5)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_c1mpp"]
 atlas = ExtResource("2_g1u3y")
@@ -109,12 +109,23 @@ shape = SubResource("RectangleShape2D_k467r")
 position = Vector2(36, -2)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(-35.5, 5.5)
+position = Vector2(-345, 6)
+scale = Vector2(5, 1)
 shape = SubResource("SegmentShape2D_1k0x6")
+
+[node name="Area2D2" type="Area2D" parent="."]
+position = Vector2(36, -2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(-51.5, 5.5)
+scale = Vector2(1.5, 1)
+shape = SubResource("SegmentShape2D_1k0x6")
+debug_color = Color(1, 0.6, 0.69803923, 0.41960785)
 
 [node name="Node" type="Node" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+modulate = Color(0.25882354, 1, 0, 1)
 visibility_layer = 4
 position = Vector2(-3, -10.000001)
 scale = Vector2(0.65, 0.65)
@@ -124,3 +135,5 @@ frame_progress = 0.616399
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_tower_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_tower_body_exited"]
+[connection signal="body_entered" from="Area2D2" to="." method="_on_tower_body_entered_medium"]
+[connection signal="body_exited" from="Area2D2" to="." method="_on_tower_body_exited"]

@@ -19,7 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://c3aibgdfw3u2v" path="res://scenes/plants/world_1_basic/plant_seeds/sunflower_seed.tscn" id="21_qr18a"]
 [ext_resource type="PackedScene" uid="uid://bqibbcgnbrvur" path="res://scenes/systems/shovel.tscn" id="21_uvkgl"]
 [ext_resource type="PackedScene" uid="uid://ca06yibcpd8c0" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn" id="22_3kc4b"]
-[ext_resource type="PackedScene" uid="uid://cn64sj5lx1lks" path="res://scenes/plants/world_1_basic/spike_weed.tscn" id="22_j62ee"]
+[ext_resource type="PackedScene" uid="uid://c3h5thcjfjyej" path="res://scenes/plants/world_1_basic/citric_hero.tscn" id="22_j62ee"]
 [ext_resource type="PackedScene" uid="uid://bffvgapv1hxtw" path="res://scenes/plants/world_1_basic/tallnut.tscn" id="22_qr18a"]
 [ext_resource type="PackedScene" uid="uid://cww0w62q65q6w" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_1.tscn" id="23_qr18a"]
 
@@ -95,5 +95,6 @@ position = Vector2(940, 290)
 [node name="StaticBody2D" parent="." instance=ExtResource("22_qr18a")]
 position = Vector2(83, 280)
 
-[node name="StaticBody2D2" parent="." instance=ExtResource("22_j62ee")]
-position = Vector2(465, 444)
+[node name="StaticBody2D3" parent="." instance=ExtResource("22_j62ee")]
+position = Vector2(250, 462)
+shoot_cooldown = 3.5
