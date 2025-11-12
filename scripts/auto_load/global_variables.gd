@@ -33,8 +33,18 @@ var tall_nut_unlocked: bool = true
 var plasma_pea_unlocked: bool = false
 var frost_pea_unlocked: bool = false 
 
+var is_new_open_slot: bool = false
 var new_open_slot: bool = false
+var new_open_slot_2: bool = false
+var new_open_slot_3: bool = false
+var new_open_slot_4: bool = false
+var new_open_slot_5: bool = false
+
+var is_new_upgrade_open_slot: bool = false
 var upgrade_new_open_slot: bool = false
+var upgrade_new_open_slot_2: bool = false
+var upgrade_new_open_slot_3: bool = false
+
 var open_slot: int = 0
 var upgrade_open_slot: int = 0
 var amount_of_seeds: int = 0

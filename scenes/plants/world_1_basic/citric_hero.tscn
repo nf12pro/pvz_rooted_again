@@ -229,7 +229,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"attack_animation",
-"speed": 21.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -313,13 +313,11 @@ debug_color = Color(1, 0.6, 0.69803923, 0.41960785)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 visibility_layer = 4
-position = Vector2(-8, 1.9999992)
-scale = Vector2(0.45, 0.45)
+position = Vector2(-4.9999995, -1.0000008)
+scale = Vector2(0.6, 0.6)
 sprite_frames = SubResource("SpriteFrames_aoue1")
-animation = &"attack_animation"
 autoplay = "default"
-frame_progress = 0.53804666
-speed_scale = 0.5
+frame_progress = 0.04949464
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_tower_body_entered"]
 [connection signal="body_entered" from="Area2D" to="." method="_on_check_range_1"]

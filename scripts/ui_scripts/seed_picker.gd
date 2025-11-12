@@ -8,6 +8,7 @@ var frost_pea_error = preload("res://scenes/ui/labels/frost_pea_upgrade_error.ts
 var gatling_pea_error = preload("res://scenes/ui/labels/gatling_pea_upgrade_error.tscn")
 var tall_nut_error = preload("res://scenes/ui/labels/tall_nut_upgrade_error.tscn")
 
+#region Checking Labels + Next Stage
 func _unhandled_key_input(_event: InputEvent) -> void:
 	if Input.is_action_just_pressed("Space"):
 		var plasma_pea_label = plasma_pea_error.instantiate()
@@ -63,3 +64,10 @@ func _unhandled_key_input(_event: InputEvent) -> void:
 				get_tree().change_scene_to_file("res://scenes/levels/level_4.tscn")
 			elif Global.current_level == 5:
 				get_tree().change_scene_to_file("res://scenes/levels/level_5.tscn")
+#endregion
+
+func _process(_delta: float) -> void:
+	if Global.new_open_slot or Global.new_open_slot_2 or Global.new_open_slot_3 or Global.new_open_slot_4 or Global.new_open_slot_5:
+		Global.is_new_open_slot == true
+	else:
+		Global.is_new_open_slot == false

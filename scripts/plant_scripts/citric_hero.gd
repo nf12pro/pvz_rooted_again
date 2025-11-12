@@ -11,7 +11,7 @@ var is_peashooter = true
 var targets = []               # List of zombies currently in range
 var range_fix = 0
 var range_priority = false
-@export var shoot_cooldown = 3.5       # Seconds between shots
+@export var shoot_cooldown = 2.5       # Seconds between shots
 
 var charge_counting = 0.0
 @export var cooldown_1_acid = 1.0
