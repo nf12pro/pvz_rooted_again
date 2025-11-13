@@ -68,6 +68,6 @@ func _unhandled_key_input(_event: InputEvent) -> void:
 
 func _process(_delta: float) -> void:
 	if Global.new_open_slot or Global.new_open_slot_2 or Global.new_open_slot_3 or Global.new_open_slot_4 or Global.new_open_slot_5:
-		Global.is_new_open_slot == true
+		Global.is_new_open_slot = true
 	else:
-		Global.is_new_open_slot == false
+		Global.is_new_open_slot = false

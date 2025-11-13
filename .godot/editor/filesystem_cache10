@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1762948012
+::res://::1763016792
 export_presets.cfg::TextFile::-1::1762616470::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::1385716001083434227::1759085610::1761842249::1::::<><><>0<>0<>75db0460f52da5b5df9a14ddb92a937e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 index.apple-touch-icon.png::CompressedTexture2D::3279556904775756626::1761596322::1761842249::1::::<><><>0<>0<>2003ba376ab1a159b32b2fafee3e3539<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
@@ -192,9 +192,9 @@ plasma_projectile.tscn::PackedScene::4626664824593550224::1762520121::0::1::::<>
 spike_weed_projectile.tscn::PackedScene::5865579035104762059::1762777037::0::1::::<><><>0<>0<><>::uid://dmkeg67uyi1lf::::res://scripts/plant_scripts/projectiles_scripts/spike_weed_projectile.gd
 sun_projectile.tscn::PackedScene::4095628269918449737::1759676668::0::1::::<><><>0<>0<><>::uid://ck3bolt1db6i8::::res://scripts/plant_scripts/projectiles_scripts/sun_projectile.gd<>uid://brs3rpqghf4wx::::res://assets/prototype_assets/pixil-frame-0 (18).png
 sun_spawned.tscn::PackedScene::5911683860543605389::1761212010::0::1::::<><><>0<>0<><>::uid://cedmt47mhvqya::::res://scripts/plant_scripts/projectiles_scripts/sun_spawned_projectile.gd<>uid://brs3rpqghf4wx::::res://assets/prototype_assets/pixil-frame-0 (18).png
-::res://scenes/plants/world_1_basic/::1762940152
+::res://scenes/plants/world_1_basic/::1762948688
 cherrybomb.tscn::PackedScene::73787418802628005::1762764097::0::1::::<><><>0<>0<><>::uid://djhcindt68oyp::::res://scripts/plant_scripts/cherry_bomb.gd
-citric_hero.tscn::PackedScene::6754435444565756201::1762940152::0::1::::<><><>0<>0<><>::uid://b41sb6qh7iy72::::res://scripts/plant_scripts/citric_hero.gd<>uid://c5nulleubi72h::::res://assets/sprite/plant_sprites/peashooter_sprite/pixilart-sprite (2).png
+citric_hero.tscn::PackedScene::6754435444565756201::1762948688::0::1::::<><><>0<>0<><>::uid://b41sb6qh7iy72::::res://scripts/plant_scripts/citric_hero.gd<>uid://dopfbb0fidv2b::::res://assets/sprite/plant_sprites/citric_hero_sprites/pixilart-sprite (18).png
 doom_shroom.tscn::PackedScene::7557681803058316973::1762519725::0::1::::<><><>0<>0<><>::uid://biq0bqs18dims::::res://scripts/plant_scripts/doom_shroom.gd
 frost_peashooter.tscn::PackedScene::7174726088259730573::1762519745::0::1::::<><><>0<>0<><>::uid://bxx0am2hrrc6y::::res://scripts/plant_scripts/frost_peashooter.gd<>uid://bi8o380240ksw::::res://assets/sprite/plant_sprites/frost_peashooter/pixilart-sprite (25).png
 gatling_gun.tscn::PackedScene::5538274428872290886::1762519774::0::1::::<><><>0<>0<><>::uid://bg3q8sgbkyvxb::::res://scripts/plant_scripts/gatling_gun.gd<>uid://dkxdqbgjrv11v::::res://assets/prototype_assets/pixil-frame-0 (14).png
@@ -213,8 +213,9 @@ torchwood.tscn::PackedScene::4795422348325208211::1762519976::0::1::::<><><>0<>0
 torchwood_fail.tscn::PackedScene::1399396357879490991::1761293052::0::1::::<><><>0<>0<><>::uid://bk5f68hdjqdr8::::res://scripts/plant_scripts/torchwood_1.gd<>uid://t0ismlnj4xnf::::res://icon.svg
 twin_sunflower.tscn::PackedScene::8626405724640509127::1762519991::0::1::::<><><>0<>0<><>::uid://co1pvwyebdf6l::::res://scripts/plant_scripts/twin_sunflower.gd<>uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png
 wallnut.tscn::PackedScene::7584461837647648241::1762520006::0::1::::<><><>0<>0<><>::uid://b0lkf1gdpkhsn::::res://scripts/plant_scripts/wallnut.gd<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png
-::res://scenes/plants/world_1_basic/plant_seeds/::1762775309
+::res://scenes/plants/world_1_basic/plant_seeds/::1762949450
 cherrybomb_seed.tscn::PackedScene::3328257594455407169::1762519150::0::1::::<><><>0<>0<><>::uid://dc2axkyibmsoc::::res://scripts/plant_scripts/seed_packets/cherrybomb_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
+citric_hero_seed.tscn::PackedScene::75203423114885815::1762949450::0::1::::<><><>0<>0<><>::uid://bbymrb5fqjsj0::::res://scripts/plant_scripts/seed_packets/citric_hero_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
 doomshroom_seed.tscn::PackedScene::6755677730702361846::1762519207::0::1::::<><><>0<>0<><>::uid://bibvmxharrw2p::::res://scripts/plant_scripts/seed_packets/doomshroom_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
 frost_pea_seed.tscn::PackedScene::6682065739434195699::1762616447::0::1::::<><><>0<>0<><>::uid://cyxv88ifyx1cu::::res://scripts/plant_scripts/seed_packets/frost_pea_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
 gatling_gun_seed.tscn::PackedScene::57870419130718480::1762519265::0::1::::<><><>0<>0<><>::uid://1kwjn052lybi::::res://scripts/plant_scripts/seed_packets/gatling_gun_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
@@ -230,7 +231,8 @@ tallnut_seed.tscn::PackedScene::1357626691934309236::1762775309::0::1::::<><><>0
 torchwood_seed.tscn::PackedScene::25715887100261436::1762519443::0::1::::<><><>0<>0<><>::uid://bido25cyfq7ka::::res://scripts/plant_scripts/seed_packets/torchwood_seed.gd<>uid://s24gslsl4fuv::::res://assets/prototype_assets/pixil-frame-0 (20).png
 twin_sunflower_seed.tscn::PackedScene::1678924142805599478::1762519469::0::1::::<><><>0<>0<><>::uid://ls8js52d6pvi::::res://scripts/plant_scripts/seed_packets/twin_sunflower_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
 wallnut_seed.tscn::PackedScene::4186595991784845664::1762519505::0::1::::<><><>0<>0<><>::uid://el86fid7c2pv::::res://scripts/plant_scripts/seed_packets/wallnut_seed.gd<>uid://dxnnk7gmmf8p0::::res://assets/sprite/ui_sprites/pixil-frame-0 (1) (1).png
-::res://scenes/plants/world_1_basic/plant_seeds/overlays/::1762775221
+::res://scenes/plants/world_1_basic/plant_seeds/overlays/::1762948908
+citric_hero_overlay.tscn::PackedScene::7969211267809977799::1762948908::0::1::::<><><>0<>0<><>::uid://dpkwxnb3mi4xu::::res://assets/sprite/plant_sprites/citric_hero_sprites/pixil-frame-0 (14) (2).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 frost_peashooter_overlay.tscn::PackedScene::3651052653257803634::1762455017::0::1::::<><><>0<>0<><>::uid://cfd11lpletuk7::::res://assets/sprite/plant_sprites/frost_peashooter/pixil-frame-1 (4).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 iceberg_bomb_overlay.tscn::PackedScene::1879908516137171546::1761899705::0::1::::<><><>0<>0<><>::uid://be8itntmb54kw::::res://assets/sprite/plant_sprites/iceberg_bomb_sprites/pixil-frame-0 (8) (1).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 ice_peashooter_overlay.tscn::PackedScene::5084534209216716367::1762014334::0::1::::<><><>0<>0<><>::uid://vp1wgyyhcn8r::::res://assets/sprite/plant_sprites/ice_peashooter_sprite/pixil-frame-0 (7) (1).png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
@@ -278,10 +280,10 @@ powers_picker.tscn::PackedScene::7469022515683255802::1762457819::0::1::::<><><>
 sun_boost_power.tscn::PackedScene::7679097425646225166::1762174366::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bdigvq0cp2nb7::::res://scripts/systems_scripts/powers/sun_boost_power.gd
 tall_nut_power.tscn::PackedScene::7389639464929375284::1762174315::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://b65v1kknxtd1l::::res://scripts/systems_scripts/powers/tall_nut_power.gd
 twin_sunflower_power.tscn::PackedScene::541142056638457569::1762085629::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bropn41pq1gjl::::res://scripts/systems_scripts/powers/twin_sunflower_power.gd
-::res://scenes/ui/::1762520333
+::res://scenes/ui/::1762959928
 game_over.tscn::PackedScene::3074048316778320754::1762287175::0::1::::<><><>0<>0<><>::uid://v04s8iblucxu::::res://scripts/ui_scripts/game_over.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
 game_won.tscn::PackedScene::3712917960076526646::1762286644::0::1::::<><><>0<>0<><>::uid://v04s8iblucxu::::res://scripts/ui_scripts/game_over.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
-seed_picker.tscn::PackedScene::5229958468415051419::1762518784::0::1::::<><><>0<>0<><>::uid://dnwk0qr2ujbnv::::res://scripts/ui_scripts/seed_picker.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bvv2ocui1u6mq::::res://scenes/ui/every_seed_button_picker/peashooter_seed_picker.tscn<>uid://bxtcf6uxt2n3h::::res://scenes/ui/every_seed_button_picker/sunflower_seed_picker.tscn<>uid://5clvviujxl1q::::res://scenes/ui/every_seed_button_picker/wall_nut_seed_picker.tscn<>uid://bwxxnptjx5lqj::::res://scenes/ui/every_seed_button_picker/repeater_seed_picker.tscn<>uid://drs170fvvp18u::::res://scenes/ui/every_seed_button_picker/twin_sunflower_seed_picker.tscn<>uid://d3gidgka3jh8v::::res://scenes/ui/every_seed_button_picker/ice_peashooter_seed_picker.tscn<>uid://b3e6c8jw0txyl::::res://scenes/ui/every_seed_button_picker/doomshroom_seed_picker.tscn<>uid://lmnnn2o7hpfo::::res://scenes/ui/every_seed_button_picker/torchwood_seed_picker.tscn<>uid://cnukg0kce5e3o::::res://scenes/ui/every_seed_button_picker/cherrybomb_seed_picker.tscn<>uid://iw1tlnkjkt5q::::res://scenes/ui/every_seed_button_picker/iceberg_lettuce_seed_picker.tscn<>uid://dcclixo33s3kw::::res://scenes/ui/every_seed_button_picker/laser_bean_seed_picker.tscn<>uid://celgu6e3k2t1u::::res://scenes/ui/every_seed_button_picker/plasma_pea_seed_picker.tscn<>uid://fcts244ibuij::::res://scenes/ui/every_seed_button_picker/frost_peashooter_seed_picker.tscn<>uid://4xg6fqv5pdvp::::res://scenes/ui/every_seed_button_picker/gatling_gun_seed_picker.tscn<>uid://5cmxn51pxuqw::::res://scripts/ui_scripts/label.gd<>uid://b0nb14wik8cgr::::res://scenes/ui/every_seed_button_picker/tallnut_seed_picker.tscn<>uid://dlp7atjf353bb::::res://scenes/ui/every_seed_button_picker/plasma_wood_seed_picker.tscn<>uid://ds5vfcaqo74iv::::res://scripts/ui_scripts/labels/label_2.gd
+seed_picker.tscn::PackedScene::5229958468415051419::1762959928::0::1::::<><><>0<>0<><>::uid://dnwk0qr2ujbnv::::res://scripts/ui_scripts/seed_picker.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bvv2ocui1u6mq::::res://scenes/ui/every_seed_button_picker/peashooter_seed_picker.tscn<>uid://bxtcf6uxt2n3h::::res://scenes/ui/every_seed_button_picker/sunflower_seed_picker.tscn<>uid://5clvviujxl1q::::res://scenes/ui/every_seed_button_picker/wall_nut_seed_picker.tscn<>uid://bwxxnptjx5lqj::::res://scenes/ui/every_seed_button_picker/repeater_seed_picker.tscn<>uid://drs170fvvp18u::::res://scenes/ui/every_seed_button_picker/twin_sunflower_seed_picker.tscn<>uid://d3gidgka3jh8v::::res://scenes/ui/every_seed_button_picker/ice_peashooter_seed_picker.tscn<>uid://b3e6c8jw0txyl::::res://scenes/ui/every_seed_button_picker/doomshroom_seed_picker.tscn<>uid://lmnnn2o7hpfo::::res://scenes/ui/every_seed_button_picker/torchwood_seed_picker.tscn<>uid://cnukg0kce5e3o::::res://scenes/ui/every_seed_button_picker/cherrybomb_seed_picker.tscn<>uid://iw1tlnkjkt5q::::res://scenes/ui/every_seed_button_picker/iceberg_lettuce_seed_picker.tscn<>uid://dcclixo33s3kw::::res://scenes/ui/every_seed_button_picker/laser_bean_seed_picker.tscn<>uid://celgu6e3k2t1u::::res://scenes/ui/every_seed_button_picker/plasma_pea_seed_picker.tscn<>uid://fcts244ibuij::::res://scenes/ui/every_seed_button_picker/frost_peashooter_seed_picker.tscn<>uid://4xg6fqv5pdvp::::res://scenes/ui/every_seed_button_picker/gatling_gun_seed_picker.tscn<>uid://5cmxn51pxuqw::::res://scripts/ui_scripts/label.gd<>uid://b0nb14wik8cgr::::res://scenes/ui/every_seed_button_picker/tallnut_seed_picker.tscn<>uid://dlp7atjf353bb::::res://scenes/ui/every_seed_button_picker/plasma_wood_seed_picker.tscn<>uid://ds5vfcaqo74iv::::res://scripts/ui_scripts/labels/label_2.gd
 seed_picker_2.tscn::PackedScene::7777409152144044551::1762242023::0::1::::<><><>0<>0<><>::uid://dnwk0qr2ujbnv::::res://scripts/ui_scripts/seed_picker.gd<>uid://57beny3br4x5::::res://scenes/ui/every_seed_button_picker/change_picker_2.tscn<>uid://4xg6fqv5pdvp::::res://scenes/ui/every_seed_button_picker/gatling_gun_seed_picker.tscn<>uid://celgu6e3k2t1u::::res://scenes/ui/every_seed_button_picker/plasma_pea_seed_picker.tscn<>uid://dlp7atjf353bb::::res://scenes/ui/every_seed_button_picker/plasma_wood_seed_picker.tscn<>uid://b0nb14wik8cgr::::res://scenes/ui/every_seed_button_picker/tallnut_seed_picker.tscn<>uid://fcts244ibuij::::res://scenes/ui/every_seed_button_picker/frost_peashooter_seed_picker.tscn<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://5cmxn51pxuqw::::res://scripts/ui_scripts/label.gd
 start_menu.tscn::PackedScene::1903386590748824399::1762520333::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://dfxxd5d08t4g1::::res://scripts/ui_scripts/menu_button.gd
 ::res://scenes/ui/achievements/::1761643951
@@ -330,12 +332,12 @@ conehead_zombie.tscn::PackedScene::2602638577584328018::1762272112::0::1::::<><>
 gargantuar_zombie.tscn::PackedScene::1764151140687301388::1762518447::0::1::::<><><>0<>0<><>::uid://vjaswwt187qy::::res://scripts/zombies_scripts/gargantuar_zombie.gd
 ::res://scenes/zombies/projectiles_z/::1759087181
 ::res://scripts/::1761326987
-::res://scripts/auto_load/::1762775169
-global_variables.gd::GDScript::8566935620558440724::1762775169::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/auto_load/::1762949289
+global_variables.gd::GDScript::8566935620558440724::1762949289::0::1::::<>Node2D<><>0<>0<><>::
 ::res://scripts/levels_scripts/::1759090482
-::res://scripts/plant_scripts/::1762947857
+::res://scripts/plant_scripts/::1762948563
 cherry_bomb.gd::GDScript::7805548696780763791::1762763875::0::1::::<>Area2D<><>0<>0<><>::
-citric_hero.gd::GDScript::4476667315767174747::1762947857::0::1::::<>StaticBody2D<><>0<>0<><>::
+citric_hero.gd::GDScript::4476667315767174747::1762948563::0::1::::<>StaticBody2D<><>0<>0<><>::
 doom_shroom.gd::GDScript::2982482056881012530::1762519725::0::1::::<>Area2D<><>0<>0<><>::
 frost_peashooter.gd::GDScript::4049763372861740534::1762519745::0::1::::<>StaticBody2D<><>0<>0<><>::
 gatling_gun.gd::GDScript::2866387680466990307::1762519774::0::1::::<>StaticBody2D<><>0<>0<><>::
@@ -371,8 +373,9 @@ plasma_projectile.gd::GDScript::6688695072283034485::1762520259::0::1::::<>Chara
 spike_weed_projectile.gd::GDScript::8022427213609505955::1762777255::0::1::::<>CharacterBody2D<><>0<>0<><>::
 sun_projectile.gd::GDScript::5532618707281175653::1761312590::0::1::::<>Node2D<><>0<>0<><>::
 sun_spawned_projectile.gd::GDScript::5060553982364221192::1761312670::0::1::::<>Node2D<><>0<>0<><>::
-::res://scripts/plant_scripts/seed_packets/::1762775309
+::res://scripts/plant_scripts/seed_packets/::1762948940
 cherrybomb_seed.gd::GDScript::7355419573648914582::1762519151::0::1::::<>Area2D<><>0<>0<><>::
+citric_hero_seed.gd::GDScript::2506913654954564859::1762948940::0::1::::<>Area2D<><>0<>0<><>::
 doomshroom_seed.gd::GDScript::2951293515800470869::1762519207::0::1::::<>Area2D<><>0<>0<><>::
 frost_pea_seed.gd::GDScript::6506190036978484888::1762519168::0::1::::<>Area2D<><>0<>0<><>::
 gatling_gun_seed.gd::GDScript::1846906280938712210::1762519265::0::1::::<>Area2D<><>0<>0<><>::
@@ -434,12 +437,12 @@ powers_picker.gd::GDScript::6745544308670103577::1762457598::0::1::::<>Control<>
 sun_boost_power.gd::GDScript::2613904919373982910::1762081753::0::1::::<>Button<><>0<>0<><>::
 tall_nut_power.gd::GDScript::4625528197887214259::1762174315::0::1::::<>Button<><>0<>0<><>::
 twin_sunflower_power.gd::GDScript::3609467848354759941::1762084302::0::1::::<>Button<><>0<>0<><>::
-::res://scripts/ui_scripts/::1762518752
+::res://scripts/ui_scripts/::1762949916
 achievements.gd::GDScript::5346672017269986635::1761642672::0::1::::<>Control<><>0<>0<><>::
 game_over.gd::GDScript::1527369843020604442::1762250618::0::1::::<>Control<><>0<>0<><>::
 label.gd::GDScript::2110564472172079342::1762518752::0::1::::<>Label<><>0<>0<><>::
 menu_button.gd::GDScript::7559090387343866082::1762243417::0::1::::<>Button<><>0<>0<><>::
-seed_picker.gd::GDScript::8117786011627442171::1762377078::0::1::::<>Control<><>0<>0<><>::
+seed_picker.gd::GDScript::8117786011627442171::1762949916::0::1::::<>Control<><>0<>0<><>::
 start_button_picker.gd::GDScript::8619337556682602314::1761393062::0::1::::<>Button<><>0<>0<><>::
 ::res://scripts/ui_scripts/achievements/::1761643520
 lawn_mower_achievement.gd::GDScript::4510576001045577490::1761643167::0::1::::<>Control<><>0<>0<><>::
@@ -470,7 +473,7 @@ label_2.gd::GDScript::8485876660796966905::1762518784::0::1::::<>Label<><>0<>0<>
 plasma_wood_upgrade_error.gd::GDScript::4884875778171904193::1762355770::0::1::::<>Label<><>0<>0<><>::
 ::res://scripts/ui_scripts/level_clear/::1761477459
 level_1_clear.gd::GDScript::5299275239354030670::1761477459::0::1::::<>RefCounted<><>0<>0<><>::
-::res://scripts/ui_scripts/seed_picker/::1762505168
+::res://scripts/ui_scripts/seed_picker/::1762950395
 change_picker_1.gd::GDScript::655926513634174236::1761558795::0::1::::<>Button<><>0<>0<><>::
 cherrybomb_seed_picker.gd::GDScript::4743881845497151533::1762501320::0::1::::<>Button<><>0<>0<><>::
 doomshroom_seed_picker.gd::GDScript::6458550937085113943::1762501320::0::1::::<>Button<><>0<>0<><>::
@@ -483,13 +486,13 @@ peashooter_picker.gd::GDScript::5289141717520228337::1761394544::0::1::::<>Butto
 peashooter_seed_picker.gd::GDScript::2846258521704890275::1762501320::0::1::::<>Button<><>0<>0<><>::
 plasma_pea_seed_picker.gd::GDScript::1964809518729833875::1762505008::0::1::::<>Button<><>0<>0<><>::
 plasma_wood_seed_picker.gd::GDScript::8556207020279352269::1762504218::0::1::::<>Button<><>0<>0<><>::
-repeater_seed_picker.gd::GDScript::6779019062890527889::1762501321::0::1::::<>Button<><>0<>0<><>::
+repeater_seed_picker.gd::GDScript::6779019062890527889::1762950332::0::1::::<>Button<><>0<>0<><>::
 sunflower_picker.gd::GDScript::3800848149404139557::1761727977::0::1::::<>Button<><>0<>0<><>::
-sunflower_seed_picker.gd::GDScript::5337311940201214264::1762501321::0::1::::<>Button<><>0<>0<><>::
+sunflower_seed_picker.gd::GDScript::5337311940201214264::1762950332::0::1::::<>Button<><>0<>0<><>::
 tallnut_seed_picker.gd::GDScript::4144873953005375594::1762504045::0::1::::<>Button<><>0<>0<><>::
 torchwood_seed_picker.gd::GDScript::1530534757638690077::1762501321::0::1::::<>Button<><>0<>0<><>::
 twin_sunflower_seed_picker.gd::GDScript::7075098321090458582::1762504771::0::1::::<>Button<><>0<>0<><>::
-wall_nut_seed_picker.gd::GDScript::8224248017679462716::1762501321::0::1::::<>Button<><>0<>0<><>::
+wall_nut_seed_picker.gd::GDScript::8224248017679462716::1762950395::0::1::::<>Button<><>0<>0<><>::
 ::res://scripts/ui_scripts/settings/::1762287027
 achievement_button.gd::GDScript::6575612080883219057::1762287027::0::1::::<>Button<><>0<>0<><>::
 easy_mode_button.gd::GDScript::1570463388738179595::1762246674::0::1::::<>Button<><>0<>0<><>::

@@ -57,7 +57,6 @@ var seed_2: String = ""
 var seed_3: String = ""
 var seed_4: String = ""
 var seed_5: String = ""
-var seed_6: String = ""
 
 var upgrade_seed_1: String = ""
 var upgrade_seed_2: String = ""
@@ -170,7 +169,6 @@ func reset_game_state():
 	seed_3 = ""
 	seed_4 = ""
 	seed_5 = ""
-	seed_6 = ""
 
 	upgrade_seed_1 = ""
 	upgrade_seed_2 = ""
@@ -254,7 +252,6 @@ func reset_seeds():
 	seed_3 = ""
 	seed_4 = ""
 	seed_5 = ""
-	seed_6 = ""
 
 	upgrade_seed_1 = ""
 	upgrade_seed_2 = ""

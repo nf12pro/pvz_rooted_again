@@ -26,9 +26,6 @@ func _on_repeater_picker_pressed() -> void:
 				elif Global.amount_of_seeds == 5:
 					Global.seed_5 = "Repeater"
 					Global.slot_of_repeater = 5
-				elif Global.amount_of_seeds == 6:
-					Global.seed_6 = "Repeater"
-					Global.slot_of_repeater = 6
 			elif Global.is_new_open_slot == true:
 				Global.repeater_selected = true
 				Global.amount_of_seeds += 1
@@ -52,9 +49,6 @@ func _on_repeater_picker_pressed() -> void:
 					Global.seed_5 = "Repeater"
 					Global.slot_of_repeater = 5
 					Global.new_open_slot_5 = false
-				else:
-					Global.seed_6 = "Repeater"
-					Global.slot_of_repeater = 6
 			repeater_is_pressed = true
 		
 		elif repeater_is_pressed == true:
@@ -80,10 +74,6 @@ func _on_repeater_picker_pressed() -> void:
 				Global.new_open_slot_4 = true
 			elif Global.slot_of_repeater == 5:
 				Global.seed_5 = ""
-				Global.slot_of_repeater = 0
-				Global.new_open_slot_5 = true
-			elif Global.slot_of_repeater == 6:
-				Global.seed_6 = ""
 				Global.slot_of_repeater = 0
 				Global.new_open_slot_5 = true
 			repeater_is_pressed = false
@@ -113,10 +103,6 @@ func _on_repeater_picker_pressed() -> void:
 				Global.seed_5 = ""
 				Global.slot_of_repeater = 0
 				Global.new_open_slot_5 = true
-			elif Global.slot_of_repeater == 6:
-				Global.seed_6 = ""
-				Global.slot_of_repeater = 0
-				Global.open_slot = 6
 			repeater_is_pressed = false
 			Global.new_open_slot = true
 #endregion

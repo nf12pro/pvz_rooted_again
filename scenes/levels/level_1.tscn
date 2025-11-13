@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://6khan80x426l"]
+[gd_scene load_steps=20 format=3 uid="uid://6khan80x426l"]
 
 [ext_resource type="Script" uid="uid://c1rypggvd4vas" path="res://scripts/systems_scripts/level_zombie_spawner/level_1.gd" id="1_iwr0g"]
 [ext_resource type="PackedScene" uid="uid://bpjbgj1ddg86r" path="res://scenes/systems/sun_counter.tscn" id="2_hi223"]
@@ -15,7 +15,6 @@
 [ext_resource type="PackedScene" uid="uid://bfvoyxqr66gn1" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_4.tscn" id="14_v7niq"]
 [ext_resource type="PackedScene" uid="uid://bu3x00oashbjp" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_5.tscn" id="15_x26q6"]
 [ext_resource type="PackedScene" uid="uid://4g3c604f2rnm" path="res://scenes/systems/pause.tscn" id="16_iwr0g"]
-[ext_resource type="PackedScene" uid="uid://ca06yibcpd8c0" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/seed_slot_6.tscn" id="16_mnq77"]
 [ext_resource type="PackedScene" uid="uid://b3rng1mcud362" path="res://scenes/systems/speed_up_button.tscn" id="17_bahl2"]
 [ext_resource type="PackedScene" uid="uid://do6p0c86w1qyr" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/upgrade_seed_slot_1.tscn" id="18_np2pn"]
 [ext_resource type="PackedScene" uid="uid://dfo7mms37fi4e" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/upgrade_seed_slot_2.tscn" id="19_v6ha0"]
@@ -67,9 +66,6 @@ position = Vector2(515, 51)
 
 [node name="SeedSlot5" parent="." instance=ExtResource("15_x26q6")]
 position = Vector2(652, 51)
-
-[node name="SeedSlot6" parent="." instance=ExtResource("16_mnq77")]
-position = Vector2(797, 51)
 
 [node name="LawnMower2" parent="." instance=ExtResource("4_j0sdl")]
 position = Vector2(72, 357)
