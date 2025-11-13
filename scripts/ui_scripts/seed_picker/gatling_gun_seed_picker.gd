@@ -8,7 +8,7 @@ func _ready() -> void:
 #region gatling_gun Picking
 func _on_gatling_gun_picker_pressed() -> void:
 	if Global.gatling_gun_unlocked == false:
-		print("You Need To Unlock Gatling Gun")
+		print("You Need To Unlock Twin Sunflower")
 	else:
 		if Global.amount_of_upgrade_seeds < Global.max_amount_upgrade_seeds:
 			if gatling_gun_is_pressed == false:
@@ -25,20 +25,21 @@ func _on_gatling_gun_picker_pressed() -> void:
 					elif Global.amount_of_upgrade_seeds == 3:
 						Global.upgrade_seed_3 = "Gatling Gun"
 						Global.slot_of_gatling_gun = 3
-				elif Global.upgrade_new_open_slot == true:
+				elif Global.is_new_upgrade_open_slot == true:
 					Global.gatling_gun_selected = true
 					Global.amount_of_upgrade_seeds += 1
-					if Global.upgrade_open_slot == 1:
+					if Global.upgrade_new_open_slot:
 						Global.upgrade_seed_1 = "Gatling Gun"
 						Global.slot_of_gatling_gun = 1
-					elif Global.upgrade_open_slot == 2:
+						Global.upgrade_new_open_slot = false
+					elif Global.upgrade_new_open_slot_2:
 						Global.upgrade_seed_2 = "Gatling Gun"
 						Global.slot_of_gatling_gun = 2
-					elif Global.upgrade_open_slot == 3:
+						Global.upgrade_new_open_slot_2 = false
+					elif Global.upgrade_new_open_slot_3:
 						Global.upgrade_seed_3 = "Gatling Gun"
 						Global.slot_of_gatling_gun = 3
-					Global.upgrade_new_open_slot = false
-					Global.upgrade_open_slot = 0
+						Global.upgrade_new_open_slot_3 = false
 				gatling_gun_is_pressed = true
 			
 			elif gatling_gun_is_pressed == true:
@@ -49,15 +50,15 @@ func _on_gatling_gun_picker_pressed() -> void:
 				if Global.slot_of_gatling_gun == 1:
 					Global.upgrade_seed_1 = ""
 					Global.slot_of_gatling_gun = 0
-					Global.upgrade_open_slot = 1
+					Global.upgrade_new_open_slot = true
 				elif Global.slot_of_gatling_gun == 2:
 					Global.upgrade_seed_2 = ""
 					Global.slot_of_gatling_gun = 0
-					Global.upgrade_open_slot = 2
+					Global.upgrade_new_open_slot_2 = true
 				elif Global.slot_of_gatling_gun == 3:
 					Global.upgrade_seed_3 = ""
 					Global.slot_of_gatling_gun = 0
-					Global.upgrade_open_slot = 3
+					Global.upgrade_new_open_slot_3 = true
 				gatling_gun_is_pressed = false
 				Global.upgrade_new_open_slot = true
 		else:
@@ -69,17 +70,16 @@ func _on_gatling_gun_picker_pressed() -> void:
 				if Global.slot_of_gatling_gun == 1:
 					Global.upgrade_seed_1 = ""
 					Global.slot_of_gatling_gun = 0
-					Global.upgrade_open_slot = 1
+					Global.upgrade_new_open_slot = true
 				elif Global.slot_of_gatling_gun == 2:
 					Global.upgrade_seed_2 = ""
 					Global.slot_of_gatling_gun = 0
-					Global.upgrade_open_slot = 2
+					Global.upgrade_new_open_slot_2 = true
 				elif Global.slot_of_gatling_gun == 3:
 					Global.upgrade_seed_3 = ""
 					Global.slot_of_gatling_gun = 0
-					Global.upgrade_open_slot = 3
+					Global.upgrade_new_open_slot_3 = true
 				gatling_gun_is_pressed = false
-				Global.upgrade_new_open_slot = true
 #endregion
 
 func _process(_delta: float) -> void:

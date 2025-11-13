@@ -71,3 +71,7 @@ func _process(_delta: float) -> void:
 		Global.is_new_open_slot = true
 	else:
 		Global.is_new_open_slot = false
+	if Global.upgrade_new_open_slot or Global.upgrade_new_open_slot_2 or Global.upgrade_new_open_slot_3:
+		Global.is_new_upgrade_open_slot = true
+	else:
+		Global.is_new_upgrade_open_slot = false

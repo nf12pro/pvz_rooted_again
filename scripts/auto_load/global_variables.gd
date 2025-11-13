@@ -26,12 +26,12 @@ var plasma_pea_selected: bool = false
 var snow_pea_selected: bool = false
 var frost_pea_selected: bool = false
 
-var twin_sunflower_unlocked: bool = false
+var twin_sunflower_unlocked: bool = true
 var gatling_gun_unlocked: bool = false
-var plasma_wood_unlocked: bool = false
-var tall_nut_unlocked: bool = true
-var plasma_pea_unlocked: bool = false
-var frost_pea_unlocked: bool = false 
+var plasma_wood_unlocked: bool = true
+var tall_nut_unlocked: bool = false
+var plasma_pea_unlocked: bool = true
+var frost_pea_unlocked: bool = true 
 
 var is_new_open_slot: bool = false
 var new_open_slot: bool = false
@@ -221,6 +221,7 @@ func reset_game_state():
 
 #endregion
 
+#region Reset Seeds
 func reset_seeds():
 		# Seed Picker
 	peashooter_selected = false
@@ -280,3 +281,4 @@ func reset_seeds():
 	plasma_wood_is_selected = false
 	frost_pea_is_selected = false
 	tall_nut_is_selected = false
+#endregion

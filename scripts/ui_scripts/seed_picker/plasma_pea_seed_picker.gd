@@ -8,7 +8,7 @@ func _ready() -> void:
 #region plasma_pea Picking
 func _on_plasma_pea_picker_pressed() -> void:
 	if Global.plasma_pea_unlocked == false:
-		print("You Need To Unlock Plasma Pea")
+		print("You Need To Unlock Twin Sunflower")
 	else:
 		if Global.amount_of_upgrade_seeds < Global.max_amount_upgrade_seeds:
 			if plasma_pea_is_pressed == false:
@@ -25,20 +25,21 @@ func _on_plasma_pea_picker_pressed() -> void:
 					elif Global.amount_of_upgrade_seeds == 3:
 						Global.upgrade_seed_3 = "Plasma Pea"
 						Global.slot_of_plasma_pea = 3
-				elif Global.upgrade_new_open_slot == true:
+				elif Global.is_new_upgrade_open_slot == true:
 					Global.plasma_pea_selected = true
 					Global.amount_of_upgrade_seeds += 1
-					if Global.upgrade_open_slot == 1:
+					if Global.upgrade_new_open_slot:
 						Global.upgrade_seed_1 = "Plasma Pea"
 						Global.slot_of_plasma_pea = 1
-					elif Global.upgrade_open_slot == 2:
+						Global.upgrade_new_open_slot = false
+					elif Global.upgrade_new_open_slot_2:
 						Global.upgrade_seed_2 = "Plasma Pea"
 						Global.slot_of_plasma_pea = 2
-					elif Global.upgrade_open_slot == 3:
+						Global.upgrade_new_open_slot_2 = false
+					elif Global.upgrade_new_open_slot_3:
 						Global.upgrade_seed_3 = "Plasma Pea"
 						Global.slot_of_plasma_pea = 3
-					Global.upgrade_new_open_slot = false
-					Global.upgrade_open_slot = 0
+						Global.upgrade_new_open_slot_3 = false
 				plasma_pea_is_pressed = true
 			
 			elif plasma_pea_is_pressed == true:
@@ -49,15 +50,15 @@ func _on_plasma_pea_picker_pressed() -> void:
 				if Global.slot_of_plasma_pea == 1:
 					Global.upgrade_seed_1 = ""
 					Global.slot_of_plasma_pea = 0
-					Global.upgrade_open_slot = 1
+					Global.upgrade_new_open_slot = true
 				elif Global.slot_of_plasma_pea == 2:
 					Global.upgrade_seed_2 = ""
 					Global.slot_of_plasma_pea = 0
-					Global.upgrade_open_slot = 2
+					Global.upgrade_new_open_slot_2 = true
 				elif Global.slot_of_plasma_pea == 3:
 					Global.upgrade_seed_3 = ""
 					Global.slot_of_plasma_pea = 0
-					Global.upgrade_open_slot = 3
+					Global.upgrade_new_open_slot_3 = true
 				plasma_pea_is_pressed = false
 				Global.upgrade_new_open_slot = true
 		else:
@@ -69,17 +70,16 @@ func _on_plasma_pea_picker_pressed() -> void:
 				if Global.slot_of_plasma_pea == 1:
 					Global.upgrade_seed_1 = ""
 					Global.slot_of_plasma_pea = 0
-					Global.upgrade_open_slot = 1
+					Global.upgrade_new_open_slot = true
 				elif Global.slot_of_plasma_pea == 2:
 					Global.upgrade_seed_2 = ""
 					Global.slot_of_plasma_pea = 0
-					Global.upgrade_open_slot = 2
+					Global.upgrade_new_open_slot_2 = true
 				elif Global.slot_of_plasma_pea == 3:
 					Global.upgrade_seed_3 = ""
 					Global.slot_of_plasma_pea = 0
-					Global.upgrade_open_slot = 3
+					Global.upgrade_new_open_slot_3 = true
 				plasma_pea_is_pressed = false
-				Global.upgrade_new_open_slot = true
 #endregion
 
 func _process(_delta: float) -> void:
