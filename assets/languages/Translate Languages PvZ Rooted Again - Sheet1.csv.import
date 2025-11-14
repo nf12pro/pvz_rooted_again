@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dbn7ff5lnt2ha"
+
+[deps]
+
+files=["res://assets/languages/Translate Languages PvZ Rooted Again - Sheet1.Spanish.translation", "res://assets/languages/Translate Languages PvZ Rooted Again - Sheet1.French.translation"]
+
+source_file="res://assets/languages/Translate Languages PvZ Rooted Again - Sheet1.csv"
+dest_files=["res://assets/languages/Translate Languages PvZ Rooted Again - Sheet1.Spanish.translation", "res://assets/languages/Translate Languages PvZ Rooted Again - Sheet1.French.translation"]
+
+[params]
+
+compress=true
+delimiter=0

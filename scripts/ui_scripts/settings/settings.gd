@@ -7,4 +7,5 @@ func _unhandled_input(_event: InputEvent) -> void:
 
 func _on_language_selected(index: int) -> void:
 	var language = language_drop_down.get_item_text(index)
+	print(language)
 	TranslationServer.set_locale(language)

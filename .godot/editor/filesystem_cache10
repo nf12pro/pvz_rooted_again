@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1763107174
+::res://::1763122561
 export_presets.cfg::TextFile::-1::1762616470::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::1385716001083434227::1759085610::1761842249::1::::<><><>0<>0<>75db0460f52da5b5df9a14ddb92a937e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 index.apple-touch-icon.png::CompressedTexture2D::3279556904775756626::1761596322::1761842249::1::::<><><>0<>0<>2003ba376ab1a159b32b2fafee3e3539<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
@@ -47,10 +47,10 @@ Remove.svg::CompressedTexture2D::8424762348432538344::1762374752::1762374753::1:
 ::res://assets/::1763111378
 ::res://assets/fonts/::1761842249
 HouseofTerror Regular.ttf::FontFile::4067135053355843912::1760370471::1761842249::1::::<><><>0<>0<>782bb8d26bad6365c2fd1f678d568224<>res://.godot/imported/HouseofTerror Regular.ttf-93bdcb8901d3eb84ed0a613df40734a6.fontdata::
-::res://assets/languages/::1763112111
-Prototype Translate Languages PvZ Rooted Again - Sheet1.csv::Translation::1646329200201870582::1763112111::1763112112::1::::<><><>0<>0<>2413123064a00ae24ff4e7d94d98995f<>res://assets/languages/Prototype Translate Languages PvZ Rooted Again - Sheet1.Spanish.translation<*>res://assets/languages/Prototype Translate Languages PvZ Rooted Again - Sheet1.French.translation::
-Prototype Translate Languages PvZ Rooted Again - Sheet1.Spanish.translation::OptimizedTranslation::501618139520912870::1763112112::0::1::::<><><>0<>0<><>::
-Prototype Translate Languages PvZ Rooted Again - Sheet1.French.translation::OptimizedTranslation::2246851358763925958::1763112112::0::1::::<><><>0<>0<><>::
+::res://assets/languages/::1763122565
+Translate Languages PvZ Rooted Again - Sheet1.French.translation::OptimizedTranslation::4968923582218504560::1763122566::0::1::::<><><>0<>0<><>::
+Translate Languages PvZ Rooted Again - Sheet1.Spanish.translation::OptimizedTranslation::2411812503074186777::1763122566::0::1::::<><><>0<>0<><>::
+Translate Languages PvZ Rooted Again - Sheet1.csv::Translation::7258239987736987426::1763122565::1763122566::1::::<><><>0<>0<>c73a937d5bd0d9dc396eb6e4ecc05bbc<>res://assets/languages/Translate Languages PvZ Rooted Again - Sheet1.Spanish.translation<*>res://assets/languages/Translate Languages PvZ Rooted Again - Sheet1.French.translation::
 ::res://assets/music_sfx/::1759132784
 ::res://assets/prototype_assets/::1761842249
 lawn_sprite.png::CompressedTexture2D::4136716664303810758::1759132833::1761842249::1::::<><><>0<>0<>a09af39e499e950e975e6bed1004254a<>res://.godot/imported/lawn_sprite.png-0c8cecd8ce4b546e4de6658475daab1b.ctex::
@@ -314,8 +314,8 @@ tallnut_seed_picker.tscn::PackedScene::4168087390621979149::1762775260::0::1::::
 torchwood_seed_picker.tscn::PackedScene::797663074486223660::1762200650::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://x1h12rawlim6::::res://assets/sprite/plant_sprites/pixil-frame-0 (9) (1).png<>uid://v2nxir24qdt2::::res://scripts/ui_scripts/seed_picker/torchwood_seed_picker.gd
 twin_sunflower_seed_picker.tscn::PackedScene::8391268301506417798::1763041431::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/pixil-frame-0 (22).png<>uid://c72h3oa6kdtow::::res://scripts/ui_scripts/seed_picker/twin_sunflower_seed_picker.gd
 wall_nut_seed_picker.tscn::PackedScene::2110500569511966456::1761394877::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bpj8mxnyeapwc::::res://assets/prototype_assets/pixil-frame-0 (17).png<>uid://dpf5fs0kjbt37::::res://scripts/ui_scripts/seed_picker/wall_nut_seed_picker.gd
-::res://scenes/ui/labels/::1762377197
-frost_pea_upgrade_error.tscn::PackedScene::4046607717736925417::1762377133::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://cbujgqct6gafx::::res://scripts/ui_scripts/labels/plasma_wood_upgrade_error.gd
+::res://scenes/ui/labels/::1763121787
+frost_pea_upgrade_error.tscn::PackedScene::4046607717736925417::1763121787::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://cbujgqct6gafx::::res://scripts/ui_scripts/labels/plasma_wood_upgrade_error.gd
 gatling_pea_upgrade_error.tscn::PackedScene::5358117575505081581::1762377162::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://cbujgqct6gafx::::res://scripts/ui_scripts/labels/plasma_wood_upgrade_error.gd
 plasma_pea_upgrade_error.tscn::PackedScene::3275647223421413162::1762377169::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://cbujgqct6gafx::::res://scripts/ui_scripts/labels/plasma_wood_upgrade_error.gd
 plasma_wood_upgrade_error.tscn::PackedScene::6242197697743205111::1762377176::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://cbujgqct6gafx::::res://scripts/ui_scripts/labels/plasma_wood_upgrade_error.gd
@@ -323,13 +323,13 @@ tall_nut_upgrade_error.tscn::PackedScene::142316887225443277::1762377187::0::1::
 twin_sunflower_upgrade_error.tscn::PackedScene::8883484126003547620::1762377197::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://cbujgqct6gafx::::res://scripts/ui_scripts/labels/plasma_wood_upgrade_error.gd
 ::res://scenes/ui/level_clear/::1761477458
 level_1_clear.tscn::PackedScene::4098905080338325330::1761477458::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf
-::res://scenes/ui/settings/::1763111499
+::res://scenes/ui/settings/::1763121295
 achievement_button.tscn::PackedScene::596285058322741235::1762287027::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://c0xjmua3bn4af::::res://scripts/ui_scripts/settings/achievement_button.gd
 almanac_button.tscn::PackedScene::1123387607009085911::1762243525::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://dcccm4skprok7::::res://scripts/plant_scripts/almanac/almanac_button.gd
 easy_mode_button.tscn::PackedScene::2625023731555446764::1762246674::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://wm0kj1aotpkd::::res://scripts/ui_scripts/settings/easy_mode_button.gd
 credits_button.tscn::PackedScene::5904248177651145280::1763107825::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://e5pxu2n2ukmg::::res://scripts/ui_scripts/settings/credits_button.gd
-language_button.tscn::PackedScene::8264653397942272439::1763111499::0::1::::<><><>0<>0<><>::
-settings.tscn::PackedScene::4545124010271735918::1763107836::0::1::::<><><>0<>0<><>::uid://6wfdwbd0ceov::::res://scenes/ui/settings/turn_off_mowers.tscn<>uid://dd31qox666d40::::res://scripts/ui_scripts/settings/settings.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bdnt00qn76rtk::::res://scenes/ui/settings/easy_mode_button.tscn<>uid://iq3y0le76thb::::res://scenes/ui/settings/achievement_button.tscn<>uid://qagbanvkcr88::::res://scenes/ui/settings/almanac_button.tscn<>uid://cqecdthufgy2k::::res://scenes/ui/settings/credits_button.tscn
+language_button.tscn::PackedScene::8264653397942272439::1763112524::0::1::::<><><>0<>0<><>::uid://cpj12ub0vuqu4::::res://scripts/ui_scripts/settings/language_button.gd
+settings.tscn::PackedScene::4545124010271735918::1763121295::0::1::::<><><>0<>0<><>::uid://6wfdwbd0ceov::::res://scenes/ui/settings/turn_off_mowers.tscn<>uid://dd31qox666d40::::res://scripts/ui_scripts/settings/settings.gd<>uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://bdnt00qn76rtk::::res://scenes/ui/settings/easy_mode_button.tscn<>uid://iq3y0le76thb::::res://scenes/ui/settings/achievement_button.tscn<>uid://qagbanvkcr88::::res://scenes/ui/settings/almanac_button.tscn<>uid://cqecdthufgy2k::::res://scenes/ui/settings/credits_button.tscn<>uid://dp0pvs5cqun2n::::res://scenes/ui/settings/language_button.tscn
 turn_off_mowers.tscn::PackedScene::2221580562942171969::1762170807::0::1::::<><><>0<>0<><>::uid://bx7fec36gwywm::::res://assets/fonts/HouseofTerror Regular.ttf<>uid://dh50o0n1p5bbp::::res://scripts/ui_scripts/settings/turn_off_mowers.gd
 ::res://scenes/zombies/::1762518447
 allstar_zombie.tscn::PackedScene::526456753429736468::1762256725::0::1::::<><><>0<>0<><>::uid://4x8ykxh2q1d8::::res://scripts/zombies_scripts/allstar_zombie.gd
@@ -500,11 +500,12 @@ tallnut_seed_picker.gd::GDScript::4144873953005375594::1763036991::0::1::::<>But
 torchwood_seed_picker.gd::GDScript::1530534757638690077::1763032490::0::1::::<>Button<><>0<>0<><>::
 twin_sunflower_seed_picker.gd::GDScript::7075098321090458582::1763036028::0::1::::<>Button<><>0<>0<><>::
 wall_nut_seed_picker.gd::GDScript::8224248017679462716::1763032490::0::1::::<>Button<><>0<>0<><>::
-::res://scripts/ui_scripts/settings/::1763107694
+::res://scripts/ui_scripts/settings/::1763113040
 achievement_button.gd::GDScript::6575612080883219057::1762287027::0::1::::<>Button<><>0<>0<><>::
 easy_mode_button.gd::GDScript::1570463388738179595::1762246674::0::1::::<>Button<><>0<>0<><>::
 credits_button.gd::GDScript::343639628129494134::1763107694::0::1::::<>Button<><>0<>0<><>::
-settings.gd::GDScript::7429239145930031495::1762170379::0::1::::<>Control<><>0<>0<><>::
+language_button.gd::GDScript::5845881333167147349::1763112584::0::1::::<>OptionButton<><>0<>0<><>::
+settings.gd::GDScript::7429239145930031495::1763113040::0::1::::<>Control<><>0<>0<><>::
 turn_off_mowers.gd::GDScript::7714059549469910677::1762243525::0::1::::<>Button<><>0<>0<><>::
 ::res://scripts/zombies_scripts/::1763109808
 allstar_zombie.gd::GDScript::2085004234780115903::1762520259::0::1::::<>CharacterBody2D<><>0<>0<><>::

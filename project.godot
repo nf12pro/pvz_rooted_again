@@ -78,7 +78,7 @@ Space={
 
 [internationalization]
 
-locale/translations=PackedStringArray("res://assets/languages/Prototype Translate Languages PvZ Rooted Again - Sheet1.French.translation", "res://assets/languages/Prototype Translate Languages PvZ Rooted Again - Sheet1.Spanish.translation")
+locale/translations=PackedStringArray("res://assets/languages/Translate Languages PvZ Rooted Again - Sheet1.French.translation", "res://assets/languages/Translate Languages PvZ Rooted Again - Sheet1.Spanish.translation")
 
 [layer_names]
 

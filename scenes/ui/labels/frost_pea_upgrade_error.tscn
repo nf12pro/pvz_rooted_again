@@ -7,5 +7,5 @@
 modulate = Color(1, 1, 0, 1)
 theme_override_fonts/font = ExtResource("1_plx7o")
 theme_override_font_sizes/font_size = 40
-text = "YOU NEED TO SELECT ICE PEA TO BE ABLE TO USE FROST PEA"
+text = "YOU NEED TO SELECT SNOW-PEA TO BE ABLE TO USE FROST PEA"
 script = ExtResource("2_bfajr")

@@ -39,10 +39,7 @@ layout_mode = 2
 
 [node name="LanguageButton" parent="MarginContainer/VBoxContainer" instance=ExtResource("6_lfmul")]
 layout_mode = 2
-
-[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "PLAY"
+script = null
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
@@ -58,3 +55,5 @@ offset_left = 1017.0
 offset_top = 4.0
 offset_right = 1150.0
 offset_bottom = 52.0
+
+[connection signal="item_selected" from="MarginContainer/VBoxContainer/LanguageButton" to="." method="_on_language_selected"]

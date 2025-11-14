@@ -6,7 +6,7 @@
 [node name="TurnOffMowers" type="Button"]
 theme_override_fonts/font = ExtResource("1_8hrto")
 theme_override_font_sizes/font_size = 30
-text = "EASY MODE: OFF"
+text = "EASY MODE OFF"
 script = ExtResource("2_8hrto")
 
 [connection signal="pressed" from="." to="." method="_on_easy_pressed"]
