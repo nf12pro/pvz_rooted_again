@@ -6,6 +6,8 @@ var score: int = 0
 var spawn_score: int = 0
 var game_over: bool = false
 var seed_selector: bool = false
+
+var language_picked = ""
 #endregion
 
 #region Seed Picker Variables
@@ -26,7 +28,7 @@ var plasma_pea_selected: bool = false
 var snow_pea_selected: bool = false
 var frost_pea_selected: bool = false
 
-var twin_sunflower_unlocked: bool = false
+var twin_sunflower_unlocked: bool = true
 var gatling_gun_unlocked: bool = false
 var plasma_wood_unlocked: bool = false
 var tall_nut_unlocked: bool = false

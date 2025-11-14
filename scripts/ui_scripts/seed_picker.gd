@@ -64,6 +64,8 @@ func _unhandled_key_input(_event: InputEvent) -> void:
 				get_tree().change_scene_to_file("res://scenes/levels/level_4.tscn")
 			elif Global.current_level == 5:
 				get_tree().change_scene_to_file("res://scenes/levels/level_5.tscn")
+	elif Input.is_action_just_pressed("esc"):
+		get_tree().change_scene_to_file("res://scenes/ui/start_menu.tscn")
 #endregion
 
 func _process(_delta: float) -> void:

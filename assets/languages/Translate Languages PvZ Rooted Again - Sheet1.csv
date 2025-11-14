@@ -1,7 +1,7 @@
 English,Spanish,French
 PLAY,JUEGA,JOUER
 CREDITS,CRÉDITOS,CRÉDITS
-EASY,FÁCIL,FACILE
+MODE FACILE ON,FÁCIL,FACILE
 MODE,MODO,MODE
 MOWERS,CORTADORES,TONDEUSES
 CREDITS,CRÉDITOS,CRÉDITS
@@ -14,7 +14,7 @@ Wallnut,Nuez,Noix de mur
 Repeater,Repetidora,Tire-pois double
 Torchwood,Tronco Ardiente,Bois-brûlé
 Laser-Bean,Laserjudía,Haricot-laser
-Snow-Pea,Guisanieve,Pois-glacial
+Snow Pea,Guisanieve,Pois-glacial
 Cherry,Cereza explosiva,Cerise explosive
 Iceberg Bomb,Bomba iceberg,Bombe-iceberg
 Doom-Shroom,Hongo fatal,Champignon funèbre
@@ -56,3 +56,47 @@ Select,Seleccionar,Sélectionner
 Be,Ser,Être
 Able,Capaz,Capable
 Use,Usar,Utiliser
+MOWERS ON,CORTADORES ON,TONDEUSES ON
+MOWERS OFF,CORTADORES OFF,TONDEUSES OFF
+EASY MODE OFF,FACIL MODO OFF,MODE FACILE OFF
+EASY MODE ON,FACIL MODO ON,MODE FACILE OFF
+LEVEL CLEAR!,,
+YOU NEED TO SELECT SNOW-PEA TO BE ABLE TO USE FROST PEA,NECESITAS SELECCIONAR GUISANTE DE NIEVE PARA PODER USAR GUISANTE HELADO,VOUS DEVEZ SÉLECTIONNER PETIT-POIS GLACÉ POUR POUVOIR UTILISER PETIT-POIS GIVRÉ
+YOU NEED TO SELECT REPEATER TO BE ABLE TO USE GATLING PEA,NECESITAS SELECCIONAR REPETIDOR PARA PODER USAR GUISANTE GATLING,VOUS DEVEZ SÉLECTIONNER RÉPÉTEUR POUR POUVOIR UTILISER PETIT-POIS GATLING
+YOU NEED TO SELECT PEASHOOTER TO BE ABLE TO USE PLASMA PEA,NECESITAS SELECCIONAR LANZAGUISANTES PARA PODER USAR GUISANTE DE PLASMA,VOUS DEVEZ SÉLECTIONNER TIRE-POIS POUR POUVOIR UTILISER PETIT-POIS PLASMA
+YOU NEED TO SELECT TORCHWOOD TO BE ABLE TO USE PLASMA WOOD,NECESITAS SELECCIONAR TRONCO IGNEO PARA PODER USAR TRONCO DE PLASMA,VOUS DEVEZ SÉLECTIONNER TORCHEBOIS POUR POUVOIR UTILISER BOIS PLASMA
+YOU NEED TO SELECT WALL NUT TO BE ABLE TO USE TALL NUT,NECESITAS SELECCIONAR NUEZ PARA PODER USAR NUEZ ALTA,VOUS DEVEZ SÉLECTIONNER NOIX POUR POUVOIR UTILISER NOIX HAUTE
+YOU NEED TO SELECT SUNFLOWER TO BE ABLE TO USE TWIN SUNFLOWER,NECESITAS SELECCIONAR GIRA-SOL PARA PODER USAR GIRA-SOL GÉMEO,VOUS DEVEZ SÉLECTIONNER TOURNESOL POUR POUVOIR UTILISER TOURNESOL JUMEAU
+,,
+Cherry Bomb,Bomba Cereza,Bombe Cerise
+Doom-shroom,Hongo-Doom,Champi-Doom
+Frost Pea,Guisante Helado,Petit-pois givré
+Gatling Pea,Guisante Gatling,Petit-pois Gatling
+Iceberg Lettuce,Lechuga Hielo,Laitue Iceberg
+Snow Pea,Guisante Nieve,Petit-pois Neige
+Laser Bean,Frijol Láser,Haricot Laser
+Peashooter,Lanzaguisante,Tire-pois
+Plasma Peashooter,Lanzaguisante Plasma,Tire-pois Plasma
+Plasma Woods,Troncos Plasma,Bois Plasma
+Repeater,Repetidor,Répéteur
+Sunflower,Girasol,Tournesol
+Tall-nut,Nuez Alta,Noix Haute
+Torchwood,Tronco Ígneo,Torchebois
+Twin Sunflower,Girasol Gemelo,Tournesol Jumeau
+Wall-nut,Nuez,Noix
+"Cherry Bombs can blow up all zombies in an area. They have a short fuse so plant them near zombies. Cost: 150 Recharge: 50 Damage: 1800 Area: 3x3 ""I wanna explode,"" says Cherry #1. ""No, let's detonate instead!"" says Cherry #2. After consulting they agree to explodonate.","Las bombas cereza pueden explotar a todos los zombis en un área. Tienen una mecha corta, así que plántalas cerca de los zombis. Costo: 150 Recarga: 50 Daño: 1800 Área: 3x3 ""Quiero explotar"", dice Cereza #1. ""No, detonemos mejor"" dice Cereza #2. Después de consultarlo acuerdan explodetonar.","Les bombes cerise peuvent faire exploser tous les zombies dans une zone. Elles ont une courte mèche, alors plantez-les près des zombies. Cout : 150 Recharge : 50 Dégâts : 1800 Zone : 3x3 ""Je veux exploser"", dit Cerise #1. ""Non, faisons plutôt détoner !"" dit Cerise #2. Après discussion, ils décident d'explodétoner."
+Doom-shrooms destroy everything in a large area and leave a crater that can't be planted on. Cost: 200 Recharge: 50 Damage: 1800 Area: 5x5 You're lucky I'm on your side...,Los Hongo-Doom destruyen todo en un área grande y dejan un cráter donde no puedes plantar. Costo: 200 Recarga: 50 Daño: 1800 Área: 5x5 Eres afortunado de que esté de tu lado...,Les Champi-Doom détruisent tout dans une grande zone et laissent un cratère où l’on ne peut pas planter. Cout : 200 Recharge : 50 Dégâts : 1800 Zone : 5x5 Tu as de la chance que je sois de ton côté...
+Frost Pea shoots frozen peas that slow down zombies. Cost: 75 Recharge: 50 Toughness: 300 Special: Slows zombies,El Guisante Helado dispara guisantes congelados que ralentizan a los zombis. Costo: 75 Recarga: 50 Resistencia: 300 Especial: Ralentiza zombis,Le Petit-pois givré tire des pois gelés qui ralentissent les zombies. Cout : 75 Recharge : 50 Dureté : 300 Spécial : Ralentit les zombies
+Gatling Pea shoots four peas in rapid succession. Damage: 4 x 20 Cost: 250 Recharge: 50 Toughness: 300 Range: 1 x 9,El Guisante Gatling dispara cuatro guisantes en rápida sucesión. Daño: 4 x 20 Costo: 250 Recarga: 50 Resistencia: 300 Alcance: 1 x 9,Le Petit-pois Gatling tire quatre pois en succession rapide. Dégâts : 4 x 20 Cout : 250 Recharge : 50 Dureté : 300 Portée : 1 x 9
+Iceberg Lettuces freeze a zombie. Cost: 25 Recharge: 30 Damage: 190 Freeze Duration: 3,Las Lechugas Hielo congelan un zombi. Costo: 25 Recarga: 30 Daño: 190 Duración de congelación: 3,Les Laitues Iceberg gèlent un zombie. Cout : 25 Recharge : 30 Dégâts : 190 Durée de gel : 3
+Snow Peas shoot frozen peas that slow zombies. Cost: 175 Recharge: 7.5 Toughness: 300 Special: Slows zombies,Los Guisantes Nieve disparan guisantes helados que ralentizan zombis. Costo: 175 Recarga: 7.5 Resistencia: 300 Especial: Ralentiza zombis,Les Petit-pois neige tirent des pois glacés qui ralentissent les zombies. Cout : 175 Recharge : 7.5 Dureté : 300 Spécial : Ralentit les zombies
+Laser Beans fire down a lane. Cost: 200 Recharge: 5 Damage: 40 Toughness: 300,Los Frijoles Láser disparan por una línea. Costo: 200 Recarga: 5 Daño: 40 Resistencia: 300,Les Haricots laser tirent en ligne droite. Cout : 200 Recharge : 5 Dégâts : 40 Dureté : 300
+Peashooters are your first line of defense. Damage: 20 Cost: 100 Recharge: 7.5 Toughness: 300 Range: 1 x 9,Los Lanzaguisantes son tu primera línea de defensa. Daño: 20 Costo: 100 Recarga: 7.5 Resistencia: 300 Alcance: 1 x 9,Les Tire-pois sont votre première ligne de défense. Dégâts : 20 Cout : 100 Recharge : 7.5 Dureté : 300 Portée : 1 x 9
+Plasma Peashooter can shoot plasma. Cost: 75 Recharge: 50 Damage: 60,El Lanzaguisantes de Plasma dispara plasma. Costo: 75 Recarga: 50 Daño: 60,Le Tire-pois plasma tire des pois de plasma. Cout : 75 Recharge : 50 Dégâts : 60
+Plasma woods turn peas into plasma. Cost: 100 Recharge: 50 Toughness: 300,Los Troncos de Plasma convierten guisantes en plasma. Costo: 100 Recarga: 50 Resistencia: 300,Les Bois plasma transforment les pois en plasma. Cout : 100 Recharge : 50 Dureté : 300
+Repeater fires two peas. Damage: 2 x 20 Cost: 200 Recharge: 7.5 Toughness: 300 Range: 1 x 9,El Repetidor dispara dos guisantes. Daño: 2 x 20 Costo: 200 Recarga: 7.5 Resistencia: 300 Alcance: 1 x 9,Le Répéteur tire deux pois. Dégâts : 2 x 20 Cout : 200 Recharge : 7.5 Dureté : 300 Portée : 1 x 9
+Sunflowers are essential for sun production. Cost: 50 Recharge: 7.5 Toughness: 300 Special: Produces 25 Sun,Los Girasoles son esenciales para producir sol. Costo: 50 Recarga: 7.5 Resistencia: 300 Especial: Produce 25 Sol,Les Tournesols sont essentiels pour produire du soleil. Cout : 50 Recharge : 7.5 Dureté : 300 Spécial : Produit 25 Soleil
+Tall-nuts are heavy-duty walls. Cost: 75 Recharge: 50 Toughness: 8000,Las Nuez Altas son muros pesados. Costo: 75 Recarga: 50 Resistencia: 8000,Les Noix hautes sont des murs lourds. Cout : 75 Recharge : 50 Dureté : 8000
+Torchwoods turn peas into fire. Cost: 175 Recharge: 7.5 Toughness: 300,Los Troncos Igneos convierten guisantes en fuego. Costo: 175 Recarga: 7.5 Resistencia: 300,Les Torchebois transforment les pois en feu. Cout : 175 Recharge : 7.5 Dureté : 300
+Twin Sunflowers give twice as much sun. Cost: 150 Recharge: 50 Toughness: 300,Los Girasoles Gemelos dan el doble de sol. Costo: 150 Recarga: 50 Resistencia: 300,Les Tournesols jumeaux donnent deux fois plus de soleil. Cout : 150 Recharge : 50 Dureté : 300
+Wall-nuts have hard shells to block zombies. Cost: 50 Recharge: 30 Toughness: 4000,Las Nueces tienen cáscaras duras para bloquear zombis. Costo: 50 Recarga: 30 Resistencia: 4000,Les Noix ont des coquilles dures pour bloquer les zombies. Cout : 50 Recharge : 30 Dureté : 4000

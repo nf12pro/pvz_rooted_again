@@ -26,14 +26,13 @@ text = "PLASMA WOOD"
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_v3xg8")
 theme_override_font_sizes/font_size = 32
-text = "Plasma woods turn peas that pass through them into mini plasma ball that deals 3 times as much 
-damage. Fire peas that pass through it get a bigger boost of 4 times as much!
+text = "Plasma woods turn peas that pass through them into a mini plasma ball that deals 3 times as much 
+damage. Plasma peas that pass through it get an explosive effect!
 
 Cost: 100
 Recharge: 50
 Toughness: 300
-Special: Sets peas on plasma and fire peas into plasma burnt peas.
+Special: Sets peas on plasma and plasma peas into supernova peas.
 
-Plasma wood is one of the nicest guys you will meet! Nice, respectful, quiet and shy but his scary
-looks keeps everyone away. A hard wood with a soft fire! 
-"
+Plasma wood is one of the nicest guys you will meet! Nice, respectful, quiet, and shy, but his scary
+looks keep everyone away. A hard wood with a soft fire! "

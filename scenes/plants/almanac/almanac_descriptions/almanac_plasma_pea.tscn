@@ -26,12 +26,12 @@ text = "PLASMA PEASHOOTER"
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_spl5t")
 theme_override_font_sizes/font_size = 32
-text = "Plasma Peashooter can shoot strong plasma peas. Try compining it with plasma torchwood for an 
+text = "Plasma Peashooter can shoot strong plasma peas. Try combining it with plasma torchwood for an 
 explosive event
 
 Cost: 75
 Recharge: 50 
 Damage: 60
 
-Why is Plasma Pea so gassy and energy conductiver? Plasma Pea says \"It might be because I have 
-so much energy that I lost electrons."
+Why is Plasma Pea so gassy and energy conductive? Plasma Pea says, \"It might be because I have 
+so much energy that I lost electrons!\""
