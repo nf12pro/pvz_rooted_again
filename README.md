@@ -2,5 +2,6 @@
 Fan Game of Pvz
 
 Credits to:
-Lead Developer and Programmer - Rayane Faik
-2D Lead Artist - Neil Slimani
+Lead Programmer - Rayane Faik
+
+Lead Artist - Neil Slimani
