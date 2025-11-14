@@ -35,7 +35,8 @@ theme_override_constants/separation = 22
 layout_mode = 2
 theme_override_fonts/font = ExtResource("1_0kjv3")
 theme_override_font_sizes/font_size = 60
-text = "START"
+text = "PLAY"
+language = "en"
 script = ExtResource("2_m0hmm")
 
 [node name="Settings" type="Button" parent="MarginContainer/VBoxContainer"]

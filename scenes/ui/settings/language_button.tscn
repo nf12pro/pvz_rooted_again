@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dp0pvs5cqun2n"]
+
+[ext_resource type="Script" uid="uid://cpj12ub0vuqu4" path="res://scripts/ui_scripts/settings/language_button.gd" id="1_vqsdl"]
+
+[node name="LanguageButton" type="OptionButton"]
+item_count = 3
+popup/item_0/text = "English"
+popup/item_0/id = 0
+popup/item_1/text = "Spanish"
+popup/item_1/id = 1
+popup/item_2/text = "French"
+popup/item_2/id = 2
+script = ExtResource("1_vqsdl")
+
+[connection signal="item_selected" from="." to="." method="_on_language_selected"]

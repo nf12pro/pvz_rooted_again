@@ -76,6 +76,10 @@ Space={
 ]
 }
 
+[internationalization]
+
+locale/translations=PackedStringArray("res://assets/languages/Prototype Translate Languages PvZ Rooted Again - Sheet1.French.translation", "res://assets/languages/Prototype Translate Languages PvZ Rooted Again - Sheet1.Spanish.translation")
+
 [layer_names]
 
 2d_render/layer_1="UI"
