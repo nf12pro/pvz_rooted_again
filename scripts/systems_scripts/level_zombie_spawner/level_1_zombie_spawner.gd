@@ -46,7 +46,7 @@ func _process(delta):
 
 #region Spawn Logic
 func _set_new_random_interval():
-	var score_factor = clamp(Global.score / 300.0, 0.0, 1.0)
+	var score_factor = clamp(Global.spawn_score / 300.0, 0.0, 1.0)
 	var starting_boost = 5.0
 
 	var min_interval = lerp(base_max_interval + starting_boost, base_min_interval, score_factor)
@@ -143,7 +143,14 @@ func check_zombie():
 			show_level_clear()
 
 			# Move to next level if it exists
-			Global.current_level += 1
+			if Global.current_level == 5:
+				Global.current_level += 1
+				Global.reset_seeds()
+				Engine.time_scale = 1.0  
+				if Global.mowers_nerf == true:
+					Global.mower_not_used_achievement = true
+				get_tree().change_scene_to_file("res://scenes/ui/game_won.tscn")
+
 #endregion
 
 
@@ -164,5 +171,5 @@ func choose_lane() -> Vector2:
 		3: return Vector2(1200, 350)
 		4: return Vector2(1200, 450)
 		5: return Vector2(1200, 550)
-	return Vector2(1200, 350)
+	return Vector2(1200, 350) #idk what this is for, I made it like a week ago and forogt
 #endregion

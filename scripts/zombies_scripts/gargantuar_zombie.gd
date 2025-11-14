@@ -3,7 +3,7 @@ extends CharacterBody2D
 #region Variables
 @export var speed: float = 25.0
 @export var original_speed: float = 25.0
-@export var hp: int = 3000
+@export var hp: int = 4500
 @export var damage_per_second: float = 999999.0
 var current_slow: float = 0.0
 
