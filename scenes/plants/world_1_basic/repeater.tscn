@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://bku1qpfkcklfa"]
 
 [ext_resource type="Script" uid="uid://cakdhsd8jbtea" path="res://scripts/plant_scripts/repeater.gd" id="1_ec2jo"]
-[ext_resource type="Texture2D" uid="uid://by7ej7bjbvwx4" path="res://assets/sprite/plant_sprites/repeater_sprites/pixilart-sprite (7).png" id="2_ec2jo"]
+[ext_resource type="Texture2D" uid="uid://by7ej7bjbvwx4" path="res://assets/sprite/plant_sprites/repeater_sprites/repeater_animated.png" id="2_ec2jo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
 size = Vector2(72, 82)

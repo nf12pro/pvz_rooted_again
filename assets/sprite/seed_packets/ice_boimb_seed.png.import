@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dplmhul78ee2d"
-path="res://.godot/imported/pixil-frame-1 (1).png-edad925e65e906a20a5921218c718f2f.ctex"
+uid="uid://dn3iqxoxmsob4"
+path="res://.godot/imported/ice_boimb_seed.png-b225946e07577c7751d9158d926843ba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/repeater_sprites/pixil-frame-1 (1).png"
-dest_files=["res://.godot/imported/pixil-frame-1 (1).png-edad925e65e906a20a5921218c718f2f.ctex"]
+source_file="res://assets/sprite/seed_packets/ice_boimb_seed.png"
+dest_files=["res://.godot/imported/ice_boimb_seed.png-b225946e07577c7751d9158d926843ba.ctex"]
 
 [params]
 
