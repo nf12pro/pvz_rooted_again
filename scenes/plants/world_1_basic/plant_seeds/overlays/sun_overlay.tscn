@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://domvyi5vqm58n"]
 
-[ext_resource type="Texture2D" uid="uid://dd3r4qatw4v13" path="res://assets/sprite/plant_sprites/pixil-frame-0 (22).png" id="1_q813s"]
+[ext_resource type="Texture2D" uid="uid://dd3r4qatw4v13" path="res://assets/sprite/plant_sprites/sunflower_sprites/sunflower_sprite.png" id="1_q813s"]
 [ext_resource type="Script" uid="uid://bwfct0pojb0lm" path="res://scripts/systems_scripts/overlays/peashooter_overlay.gd" id="2_o1a8y"]
 
 [node name="SunOverlay" type="Sprite2D"]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d20aewsgk7mv2"
-path="res://.godot/imported/pixilart-sprite (4).png-5e519655c879bd123d0fe55e0d0cb139.ctex"
+uid="uid://bi8o380240ksw"
+path="res://.godot/imported/frost_pea_animated.png-cba4abf4a1ee7067b04155b675c3c3cc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/plasma_peashooter_sprites/pixilart-sprite (4).png"
-dest_files=["res://.godot/imported/pixilart-sprite (4).png-5e519655c879bd123d0fe55e0d0cb139.ctex"]
+source_file="res://assets/sprite/plant_sprites/frost_peashooter/frost_pea_animated.png"
+dest_files=["res://.godot/imported/frost_pea_animated.png-cba4abf4a1ee7067b04155b675c3c3cc.ctex"]
 
 [params]
 

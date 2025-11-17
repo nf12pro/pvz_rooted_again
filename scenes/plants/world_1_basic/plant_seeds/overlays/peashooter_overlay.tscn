@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bycsl1lbsob15"]
 
-[ext_resource type="Texture2D" uid="uid://bf6japdqa0xd4" path="res://assets/sprite/plant_sprites/peashooter_sprite/pixil-frame-0 (3) (1).png" id="1_q813s"]
+[ext_resource type="Texture2D" uid="uid://bf6japdqa0xd4" path="res://assets/sprite/plant_sprites/peashooter_sprite/peashooter_sprite.png" id="1_q813s"]
 [ext_resource type="Script" uid="uid://bwfct0pojb0lm" path="res://scripts/systems_scripts/overlays/peashooter_overlay.gd" id="2_mnxuh"]
 
 [node name="PeashooterOverlay" type="Sprite2D"]

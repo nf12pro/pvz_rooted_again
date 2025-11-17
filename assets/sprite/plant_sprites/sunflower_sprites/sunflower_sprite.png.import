@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bi8o380240ksw"
-path="res://.godot/imported/pixilart-sprite (25).png-81e8e002cefa25add90ac2885639a678.ctex"
+uid="uid://dd3r4qatw4v13"
+path="res://.godot/imported/sunflower_sprite.png-087e541ed55d22016512030778b4c025.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/frost_peashooter/pixilart-sprite (25).png"
-dest_files=["res://.godot/imported/pixilart-sprite (25).png-81e8e002cefa25add90ac2885639a678.ctex"]
+source_file="res://assets/sprite/plant_sprites/sunflower_sprites/sunflower_sprite.png"
+dest_files=["res://.godot/imported/sunflower_sprite.png-087e541ed55d22016512030778b4c025.ctex"]
 
 [params]
 

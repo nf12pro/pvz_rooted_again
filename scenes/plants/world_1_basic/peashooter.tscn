@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://bifpde8mrnn6n"]
 
 [ext_resource type="Script" uid="uid://ek8a4y2w0cu6" path="res://scripts/plant_scripts/peashooter.gd" id="1_1mi6r"]
-[ext_resource type="Texture2D" uid="uid://c5nulleubi72h" path="res://assets/sprite/plant_sprites/peashooter_sprite/pixilart-sprite (2).png" id="2_1mi6r"]
+[ext_resource type="Texture2D" uid="uid://c5nulleubi72h" path="res://assets/sprite/plant_sprites/peashooter_sprite/peashooter_animated.png" id="2_1mi6r"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
 size = Vector2(72, 82)

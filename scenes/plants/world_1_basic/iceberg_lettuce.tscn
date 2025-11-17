@@ -1,7 +1,7 @@
 [gd_scene load_steps=15 format=3 uid="uid://bmfy7dgv7b5t7"]
 
 [ext_resource type="Script" uid="uid://dhs063if14l1w" path="res://scripts/plant_scripts/iceberg_lettuce.gd" id="1_a13jg"]
-[ext_resource type="Texture2D" uid="uid://2mgbxqen3n5v" path="res://assets/sprite/plant_sprites/iceberg_bomb_sprites/pixilart-sprite (10).png" id="2_dfc3f"]
+[ext_resource type="Texture2D" uid="uid://2mgbxqen3n5v" path="res://assets/sprite/plant_sprites/iceberg_bomb_sprites/ice_bomb_animated.png" id="2_dfc3f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8siae"]
 size = Vector2(64, 53)

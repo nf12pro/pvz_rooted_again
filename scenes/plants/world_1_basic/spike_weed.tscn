@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://cn64sj5lx1lks"]
 
 [ext_resource type="Script" uid="uid://3ccjnsmqhjrh" path="res://scripts/plant_scripts/spike_weed.gd" id="1_0vfav"]
-[ext_resource type="Texture2D" uid="uid://c5nulleubi72h" path="res://assets/sprite/plant_sprites/peashooter_sprite/pixilart-sprite (2).png" id="2_0pomu"]
+[ext_resource type="Texture2D" uid="uid://c5nulleubi72h" path="res://assets/sprite/plant_sprites/peashooter_sprite/peashooter_animated.png" id="2_0pomu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
 size = Vector2(72, 82)

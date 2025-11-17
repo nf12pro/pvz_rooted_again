@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c805jgfcxvx33"
-path="res://.godot/imported/pixil-frame-0 (16).png-02c52342385de78a326114d635d943c2.ctex"
+uid="uid://cfd11lpletuk7"
+path="res://.godot/imported/frost_pea_sprite.png-ab8ee0cc8e5520db07e79476a9d25ed5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/projectile_sprites/pixil-frame-0 (16).png"
-dest_files=["res://.godot/imported/pixil-frame-0 (16).png-02c52342385de78a326114d635d943c2.ctex"]
+source_file="res://assets/sprite/plant_sprites/frost_peashooter/frost_pea_sprite.png"
+dest_files=["res://.godot/imported/frost_pea_sprite.png-ab8ee0cc8e5520db07e79476a9d25ed5.ctex"]
 
 [params]
 

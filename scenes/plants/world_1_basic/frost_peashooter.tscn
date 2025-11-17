@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://dahqxqe1r2ljh"]
 
 [ext_resource type="Script" uid="uid://bxx0am2hrrc6y" path="res://scripts/plant_scripts/frost_peashooter.gd" id="1_6dqfr"]
-[ext_resource type="Texture2D" uid="uid://bi8o380240ksw" path="res://assets/sprite/plant_sprites/frost_peashooter/pixilart-sprite (25).png" id="2_6dqfr"]
+[ext_resource type="Texture2D" uid="uid://bi8o380240ksw" path="res://assets/sprite/plant_sprites/frost_peashooter/frost_pea_animated.png" id="2_6dqfr"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
 size = Vector2(72, 82)

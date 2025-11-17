@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://dcusrkeo0go05"]
 
 [ext_resource type="Script" uid="uid://dryt2haiqlvqn" path="res://scripts/plant_scripts/plasma_peashooter.gd" id="1_bdoom"]
-[ext_resource type="Texture2D" uid="uid://d20aewsgk7mv2" path="res://assets/sprite/plant_sprites/plasma_peashooter_sprites/pixilart-sprite (4).png" id="2_bdoom"]
+[ext_resource type="Texture2D" uid="uid://d20aewsgk7mv2" path="res://assets/sprite/plant_sprites/plasma_peashooter_sprites/plasma_pea_animated.png" id="2_bdoom"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
 size = Vector2(72, 82)

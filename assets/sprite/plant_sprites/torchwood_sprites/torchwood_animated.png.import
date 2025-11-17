@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5nulleubi72h"
-path="res://.godot/imported/pixilart-sprite (2).png-a6280af923389c1a3a26606abf88aec2.ctex"
+uid="uid://c1bep6igxssuf"
+path="res://.godot/imported/torchwood_animated.png-e0c38ff7c9211700e2d8655bd2940b83.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/peashooter_sprite/pixilart-sprite (2).png"
-dest_files=["res://.godot/imported/pixilart-sprite (2).png-a6280af923389c1a3a26606abf88aec2.ctex"]
+source_file="res://assets/sprite/plant_sprites/torchwood_sprites/torchwood_animated.png"
+dest_files=["res://.godot/imported/torchwood_animated.png-e0c38ff7c9211700e2d8655bd2940b83.ctex"]
 
 [params]
 

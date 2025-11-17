@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2mgbxqen3n5v"
-path="res://.godot/imported/pixilart-sprite (10).png-be6248ddd9e252d7a5896b7e3392de49.ctex"
+uid="uid://x1h12rawlim6"
+path="res://.godot/imported/torchwood_sprite.png-b58ff30831cfe9718407cba9b839e83f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/iceberg_bomb_sprites/pixilart-sprite (10).png"
-dest_files=["res://.godot/imported/pixilart-sprite (10).png-be6248ddd9e252d7a5896b7e3392de49.ctex"]
+source_file="res://assets/sprite/plant_sprites/torchwood_sprites/torchwood_sprite.png"
+dest_files=["res://.godot/imported/torchwood_sprite.png-b58ff30831cfe9718407cba9b839e83f.ctex"]
 
 [params]
 

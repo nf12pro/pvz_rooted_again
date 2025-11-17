@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cr85mfnkb4u7d"
-path="res://.godot/imported/pixil-frame-0 (5) (1).png-f50fbaf3c310dd0b0670b4354ac7d901.ctex"
+uid="uid://dh4ivlc0yr4u0"
+path="res://.godot/imported/plasma_wood_animated.png-9ed17a0cbdb3fa3816af6588f281dd98.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/plasma_peashooter_sprites/pixil-frame-0 (5) (1).png"
-dest_files=["res://.godot/imported/pixil-frame-0 (5) (1).png-f50fbaf3c310dd0b0670b4354ac7d901.ctex"]
+source_file="res://assets/sprite/plant_sprites/plasma_wood_sprites/plasma_wood_animated.png"
+dest_files=["res://.godot/imported/plasma_wood_animated.png-9ed17a0cbdb3fa3816af6588f281dd98.ctex"]
 
 [params]
 

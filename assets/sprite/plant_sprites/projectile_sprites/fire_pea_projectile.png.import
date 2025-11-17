@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxsxwhxr22sgy"
-path="res://.godot/imported/pixil-frame-0 (4) (1).png-ae6c8bb8c925a4fa574da57b9777526c.ctex"
+uid="uid://dn7w4fiu458na"
+path="res://.godot/imported/fire_pea_projectile.png-6940ad2d5908b5e0a67c2a85179fb3c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/laser_bean_sprites/pixil-frame-0 (4) (1).png"
-dest_files=["res://.godot/imported/pixil-frame-0 (4) (1).png-ae6c8bb8c925a4fa574da57b9777526c.ctex"]
+source_file="res://assets/sprite/plant_sprites/projectile_sprites/fire_pea_projectile.png"
+dest_files=["res://.godot/imported/fire_pea_projectile.png-6940ad2d5908b5e0a67c2a85179fb3c3.ctex"]
 
 [params]
 

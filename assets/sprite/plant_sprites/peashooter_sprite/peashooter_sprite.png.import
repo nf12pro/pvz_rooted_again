@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dd3r4qatw4v13"
-path="res://.godot/imported/pixil-frame-0 (22).png-b37c75e54b8a62349693a7bb02ef39ad.ctex"
+uid="uid://bf6japdqa0xd4"
+path="res://.godot/imported/peashooter_sprite.png-081025849559bb68c3db625d183f17e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/pixil-frame-0 (22).png"
-dest_files=["res://.godot/imported/pixil-frame-0 (22).png-b37c75e54b8a62349693a7bb02ef39ad.ctex"]
+source_file="res://assets/sprite/plant_sprites/peashooter_sprite/peashooter_sprite.png"
+dest_files=["res://.godot/imported/peashooter_sprite.png-081025849559bb68c3db625d183f17e0.ctex"]
 
 [params]
 

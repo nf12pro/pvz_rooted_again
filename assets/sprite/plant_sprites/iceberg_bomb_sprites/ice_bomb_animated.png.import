@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c44oxmkq88d78"
-path="res://.godot/imported/pixilart-sprite (15).png-36cbd3250cf398c53274995d821444bf.ctex"
+uid="uid://2mgbxqen3n5v"
+path="res://.godot/imported/ice_bomb_animated.png-0816aceeea45c67ee899700cac861953.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/projectile_sprites/pixilart-sprite (15).png"
-dest_files=["res://.godot/imported/pixilart-sprite (15).png-36cbd3250cf398c53274995d821444bf.ctex"]
+source_file="res://assets/sprite/plant_sprites/iceberg_bomb_sprites/ice_bomb_animated.png"
+dest_files=["res://.godot/imported/ice_bomb_animated.png-0816aceeea45c67ee899700cac861953.ctex"]
 
 [params]
 

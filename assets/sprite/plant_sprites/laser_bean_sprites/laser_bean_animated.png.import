@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpkwxnb3mi4xu"
-path="res://.godot/imported/pixil-frame-0 (14) (2).png-fb5b5a21d01672db581469b23115f97e.ctex"
+uid="uid://dyd3la51olatd"
+path="res://.godot/imported/laser_bean_animated.png-c2fd93707afa270730602f330f572726.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/citric_hero_sprites/pixil-frame-0 (14) (2).png"
-dest_files=["res://.godot/imported/pixil-frame-0 (14) (2).png-fb5b5a21d01672db581469b23115f97e.ctex"]
+source_file="res://assets/sprite/plant_sprites/laser_bean_sprites/laser_bean_animated.png"
+dest_files=["res://.godot/imported/laser_bean_animated.png-c2fd93707afa270730602f330f572726.ctex"]
 
 [params]
 

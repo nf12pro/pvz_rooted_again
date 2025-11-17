@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cfd11lpletuk7"
-path="res://.godot/imported/pixil-frame-1 (4).png-9bf517ac3f21635265a57ca3b7aa33b3.ctex"
+uid="uid://b8kukpmker2re"
+path="res://.godot/imported/supernova_projectile.png-e8d8f8de293b3ffcf6f15ae06f5d2773.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/frost_peashooter/pixil-frame-1 (4).png"
-dest_files=["res://.godot/imported/pixil-frame-1 (4).png-9bf517ac3f21635265a57ca3b7aa33b3.ctex"]
+source_file="res://assets/sprite/plant_sprites/projectile_sprites/supernova_projectile.png"
+dest_files=["res://.godot/imported/supernova_projectile.png-e8d8f8de293b3ffcf6f15ae06f5d2773.ctex"]
 
 [params]
 

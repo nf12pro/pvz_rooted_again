@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dh4ivlc0yr4u0"
-path="res://.godot/imported/pixilart-sprite (12).png-d51fe717f74d154b6a9d3b01f4632827.ctex"
+uid="uid://dxsxwhxr22sgy"
+path="res://.godot/imported/laser_bean_sprites.png-9cba56761a19f5f999154a8722bf6d29.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/plasma_wood_sprites/pixilart-sprite (12).png"
-dest_files=["res://.godot/imported/pixilart-sprite (12).png-d51fe717f74d154b6a9d3b01f4632827.ctex"]
+source_file="res://assets/sprite/plant_sprites/laser_bean_sprites/laser_bean_sprites.png"
+dest_files=["res://.godot/imported/laser_bean_sprites.png-9cba56761a19f5f999154a8722bf6d29.ctex"]
 
 [params]
 

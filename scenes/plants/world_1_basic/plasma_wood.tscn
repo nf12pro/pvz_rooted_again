@@ -1,7 +1,7 @@
 [gd_scene load_steps=19 format=3 uid="uid://cw2m8p8bp5l3f"]
 
 [ext_resource type="Script" uid="uid://bnuo2own0mcqs" path="res://scripts/plant_scripts/plasma_wood.gd" id="1_h2bl6"]
-[ext_resource type="Texture2D" uid="uid://dh4ivlc0yr4u0" path="res://assets/sprite/plant_sprites/plasma_wood_sprites/pixilart-sprite (12).png" id="2_h2bl6"]
+[ext_resource type="Texture2D" uid="uid://dh4ivlc0yr4u0" path="res://assets/sprite/plant_sprites/plasma_wood_sprites/plasma_wood_animated.png" id="2_h2bl6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
 size = Vector2(72, 74)

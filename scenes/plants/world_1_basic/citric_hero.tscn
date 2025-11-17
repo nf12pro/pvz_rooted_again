@@ -1,7 +1,7 @@
 [gd_scene load_steps=43 format=3 uid="uid://c3h5thcjfjyej"]
 
 [ext_resource type="Script" uid="uid://b41sb6qh7iy72" path="res://scripts/plant_scripts/citric_hero.gd" id="1_uw8gr"]
-[ext_resource type="Texture2D" uid="uid://dopfbb0fidv2b" path="res://assets/sprite/plant_sprites/citric_hero_sprites/pixilart-sprite (18).png" id="2_uw8gr"]
+[ext_resource type="Texture2D" uid="uid://dopfbb0fidv2b" path="res://assets/sprite/plant_sprites/citric_hero_sprites/citric_hero_animation.png" id="2_uw8gr"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k467r"]
 size = Vector2(72, 82)

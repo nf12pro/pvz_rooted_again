@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cixfktlwwkci5"
-path="res://.godot/imported/pixil-frame-0 (10) (1).png-250164182e22d1beee93d267be6fde62.ctex"
+uid="uid://yis2joiqxxsp"
+path="res://.godot/imported/snow_pea_seed.png-2882ba6e55b0d4c080f412ea0be97764.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/plasma_wood_sprites/pixil-frame-0 (10) (1).png"
-dest_files=["res://.godot/imported/pixil-frame-0 (10) (1).png-250164182e22d1beee93d267be6fde62.ctex"]
+source_file="res://assets/sprite/seed_packets/snow_pea_seed.png"
+dest_files=["res://.godot/imported/snow_pea_seed.png-2882ba6e55b0d4c080f412ea0be97764.ctex"]
 
 [params]
 

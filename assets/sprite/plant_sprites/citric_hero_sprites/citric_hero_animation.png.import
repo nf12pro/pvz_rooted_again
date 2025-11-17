@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8kukpmker2re"
-path="res://.godot/imported/pixilart-sprite (19).png-0a428189068e26a36a5cb65ea9b45a85.ctex"
+uid="uid://dopfbb0fidv2b"
+path="res://.godot/imported/citric_hero_animation.png-152e9bc118b67068d366d068985d3801.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/plant_sprites/projectile_sprites/pixilart-sprite (19).png"
-dest_files=["res://.godot/imported/pixilart-sprite (19).png-0a428189068e26a36a5cb65ea9b45a85.ctex"]
+source_file="res://assets/sprite/plant_sprites/citric_hero_sprites/citric_hero_animation.png"
+dest_files=["res://.godot/imported/citric_hero_animation.png-152e9bc118b67068d366d068985d3801.ctex"]
 
 [params]
 
