@@ -86,4 +86,8 @@ func _process(delta):
 		cooldown_timer -= delta
 		if cooldown_timer < 0.0:
 			cooldown_timer = 0.0
+	if cooldown_timer > 0.0:
+		$".".modulate.a = 0.5
+	else:
+		$".".modulate.a = 1
 #endregion
