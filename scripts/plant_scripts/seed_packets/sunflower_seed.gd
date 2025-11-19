@@ -7,18 +7,19 @@ var overlay_instance: Node2D = null
 @export var cost: int = 50
 var is_selected: bool = false
 
-@export var cooldown_time: float = 7.5
+@export var cooldown_time: float = 5.0
 var cooldown_timer: float = 0.0
-#endregion
 
+var draw_progress: float = 0.0  
+#endregion
 
 #region Setup
 func _ready():
 	connect("input_event", Callable(self, "_on_input_event"))
+	z_index = 100
 	if Global.cooldown_boost == true:
 		cooldown_time = cooldown_time / 2
 #endregion
-
 
 #region Selection
 func _on_input_event(_viewport, event, _shape_idx):
@@ -28,12 +29,12 @@ func _on_input_event(_viewport, event, _shape_idx):
 			return
 		if Global.sun_value >= cost:
 			is_selected = true
-
 			if overlay_instance == null:
 				overlay_instance = overlay_scene.instantiate()
 				get_tree().current_scene.add_child(overlay_instance)
+		else:
+			print("Not enough sun!")
 #endregion
-
 
 #region Planting
 func _unhandled_input(event):
@@ -55,7 +56,9 @@ func _unhandled_input(event):
 				continue
 			if clicked_node is Area2D and clicked_node.has_method("snap_plant"):
 				if clicked_node.has_plant:
-					print("This square is already occupied!")
+					is_selected = false
+					overlay_instance.queue_free()
+					overlay_instance = null
 					return
 
 				var plant = plant_scene.instantiate()
@@ -74,24 +77,37 @@ func _unhandled_input(event):
 		is_selected = false
 		if overlay_instance:
 			overlay_instance.queue_free()
+		print("You must plant on a grid square!")
 #endregion
-
 
 #region Overlay Follow
 func _process(delta):
 	if overlay_instance and is_selected:
-		$".".modulate.a = 0.5
 		overlay_instance.global_position = get_global_mouse_position()
-
+		$".".modulate.a = 0.5
+	elif not overlay_instance and not is_selected:
+		$".".modulate.a = 1
+	elif not overlay_instance:
+		$".".modulate.a = 1
+		is_selected = false
 	if cooldown_timer > 0.0:
 		cooldown_timer -= delta
 		if cooldown_timer < 0.0:
 			cooldown_timer = 0.0
-	if cooldown_timer > 0.0:
-		$".".modulate.a = 0.5
-	elif not overlay_instance and not is_selected:
-		$".".modulate.a = 1
+		draw_progress = cooldown_timer / cooldown_time
+		queue_redraw()
+	else:
+		draw_progress = 0.0
 #endregion
 
-func _draw() -> void:
-	pass
+func start_cooldown():
+	queue_redraw()  
+
+func _draw():
+	if draw_progress > 0.0:
+		var rect_size = Vector2(114, 110 * draw_progress)
+		
+		var offset = Vector2(-rect_size.x + 57.5, -rect_size.y + 50) 
+		var rect = Rect2(offset, rect_size)
+		
+		draw_rect(rect, Color(0, 0, 0, 0.5))

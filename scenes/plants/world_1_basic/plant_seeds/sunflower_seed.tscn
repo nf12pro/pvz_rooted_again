@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://c2n4bxpumyxso" path="res://assets/sprite/seed_packets/sunflower_seed.png" id="2_in053"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uriph"]
-size = Vector2(106, 111)
+size = Vector2(115, 106)
 
 [node name="SunflowerSeed" type="Area2D"]
 scale = Vector2(0.8, 1)
@@ -12,17 +12,14 @@ collision_mask = 0
 script = ExtResource("1_6shbl")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, 2.5)
+modulate = Color(0.62967587, 0.62967587, 0.62967587, 1)
+position = Vector2(2.5, -2)
 shape = SubResource("RectangleShape2D_uriph")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 clip_children = 2
+visibility_layer = 2
+z_index = -1
 position = Vector2(0, -8)
 scale = Vector2(0.675, 0.465)
 texture = ExtResource("2_in053")
-
-[node name="TextureProgressBar" type="TextureProgressBar" parent="Sprite2D"]
-offset_left = -81.48148
-offset_top = -98.924736
-offset_right = 87.03704
-offset_bottom = 126.88172
