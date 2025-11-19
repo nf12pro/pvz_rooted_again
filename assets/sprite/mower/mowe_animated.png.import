@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpdf8m4ng7g1l"
-path="res://.godot/imported/pixilart-sprite (24).png-a59d21a135db11e7b12d2ac68c4ad058.ctex"
+path="res://.godot/imported/mowe_animated.png-331ddcf3038d45710a5eb14ccbe7b13a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprite/mower/pixilart-sprite (24).png"
-dest_files=["res://.godot/imported/pixilart-sprite (24).png-a59d21a135db11e7b12d2ac68c4ad058.ctex"]
+source_file="res://assets/sprite/mower/mowe_animated.png"
+dest_files=["res://.godot/imported/mowe_animated.png-331ddcf3038d45710a5eb14ccbe7b13a.ctex"]
 
 [params]
 

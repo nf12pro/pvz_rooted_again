@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://b50xr73funmdq"]
+[gd_scene load_steps=8 format=3 uid="uid://b50xr73funmdq"]
 
 [ext_resource type="PackedScene" uid="uid://6wfdwbd0ceov" path="res://scenes/ui/settings/turn_off_mowers.tscn" id="1_347px"]
 [ext_resource type="Script" uid="uid://dd31qox666d40" path="res://scripts/ui_scripts/settings/settings.gd" id="1_osa27"]
@@ -7,7 +7,6 @@
 [ext_resource type="PackedScene" uid="uid://iq3y0le76thb" path="res://scenes/ui/settings/achievement_button.tscn" id="4_7e8uy"]
 [ext_resource type="PackedScene" uid="uid://qagbanvkcr88" path="res://scenes/ui/settings/almanac_button.tscn" id="4_qvi1m"]
 [ext_resource type="PackedScene" uid="uid://cqecdthufgy2k" path="res://scenes/ui/settings/credits_button.tscn" id="5_q16sk"]
-[ext_resource type="PackedScene" uid="uid://dp0pvs5cqun2n" path="res://scenes/ui/settings/language_button.tscn" id="6_lfmul"]
 
 [node name="Settings" type="Control"]
 layout_mode = 3
@@ -37,10 +36,6 @@ layout_mode = 2
 [node name="Credits" parent="MarginContainer/VBoxContainer" instance=ExtResource("5_q16sk")]
 layout_mode = 2
 
-[node name="LanguageButton" parent="MarginContainer/VBoxContainer" instance=ExtResource("6_lfmul")]
-layout_mode = 2
-script = null
-
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
 offset_right = 40.0
@@ -55,5 +50,3 @@ offset_left = 1017.0
 offset_top = 4.0
 offset_right = 1150.0
 offset_bottom = 52.0
-
-[connection signal="item_selected" from="MarginContainer/VBoxContainer/LanguageButton" to="." method="_on_language_selected"]

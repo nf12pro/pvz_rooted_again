@@ -16,16 +16,13 @@ position = Vector2(-1, 2.5)
 shape = SubResource("RectangleShape2D_uriph")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+clip_children = 2
 position = Vector2(0, -8)
 scale = Vector2(0.675, 0.465)
 texture = ExtResource("2_in053")
 
-[node name="CooldownMask" type="ColorRect" parent="."]
-visible = false
-modulate = Color(1, 1, 1, 0.7019608)
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.31246608, 0.31246608, 0.31246608, 1)
+[node name="TextureProgressBar" type="TextureProgressBar" parent="Sprite2D"]
+offset_left = -81.48148
+offset_top = -98.924736
+offset_right = 87.03704
+offset_bottom = 126.88172

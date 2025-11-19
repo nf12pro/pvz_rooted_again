@@ -80,6 +80,7 @@ func _unhandled_input(event):
 #region Overlay Follow
 func _process(delta):
 	if overlay_instance and is_selected:
+		$".".modulate.a = 0.5
 		overlay_instance.global_position = get_global_mouse_position()
 
 	if cooldown_timer > 0.0:
@@ -88,6 +89,9 @@ func _process(delta):
 			cooldown_timer = 0.0
 	if cooldown_timer > 0.0:
 		$".".modulate.a = 0.5
-	else:
+	elif not overlay_instance and not is_selected:
 		$".".modulate.a = 1
 #endregion
+
+func _draw() -> void:
+	pass

@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://bxkydq6w5jpjn"]
 
 [ext_resource type="Script" uid="uid://ce5258kwqulbg" path="res://scripts/systems_scripts/lawn_mower.gd" id="1_l8u45"]
-[ext_resource type="Texture2D" uid="uid://cpdf8m4ng7g1l" path="res://assets/sprite/mower/pixilart-sprite (24).png" id="2_n7tix"]
+[ext_resource type="Texture2D" uid="uid://cpdf8m4ng7g1l" path="res://assets/sprite/mower/mowe_animated.png" id="2_n7tix"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7xwni"]
 radius = 32.0
