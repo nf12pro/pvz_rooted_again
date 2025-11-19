@@ -16,6 +16,7 @@ position = Vector2(-1, 2.5)
 shape = SubResource("RectangleShape2D_uriph")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
 position = Vector2(0, -8)
 scale = Vector2(0.675, 0.465)
 texture = ExtResource("2_uebw7")

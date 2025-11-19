@@ -9,16 +9,17 @@ var is_selected: bool = false
 
 @export var cooldown_time: float = 25.0
 var cooldown_timer: float = 0.0
-#endregion
 
+var draw_progress: float = 0.0  
+#endregion
 
 #region Setup
 func _ready():
 	connect("input_event", Callable(self, "_on_input_event"))
+	z_index = 100  # ensure this is drawn above other nodes
 	if Global.cooldown_boost == true:
 		cooldown_time = cooldown_time / 2
 #endregion
-
 
 #region Selection
 func _on_input_event(_viewport, event, _shape_idx):
@@ -33,8 +34,9 @@ func _on_input_event(_viewport, event, _shape_idx):
 			if overlay_instance == null:
 				overlay_instance = overlay_scene.instantiate()
 				get_tree().current_scene.add_child(overlay_instance)
+		else:
+			print("Not enough sun!")
 #endregion
-
 
 #region Planting
 func _unhandled_input(event):
@@ -55,11 +57,10 @@ func _unhandled_input(event):
 			if clicked_node == null:
 				continue
 			if clicked_node is Area2D and clicked_node.has_method("snap_plant"):
-				# --- if the tile already has a plant ---
 				if clicked_node.has_plant:
 					var existing_plant = clicked_node.current_plant
 					if existing_plant and "is_peashooter" in existing_plant:
-						print("Upgrading to Plasma Pea")
+						print("Upgrading to Twin Frost Peashooter!")
 
 						var pos = existing_plant.global_position
 						existing_plant.queue_free()
@@ -73,7 +74,6 @@ func _unhandled_input(event):
 
 						Global.sun_value -= cost
 						is_selected = false
-
 						Global.plasma_pea_is_selected = false
 
 						cooldown_timer = cooldown_time
@@ -86,23 +86,39 @@ func _unhandled_input(event):
 						print("This square is already occupied!")
 						return
 
-
 		overlay_instance.queue_free()
 		overlay_instance = null
 		is_selected = false
 		Global.plasma_pea_is_selected = false
-
-
 #endregion
-
 
 #region Overlay Follow
 func _process(delta):
 	if overlay_instance and is_selected:
 		overlay_instance.global_position = get_global_mouse_position()
+		$".".modulate.a = 0.5
+	elif not overlay_instance and not is_selected:
+		$".".modulate.a = 1
+	elif not overlay_instance:
+		$".".modulate.a = 1
+		is_selected = false
 
 	if cooldown_timer > 0.0:
 		cooldown_timer -= delta
 		if cooldown_timer < 0.0:
 			cooldown_timer = 0.0
+		draw_progress = cooldown_timer / cooldown_time
+		queue_redraw()
+	else:
+		draw_progress = 0.0
 #endregion
+
+func start_cooldown():
+	queue_redraw()  
+
+func _draw():
+	if draw_progress > 0.0:
+		var rect_size = Vector2(114, 110 * draw_progress)
+		var offset = Vector2(-rect_size.x + 57.5, -rect_size.y + 50)
+		var rect = Rect2(offset, rect_size)
+		draw_rect(rect, Color(0, 0, 0, 0.5))
