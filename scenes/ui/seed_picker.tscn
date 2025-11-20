@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://cgrowftbcv3d4"]
+[gd_scene load_steps=22 format=3 uid="uid://cgrowftbcv3d4"]
 
 [ext_resource type="Script" uid="uid://dnwk0qr2ujbnv" path="res://scripts/ui_scripts/seed_picker.gd" id="1_kfm7h"]
 [ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_vmipt"]
@@ -19,6 +19,7 @@
 [ext_resource type="Script" uid="uid://5cmxn51pxuqw" path="res://scripts/ui_scripts/label.gd" id="15_0170d"]
 [ext_resource type="PackedScene" uid="uid://b0nb14wik8cgr" path="res://scenes/ui/every_seed_button_picker/tallnut_seed_picker.tscn" id="16_ghrsk"]
 [ext_resource type="PackedScene" uid="uid://dlp7atjf353bb" path="res://scenes/ui/every_seed_button_picker/plasma_wood_seed_picker.tscn" id="17_87jo3"]
+[ext_resource type="PackedScene" uid="uid://c5deb2c885rs7" path="res://scenes/ui/every_seed_button_picker/citric_hero_seed_picker.tscn" id="18_gu3gr"]
 [ext_resource type="Script" uid="uid://ds5vfcaqo74iv" path="res://scripts/ui_scripts/labels/label_2.gd" id="20_ghrsk"]
 
 [node name="SeedPicker" type="Control"]
@@ -96,7 +97,7 @@ layout_mode = 2
 [node name="CherryBombSeedPicker2" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("9_0170d")]
 layout_mode = 2
 
-[node name="TwinSunflowerSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("8_wy5oh")]
+[node name="CitricHeroSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("18_gu3gr")]
 layout_mode = 2
 
 [node name="HBoxContainer4" type="HBoxContainer" parent="MarginContainer/ScrollContainer/VBoxContainer"]
@@ -122,6 +123,9 @@ layout_mode = 2
 theme_override_constants/separation = 15
 
 [node name="PlasmaWoodSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer5" instance=ExtResource("17_87jo3")]
+layout_mode = 2
+
+[node name="TwinSunflowerSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer5" instance=ExtResource("8_wy5oh")]
 layout_mode = 2
 
 [node name="Label" type="Label" parent="."]

@@ -92,4 +92,12 @@ sprite_frames = SubResource("SpriteFrames_imh1c")
 frame = 3
 frame_progress = 0.34518474
 
+[node name="Button" type="Button" parent="."]
+visibility_layer = 0
+offset_left = -30.0
+offset_top = -29.0
+offset_right = 43.0
+offset_bottom = 35.0
+
 [connection signal="body_entered" from="Area2D" to="." method="_on_body_entered"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

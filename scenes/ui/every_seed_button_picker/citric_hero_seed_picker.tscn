@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://c5deb2c885rs7"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_pdwf1"]
+[ext_resource type="Texture2D" uid="uid://bpj8mxnyeapwc" path="res://assets/prototype_assets/pixil-frame-0 (17).png" id="2_16sdd"]
+[ext_resource type="Texture2D" uid="uid://dpkwxnb3mi4xu" path="res://assets/sprite/plant_sprites/citric_hero_sprites/citric_hero_sprite.png" id="3_pdwf1"]
+[ext_resource type="Script" uid="uid://ck8opwsddbfbu" path="res://scripts/ui_scripts/seed_picker/citric_hero_seed_picker.gd" id="4_16sdd"]
+
+[node name="CitricHeroSeedPicker" type="Button"]
+theme_override_fonts/font = ExtResource("1_pdwf1")
+theme_override_font_sizes/font_size = 36
+theme_override_icons/icon = ExtResource("2_16sdd")
+text = "Citric Hero"
+icon = ExtResource("3_pdwf1")
+script = ExtResource("4_16sdd")
+
+[connection signal="pressed" from="." to="." method="_on_citric_hero_picker_pressed"]

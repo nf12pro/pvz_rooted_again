@@ -17,6 +17,7 @@ var doomshroom_scene = preload("res://scenes/plants/world_1_basic/plant_seeds/do
 var plasmapea_scene = preload("res://scenes/plants/world_1_basic/plant_seeds/plasma_pea_seed.tscn")
 var snowpea_scene = preload("res://scenes/plants/world_1_basic/plant_seeds/ice_peashooter_seed.tscn")
 var frostpea_scene = preload("res://scenes/plants/world_1_basic/plant_seeds/frost_pea_seed.tscn")
+var citrichero_scene = preload("res://scenes/plants/world_1_basic/plant_seeds/citric_hero_seed.tscn")
 #endregion
 
 #region Pick Seed / Spawn Timer
@@ -38,6 +39,7 @@ func _ready() -> void:
 	var plasma_pea_seed = plasmapea_scene.instantiate()
 	var snow_pea_seed = snowpea_scene.instantiate()
 	var frost_pea_seed = frostpea_scene.instantiate()
+	var citric_hero_seed = citrichero_scene.instantiate()
 	if Global.seed_3 == "Peashooter":
 		peashooter_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", peashooter_seed)
@@ -86,4 +88,7 @@ func _ready() -> void:
 	elif Global.seed_3 == "Frost Pea":
 		frost_pea_seed.position = Vector2(390, 55)
 		get_tree().current_scene.call_deferred("add_child", frost_pea_seed)
+	elif Global.seed_3 == "Citric Hero":
+		citric_hero_seed.position = Vector2(390, 55)
+		get_tree().current_scene.call_deferred("add_child", citric_hero_seed)
 #endregion

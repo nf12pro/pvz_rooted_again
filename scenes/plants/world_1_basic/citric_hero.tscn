@@ -229,7 +229,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"attack_animation",
-"speed": 12.0
+"speed": 11.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -316,11 +316,11 @@ visibility_layer = 4
 position = Vector2(-4.9999995, -1.0000008)
 scale = Vector2(0.6, 0.6)
 sprite_frames = SubResource("SpriteFrames_aoue1")
+animation = &"attack_animation"
 autoplay = "default"
-frame_progress = 0.04949464
 
-[connection signal="body_entered" from="Area2D" to="." method="_on_tower_body_entered"]
 [connection signal="body_entered" from="Area2D" to="." method="_on_check_range_1"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_tower_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_tower_body_exited"]
-[connection signal="body_entered" from="Area2D2" to="." method="_on_tower_body_entered_medium"]
 [connection signal="body_entered" from="Area2D2" to="." method="_on_check_range_2"]
+[connection signal="body_entered" from="Area2D2" to="." method="_on_tower_body_entered_medium"]

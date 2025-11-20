@@ -27,6 +27,7 @@ var doomshroom_selected: bool = false
 var plasma_pea_selected: bool = false
 var snow_pea_selected: bool = false
 var frost_pea_selected: bool = false
+var citric_hero_selected: bool = false
 
 var twin_sunflower_unlocked: bool = true
 var gatling_gun_unlocked: bool = true
@@ -80,6 +81,7 @@ var slot_of_cherry_bomb: int = 0
 var slot_of_plasma_pea: int = 0
 var slot_of_snow_pea: int = 0
 var slot_of_frost_pea: int = 0
+var slot_of_citric_hero: int = 0
 
 var plasma_pea_is_selected: bool = false
 var twin_sunflower_is_selected: bool = false
@@ -151,6 +153,7 @@ func reset_game_state():
 	plasma_pea_selected = false
 	snow_pea_selected = false
 	frost_pea_selected = false
+	citric_hero_selected = false
 
 	twin_sunflower_unlocked = false
 	gatling_gun_unlocked = false

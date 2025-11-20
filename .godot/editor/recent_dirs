@@ -1,3 +1,4 @@
+res://scripts/ui_scripts/seed_picker
 /Users/rayanefaik/Desktop/PvZ Roooted Again Release Upd Html
 res://assets/languages
 res://scripts/ui_scripts/settings
@@ -19,4 +20,3 @@ res://scripts/ui_scripts
 res://assets/sprite/plant_sprites/projectile_sprites
 res://scripts/systems_scripts/powers
 res://scripts/ui_scripts/almanac
-res://scripts/ui_scripts/seed_picker

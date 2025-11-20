@@ -1,3 +1,4 @@
+Button
 TextureProgressBar
 ColorRect
 Label
@@ -6,7 +7,6 @@ ScrollContainer
 CanvasLayer
 Control
 AnimatedSprite2D
-Button
 VScrollBar
 CanvasModulate
 VBoxContainer
