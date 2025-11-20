@@ -130,7 +130,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"default",
-"speed": 15.0
+"speed": 11.0
 }]
 
 [node name="StaticBody2D" type="StaticBody2D" groups=["Plant"]]
@@ -151,4 +151,4 @@ position = Vector2(3.9999995, -22)
 scale = Vector2(0.85, 0.85)
 sprite_frames = SubResource("SpriteFrames_dfadr")
 autoplay = "default"
-frame_progress = 0.91165584
+frame_progress = 0.99687505
