@@ -143,8 +143,9 @@ func check_zombie():
 			show_level_clear()
 
 			# Move to next level if it exists
-			if Global.current_level == 5:
+			if Global.current_level < 6:
 				Global.current_level += 1
+			elif Global.current_level == 6:
 				Global.reset_seeds()
 				Engine.time_scale = 1.0  
 				if Global.mowers_nerf == true:
