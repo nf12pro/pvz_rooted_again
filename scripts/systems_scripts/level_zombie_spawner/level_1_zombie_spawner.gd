@@ -144,6 +144,8 @@ func check_zombie():
 
 			# Move to next level if it exists
 			if Global.current_level < 6:
+				show_level_clear()
+				await get_tree().create_timer(1.0).timeout
 				Global.current_level += 1
 			elif Global.current_level == 6:
 				Global.reset_seeds()

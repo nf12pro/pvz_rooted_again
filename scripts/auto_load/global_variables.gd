@@ -29,12 +29,12 @@ var snow_pea_selected: bool = false
 var frost_pea_selected: bool = false
 var citric_hero_selected: bool = false
 
-var twin_sunflower_unlocked: bool = true
-var gatling_gun_unlocked: bool = true
-var plasma_wood_unlocked: bool = true
-var tall_nut_unlocked: bool = true
-var plasma_pea_unlocked: bool = true
-var frost_pea_unlocked: bool = true 
+var twin_sunflower_unlocked: bool = false
+var gatling_gun_unlocked: bool = false
+var plasma_wood_unlocked: bool = false
+var tall_nut_unlocked: bool = false
+var plasma_pea_unlocked: bool = false
+var frost_pea_unlocked: bool = false 
 
 var is_new_open_slot: bool = false
 var new_open_slot: bool = false
@@ -228,7 +228,10 @@ func reset_game_state():
 
 #region Reset Seeds
 func reset_seeds():
-		# Seed Picker
+	# Sun reset
+	sun_value = 125
+
+	# Seed selections
 	peashooter_selected = false
 	sunflower_selected = false
 	wallnut_selected = false
@@ -245,14 +248,9 @@ func reset_seeds():
 	plasma_pea_selected = false
 	snow_pea_selected = false
 	frost_pea_selected = false
+	citric_hero_selected = false
 
-	new_open_slot = false
-	upgrade_new_open_slot = false
-	open_slot = 0
-	upgrade_open_slot = 0
-	amount_of_seeds = 0
-	amount_of_upgrade_seeds = 0
-
+	# Seed slots
 	seed_1 = ""
 	seed_2 = ""
 	seed_3 = ""
@@ -263,6 +261,13 @@ func reset_seeds():
 	upgrade_seed_2 = ""
 	upgrade_seed_3 = ""
 
+	# Slot counters
+	amount_of_seeds = 0
+	amount_of_upgrade_seeds = 0
+	open_slot = 0
+	upgrade_open_slot = 0
+
+	# Slot references
 	slot_of_wallnut = 0
 	slot_of_twin_sunflower = 0
 	slot_of_torchwood = 0
@@ -279,6 +284,7 @@ func reset_seeds():
 	slot_of_plasma_pea = 0
 	slot_of_snow_pea = 0
 	slot_of_frost_pea = 0
+	slot_of_citric_hero = 0
 
 	plasma_pea_is_selected = false
 	twin_sunflower_is_selected = false

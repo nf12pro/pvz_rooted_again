@@ -2,15 +2,15 @@
 
 [ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_bkgqm"]
 [ext_resource type="Texture2D" uid="uid://bpj8mxnyeapwc" path="res://assets/prototype_assets/pixil-frame-0 (17).png" id="2_qi1vo"]
-[ext_resource type="Texture2D" uid="uid://vp1wgyyhcn8r" path="res://assets/sprite/plant_sprites/ice_peashooter_sprite/pixil-frame-0 (7) (1).png" id="3_772rm"]
+[ext_resource type="Texture2D" uid="uid://cfd11lpletuk7" path="res://assets/sprite/plant_sprites/frost_peashooter/frost_pea_sprite.png" id="3_bkgqm"]
 [ext_resource type="Script" uid="uid://mrx2e1efyrh3" path="res://scripts/ui_scripts/almanac/frost_pea_button_almanac.gd" id="4_bkgqm"]
 
-[node name="PeashooterSeedPicker" type="Button"]
+[node name="FrostPeaSeedPicker" type="Button"]
 theme_override_fonts/font = ExtResource("1_bkgqm")
 theme_override_font_sizes/font_size = 36
 theme_override_icons/icon = ExtResource("2_qi1vo")
 text = "Frost Pea"
-icon = ExtResource("3_772rm")
+icon = ExtResource("3_bkgqm")
 script = ExtResource("4_bkgqm")
 
 [connection signal="pressed" from="." to="." method="_on_peashooter_picker_pressed"]

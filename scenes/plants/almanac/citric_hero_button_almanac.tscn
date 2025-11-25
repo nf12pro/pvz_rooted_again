@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://bg8il4w1ywsch"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_gxnvf"]
+[ext_resource type="Texture2D" uid="uid://bpj8mxnyeapwc" path="res://assets/prototype_assets/pixil-frame-0 (17).png" id="2_67cy6"]
+[ext_resource type="Texture2D" uid="uid://dpkwxnb3mi4xu" path="res://assets/sprite/plant_sprites/citric_hero_sprites/citric_hero_sprite.png" id="3_67cy6"]
+[ext_resource type="Script" uid="uid://b0833rf11blep" path="res://scripts/ui_scripts/almanac/citric_hero_button_almanac.gd" id="4_67cy6"]
+
+[node name="PeashooterSeedPicker" type="Button"]
+theme_override_fonts/font = ExtResource("1_gxnvf")
+theme_override_font_sizes/font_size = 36
+theme_override_icons/icon = ExtResource("2_67cy6")
+text = "Citric Hero"
+icon = ExtResource("3_67cy6")
+script = ExtResource("4_67cy6")
+
+[connection signal="pressed" from="." to="." method="_on_peashooter_picker_pressed"]

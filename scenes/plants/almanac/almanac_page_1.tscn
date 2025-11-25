@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://bcnr4hhv5dx6p"]
+[gd_scene load_steps=20 format=3 uid="uid://bcnr4hhv5dx6p"]
 
 [ext_resource type="Script" uid="uid://dtx6u668rmucf" path="res://scripts/ui_scripts/almanac/almanac_page_1.gd" id="1_dq4nw"]
 [ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="2_ikf75"]
@@ -16,6 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://dmvuptldep38x" path="res://scenes/plants/almanac/laser_bean_button_almanac.tscn" id="11_xudrc"]
 [ext_resource type="PackedScene" uid="uid://bulbjtq0lqeke" path="res://scenes/plants/almanac/tallnut_button_almanac.tscn" id="12_84lok"]
 [ext_resource type="PackedScene" uid="uid://d10js0ep64emr" path="res://scenes/plants/almanac/doom_shroom_button_almanac.tscn" id="12_kpkwf"]
+[ext_resource type="PackedScene" uid="uid://bg8il4w1ywsch" path="res://scenes/plants/almanac/citric_hero_button_almanac.tscn" id="13_2k6h2"]
 [ext_resource type="PackedScene" uid="uid://dkj02fbtjb6bo" path="res://scenes/plants/almanac/plasma_pea_button_almanac.tscn" id="14_tf6a8"]
 [ext_resource type="PackedScene" uid="uid://b1qi6garjp0au" path="res://scenes/plants/almanac/frost_pea_button_almanac.tscn" id="15_k2xnk"]
 
@@ -46,9 +47,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/margin_left = 10
+theme_override_constants/margin_left = 80
 theme_override_constants/margin_top = 80
-theme_override_constants/margin_right = 30
 theme_override_constants/margin_bottom = 30
 
 [node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer"]
@@ -105,7 +105,7 @@ text = "Iceberg Bomb"
 [node name="PeashooterSeedPicker2" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("12_kpkwf")]
 layout_mode = 2
 
-[node name="PeashooterSeedPicker3" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("7_45uc3")]
+[node name="PeashooterSeedPicker5" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("13_2k6h2")]
 layout_mode = 2
 
 [node name="HBoxContainer4" type="HBoxContainer" parent="MarginContainer/ScrollContainer/VBoxContainer"]
@@ -122,7 +122,7 @@ layout_mode = 2
 [node name="GatlingPea" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer4" instance=ExtResource("6_0ngt5")]
 layout_mode = 2
 
-[node name="TallNut" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer4" instance=ExtResource("12_84lok")]
+[node name="PeashooterSeedPicker3" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer4" instance=ExtResource("7_45uc3")]
 layout_mode = 2
 
 [node name="HBoxContainer5" type="HBoxContainer" parent="MarginContainer/ScrollContainer/VBoxContainer"]
@@ -131,4 +131,7 @@ layout_mode = 2
 theme_override_constants/separation = 15
 
 [node name="PeashooterSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer5" instance=ExtResource("9_kkeyo")]
+layout_mode = 2
+
+[node name="TallNut" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer5" instance=ExtResource("12_84lok")]
 layout_mode = 2
