@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c2o3gc38msl70"]
+
+[ext_resource type="Texture2D" uid="uid://rq7tqag5yejp" path="res://assets/sprite/plant_sprites/doomshroom_sprites/doomshroom_sprite.png" id="1_0abvw"]
+[ext_resource type="Script" uid="uid://bwfct0pojb0lm" path="res://scripts/systems_scripts/overlays/peashooter_overlay.gd" id="2_qqwa6"]
+
+[node name="DoomShroomOverlay" type="Sprite2D"]
+modulate = Color(1, 1, 1, 0.6313726)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_0abvw")
+script = ExtResource("2_qqwa6")

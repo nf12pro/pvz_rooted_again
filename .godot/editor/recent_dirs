@@ -1,3 +1,4 @@
+res://assets/sprite/plant_sprites/doomshroom_sprites
 res://scripts/ui_scripts/almanac
 res://scripts/ui_scripts/settings
 res://scripts/ui_scripts/seed_picker
@@ -19,4 +20,3 @@ res://assets/sprite/mower
 res://scripts/plant_scripts/almanac
 res://scripts/ui_scripts
 res://assets/sprite/plant_sprites/projectile_sprites
-res://scripts/systems_scripts/powers

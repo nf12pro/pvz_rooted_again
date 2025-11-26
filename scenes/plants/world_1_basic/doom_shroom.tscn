@@ -1,20 +1,58 @@
-[gd_scene load_steps=3 format=3 uid="uid://dfw86d4kcuag8"]
+[gd_scene load_steps=10 format=3 uid="uid://dfw86d4kcuag8"]
 
 [ext_resource type="Script" uid="uid://biq0bqs18dims" path="res://scripts/plant_scripts/doom_shroom.gd" id="1_8lmao"]
+[ext_resource type="Texture2D" uid="uid://cvpmlucawn04r" path="res://assets/sprite/plant_sprites/doomshroom_sprites/doomshroom_animation.png" id="2_lsot0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8siae"]
 size = Vector2(64, 53)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_olhjp"]
+atlas = ExtResource("2_lsot0")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_coain"]
+atlas = ExtResource("2_lsot0")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_negvo"]
+atlas = ExtResource("2_lsot0")
+region = Rect2(200, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_87vr2"]
+atlas = ExtResource("2_lsot0")
+region = Rect2(300, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lqr48"]
+atlas = ExtResource("2_lsot0")
+region = Rect2(400, 0, 100, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_l31jm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_olhjp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_coain")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_negvo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_87vr2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lqr48")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.5
+}]
+
 [node name="DoomShroom" type="Area2D"]
 top_level = true
 script = ExtResource("1_8lmao")
-
-[node name="ColorRect" type="ColorRect" parent="."]
-offset_left = -31.0
-offset_top = -26.0
-offset_right = 29.0
-offset_bottom = 22.0
-color = Color(0, 0, 0, 1)
+explosion_delay = 0.5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 top_level = true
@@ -23,3 +61,10 @@ shape = SubResource("RectangleShape2D_8siae")
 
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(-2, 2)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 2.0000002)
+scale = Vector2(0.65, 0.65)
+sprite_frames = SubResource("SpriteFrames_l31jm")
+autoplay = "default"
+frame_progress = 0.53310543
