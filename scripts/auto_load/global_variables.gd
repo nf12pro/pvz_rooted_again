@@ -103,6 +103,10 @@ var defense_boost: int = 0
 #region RogueLite Settings
 var mowers_nerf: bool = false
 var easy_mode: bool = false
+var challenge_mode: bool = false
+var challenge_mode_unlocked: bool = false
+
+var sun_amount_count: int = 1
 #endregion
 
 #region Level Data

@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://digntja5oxqtr"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_xn1u2"]
+[ext_resource type="Script" uid="uid://k74jlgf3l4pw" path="res://scripts/ui_scripts/settings/challenge_mode_button.gd" id="2_xn1u2"]
+
+[node name="TurnOffMowers" type="Button"]
+theme_override_fonts/font = ExtResource("1_xn1u2")
+theme_override_font_sizes/font_size = 30
+text = "HARD MODE OFF"
+script = ExtResource("2_xn1u2")
+
+[connection signal="pressed" from="." to="." method="_on_easy_pressed"]

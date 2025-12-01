@@ -2,6 +2,12 @@ extends Button
 
 var a_pressed = false
 
+func _ready() -> void:
+	if Global.easy_mode:
+		text = "EASY MODE ON"
+	else:
+		text = "EASY MODE OFF"
+
 func _on_easy_pressed() -> void:
 	if a_pressed == false:
 		Global.easy_mode = true

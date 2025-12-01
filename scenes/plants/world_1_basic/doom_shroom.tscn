@@ -64,7 +64,7 @@ position = Vector2(-2, 2)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, 2.0000002)
-scale = Vector2(0.65, 0.65)
+scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_l31jm")
 autoplay = "default"
 frame_progress = 0.53310543

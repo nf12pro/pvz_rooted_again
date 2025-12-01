@@ -3,7 +3,7 @@ extends CharacterBody2D
 #region Variables
 @export var speed: float = 25.0
 @export var original_speed: float = 25.0
-@export var hp: int = 4500
+@export var hp: float = 4500.0
 @export var damage_per_second: float = 999999.0
 var current_slow: float = 0.0
 
@@ -24,6 +24,10 @@ func layer_setting():
 func _ready() -> void:
 	if Global.easy_mode == true:
 		hp = 1520
+	if Global.challenge_mode:
+		original_speed *= 1.5
+		speed *= 1.5
+		hp *= 1.5
 
 #region Zombie Movement
 func _physics_process(delta: float):

@@ -23,6 +23,10 @@ func layer_setting():
 #region Sun Production
 func _process(delta):
 	produce_timer += delta
+	if Global.challenge_mode:
+		produce_interval = 7.5
+	else:
+		produce_interval = 5.0
 	if produce_timer >= produce_interval:
 		produce_sun()
 		produce_timer = 0.0

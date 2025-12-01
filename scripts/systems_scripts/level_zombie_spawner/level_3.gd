@@ -5,3 +5,6 @@ func _process(_delta: float) -> void:
 		Engine.time_scale = 1.0   # Doubles game speed
 		get_tree().change_scene_to_file("res://scenes/systems/power_systems/powers_picker.tscn")
 		Global.spawn_score = 0
+		if not Global.challenge_mode:
+			if Global.sun_value >= 200:
+				Global.sun_value = 100

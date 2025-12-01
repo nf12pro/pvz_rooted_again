@@ -25,11 +25,16 @@ func layer_setting():
 #region Sun Production
 func _process(delta):
 	produce_timer += delta
+	if Global.challenge_mode:
+		produce_interval = 10.0
+	else:
+		produce_interval = 5.0
 	if produce_timer >= produce_interval:
 		produce_sun()
 		produce_timer = 0.0
 
 func produce_sun():
+	Global.sun_amount_count += 1
 	var sun = sun_scene.instantiate()
 	sun.position = global_position + Vector2(0, -20) # slightly above the flower
 	get_parent().add_child(sun)
