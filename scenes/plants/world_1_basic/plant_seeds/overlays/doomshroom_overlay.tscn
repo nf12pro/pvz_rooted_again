@@ -5,6 +5,6 @@
 
 [node name="DoomShroomOverlay" type="Sprite2D"]
 modulate = Color(1, 1, 1, 0.6313726)
-scale = Vector2(0.6, 0.6)
+scale = Vector2(0.75, 0.75)
 texture = ExtResource("1_0abvw")
 script = ExtResource("2_qqwa6")
