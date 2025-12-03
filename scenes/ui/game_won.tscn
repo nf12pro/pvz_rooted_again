@@ -33,9 +33,12 @@ layout_mode = 0
 offset_left = -2.0
 offset_top = 267.0
 offset_right = 1145.0
-offset_bottom = 556.0
+offset_bottom = 622.0
 theme_override_fonts/normal_font = ExtResource("2_svby3")
 theme_override_fonts/bold_font = ExtResource("2_svby3")
 bbcode_enabled = true
-text = "[font_size=60][b] Press Any Key To Go Back To Start  [/b][/font_size]"
+text = "[font_size=60][b] 
+HARD MODE UNLOCKED
+
+Press Any Key To Go Back  [/b][/font_size]"
 horizontal_alignment = 1

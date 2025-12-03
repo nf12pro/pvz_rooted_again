@@ -5,9 +5,9 @@
 
 [node name="StartMenu" type="Control"]
 layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
+anchor_right = 1.011
 anchor_bottom = 1.0
+offset_right = 0.32800293
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -22,10 +22,10 @@ color = Color(0.0005702892, 0.04287854, 0.30162305, 1)
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-theme_override_constants/margin_left = 500
-theme_override_constants/margin_top = 400
+offset_right = 889.0
+offset_bottom = 702.0
+theme_override_constants/margin_left = 400
+theme_override_constants/margin_top = 300
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
@@ -35,7 +35,15 @@ theme_override_constants/separation = 22
 layout_mode = 2
 theme_override_fonts/font = ExtResource("1_0kjv3")
 theme_override_font_sizes/font_size = 60
-text = "PLAY"
+text = "ADVENTURE MODE"
+language = "en"
+script = ExtResource("2_m0hmm")
+
+[node name="Start_Button2" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_0kjv3")
+theme_override_font_sizes/font_size = 60
+text = "ENDLESS MODE"
 language = "en"
 script = ExtResource("2_m0hmm")
 
@@ -46,4 +54,5 @@ theme_override_font_sizes/font_size = 60
 text = "SETTINGS"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Start_Button" to="MarginContainer/VBoxContainer/Start_Button" method="start_on_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Start_Button2" to="MarginContainer/VBoxContainer/Start_Button2" method="start_on_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Settings" to="MarginContainer/VBoxContainer/Start_Button" method="_on_seed_button_pressed"]

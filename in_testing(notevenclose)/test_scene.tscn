@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://17335vsxlcfa" path="res://scenes/plants/world_1_basic/sunflower.tscn" id="4_t5f63"]
 [ext_resource type="PackedScene" uid="uid://bpjbgj1ddg86r" path="res://scenes/systems/sun_counter.tscn" id="6_4tnus"]
 [ext_resource type="PackedScene" uid="uid://bqwmap6y4uxsk" path="res://scenes/systems/lawn_grid_1.tscn" id="6_ks846"]
-[ext_resource type="PackedScene" uid="uid://bp4yfd4ttqre3" path="res://scenes/systems/zombie_spawner.tscn" id="8_o68hf"]
+[ext_resource type="PackedScene" uid="uid://bp4yfd4ttqre3" path="res://scenes/systems/failed_spanwer.tscn" id="8_o68hf"]
 [ext_resource type="PackedScene" uid="uid://bxkydq6w5jpjn" path="res://scenes/systems/lawn_mower.tscn" id="9_fcqjf"]
 [ext_resource type="PackedScene" uid="uid://ci15gfit6kcps" path="res://scenes/systems/score_tracker.tscn" id="10_t42sy"]
 [ext_resource type="PackedScene" uid="uid://dauhkj8urdy50" path="res://scenes/systems/sun_spawner.tscn" id="15_0v7k2"]

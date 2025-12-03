@@ -7,6 +7,8 @@ var spawn_score: int = 0
 var game_over: bool = false
 var seed_selector: bool = false
 
+var giant_number: int = 9223372036854775807
+
 var language_picked = ""
 #endregion
 
@@ -105,6 +107,7 @@ var mowers_nerf: bool = false
 var easy_mode: bool = false
 var challenge_mode: bool = false
 var challenge_mode_unlocked: bool = false
+var endless_mode: bool = false
 
 var sun_amount_count: int = 1
 #endregion
@@ -118,6 +121,10 @@ var level_data := {
 	3: {"zombies": 20, "coneheads": 7, "bucketheads": 5, "allstars": 0, "gargantuars": 0},
 	4: {"zombies": 35, "coneheads": 20, "bucketheads": 10, "allstars": 1, "gargantuars": 0},
 	5: {"zombies": 30, "coneheads": 10, "bucketheads": 20, "allstars": 2, "gargantuars": 1},
+}
+
+var endless_data := {
+	0: {"zombies": giant_number, "coneheads": giant_number, "bucketheads": giant_number, "allstars": giant_number, "gargantuars": giant_number}
 }
 #endregion
 

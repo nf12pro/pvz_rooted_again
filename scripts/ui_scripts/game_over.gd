@@ -8,6 +8,5 @@ func _ready() -> void:
 
 #region Game Over Scene
 func _unhandled_key_input(_event: InputEvent) -> void:
-	Global.reset_game_state()
 	get_tree().change_scene_to_file("res://scenes/ui/start_menu.tscn")
 #endregion

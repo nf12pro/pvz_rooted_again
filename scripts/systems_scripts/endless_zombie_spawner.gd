@@ -8,11 +8,13 @@ var allstar_zombie_scene = preload("res://scenes/zombies/allstar_zombie.tscn")
 var gargantuar_zombie_scene = preload("res://scenes/zombies/gargantuar_zombie.tscn")
 var level_clear = preload("res://scenes/ui/level_clear/level_1_clear.tscn")
 
-var base_min_interval: float = 1.5  # Shortest delay
+var base_min_interval: float = 0.5  # Shortest delay
 var base_max_interval: float = 5.5  # Longest delay
 var current_interval: float = 0.0
 var spawn_timer: float = 0.0
 var level_cleared: bool = false
+
+var endless_stage: int = 0 
 
 var spawn_x_coordinate = 1200
 var lane_1_spawn_y_coordinate = 150
@@ -21,10 +23,8 @@ var lane_3_spawn_y_coordinate = 350
 var lane_4_spawn_y_coordinate = 450
 var lane_5_spawn_y_coordinate = 550
 
-
-
-
 var start_delay: float = 1.5
+var gargantuar_spawn_delay: float = 15.0
 #endregion
 
 
@@ -72,20 +72,20 @@ func _set_new_random_interval():
 func choose_zombie():
 	var data = Global.level_data[Global.current_level]
 	var options = []
-
 	if data["zombies"] > 0:
 		options.append("zombie")
 	if data["coneheads"] > 0:
-		if Global.spawn_score >= 10:
+		if endless_stage >= 1:
 			options.append("conehead")
 	if data["bucketheads"] > 0:
-		if Global.spawn_score >= 40:
+		if endless_stage >= 2:
 			options.append("buckethead")
 	if data["allstars"] > 0:
-		if Global.spawn_score >= 50:
+		if endless_stage >= 3:
 			options.append("allstar")
 	if data["gargantuars"] > 0:
-		if data["zombies"] + data["coneheads"] + data["bucketheads"] + data["allstars"] <= 0:
+		await get_tree().create_timer(gargantuar_spawn_delay).timeout
+		if endless_stage >= 5:
 			options.append("gargantuar")
 
 	if options.size() == 0:
@@ -96,19 +96,14 @@ func choose_zombie():
 	match choice:
 		"zombie":
 			spawn_zombie()
-			data["zombies"] -= 1
 		"conehead":
 			spawn_conehead_zombie()
-			data["coneheads"] -= 1
 		"buckethead":
 			spawn_buckethead_zombie()
-			data["bucketheads"] -= 1
 		"allstar":
 			spawn_allstar_zombie()
-			data["allstars"] -= 1
 		"gargantuar":
 			spawn_gargantuar_zombie()
-			data["gargantuars"] -= 1
 #endregion
 
 

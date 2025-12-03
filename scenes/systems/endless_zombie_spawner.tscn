@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1bhqcdld2ore"]
+
+[ext_resource type="Script" uid="uid://dpr0oqgw6lwuy" path="res://scripts/systems_scripts/endless_zombie_spawner.gd" id="1_oy644"]
+
+[node name="EndlessZombieSpawner" type="Node2D"]
+script = ExtResource("1_oy644")
