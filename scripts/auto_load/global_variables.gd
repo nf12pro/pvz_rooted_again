@@ -107,8 +107,11 @@ var mowers_nerf: bool = false
 var easy_mode: bool = false
 var challenge_mode: bool = false
 var challenge_mode_unlocked: bool = false
+
 var endless_mode: bool = false
 var endless_stage: int = 0
+var endless_stage_cleared: Array = [0]
+
 
 var sun_amount_count: int = 1
 #endregion
