@@ -20,3 +20,4 @@ func pause_or_unpause():
 
 func _on_return_to_menu_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/ui/start_menu.tscn")
+	Global.endless_mode = false

@@ -69,6 +69,7 @@ func _unhandled_key_input(_event: InputEvent) -> void:
 			elif Global.current_level == 5:
 				get_tree().change_scene_to_file("res://scenes/levels/level_5.tscn")
 		if Input.is_action_just_pressed("esc"):
+			Global.endless_mode = false
 			get_tree().change_scene_to_file("res://scenes/ui/start_menu.tscn")
 #endregion
 
