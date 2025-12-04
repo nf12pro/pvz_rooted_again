@@ -53,7 +53,11 @@ func _unhandled_key_input(_event: InputEvent) -> void:
 				get_parent().add_child(tall_nut_label)
 				tall_nut_label.position = Vector2(50, 360)
 			#endregion
-		else:
+		if Global.endless_mode:
+			print("Check")
+			get_tree().change_scene_to_file("res://scenes/levels/endless_level.tscn")
+		elif not Global.endless_mode:
+			print("NOT CHANGED")
 			if Global.current_level == 1:
 				get_tree().change_scene_to_file("res://scenes/systems/power_systems/powers_picker.tscn")
 			elif Global.current_level == 2:
@@ -64,8 +68,8 @@ func _unhandled_key_input(_event: InputEvent) -> void:
 				get_tree().change_scene_to_file("res://scenes/levels/level_4.tscn")
 			elif Global.current_level == 5:
 				get_tree().change_scene_to_file("res://scenes/levels/level_5.tscn")
-	elif Input.is_action_just_pressed("esc"):
-		get_tree().change_scene_to_file("res://scenes/ui/start_menu.tscn")
+		if Input.is_action_just_pressed("esc"):
+			get_tree().change_scene_to_file("res://scenes/ui/start_menu.tscn")
 #endregion
 
 func _process(_delta: float) -> void:

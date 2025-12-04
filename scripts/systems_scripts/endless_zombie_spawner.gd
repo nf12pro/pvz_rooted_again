@@ -15,6 +15,7 @@ var spawn_timer: float = 0.0
 var level_cleared: bool = false
 
 var endless_stage: int = 0 
+var endless_count: int = 0
 
 var spawn_x_coordinate = 1200
 var lane_1_spawn_y_coordinate = 150
@@ -54,6 +55,11 @@ func _process(delta):
 		choose_zombie()
 		spawn_timer = 0.0
 		_set_new_random_interval()
+	
+	if endless_count >= 20:
+		endless_count = 0
+		Global.endless_stage += 1
+		show_level_clear()
 
 
 #region Spawn Logic
@@ -142,25 +148,7 @@ func spawn_gargantuar_zombie():
 
 #region Game Clear
 func check_zombie():
-	var data = Global.level_data[Global.current_level]
-
-	if data["zombies"] + data["coneheads"] + data["bucketheads"] + data["allstars"] + data["gargantuars"] <= 0:
-		if get_tree().get_nodes_in_group("Zombie").size() == 0:
-			level_cleared = true
-			show_level_clear()
-
-			# Move to next level if it exists
-			if Global.current_level < 6:
-				show_level_clear()
-				await get_tree().create_timer(1.0).timeout
-				Global.current_level += 1
-			elif Global.current_level == 6:
-				Global.reset_seeds()
-				Engine.time_scale = 1.0  
-				if Global.mowers_nerf == true:
-					Global.mower_not_used_achievement = true
-				get_tree().change_scene_to_file("res://scenes/ui/game_won.tscn")
-
+	pass
 #endregion
 
 
@@ -174,6 +162,7 @@ func show_level_clear():
 
 #region Lane Choice
 func choose_lane() -> Vector2:
+	endless_count += 1 
 	var lane = randi() % 5 + 1
 	match lane:
 		1: return Vector2(spawn_x_coordinate, lane_1_spawn_y_coordinate)

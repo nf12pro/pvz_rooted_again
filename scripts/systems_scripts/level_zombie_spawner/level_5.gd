@@ -8,6 +8,6 @@ func _process(_delta: float) -> void:
 		if Global.mowers_nerf == true:
 			Global.mower_not_used_achievement = true
 		get_tree().change_scene_to_file("res://scenes/ui/game_won.tscn")
-		if not Global.challenge_mode:
+		if Global.challenge_mode:
 			if Global.sun_value >= 200:
-				Global.sun_value = 100
+				Global.sun_value = 200

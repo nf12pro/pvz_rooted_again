@@ -1,6 +1,6 @@
-[gd_scene load_steps=19 format=3 uid="uid://cicbqr5chobvm"]
+[gd_scene load_steps=20 format=3 uid="uid://cicbqr5chobvm"]
 
-[ext_resource type="Script" uid="uid://c1rypggvd4vas" path="res://scripts/systems_scripts/level_zombie_spawner/level_1.gd" id="1_5mr7x"]
+[ext_resource type="Script" uid="uid://dq016sv2swc2y" path="res://scripts/systems_scripts/level_zombie_spawner/endless_level.gd" id="1_5mr7x"]
 [ext_resource type="PackedScene" uid="uid://bpjbgj1ddg86r" path="res://scenes/systems/sun_counter.tscn" id="2_3n10y"]
 [ext_resource type="PackedScene" uid="uid://bqwmap6y4uxsk" path="res://scenes/systems/lawn_grid_1.tscn" id="3_plv5p"]
 [ext_resource type="PackedScene" uid="uid://bxkydq6w5jpjn" path="res://scenes/systems/lawn_mower.tscn" id="4_pga7u"]
@@ -17,6 +17,7 @@
 [ext_resource type="PackedScene" uid="uid://b3rng1mcud362" path="res://scenes/systems/speed_up_button.tscn" id="16_0qjfy"]
 [ext_resource type="PackedScene" uid="uid://do6p0c86w1qyr" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/upgrade_seed_slot_1.tscn" id="17_2777q"]
 [ext_resource type="PackedScene" uid="uid://dfo7mms37fi4e" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/upgrade_seed_slot_2.tscn" id="18_mfxiu"]
+[ext_resource type="PackedScene" uid="uid://d1bhqcdld2ore" path="res://scenes/systems/endless_zombie_spawner.tscn" id="19_5mr7x"]
 [ext_resource type="PackedScene" uid="uid://ok5kmkhwqd26" path="res://scenes/plants/world_1_basic/plant_seeds/seed_slots/upgrade_seed_slot_3.tscn" id="19_v4buc"]
 
 [node name="Level_1_Scene" type="Node2D"]
@@ -35,7 +36,7 @@ position = Vector2(174, 150)
 [node name="LawnMower" parent="." instance=ExtResource("4_pga7u")]
 position = Vector2(72, 458)
 
-[node name="SunCounter2" parent="." instance=ExtResource("5_wxthw")]
+[node name="ScoreCounter" parent="." instance=ExtResource("5_wxthw")]
 offset_left = 1000.0
 offset_top = 600.0
 offset_right = 1631.0
@@ -100,3 +101,6 @@ position = Vector2(600, 23)
 
 [node name="SeedSlot9" parent="." instance=ExtResource("19_v4buc")]
 position = Vector2(615, 25)
+
+[node name="EndlessZombieSpawner" parent="." instance=ExtResource("19_5mr7x")]
+position = Vector2(890, 235)

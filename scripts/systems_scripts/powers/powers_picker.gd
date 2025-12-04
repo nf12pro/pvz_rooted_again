@@ -28,7 +28,6 @@ func _process(_delta: float) -> void:
 
 func roll_power():
 	if reroll:
-		# Delete old powers before rerolling
 		for node in spawned_powers:
 			if node.is_inside_tree():
 				node.queue_free()
@@ -114,10 +113,13 @@ func roll_power():
 	if Global.power_selected == true:
 		Global.power_selected = false
 		await get_tree().create_timer(0.15).timeout
-		if Global.current_level == 1:
-			get_tree().change_scene_to_file("res://scenes/levels/level_1.tscn")
-		else:
+		if Global.endless_mode:
 			get_tree().change_scene_to_file("res://scenes/ui/seed_picker.tscn")
+		elif not Global.challenge_mode:
+			if Global.current_level == 1:
+				get_tree().change_scene_to_file("res://scenes/levels/level_1.tscn")
+			else:
+				get_tree().change_scene_to_file("res://scenes/ui/seed_picker.tscn")
 
 func _on_reroll_button_pressed() -> void:
 	if Global.score >= 100:

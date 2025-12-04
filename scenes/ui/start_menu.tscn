@@ -39,7 +39,7 @@ text = "ADVENTURE MODE"
 language = "en"
 script = ExtResource("2_m0hmm")
 
-[node name="Start_Button2" type="Button" parent="MarginContainer/VBoxContainer"]
+[node name="Endless_Button" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("1_0kjv3")
 theme_override_font_sizes/font_size = 60
@@ -54,5 +54,5 @@ theme_override_font_sizes/font_size = 60
 text = "SETTINGS"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Start_Button" to="MarginContainer/VBoxContainer/Start_Button" method="start_on_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/Start_Button2" to="MarginContainer/VBoxContainer/Start_Button2" method="start_on_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Endless_Button" to="MarginContainer/VBoxContainer/Start_Button" method="endless_on_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Settings" to="MarginContainer/VBoxContainer/Start_Button" method="_on_seed_button_pressed"]
