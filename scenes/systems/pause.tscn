@@ -14,10 +14,17 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Button" type="Button" parent="VBoxContainer"]
+[node name="Pause" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_b8sco")
 theme_override_font_sizes/font_size = 36
 text = "Paused"
 
-[connection signal="pressed" from="VBoxContainer/Button" to="." method="pause_or_unpause"]
+[node name="Return to Menu" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_b8sco")
+theme_override_font_sizes/font_size = 36
+text = "Return to Menu"
+
+[connection signal="pressed" from="VBoxContainer/Pause" to="." method="pause_or_unpause"]
+[connection signal="pressed" from="VBoxContainer/Return to Menu" to="." method="_on_return_to_menu_pressed"]
