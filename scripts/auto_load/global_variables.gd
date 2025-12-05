@@ -120,12 +120,13 @@ var sun_amount_count: int = 1
 var tutorial_completed: bool = false
 var tutorial_mode: bool = false
 
-var tutorial_sunflower_planted: bool = false
+var tutorial_sunflower_planted: bool = true
 var tutorial_sunflower_pause: bool = false
 var tutorial_zombie_count: int = 0
 
-var tutorial_peashooter_planted: bool = false
+var tutorial_peashooter_planted: bool = true
 var tutorial_peashooter_pressed: bool = false
+var tutorial_peashooter_planter_tracker: bool = true
 #endregion
 
 #region Level Data

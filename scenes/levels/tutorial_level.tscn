@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://0arx37ir1egu"]
+[gd_scene load_steps=15 format=3 uid="uid://0arx37ir1egu"]
 
 [ext_resource type="Script" uid="uid://c1rypggvd4vas" path="res://scripts/systems_scripts/level_zombie_spawner/level_1.gd" id="1_q72f6"]
 [ext_resource type="PackedScene" uid="uid://bpjbgj1ddg86r" path="res://scenes/systems/sun_counter.tscn" id="2_t7aa4"]
@@ -9,7 +9,9 @@
 [ext_resource type="PackedScene" uid="uid://bqibbcgnbrvur" path="res://scenes/systems/shovel.tscn" id="8_iwbex"]
 [ext_resource type="PackedScene" uid="uid://difrqd81lfmty" path="res://scenes/plants/world_1_basic/plant_seeds/tutorial_peashooter_seed.tscn" id="12_gs1om"]
 [ext_resource type="PackedScene" uid="uid://bal0vhx70c245" path="res://scenes/systems/tutorial_grid.tscn" id="12_i8m3h"]
+[ext_resource type="PackedScene" uid="uid://bynv3m8hklkr" path="res://scenes/plants/world_1_basic/plant_seeds/tutorial_sunflower_seed.tscn" id="13_ey2yj"]
 [ext_resource type="PackedScene" uid="uid://bq5vnh0sgnfbv" path="res://scenes/ui/labels/tutorial_label.tscn" id="13_i8m3h"]
+[ext_resource type="PackedScene" uid="uid://dywwyhuf7k1vu" path="res://scenes/zombies/tutorial_basic_zombie.tscn" id="14_ey2yj"]
 [ext_resource type="PackedScene" uid="uid://4g3c604f2rnm" path="res://scenes/systems/pause.tscn" id="15_wfe3j"]
 [ext_resource type="PackedScene" uid="uid://b3rng1mcud362" path="res://scenes/systems/speed_up_button.tscn" id="16_a0ono"]
 
@@ -17,6 +19,7 @@
 script = ExtResource("1_q72f6")
 
 [node name="SunCounter" parent="." instance=ExtResource("2_t7aa4")]
+process_mode = 3
 offset_left = 1.0
 offset_top = 15.0
 offset_right = 166.0
@@ -57,7 +60,6 @@ offset_bottom = 155.0
 metadata/_edit_use_anchors_ = true
 
 [node name="PeashooterSeed" parent="." instance=ExtResource("12_gs1om")]
-process_mode = 3
 position = Vector2(170, 55)
 
 [node name="TutorialLabel" parent="." instance=ExtResource("13_i8m3h")]
@@ -68,3 +70,9 @@ offset_bottom = 569.0
 
 [node name="LawnGrid" parent="." instance=ExtResource("12_i8m3h")]
 position = Vector2(175, 360)
+
+[node name="SunflowerSeed" parent="." instance=ExtResource("13_ey2yj")]
+position = Vector2(280, 55)
+
+[node name="TutorialBasicZombie" parent="." instance=ExtResource("14_ey2yj")]
+position = Vector2(1207, 326)

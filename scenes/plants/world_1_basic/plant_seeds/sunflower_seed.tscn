@@ -12,6 +12,7 @@ collision_mask = 0
 script = ExtResource("1_6shbl")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+process_mode = 3
 modulate = Color(0.62967587, 0.62967587, 0.62967587, 1)
 position = Vector2(2.5, -2)
 shape = SubResource("RectangleShape2D_uriph")

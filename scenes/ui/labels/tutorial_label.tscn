@@ -7,5 +7,5 @@
 process_mode = 3
 theme_override_fonts/font = ExtResource("1_mm0e0")
 theme_override_font_sizes/font_size = 32
-text = "Click on a seed packet!"
+text = "Click on the peashooter seed packet!"
 script = ExtResource("2_kfj3l")

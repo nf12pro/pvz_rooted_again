@@ -1,17 +1,16 @@
 extends Area2D
 
 #region Variables
-var plant_scene: PackedScene = preload("res://scenes/plants/world_1_basic/peashooter.tscn")
-var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/peashooter_overlay.tscn")
+var plant_scene: PackedScene = preload("res://scenes/plants/world_1_basic/sunflower.tscn")
+var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/sun_overlay.tscn")
 var overlay_instance: Node2D = null
-@export var cost: int = 100
+@export var cost: int = 50
 var is_selected: bool = false
 
 var start_wait: bool = false
 @export var cooldown_time: float = 7.5
 var cooldown_timer: float = 0.0
 @export var start_delay: float = 0.15
-var first_check: bool = false
 var draw_progress: float = 0.0  
 
 @onready var my_sprite = $Sprite2D 
@@ -36,7 +35,6 @@ func _on_input_event(_viewport, event, _shape_idx):
 			print("Seed packet recharging!")
 			return
 		if Global.sun_value >= cost:
-			Global.tutorial_peashooter_pressed = true
 			is_selected = true
 			if overlay_instance == null:
 				overlay_instance = overlay_scene.instantiate()
@@ -73,12 +71,8 @@ func _unhandled_input(event):
 				var plant = plant_scene.instantiate()
 				get_tree().current_scene.add_child(plant)
 				clicked_node.snap_plant(plant)
-				Global.tutorial_peashooter_pressed = false
-				Global.tutorial_peashooter_planted = false
-				if not first_check:
-					Global.tutorial_peashooter_planter_tracker = false
-					first_check = true
-				
+				Global.tutorial_sunflower_pause = false
+				Global.tutorial_sunflower_planted = false
 
 				Global.sun_value -= cost
 				is_selected = false
@@ -130,10 +124,14 @@ func _draw():
 
 func _physics_process(delta: float) -> void:
 	t += delta * 2.0 
-	if Global.tutorial_peashooter_planted and start_wait:
+	if Global.tutorial_sunflower_pause and start_wait:
 		get_tree().paused = true
+		if Global.sun_value < 50:
+			Global.sun_value = 50
 		var brightness = 1.0 + sin(t) * 0.8
 		my_sprite.modulate = Color(brightness, brightness, brightness)
-	elif Global.tutorial_sunflower_pause:
+	elif not Global.tutorial_sunflower_planted:
+		Global.tutorial_sunflower_pause = false
+		get_tree().paused = false
 		my_sprite.modulate = Color(1, 1, 1)
 		process_mode = Node.PROCESS_MODE_PAUSABLE
