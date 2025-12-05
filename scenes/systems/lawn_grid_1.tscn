@@ -3,4 +3,5 @@
 [ext_resource type="Script" uid="uid://cc0y47p60xqgq" path="res://scripts/systems_scripts/lawn_grid_1.gd" id="1_psge7"]
 
 [node name="LawnGrid" type="Node2D"]
+process_mode = 3
 script = ExtResource("1_psge7")

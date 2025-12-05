@@ -1,9 +1,9 @@
+Label
 Sprite2D
 AnimatedSprite2D
 Button
 TextureProgressBar
 ColorRect
-Label
 OptionButton
 ScrollContainer
 CanvasLayer

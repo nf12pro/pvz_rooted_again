@@ -116,6 +116,18 @@ var endless_stage_cleared: Array = [0]
 var sun_amount_count: int = 1
 #endregion
 
+#region Tutorial 
+var tutorial_completed: bool = false
+var tutorial_mode: bool = false
+
+var tutorial_sunflower_planted: bool = false
+var tutorial_sunflower_pause: bool = false
+var tutorial_zombie_count: int = 0
+
+var tutorial_peashooter_planted: bool = false
+var tutorial_peashooter_pressed: bool = false
+#endregion
+
 #region Level Data
 var current_level: int = 1
 

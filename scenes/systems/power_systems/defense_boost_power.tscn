@@ -8,7 +8,7 @@ offset_right = 243.0
 offset_bottom = 498.0
 theme_override_fonts/font = ExtResource("1_4wfl7")
 theme_override_font_sizes/font_size = 36
-text = "DEFENSE POWER BOOST"
+text = "DEFENSE BOOST"
 script = ExtResource("2_4wfl7")
 
 [connection signal="pressed" from="." to="." method="_on_pressed"]

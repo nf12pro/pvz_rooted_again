@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bq5vnh0sgnfbv"]
+
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_mm0e0"]
+[ext_resource type="Script" uid="uid://k8m8ob4htpoj" path="res://scripts/ui_scripts/labels/tutorial_label.gd" id="2_kfj3l"]
+
+[node name="TutorialLabel" type="Label"]
+process_mode = 3
+theme_override_fonts/font = ExtResource("1_mm0e0")
+theme_override_font_sizes/font_size = 32
+text = "Click on a seed packet!"
+script = ExtResource("2_kfj3l")

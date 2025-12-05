@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://difrqd81lfmty"]
+
+[ext_resource type="Script" uid="uid://daejgjcjsu6vw" path="res://scripts/plant_scripts/seed_packets/tutorial_peashooter_seed.gd" id="1_04657"]
+[ext_resource type="Texture2D" uid="uid://cuk63eyvopmix" path="res://assets/sprite/seed_packets/peashooter_seed.png" id="2_47i3x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uriph"]
+size = Vector2(105, 105)
+
+[node name="TutorialPeashooter" type="Area2D"]
+scale = Vector2(0.8, 1)
+collision_mask = 0
+script = ExtResource("1_04657")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -0.5)
+shape = SubResource("RectangleShape2D_uriph")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(0, -8)
+scale = Vector2(0.675, 0.465)
+texture = ExtResource("2_47i3x")

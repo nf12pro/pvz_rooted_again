@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bal0vhx70c245"]
+
+[ext_resource type="Script" uid="uid://dti5lboqkc2m7" path="res://scripts/systems_scripts/tutorial_grid.gd" id="1_o267f"]
+
+[node name="LawnGrid" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_o267f")

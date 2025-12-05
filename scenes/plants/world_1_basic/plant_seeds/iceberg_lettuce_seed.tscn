@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dmqhc1xqtn7qt"]
 
 [ext_resource type="Script" uid="uid://beqnkfcqx0gi7" path="res://scripts/plant_scripts/iceberg_lettuce_seed.gd" id="1_0i65g"]
-[ext_resource type="Texture2D" uid="uid://dn3iqxoxmsob4" path="res://assets/sprite/seed_packets/ice_boimb_seed.png" id="2_0i65g"]
+[ext_resource type="Texture2D" uid="uid://dn3iqxoxmsob4" path="res://assets/sprite/seed_packets/ice_bomb_seed.png" id="2_0i65g"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uriph"]
 size = Vector2(103.75, 102.5)
