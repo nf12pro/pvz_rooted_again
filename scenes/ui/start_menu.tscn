@@ -10,6 +10,7 @@ anchor_bottom = 1.0
 offset_right = 0.32800293
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("2_m0hmm")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = -2
@@ -38,7 +39,6 @@ theme_override_fonts/font = ExtResource("1_0kjv3")
 theme_override_font_sizes/font_size = 60
 text = "ADVENTURE MODE"
 language = "en"
-script = ExtResource("2_m0hmm")
 
 [node name="Endless_Button" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
@@ -46,7 +46,6 @@ theme_override_fonts/font = ExtResource("1_0kjv3")
 theme_override_font_sizes/font_size = 60
 text = "ENDLESS MODE"
 language = "en"
-script = ExtResource("2_m0hmm")
 
 [node name="Settings" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
@@ -65,6 +64,6 @@ theme_override_font_sizes/font_size = 80
 text = "Plants Vs Zombies: Rooted Again"
 horizontal_alignment = 1
 
-[connection signal="pressed" from="MarginContainer/VBoxContainer/Start_Button" to="MarginContainer/VBoxContainer/Start_Button" method="start_on_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/Endless_Button" to="MarginContainer/VBoxContainer/Start_Button" method="endless_on_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/Settings" to="MarginContainer/VBoxContainer/Start_Button" method="_on_seed_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Start_Button" to="." method="start_on_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Endless_Button" to="." method="endless_on_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Settings" to="." method="_on_seed_button_pressed"]

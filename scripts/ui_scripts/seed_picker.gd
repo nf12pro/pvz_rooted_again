@@ -54,10 +54,8 @@ func _unhandled_key_input(_event: InputEvent) -> void:
 				tall_nut_label.position = Vector2(50, 360)
 			#endregion
 		if Global.endless_mode:
-			print("Check")
 			get_tree().change_scene_to_file("res://scenes/levels/endless_level.tscn")
 		elif not Global.endless_mode:
-			print("NOT CHANGED")
 			if Global.current_level == 1:
 				get_tree().change_scene_to_file("res://scenes/systems/power_systems/powers_picker.tscn")
 			elif Global.current_level == 2:

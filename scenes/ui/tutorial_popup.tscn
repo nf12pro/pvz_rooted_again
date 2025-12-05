@@ -1,0 +1,67 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvsfdeso1ewvl"]
+
+[ext_resource type="Script" uid="uid://bulnwdplsadpj" path="res://scripts/ui_scripts/settings/tutorial_popup.gd" id="1_6xhwv"]
+[ext_resource type="FontFile" uid="uid://bx7fec36gwywm" path="res://assets/fonts/HouseofTerror Regular.ttf" id="1_bwrry"]
+
+[node name="TutorialPopUp" type="Control"]
+z_index = 3
+layout_mode = 3
+anchor_right = 1.011
+anchor_bottom = 1.0
+offset_right = 0.32800293
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6xhwv")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -2
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -527.0
+offset_top = -368.0
+offset_right = 527.0
+offset_bottom = 368.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 325
+theme_override_constants/margin_top = 325
+theme_override_constants/margin_right = 250
+theme_override_constants/margin_bottom = 200
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+z_index = 3
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_bwrry")
+theme_override_font_sizes/font_size = 80
+text = "Would you like to play a tutorial?"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 180
+
+[node name="Skip" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_bwrry")
+theme_override_font_sizes/font_size = 60
+text = "SKIP"
+
+[node name="Play" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_bwrry")
+theme_override_font_sizes/font_size = 60
+text = "PLAY"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/Skip" to="." method="_on_skip_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/Play" to="." method="_on_play_pressed"]

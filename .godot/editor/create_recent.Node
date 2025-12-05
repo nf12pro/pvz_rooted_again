@@ -1,7 +1,9 @@
+VBoxContainer
+Button
+HBoxContainer
 Label
 Sprite2D
 AnimatedSprite2D
-Button
 TextureProgressBar
 ColorRect
 OptionButton
@@ -10,5 +12,3 @@ CanvasLayer
 Control
 VScrollBar
 CanvasModulate
-VBoxContainer
-MarginContainer

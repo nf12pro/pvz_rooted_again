@@ -75,4 +75,10 @@ position = Vector2(175, 360)
 position = Vector2(280, 55)
 
 [node name="TutorialBasicZombie" parent="." instance=ExtResource("14_ey2yj")]
-position = Vector2(1207, 326)
+position = Vector2(1203, 360)
+
+[node name="TutorialBasicZombie2" parent="." instance=ExtResource("14_ey2yj")]
+position = Vector2(1600, 360)
+
+[node name="TutorialBasicZombie3" parent="." instance=ExtResource("14_ey2yj")]
+position = Vector2(1900, 360)

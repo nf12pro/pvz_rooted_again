@@ -6,6 +6,8 @@ var score: int = 0
 var spawn_score: int = 0
 var game_over: bool = false
 var seed_selector: bool = false
+var first_time_play: bool = true
+
 
 var giant_number: int = 9223372036854775807
 
@@ -119,6 +121,7 @@ var sun_amount_count: int = 1
 #region Tutorial 
 var tutorial_completed: bool = false
 var tutorial_mode: bool = false
+var tutorial_pop_up_screen: bool = false
 
 var tutorial_sunflower_planted: bool = true
 var tutorial_sunflower_pause: bool = false
