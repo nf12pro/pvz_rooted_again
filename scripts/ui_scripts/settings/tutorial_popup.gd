@@ -12,3 +12,4 @@ func _on_play_pressed() -> void:
 	Global.tutorial_pop_up_screen = false
 	Global.tutorial_mode = true
 	get_tree().change_scene_to_file("res://scenes/levels/tutorial_level.tscn")
+	queue_free()

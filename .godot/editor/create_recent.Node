@@ -1,9 +1,9 @@
+AnimatedSprite2D
 VBoxContainer
 Button
 HBoxContainer
 Label
 Sprite2D
-AnimatedSprite2D
 TextureProgressBar
 ColorRect
 OptionButton
