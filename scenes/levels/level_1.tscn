@@ -1,6 +1,6 @@
 [gd_scene load_steps=20 format=3 uid="uid://6khan80x426l"]
 
-[ext_resource type="Script" uid="uid://c1rypggvd4vas" path="res://scripts/systems_scripts/level_zombie_spawner/level_1.gd" id="1_iwr0g"]
+[ext_resource type="Script" uid="uid://dueh7rnjvt01i" path="res://scripts/systems_scripts/level_zombie_spawner/level_1.gd" id="1_iwr0g"]
 [ext_resource type="PackedScene" uid="uid://bpjbgj1ddg86r" path="res://scenes/systems/sun_counter.tscn" id="2_hi223"]
 [ext_resource type="PackedScene" uid="uid://bqwmap6y4uxsk" path="res://scenes/systems/lawn_grid_1.tscn" id="3_56nmp"]
 [ext_resource type="PackedScene" uid="uid://bxkydq6w5jpjn" path="res://scenes/systems/lawn_mower.tscn" id="4_j0sdl"]
