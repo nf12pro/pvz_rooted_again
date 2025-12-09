@@ -5,3 +5,5 @@ Credits to:
 Lead Programmer - Rayane Faik
 
 Lead Artist - Neil Slimani
+
+Lead of Balance Changes and Artist - Rashed Fallatah
