@@ -18,5 +18,5 @@ Only requires a cursor! There is a small tutorial to explain how to play and an 
 
 **Credits to:**
 - Lead Programmer: Rayane Faik
-- Lead Artist: Neil Slimani
-- Lead of Balance Changes and Assistant Artist: Rashed Fallatah
+- Lead Artist: SupaNes
+- Cherry Bomb Animation: Rashed Fallatah
