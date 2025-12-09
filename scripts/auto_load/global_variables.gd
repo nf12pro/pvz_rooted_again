@@ -1,7 +1,7 @@
 extends Node2D
 
 #region Basic Global Variables
-var sun_value: int = 125 #if you're reading this lemme give u a cool 7 hint: Mbabyl bwkhalz dpss ohcl zwspa bwnyhklz huk lhjo zwspa bwnyhkl dpss nv bw av 3
+var sun_value: int = 225 #if you're reading this lemme give u a cool 7 hint: Mbabyl bwkhalz dpss ohcl zwspa bwnyhklz huk lhjo zwspa bwnyhkl dpss nv bw av 3
 var score: int = 0
 var spawn_score: int = 0
 var game_over: bool = false
