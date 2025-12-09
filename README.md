@@ -1,8 +1,11 @@
 # pvz_rooted_again
 This is a Plants Vs Zombies FANGAME, we are in no way affiliated with PopCap or EA. This game is a strategy-based tower defense game with a fun roguelike twist in it, adding cool new plants, powers, difficulty modes and an endless mode. This is an EARLY release; it is still in development. 
 
-Check it out at:
+**Check it out at:**
 https://rayonf12.itch.io/pvz-rooted-again
+
+Controls:
+Only requires a cursor! There is a small tutorial to explain how to play and an extensive almanac in the settings menu that describes every placable unit!
 
 
 Credits to:
