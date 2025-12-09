@@ -2,7 +2,7 @@ res://addons/godot_super-wakatime/api_key_prompt.tscn::a6988a5ba43d5aa92a08f216c
 res://addons/godot_super-wakatime/counter.tscn::7f13ad35960e259f6de719f9785ce249::1759312494::res://.godot/exported/133200997/export-4af6c9115c1c285af5925fa1ce6a526e-counter.scn
 res://in_testing(notevenclose)/sample_scene.tscn::4ca18d0f7f03c5dcad76efc9d54948b6::1759132869::res://.godot/exported/133200997/export-e7a530d0a76e794da22f60d142146d90-sample_scene.scn
 res://in_testing(notevenclose)/test_scene.tscn::f209c7abdfddadb8414ae41416233f19::1764753182::res://.godot/exported/133200997/export-c2a2a89bfe73d94d8c49828d45f33ef0-test_scene.scn
-res://scenes/levels/level_1.tscn::cbffd4c2b05abe3116e16813df6c4a07::1763032489::res://.godot/exported/133200997/export-446b1ed11cc7129b20b35ff4df2b3752-level_1.scn
+res://scenes/levels/level_1.tscn::42a3563fe51e86a8ee50df1ee15b35ed::1765213240::res://.godot/exported/133200997/export-446b1ed11cc7129b20b35ff4df2b3752-level_1.scn
 res://scenes/levels/level_2.tscn::85d5320eea50b25f90b791e0beb82645::1762518653::res://.godot/exported/133200997/export-a18c5401c17cd33ddcb0f5ac6af637f4-level_2.scn
 res://scenes/levels/level_3.tscn::a8f990ea032bf20be9a5488f8e49db9d::1762518702::res://.godot/exported/133200997/export-b6a8ed086a8d8ba97c24b83f09c5fd0c-level_3.scn
 res://scenes/levels/level_4.tscn::6f8538cc5030be1d553f544dadfc5faf::1762518702::res://.godot/exported/133200997/export-547f64fc5b8d61f421d631ad3dc05ab1-level_4.scn
@@ -195,7 +195,7 @@ res://scenes/ui/settings/credits_button.tscn::7ac2779b89f50076d6c55f951df996e7::
 res://scenes/ui/settings/language_button.tscn::3e6f2d41c26490e59f13ee194314b17d::1763112524::res://.godot/exported/133200997/export-eaab0fa38c409e6605bd0746ad8c8990-language_button.scn
 res://scenes/ui/credits.tscn::ff75162a25fcabec82bed0e5bc4b06c5::1763107418::res://.godot/exported/133200997/export-1f14c609521b342beafd236e757bed9c-credits.scn
 res://scenes/levels/endless_level.tscn::d4e21c390fd6b21bbff1fe9e8925e0b9::1764847446::res://.godot/exported/133200997/export-3cf416b5e4aca54244933a56a53fc614-endless_level.scn
-res://scenes/levels/tutorial_level.tscn::7e13cf460ef7de752dad3cf4c1c39255::1764940497::res://.godot/exported/133200997/export-d412d0a4334e7e36c5be510cb3acee5c-tutorial_level.scn
+res://scenes/levels/tutorial_level.tscn::9fd8d9f912ec4f61372c3547dec79bbd::1765213187::res://.godot/exported/133200997/export-d412d0a4334e7e36c5be510cb3acee5c-tutorial_level.scn
 res://scenes/plants/almanac/almanac_descriptions/almanac_citric_hero.tscn::89b912514e09931436a9220ef630edec::1764061922::res://.godot/exported/133200997/export-608825f590703eaed74127cdd8721d45-almanac_citric_hero.scn
 res://scenes/plants/almanac/citric_hero_button_almanac.tscn::1b01d83c3115bc96486d7660aef938f9::1764061924::res://.godot/exported/133200997/export-519dc20328b9dff4697959199c4da6a2-citric_hero_button_almanac.scn
 res://scenes/plants/world_1_basic/plant_seeds/overlays/doomshroom_overlay.tscn::c7be20b458f7fcedf7d4b2ef1fdd2a7e::1764750380::res://.godot/exported/133200997/export-3a6a6e381887b82e306fddf715d611a5-doomshroom_overlay.scn

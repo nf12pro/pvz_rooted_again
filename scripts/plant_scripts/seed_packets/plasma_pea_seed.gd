@@ -4,10 +4,10 @@ extends Area2D
 var plant_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plasma_peashooter.tscn")
 var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/plasma_pea_overlay.tscn")
 var overlay_instance: Node2D = null
-@export var cost: int = 75
+@export var cost: int = 100
 var is_selected: bool = false
 
-@export var cooldown_time: float = 25.0
+@export var cooldown_time: float = 45.0
 var cooldown_timer: float = 0.0
 
 var draw_progress: float = 0.0  
