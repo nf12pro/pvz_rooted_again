@@ -25,5 +25,6 @@ theme_override_fonts/font = ExtResource("2_pqmjv")
 theme_override_font_sizes/font_size = 44
 text = "CREDITS TO:
 Lead Programmer - Rayane Faik
-Lead Artist - Neil Slimani"
+Lead Artist - Neil Slimani
+Lead of Balance Changes and Artist - Rashed Fallatah"
 horizontal_alignment = 1

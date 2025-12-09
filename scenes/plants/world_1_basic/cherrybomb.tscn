@@ -1,9 +1,95 @@
-[gd_scene load_steps=3 format=3 uid="uid://bb0jd20w455j"]
+[gd_scene load_steps=16 format=3 uid="uid://bb0jd20w455j"]
 
 [ext_resource type="Script" uid="uid://djhcindt68oyp" path="res://scripts/plant_scripts/cherry_bomb.gd" id="1_don03"]
+[ext_resource type="Texture2D" uid="uid://b2ojc32kp3ll8" path="res://assets/sprite/plant_sprites/cherry_bomb_sprites/cherry_bomb_animated.png" id="2_8siae"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8siae"]
 size = Vector2(64, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ys8v0"]
+atlas = ExtResource("2_8siae")
+region = Rect2(0, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wf2pn"]
+atlas = ExtResource("2_8siae")
+region = Rect2(250, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gviah"]
+atlas = ExtResource("2_8siae")
+region = Rect2(500, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xxnuv"]
+atlas = ExtResource("2_8siae")
+region = Rect2(750, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sknaa"]
+atlas = ExtResource("2_8siae")
+region = Rect2(1000, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vdylw"]
+atlas = ExtResource("2_8siae")
+region = Rect2(1250, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ra4x8"]
+atlas = ExtResource("2_8siae")
+region = Rect2(1500, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aqw2k"]
+atlas = ExtResource("2_8siae")
+region = Rect2(1750, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bd3c6"]
+atlas = ExtResource("2_8siae")
+region = Rect2(2000, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a3kvs"]
+atlas = ExtResource("2_8siae")
+region = Rect2(2250, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rpqgt"]
+atlas = ExtResource("2_8siae")
+region = Rect2(2500, 0, 250, 250)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h6ne5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ys8v0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wf2pn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gviah")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xxnuv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sknaa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vdylw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ra4x8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aqw2k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bd3c6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a3kvs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rpqgt")
+}],
+"loop": false,
+"name": &"default",
+"speed": 7.0
+}]
 
 [node name="Cherrybomb" type="Area2D"]
 top_level = true
@@ -18,11 +104,8 @@ shape = SubResource("RectangleShape2D_8siae")
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(-2, 2)
 
-[node name="ColorRect" type="ColorRect" parent="."]
-visibility_layer = 4
-offset_left = -31.0
-offset_top = -26.0
-offset_right = 29.0
-offset_bottom = 22.0
-color = Color(1.4194503, 0, 0, 1)
-metadata/_edit_use_anchors_ = true
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_h6ne5")
+autoplay = "default"
+frame = 10
+frame_progress = 1.0

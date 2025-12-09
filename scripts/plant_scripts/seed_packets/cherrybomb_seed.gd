@@ -2,7 +2,7 @@ extends Area2D
 
 #region Variables
 var plant_scene: PackedScene = preload("res://scenes/plants/world_1_basic/cherrybomb.tscn")
-var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/sun_overlay.tscn")
+var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/cherry_bomb_overlay.tscn")
 var overlay_instance: Node2D = null
 @export var cost: int = 150
 var is_selected: bool = false

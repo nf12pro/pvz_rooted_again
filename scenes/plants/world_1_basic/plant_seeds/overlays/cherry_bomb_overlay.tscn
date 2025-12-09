@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bfi2w1jlpyapm"]
+
+[ext_resource type="Texture2D" uid="uid://bbw7sckwrbwy7" path="res://assets/sprite/plant_sprites/cherry_bomb_sprites/cherry_bomb_sprite.png" id="1_0ss80"]
+[ext_resource type="Script" uid="uid://bwfct0pojb0lm" path="res://scripts/systems_scripts/overlays/peashooter_overlay.gd" id="2_0bhv3"]
+
+[node name="PeashooterOverlay" type="Sprite2D"]
+modulate = Color(0.8387647, 0.82833624, 0.7828717, 0.6313726)
+position = Vector2(0, -8.999999)
+scale = Vector2(0.9, 0.9)
+texture = ExtResource("1_0ss80")
+script = ExtResource("2_0bhv3")

@@ -10,6 +10,7 @@ size = Vector2(44, 37)
 
 [node name="ConeHeadZombie" type="CharacterBody2D" groups=["Zombie"]]
 visibility_layer = 2
+z_index = 1
 collision_mask = 0
 safe_margin = 0.001
 script = ExtResource("1_eyfnn")

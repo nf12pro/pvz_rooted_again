@@ -7,7 +7,7 @@ var sun_scene = preload("res://scenes/plants/projectiles/sun_projectile.tscn")
 @export var second_sun_delay = 0.95
 var produce_timer = 0.0
 var square: Node = null
-var sun_count: int = 2
+var sun_count: int = 3
 #endregion
 
 

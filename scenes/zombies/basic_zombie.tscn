@@ -15,6 +15,7 @@ safe_margin = 0.001
 script = ExtResource("1_yfb2w")
 
 [node name="ColorRect" type="ColorRect" parent="."]
+z_index = 1
 offset_right = 40.0
 offset_bottom = 40.0
 
