@@ -13,12 +13,10 @@ This is a Plants Vs Zombies FANGAME, we are in no way affiliated with PopCap or 
 https://rayonf12.itch.io/pvz-rooted-again
 
 **Controls:**
-Only requires a cursor! There is a small tutorial to explain how to play and an extensive almanac in the settings menu that describes every placable unit!
+Only requires a cursor! There is a small tutorial to explain how to play and an extensive almanac in the settings menu that describes every placeable unit!
 
 
 **Credits to:**
-Lead Programmer - Rayane Faik
-
-Lead Artist - Neil Slimani
-
-Lead of Balance Changes and Artist - Rashed Fallatah
+- Lead Programmer: Rayane Faik
+- Lead Artist: Neil Slimani
+- Lead of Balance Changes and Assistant Artist: Rashed Fallatah
