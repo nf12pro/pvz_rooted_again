@@ -24,10 +24,10 @@
 script = ExtResource("1_iwr0g")
 
 [node name="SunCounter" parent="." instance=ExtResource("2_hi223")]
-offset_left = 1.0
-offset_top = 15.0
-offset_right = 166.0
-offset_bottom = 78.0
+offset_left = -2.0
+offset_top = -1.0
+offset_right = 163.0
+offset_bottom = 62.0
 metadata/_edit_use_anchors_ = true
 
 [node name="LawnGrid" parent="." instance=ExtResource("3_56nmp")]
@@ -37,10 +37,11 @@ position = Vector2(174, 150)
 position = Vector2(72, 458)
 
 [node name="SunCounter2" parent="." instance=ExtResource("5_oc051")]
-offset_left = 1000.0
-offset_top = 600.0
-offset_right = 1631.0
-offset_bottom = 651.0
+offset_left = 882.0
+offset_top = 595.0
+offset_right = 1154.0
+offset_bottom = 646.0
+horizontal_alignment = 2
 
 [node name="SunSpawner" parent="." instance=ExtResource("6_pcymn")]
 position = Vector2(550, 62)

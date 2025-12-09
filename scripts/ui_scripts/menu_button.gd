@@ -9,7 +9,9 @@ var tutorial_popup_scene = preload("res://scenes/ui/tutorial_popup.tscn")
 func start_on_pressed() -> void:
 	var tutorial_popup = tutorial_popup_scene.instantiate()
 	if Global.first_time_play:
-		get_parent().add_child(tutorial_popup)	
+		get_parent().add_child(tutorial_popup)
+		Global.adventure_picked_skip = true
+
 	else:
 		get_tree().change_scene_to_file("res://scenes/ui/seed_picker.tscn")
 
@@ -21,6 +23,7 @@ func endless_on_pressed() -> void:
 	var tutorial_popup = tutorial_popup_scene.instantiate()
 	if Global.first_time_play:
 		get_parent().add_child(tutorial_popup)
+		Global.endless_picked_skip = true
 	else:
 		Global.endless_mode = true
 		get_tree().change_scene_to_file("res://scenes/ui/seed_picker.tscn")

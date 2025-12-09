@@ -123,6 +123,9 @@ var tutorial_completed: bool = false
 var tutorial_mode: bool = false
 var tutorial_pop_up_screen: bool = false
 
+var adventure_picked_skip: bool = false
+var endless_picked_skip: bool = false
+
 var tutorial_sunflower_planted: bool = true
 var tutorial_sunflower_pause: bool = false
 var tutorial_zombie_count: int = 0
