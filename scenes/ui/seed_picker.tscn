@@ -83,9 +83,6 @@ layout_mode = 2
 [node name="PeashooterSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer2" instance=ExtResource("8_yhnq8")]
 layout_mode = 2
 
-[node name="CherryBombSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer2" instance=ExtResource("11_jdmnt")]
-layout_mode = 2
-
 [node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/ScrollContainer/VBoxContainer"]
 clip_contents = true
 layout_mode = 2
@@ -105,6 +102,9 @@ clip_contents = true
 layout_mode = 2
 theme_override_constants/separation = 15
 
+[node name="CherryBombSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer4" instance=ExtResource("11_jdmnt")]
+layout_mode = 2
+
 [node name="WallNutSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer4" instance=ExtResource("13_s3m4m")]
 layout_mode = 2
 
@@ -112,9 +112,6 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="GatlingGunSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer4" instance=ExtResource("15_87jo3")]
-layout_mode = 2
-
-[node name="TallNutSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer4" instance=ExtResource("16_ghrsk")]
 layout_mode = 2
 
 [node name="HBoxContainer5" type="HBoxContainer" parent="MarginContainer/ScrollContainer/VBoxContainer"]
@@ -126,6 +123,9 @@ theme_override_constants/separation = 15
 layout_mode = 2
 
 [node name="TwinSunflowerSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer5" instance=ExtResource("8_wy5oh")]
+layout_mode = 2
+
+[node name="TallNutSeedPicker" parent="MarginContainer/ScrollContainer/VBoxContainer/HBoxContainer5" instance=ExtResource("16_ghrsk")]
 layout_mode = 2
 
 [node name="Label" type="Label" parent="."]

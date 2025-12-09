@@ -65,7 +65,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"default",
-"speed": 15.0
+"speed": 9.5
 }]
 
 [node name="LawnMower" type="CharacterBody2D" groups=["Projectile"]]
