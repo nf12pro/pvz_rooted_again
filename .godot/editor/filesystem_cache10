@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1765267565
+::res://::1765268061
 export_presets.cfg::TextFile::-1::1765213313::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::1385716001083434227::1759085610::1761842249::1::::<><><>0<>0<>75db0460f52da5b5df9a14ddb92a937e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 index.apple-touch-icon.png::CompressedTexture2D::3279556904775756626::1761596322::1761842249::1::::<><><>0<>0<>2003ba376ab1a159b32b2fafee3e3539<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
@@ -129,7 +129,7 @@ pixilart-sprite (26).png::CompressedTexture2D::6147523728186649253::1762775035::
 ::res://assets/sprite/plant_sprites/torchwood_sprites/::1763375168
 torchwood_animated.png::CompressedTexture2D::6600086975495110197::1761326014::1763375168::1::::<><><>0<>0<>97a988ebb23a8283869a0b48b2c5f6b7<>res://.godot/imported/torchwood_animated.png-e0c38ff7c9211700e2d8655bd2940b83.ctex::
 torchwood_sprite.png::CompressedTexture2D::1668490119293161935::1761910718::1763375162::1::::<><><>0<>0<>be08b1afac5f1dd43d3a779a43bd34ce<>res://.godot/imported/torchwood_sprite.png-b58ff30831cfe9718407cba9b839e83f.ctex::
-::res://assets/sprite/seed_packets/::1765267565
+::res://assets/sprite/seed_packets/::1765267566
 citric_hero.png::CompressedTexture2D::8083388629249164404::1765267554::1765267566::1::::<><><>0<>0<>897306ec4fc497f286ffdb6ec023c77b<>res://.godot/imported/citric_hero.png-a4a7182bce5966137c8e1224dae2efbf.ctex::
 doom_shroom_seed.png::CompressedTexture2D::7952942799351725430::1764749771::1764749777::1::::<><><>0<>0<>08351162f92d847dd287781337d2d30f<>res://.godot/imported/doom_shroom_seed.png-9390fff007969b626d5bab1beb1ed409.ctex::
 frost_pea_seed.png::CompressedTexture2D::4920164091612301510::1763368711::1763368731::1::::<><><>0<>0<>3b5a0019a381321b34d1380b0036b7d1<>res://.godot/imported/frost_pea_seed.png-d9f57c07fd7393c6e219eb3b1d5be863.ctex::
@@ -147,9 +147,11 @@ wall_nut_seed.png::CompressedTexture2D::7943105395717619511::1765267538::1765267
 ::res://assets/sprite/ui_sprites/::1763368718
 dark-patch-pixilart (1).png::CompressedTexture2D::2851284514167792423::1761152749::1761842249::1::::<><><>0<>0<>b5e2e82d69fc47e9a078fb219c42c996<>res://.godot/imported/dark-patch-pixilart (1).png-8f7a95886904d6dce7b5397cdc720970.ctex::
 pixil-frame-0 (1) (1).png::CompressedTexture2D::8801251234979365507::1761151701::1761842249::1::::<><><>0<>0<>84c579b2b80a49bb3fb9d90fb173d517<>res://.godot/imported/pixil-frame-0 (1) (1).png-063ab41f1a5f2155492eca6dd4fed2d1.ctex::
-::res://assets/sprite/wallnut_sprites/::1765062762
+::res://assets/sprite/wallnut_sprites/::1765268061
 wallnut_animated.png::CompressedTexture2D::7848303432656974189::1765062751::1765062758::1::::<><><>0<>0<>1fc8ad943dca6f645c4e76b64963c8f9<>res://.godot/imported/wallnut_animated.png-eb6d13abb0aa7d561773cb8afde6b1d5.ctex::
+wallnut_damaged.png::CompressedTexture2D::1655071938922300763::1765268035::1765268042::1::::<><><>0<>0<>7619f4f5c0cb1912c144ed4b700967b3<>res://.godot/imported/wallnut_damaged.png-ed71ac7d2116e977e09bb698b9694d62.ctex::
 wallnut_sprite.png::CompressedTexture2D::4310334603123186042::1765062745::1765062762::1::::<><><>0<>0<>437f22811044063b7f47f1f7e506099b<>res://.godot/imported/wallnut_sprite.png-e6c1f3f2b34d4131e2fd92b2fe3a79a4.ctex::
+wallnut_super_damaged.png::CompressedTexture2D::8010521040985141559::1765268052::1765268061::1::::<><><>0<>0<>eec1050d0091cf7881cd3ef8ccc25908<>res://.godot/imported/wallnut_super_damaged.png-3ec28d1e728b2d96a5a0b57429f2a9f2.ctex::
 ::res://assets/sprite/zombie_sprites/::1761326979
 ::res://assets/sprite/zombie_sprites/projectile_z_sprites/::1759086197
 ::res://images/::1761842250
@@ -247,7 +249,7 @@ torchwood.tscn::PackedScene::4795422348325208211::1763375168::0::1::::<><><>0<>0
 torchwood_fail.tscn::PackedScene::1399396357879490991::1761293052::0::1::::<><><>0<>0<><>::uid://bk5f68hdjqdr8::::res://scripts/plant_scripts/torchwood_1.gd<>uid://t0ismlnj4xnf::::res://icon.svg
 twin_sunflower.tscn::PackedScene::8626405724640509127::1763374847::0::1::::<><><>0<>0<><>::uid://co1pvwyebdf6l::::res://scripts/plant_scripts/twin_sunflower.gd<>uid://dd3r4qatw4v13::::res://assets/sprite/plant_sprites/sunflower_sprites/sunflower_sprite.png
 wallnut.tscn::PackedScene::7584461837647648241::1765062955::0::1::::<><><>0<>0<><>::uid://b0lkf1gdpkhsn::::res://scripts/plant_scripts/wallnut.gd<>uid://dj21n78nt7m6p::::res://assets/sprite/wallnut_sprites/wallnut_animated.png
-::res://scenes/plants/world_1_basic/plant_seeds/::1764939189
+::res://scenes/plants/world_1_basic/plant_seeds/::1765267789
 cherrybomb_seed.tscn::PackedScene::3328257594455407169::1762519150::0::1::::<><><>0<>0<><>::uid://dc2axkyibmsoc::::res://scripts/plant_scripts/seed_packets/cherrybomb_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
 citric_hero_seed.tscn::PackedScene::75203423114885815::1763641133::0::1::::<><><>0<>0<><>::uid://bbymrb5fqjsj0::::res://scripts/plant_scripts/seed_packets/citric_hero_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
 doomshroom_seed.tscn::PackedScene::6755677730702361846::1764750498::0::1::::<><><>0<>0<><>::uid://bibvmxharrw2p::::res://scripts/plant_scripts/seed_packets/doomshroom_seed.gd<>uid://dlkp2nxxfuc0m::::res://assets/sprite/seed_packets/doom_shroom_seed.png
@@ -266,7 +268,7 @@ torchwood_seed.tscn::PackedScene::25715887100261436::1763546711::0::1::::<><><>0
 tutorial_peashooter_seed.tscn::PackedScene::7732155660278197286::1764930680::0::1::::<><><>0<>0<><>::uid://daejgjcjsu6vw::::res://scripts/plant_scripts/seed_packets/tutorial_peashooter_seed.gd<>uid://cuk63eyvopmix::::res://assets/sprite/seed_packets/peashooter_seed.png
 tutorial_sunflower_seed.tscn::PackedScene::120562223014020337::1764939189::0::1::::<><><>0<>0<><>::uid://dbk5ct05k87dq::::res://scripts/plant_scripts/seed_packets/tutorial_sunflower_seed.gd<>uid://c2n4bxpumyxso::::res://assets/sprite/seed_packets/sunflower_seed.png
 twin_sunflower_seed.tscn::PackedScene::1678924142805599478::1762519469::0::1::::<><><>0<>0<><>::uid://ls8js52d6pvi::::res://scripts/plant_scripts/seed_packets/twin_sunflower_seed.gd<>uid://biwdb4t0cfdm3::::res://assets/prototype_assets/pixil-frame-0 (23).png
-wallnut_seed.tscn::PackedScene::4186595991784845664::1762519505::0::1::::<><><>0<>0<><>::uid://el86fid7c2pv::::res://scripts/plant_scripts/seed_packets/wallnut_seed.gd<>uid://dxnnk7gmmf8p0::::res://assets/sprite/ui_sprites/pixil-frame-0 (1) (1).png
+wallnut_seed.tscn::PackedScene::4186595991784845664::1765267789::0::1::::<><><>0<>0<><>::uid://el86fid7c2pv::::res://scripts/plant_scripts/seed_packets/wallnut_seed.gd<>uid://dlfx1x484abad::::res://assets/sprite/seed_packets/wall_nut_seed.png
 ::res://scenes/plants/world_1_basic/plant_seeds/overlays/::1765266962
 cherry_bomb_overlay.tscn::PackedScene::2755559950217465434::1765266962::0::1::::<><><>0<>0<><>::uid://bbw7sckwrbwy7::::res://assets/sprite/plant_sprites/cherry_bomb_sprites/cherry_bomb_sprite.png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
 citric_hero_overlay.tscn::PackedScene::7969211267809977799::1763374653::0::1::::<><><>0<>0<><>::uid://dpkwxnb3mi4xu::::res://assets/sprite/plant_sprites/citric_hero_sprites/citric_hero_sprite.png<>uid://bwfct0pojb0lm::::res://scripts/systems_scripts/overlays/peashooter_overlay.gd
@@ -422,7 +424,7 @@ plasma_projectile.gd::GDScript::6688695072283034485::1762520259::0::1::::<>Chara
 spike_weed_projectile.gd::GDScript::8022427213609505955::1762777255::0::1::::<>CharacterBody2D<><>0<>0<><>::
 sun_projectile.gd::GDScript::5532618707281175653::1761312590::0::1::::<>Node2D<><>0<>0<><>::
 sun_spawned_projectile.gd::GDScript::5060553982364221192::1761312670::0::1::::<>Node2D<><>0<>0<><>::
-::res://scripts/plant_scripts/seed_packets/::1765266976
+::res://scripts/plant_scripts/seed_packets/::1765267702
 cherrybomb_seed.gd::GDScript::7355419573648914582::1765266976::0::1::::<>Area2D<><>0<>0<><>::
 citric_hero_seed.gd::GDScript::2506913654954564859::1763641133::0::1::::<>Area2D<><>0<>0<><>::
 doomshroom_seed.gd::GDScript::2951293515800470869::1764750318::0::1::::<>Area2D<><>0<>0<><>::
@@ -440,7 +442,7 @@ torchwood_seed.gd::GDScript::2955024400281613348::1763546711::0::1::::<>Area2D<>
 tutorial_peashooter_seed.gd::GDScript::7168077206027425468::1764938933::0::1::::<>Area2D<><>0<>0<><>::
 tutorial_sunflower_seed.gd::GDScript::7251920791570260382::1764939507::0::1::::<>Area2D<><>0<>0<><>::
 twin_sunflower_seed.gd::GDScript::811256805494306582::1762519469::0::1::::<>Area2D<><>0<>0<><>::
-wallnut_seed.gd::GDScript::305522825373497583::1762519505::0::1::::<>Area2D<><>0<>0<><>::
+wallnut_seed.gd::GDScript::305522825373497583::1765267702::0::1::::<>Area2D<><>0<>0<><>::
 ::res://scripts/plant_scripts/seed_packets/picked_seeds/::1761558818
 change_picker_2.gd::GDScript::125666771253224292::1761558818::0::1::::<>Button<><>0<>0<><>::
 peashooter_seed_picker.gd::GDScript::2920426099828509981::1761322542::0::1::::<>Button<><>0<>0<><>::

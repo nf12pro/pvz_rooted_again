@@ -36,6 +36,13 @@ func take_damage(amount: float) -> void:
 
 #region Contrast
 func _physics_process(_delta: float) -> void:
+	if plant_hp <= 500:
+		$AnimatedSprite2D.play("very_damaged")
+	elif plant_hp <= 2000:
+		$AnimatedSprite2D.play("damaged")
+	else:
+		$AnimatedSprite2D.play("default")
+
 	if Global.tall_nut_is_selected == true:
 		my_sprite.modulate = Color(1.825, 1.825, 1.825)
 	else:
