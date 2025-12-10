@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dggovww2dlqjy"]
+
+[sub_resource type="GDScript" id="GDScript_a11xy"]
+script/source = "extends Resource
+
+@export var level := \"\"
+"
+
+[resource]
+script = SubResource("GDScript_a11xy")

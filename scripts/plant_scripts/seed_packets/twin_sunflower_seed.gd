@@ -2,7 +2,7 @@ extends Area2D
 
 #region Variables
 var plant_scene: PackedScene = preload("res://scenes/plants/world_1_basic/twin_sunflower.tscn")
-var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/sun_overlay.tscn")
+var overlay_scene: PackedScene = preload("res://scenes/plants/world_1_basic/plant_seeds/overlays/trio_sun_overlay.tscn")
 var overlay_instance: Node2D = null
 @export var cost: int = 50
 var is_selected: bool = false
@@ -10,7 +10,6 @@ var is_selected: bool = false
 @export var cooldown_time: float = 25.0
 var cooldown_timer: float = 0.0
 #endregion
-
 
 #region Setup
 func _ready():

@@ -7,5 +7,5 @@
 modulate = Color(1, 1, 0, 1)
 theme_override_fonts/font = ExtResource("1_xs4wt")
 theme_override_font_sizes/font_size = 40
-text = "YOU NEED TO SELECT SUNFLOWER TO BE ABLE TO USE TWIN SUNFLOWER"
+text = "YOU NEED TO SELECT SUNFLOWER TO BE ABLE TO USE TRIO SUNFLOWER"
 script = ExtResource("2_xi43i")

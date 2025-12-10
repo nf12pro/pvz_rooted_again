@@ -3,7 +3,7 @@ extends StaticBody2D
 #region Variables
 var sun_scene = preload("res://scenes/plants/projectiles/sun_projectile.tscn")
 @export var plant_hp = 300
-@export var produce_interval = 5.0 # seconds between suns
+@export var produce_interval = 5.35 # seconds between suns
 @export var second_sun_delay = 0.95
 var produce_timer = 0.0
 var square: Node = null

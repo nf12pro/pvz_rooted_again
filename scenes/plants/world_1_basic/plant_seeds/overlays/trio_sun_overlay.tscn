@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdm1xeojv4jn4"]
+
+[ext_resource type="Texture2D" uid="uid://dg1v1245qg1t3" path="res://assets/sprite/plant_sprites/twin_sunflower/twin_sunflower_sprite.png" id="1_4fdyx"]
+[ext_resource type="Script" uid="uid://bwfct0pojb0lm" path="res://scripts/systems_scripts/overlays/peashooter_overlay.gd" id="2_l1v8m"]
+
+[node name="SunOverlay" type="Sprite2D"]
+modulate = Color(1, 1, 1, 0.6313726)
+scale = Vector2(0.95, 0.95)
+texture = ExtResource("1_4fdyx")
+script = ExtResource("2_l1v8m")
